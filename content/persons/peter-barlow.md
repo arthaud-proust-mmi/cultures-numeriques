@@ -2,7 +2,7 @@
 title: Peter Barlow
 first_name: Peter
 last_name: Barlow
-image: /assets/images/persons/th-3-.jpg
+image: /images/persons/th-3-.jpg
 description: >-
   Peter Barlow, (13 octobre 1776 - 1er mars 1862), est un mathématicien et
   physicien britannique.

@@ -20,5 +20,5 @@ description: '***Le Samouraï virtuel*** (titre anglais : *Snow Crash*) est
   roman a ouvert une nouvelle branche de
   la [science-fiction](https://fr.wikipedia.org/wiki/Science-fiction
   "Science-fiction").'
-image: /assets/images/events/snow-crash.jpg
+image: /images/events/snow-crash.jpg
 ---

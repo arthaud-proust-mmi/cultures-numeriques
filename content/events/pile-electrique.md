@@ -11,5 +11,5 @@ description: Alessandro Volta invente la première pile à colonne le 17 mars
   du bas provoque un assèchement des cylindres de feutre qui finissent par ne
   plus remplir leur office. Volta invente donc rapidement la pile à couronne,
   constituée d'empilements plus petits montés en série.
-image: /assets/images/events/pile-volta.jpg
+image: /images/events/pile-volta.jpg
 ---

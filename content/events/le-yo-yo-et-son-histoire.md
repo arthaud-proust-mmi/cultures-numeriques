@@ -24,5 +24,5 @@ description: >-
   C'est d'ailleurs de cette époque lointaine que seraient apparus les dés, au cœur de
 
   l'Indus.
-image: /assets/images/events/yo-yo.jpg
+image: /images/events/yo-yo.jpg
 ---

@@ -29,5 +29,5 @@ description: >-
 
 
   L'héroïne, Ash, ne vit que pour le jeu, et par le jeu : elle a atteint un niveau suffisant (classe A) pour lui permettre de gagner sa vie en jouant. Elle faisait partie d'une équipe réputée, les Wizards, qui fut dissoute pour une raison mystérieuse. Elle rencontre un de ses anciens partenaires, Stunner, qui lui apprend que Murphy, le chef de l'équipe, est un non-revenu. Il aurait essayé d'accéder à un niveau caché, la classe « Spécial A » (SA), ou encore appelée classe Réelle, une image du monde réel courant, qui permettrait d'accumuler un nombre de points d'expérience faramineux. Ash décide de tenter d'accéder elle aussi à cette classe SA et se met à la recherche, dans le jeu, du point d'accès : une petite fille qui apparaît furtivement et surnommée Ghost (« le Fantôme »).
-image: /assets/images/events/affavalon.jpg
+image: /images/events/affavalon.jpg
 ---

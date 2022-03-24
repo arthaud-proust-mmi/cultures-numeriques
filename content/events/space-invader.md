@@ -16,5 +16,5 @@ abstract: |-
   qu’il entraîna une pénurie de petite
   monnaie sur l'archipel (peut-être pour la
   légende!)
-image: /assets/images/events/space-invaders-movie-reportedly-hires-mortal-kombat-reboot-w_v9j4.1280.webp
+image: /images/events/space-invaders-movie-reportedly-hires-mortal-kombat-reboot-w_v9j4.1280.webp
 ---

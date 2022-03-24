@@ -2,7 +2,7 @@
 title: Paul Schilling
 first_name: Paul
 last_name: Schiling
-image: /assets/images/persons/paul-schiling.png
+image: /images/persons/paul-schiling.png
 description: >-
   Le baron Paul Schilling est né en 1786 à Reval (gouvernement d'Estland) et
   décédé en 1837 à Saint-Pétersbourg (Russie impériale). C'était un diplomate

@@ -7,6 +7,6 @@ abstract: "Simulacron 3 (titre original : Simulacron 3) est un roman de
   la première fois en France en 1968. Le sujet de ce roman est une machine
   permettant de simuler un monde avec ses habitants à des fins d'études. Mais
   quel monde est vraiment réel ?"
-image: /assets/images/events/simulacron-3.jpeg
+image: /images/events/simulacron-3.jpeg
 resources: https://fr.wikipedia.org/wiki/Simulacron_3
 ---

@@ -12,5 +12,5 @@ description: Un jeu de rôle en ligne massivement multijoueur1,2 (en anglais,
   français3) est un genre de jeux vidéo4 associant le jeu de rôle et le jeu en
   ligne massivement multijoueur, permettant à un grand nombre de personnes
   d'interagir simultanément dans un monde virtuel.
-image: /assets/images/events/620px-daimonin_stoneglow_night_indexedto256.png
+image: /images/events/620px-daimonin_stoneglow_night_indexedto256.png
 ---

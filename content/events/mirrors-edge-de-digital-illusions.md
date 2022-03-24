@@ -11,5 +11,5 @@ description: Mirror's Edge est un jeu vidéo d'action-aventure développé par l
   version Windows est sortie le 13 janvier 2009. Mirror's Edge est basé sur le
   moteur Unreal Engine 3 et sur un tout nouveau système d'éclairage, développé
   par Illuminate Labs en association avec DICE.
-image: /assets/images/events/mirrors-edge-keyart.jpg.adapt.crop191x100.628p.jpg
+image: /images/events/mirrors-edge-keyart.jpg.adapt.crop191x100.628p.jpg
 ---

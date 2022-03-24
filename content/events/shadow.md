@@ -12,5 +12,5 @@ description: Shadow (anciennement Blade) est une société française spécialis
   disposition un ordinateur dans un data center accessible à distance via une
   application ou un terminal, permettant à ses clients d'exploiter les
   composants informatiques de l'appareil à l'aide d'une connexion Internet.
-image: /assets/images/events/shadow.png
+image: /images/events/shadow.png
 ---

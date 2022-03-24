@@ -12,5 +12,5 @@ description: >-
 
 
   De conception différente, **«**Papier Machine : Arcade Room» fait de l’électronique une surface de jeu. Quatre grands formats en papier, installés du sol au plafond, résonnent sous l’action des visiteurs, qui sont ainsi immergés dans un univers graphique et sonore.
-image: /assets/images/events/papiermachine.png
+image: /images/events/papiermachine.png
 ---

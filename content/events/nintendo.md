@@ -11,5 +11,5 @@ description: >-
   lui-même.
 
   C’est au début des années 1970 que Nintendo se tourne vers le marché naissant des jeux vidéo, en créant des jeux pour les bornes d’arcades.
-image: /assets/images/events/nintendo.jpeg
+image: /images/events/nintendo.jpeg
 ---

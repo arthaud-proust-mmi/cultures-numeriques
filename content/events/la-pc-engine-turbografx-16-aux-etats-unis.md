@@ -20,6 +20,6 @@ description: >-
 
 
   Elle a été déclinée en douze versions jusqu'en 1994 dont la célèbre PC-Engine GT (sortie en janvier 1991), deuxième console portable au monde, après la Lynx d'Atari , à utiliser un écran couleur rétro éclairé.
-image: /assets/images/events/pc_engine.jpg
-gallery: /assets/images/events/pc_engine.jpg
+image: /images/events/pc_engine.jpg
+gallery: /images/events/pc_engine.jpg
 ---

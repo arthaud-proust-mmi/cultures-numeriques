@@ -12,5 +12,5 @@ description: Une paire de [lunettes
   des [consoles de jeux
   vidéo](https://fr.wikipedia.org/wiki/Console_de_jeux_vid%C3%A9o "Console de
   jeux vidéo"), nécessite l'utilisation d'un adaptateur
-image: /assets/images/events/telechargement.jpg
+image: /images/events/telechargement.jpg
 ---

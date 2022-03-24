@@ -27,6 +27,6 @@ description: >-
 
 
   Quelques applications étaient fournies telles le Bloc-notes ou le Write (prédécesseur de WordPad), déjà présentes sur les versions précédentes ainsi que la calculatrice et Paintbrush, l'ancêtre de Paint. Le jeu fourni jusque-là, Reversi était complété par un jeu tout nouveau, le Solitaire.
-image: /assets/images/events/1889430.jpeg
-gallery: /assets/images/events/1889430.jpeg
+image: /images/events/1889430.jpeg
+gallery: /images/events/1889430.jpeg
 ---

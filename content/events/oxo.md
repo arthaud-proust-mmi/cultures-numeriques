@@ -13,5 +13,5 @@ description: L'EDSAC est l'un des premiers ordinateurs à disposer
   afficher l'état. Douglas en utilise un pour afficher des informations
   destinées à l'utilisateur, dont notamment la grille du jeu. Après avoir rempli
   sa fonction, le jeu n'est pas conservé.
-image: /assets/images/events/oxo.jpeg
+image: /images/events/oxo.jpeg
 ---

@@ -2,7 +2,7 @@
 title: Murray Leinster
 first_name: Murray
 last_name: Leinster
-image: /assets/images/persons/murray-leinster.jpg
+image: /images/persons/murray-leinster.jpg
 description: >
   Murray Leinster, né le 16 juin 1896 à Norfolk en Virginie et mort le 8 juin
   1975 (à 78 ans) à Gloucester Courthouse en Virginie, est le pseudonyme de

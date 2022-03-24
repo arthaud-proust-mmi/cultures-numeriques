@@ -7,5 +7,5 @@ description: Little Big Planet est une franchise de jeux vidéo de plates-formes
   partage de niveaux. Les droits de licence de la franchise sont détenus par
   Sony Interactive Entertainment, lequel est l'éditeur de l'ensemble des jeux,
   parus exclusivement sur les consoles PlayStation.
-image: /assets/images/events/capture-d-e-cran-2022-03-22-a-16.00.29.png
+image: /images/events/capture-d-e-cran-2022-03-22-a-16.00.29.png
 ---

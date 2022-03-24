@@ -9,5 +9,5 @@ description: Il s’agit d’une base de données distribuée dont les informati
   accord unanime sur le contenu correct des données, assurer la conformité des
   copies des données convenues et assurer l’absence ultérieure de tricherie par
   altération des données.
-image: /assets/images/events/blockchain.jpg
+image: /images/events/blockchain.jpg
 ---

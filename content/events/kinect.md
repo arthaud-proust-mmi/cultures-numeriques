@@ -9,5 +9,5 @@ description: Kinect, initialement connu sous le nom de code Project Natal1, est
   mot-valise « Kinect » est issu des mots anglais « kinetic » (qu'on peut
   traduire par « cinétique ») et  « connect » (qu'on peut traduire par «
   connecter »)3,1. La sortie européenne a eu lieu le 10 novembre 20104.
-image: /assets/images/events/kinect.jpeg
+image: /images/events/kinect.jpeg
 ---

@@ -13,5 +13,5 @@ description: Mise au point à partir de la diode de J. FLEMMING, sur laquelle il
   utilisable a été mise au point en France par H. ABRAHAM et utilisée par
   l'ensemble des Alliés pendant la première guerre mondiale, d'où son nom
   : Lampe TM (pour Télégraphie Militaire).
-image: /assets/images/events/triode_tube_1906.jpg
+image: /images/events/triode_tube_1906.jpg
 ---

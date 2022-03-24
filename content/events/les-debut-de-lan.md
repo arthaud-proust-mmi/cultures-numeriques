@@ -28,5 +28,5 @@ description: >-
   LAN avec de gros prix et des joueurs semiprofessionnels puis professionnels dans les
 
   jeux vidéos.
-image: /assets/images/events/campus_party_mexico_2013.jpg
+image: /images/events/campus_party_mexico_2013.jpg
 ---

@@ -24,6 +24,6 @@ description: >-
 
 
   Sur chaque réglette est portée la table de multiplication du nombre qui apparaît sur la case supérieure. Ainsi sur la réglette qui débute par le 7, les cases suivantes contiendront 14, 21, 28… jusqu'à 63. Ce sont des nombres à deux chiffres, on fait figurer le chiffre des dizaines et celui des unités de part et d'autre du trait diagonal (voir illustration ci-contre).
-image: /assets/images/events/abacos_neperianos_-m.a.n._madrid-_03.jpg
-gallery: /assets/images/events/batons_de_napier.png
+image: /images/events/abacos_neperianos_-m.a.n._madrid-_03.jpg
+gallery: /images/events/batons_de_napier.png
 ---

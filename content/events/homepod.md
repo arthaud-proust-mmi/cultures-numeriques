@@ -24,5 +24,5 @@ description: >-
 
 
   L'accueil est mitigé ; sa conception et sa qualité sonore sont complimentées par rapport aux concurrents mais est critiqué pour son prix élevé et son manque de diversité. De plus, la base en silicone située sous l'appareil endommage certaines surfaces en bois.
-image: /assets/images/events/homepod.jpg
+image: /images/events/homepod.jpg
 ---

@@ -28,5 +28,5 @@ description: Un groupe de développeurs indépendants qui ont le don de placer d
   passion pour un nombre croissant de développeurs indépendants ces derniers
   mois. À GDC Europe, il y avait beaucoup de machines étranges avec lesquelles
   jouer, y compris une machine d'arcade à l'intérieur d'une valise.
-image: /assets/images/events/doom-piano.jpg
+image: /images/events/doom-piano.jpg
 ---

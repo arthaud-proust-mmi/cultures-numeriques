@@ -8,5 +8,5 @@ description: Le Nintendo Entertainment System, par abréviation NES, également
   à partir de 1985 (1987 en Europe). Son équivalent japonais est la Family
   Computer  ou Famicom , sortie quelques années avant, en 1983. En Corée du Sud,
   le NES porta le nom de Hyundai Comboy  et en Inde, celui de Tata Famicom.
-image: /assets/images/events/gameboy.png
+image: /images/events/gameboy.png
 ---

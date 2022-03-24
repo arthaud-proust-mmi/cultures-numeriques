@@ -2,7 +2,7 @@
 title: John Maeda
 first_name: John
 last_name: Maeda
-image: /assets/images/persons/1920_johnmaeda.jpg
+image: /images/persons/1920_johnmaeda.jpg
 description: >-
   John Maeda né en 1966 à Seattle, il est un artiste, graphiste, enseignant et
   chercheur de renommée internationale. Il a enseigné pendant 12 ans au Media

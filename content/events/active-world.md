@@ -24,5 +24,5 @@ description: >-
 
 
   Il existe un [kit de développement](https://fr.wikipedia.org/wiki/Kit_de_d%C3%A9veloppement "Kit de développement") (SDK) qui permet aux développeurs de créer des applications pour aider à la gestion des mondes ou l'organisation de jeux sous la forme de robots. On trouve aussi des utilitaires permettant entre autres de réaliser des cartes, créer du relief comme les Alpes ou faire des graphiques d'affluence. Il est possible d'héberger son propre monde grâce au *world server*.
-image: /assets/images/events/active_worlds_logo.jpg
+image: /images/events/active_worlds_logo.jpg
 ---

@@ -28,5 +28,5 @@ description: >-
   s'en servit alors pour simuler des jeux de guerre ou pour élaborer des stratégies de
 
   batailles
-image: /assets/images/events/jeu-de-dame.jpg
+image: /images/events/jeu-de-dame.jpg
 ---

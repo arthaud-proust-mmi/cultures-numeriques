@@ -16,5 +16,5 @@ description: |-
   gratuitement les premiers niveaux du jeu
   dès le départ, pour ensuite faire payer les
   niveaux suivants.
-image: /assets/images/events/5bcfddb0-e7ae-4087-b721-9030b926467c.jpg
+image: /images/events/5bcfddb0-e7ae-4087-b721-9030b926467c.jpg
 ---

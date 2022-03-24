@@ -10,5 +10,5 @@ description: Un Tamagotchi est un animal de compagnie virtuel japonais, créé e
   anglais watch). Le jeu consiste à simuler l'éducation d'un animal à l'aide
   d'une console miniature, de la taille d'une montre, dotée d'un programme
   informatique.
-image: /assets/images/events/tamagotchi_0124_ubt.jpeg
+image: /images/events/tamagotchi_0124_ubt.jpeg
 ---

@@ -13,6 +13,6 @@ description: Le Manoir de Mortevielle (ou Le Manoir de Mortvielle selon les
   création de Lankhor), en 1986 (développé par Kyilkhor et édité par Pyramide)
   et n'a pas tous les raffinements de la version ST ; notamment, la synthèse
   vocale en est absente.
-image: /assets/images/events/405602.png
-gallery: /assets/images/events/405602.png
+image: /images/events/405602.png
+gallery: /images/events/405602.png
 ---

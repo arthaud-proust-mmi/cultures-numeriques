@@ -20,5 +20,5 @@ description: L'**Apple II** (parfois orthographié **Apple ][** ou **Apple /
   1979 permit son entrée dans le monde professionnel et une augmentation très
   importante de ses ventes, faisant la richesse subite de la société Apple à
   cette époque.
-image: /assets/images/events/apple2.jpg
+image: /images/events/apple2.jpg
 ---

@@ -10,6 +10,6 @@ description: La (ou le4) Game Boy (ゲームボーイ, Gēmu Bōi) est une conso
   Nintendo Research & Development 1 — la même équipe ayant conçu la série des
   Game and Watch ainsi que de nombreux jeux à succès sur Nintendo Entertainment
   System.
-image: /assets/images/events/game-boy.jpg
-gallery: /assets/images/events/game-boy.jpg
+image: /images/events/game-boy.jpg
+gallery: /images/events/game-boy.jpg
 ---

@@ -11,5 +11,5 @@ description: Pong est un des premiers jeux vidéo d'arcade et le premier jeu
   développé par Allan Alcorn, et la société Atari le commercialise à partir de
   novembre 1972. Bien que d'autres jeux vidéo aient été inventés précédemment,
   comme Computer Space, Pong est le premier à devenir populaire.
-image: /assets/images/events/61umyw-pg-l._ac_sl1000_.jpg
+image: /images/events/61umyw-pg-l._ac_sl1000_.jpg
 ---

@@ -15,5 +15,5 @@ abstract: >-
 
 
   À l'origine produit par la société française Violet, l'entreprise est acquise par l'éditeur de jeux vidéo Mindscape en octobre 2009, puis reprise par Aldebaran Robotics en octobre 2011.
-image: /assets/images/events/330px-nabaztag1.jpg
+image: /images/events/330px-nabaztag1.jpg
 ---

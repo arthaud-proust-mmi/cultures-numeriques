@@ -21,5 +21,5 @@ description: >-
 
 
   Tout au long du livre, Maeda insiste sur l'importance - et les plaisirs - de comprendre la motivation qui sous-tend la programmation informatique, ainsi que sur les nombreuses merveilles qui émergent de programmes bien écrits. Sympathisant avec les "matheux", il n'accorde qu'une importance minimale aux mathématiques dans la première moitié du livre. Le calcul étant intrinsèquement mathématique, la seconde partie du livre fait appel à des concepts mathématiques intermédiaires qui ne dépassent généralement pas le niveau de l'algèbre du lycée. Le lecteur qui maîtrise les compétences si clairement exposées par Maeda sera prêt à exploiter le véritable caractère de la conception de médias numériques.
-image: /assets/images/events/61m8hlpw3kl.jpg
+image: /images/events/61m8hlpw3kl.jpg
 ---

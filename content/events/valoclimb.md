@@ -14,5 +14,5 @@ description: ValoClimb est une attraction numérique primée qui a été conçue
   automatique convient parfaitement à n'importe quel emplacement intérieur et
   peut déjà être trouvée dans plus de 230 emplacements répartis dans plus de 50
   pays.
-image: /assets/images/events/valoclimb.jpg
+image: /images/events/valoclimb.jpg
 ---

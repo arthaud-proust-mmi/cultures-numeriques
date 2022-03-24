@@ -14,5 +14,5 @@ description: En 1878, Thomas Alva Edison, inventeur américain, fonde l'Edison
   développée avec l'anglais Joseph Swan et qui reste allumée 45 heures. Elle est
   d'un usage possible dans les intérieurs, alors que la lumière électrique avec
   les lampes à arc était trop puissante.
-image: /assets/images/events/edison_bulb.jpg
+image: /images/events/edison_bulb.jpg
 ---

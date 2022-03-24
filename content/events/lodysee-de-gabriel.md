@@ -10,5 +10,5 @@ abstract: >-
 
 
   Le concept :  en interagissant avec la bande dessinée, le lecteur doit guider Gabriel pour sauver Pénélope. C'est en traçant les contours des cases qu'il suivra le cheminement de l'histoire en faisant attention à déjouer les pièges et énigmes. La seule manette de jeu dans ce projet interactif est votre stylo-bille ou crayon à papier.
-image: /assets/images/events/l-odyssee-de-grabriel.jpg
+image: /images/events/l-odyssee-de-grabriel.jpg
 ---

@@ -18,5 +18,5 @@ description: Sifteo Cubes est une plateforme de jeu interactive développée par
   censé avoir amélioré diverses lacunes perçues des Sifteo Cubes originaux.
   Sifteo a été acquis par 3D Robotics en juillet 2014 pour un montant non
   divulgué et les cubes Sifteo ont été abandonnés.
-image: /assets/images/events/sifteo-cubes.jpg
+image: /images/events/sifteo-cubes.jpg
 ---

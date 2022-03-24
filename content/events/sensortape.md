@@ -18,5 +18,5 @@ description: >-
 
 
   Nous avons développé diverses applications, allant des vêtements à la détection domestique, pour montrer le faible effort de déploiement requis par l'utilisateur. Nous avons montré comment SensorTape pouvait être produit à l'échelle en utilisant les technologies actuelles et nous avons fabriqué un prototype de 2,3 mètres de long.
-image: /assets/images/events/image_2022-03-23_125139.png
+image: /images/events/image_2022-03-23_125139.png
 ---

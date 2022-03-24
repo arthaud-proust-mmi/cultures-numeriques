@@ -19,5 +19,5 @@ description: >-
 
 
   Ce système est né du besoin de maintenir intactes les traditions hacker de partage dans un monde de plus en plus marqué par l’empreinte du droit d'auteur. Stallman travaillait encore au laboratoire d’intelligence artificielle du MIT au lancement du projet. Il démissionnera en 1984 pour se consacrer entièrement à la création de ce système et, d’après ses mots, « ramener l’esprit de coopération qui prévalait dans la communauté hacker dans les jours anciens ». Il n’était pas question alors de « propriété intellectuelle », et tous les codes sources, distincts, s’échangeaient librement.
-image: /assets/images/events/1024px-gnu-30-banner-without-background.svg.png
+image: /images/events/1024px-gnu-30-banner-without-background.svg.png
 ---

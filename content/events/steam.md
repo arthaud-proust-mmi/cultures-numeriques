@@ -15,5 +15,5 @@ description: >-
 
 
   Initialement, Steam est présenté en mars 2002 comme un système permettant de simplifier la diffusion de contenu. Le client devait permettre l'automatisation de la mise à jour des jeux, notamment Counter-Strike, mais aussi, leur téléchargement. Il devait aussi remplacer le système multijoueur de Half-Life, WON, afin d'assurer une indépendance de Valve par rapport à son éditeur d'alors, Sierra.
-image: /assets/images/events/steam_icon_logo.svg.png
+image: /images/events/steam_icon_logo.svg.png
 ---

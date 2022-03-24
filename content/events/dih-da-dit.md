@@ -14,5 +14,5 @@ description: Di-Dah-Dit est un dispositif poétique de télé-présence qui pren
   en agissant sur l’écartement de ceux-ci à chaque extrémité. L’influence
   physique de chaque joueur sur son objet est reproduite sur l’appareil distant
   par le biais de moteurs.
-image: /assets/images/events/design_md_di-dah-dit_camille_morizot_2014chead_dylanperrenoud_01_0.jpg
+image: /images/events/design_md_di-dah-dit_camille_morizot_2014chead_dylanperrenoud_01_0.jpg
 ---

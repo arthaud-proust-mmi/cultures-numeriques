@@ -140,7 +140,7 @@ Running the `hugo` command with no options will read all the available content a
 ```
 $ hugo --verbose
 INFO: 2014/09/29 Using config file: config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/ to /Users/quoha/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [index.html _default/list.html _default/single.html]
 WARN: 2014/09/29 Unable to locate layout: [404.html]
 0 draft content
@@ -189,7 +189,7 @@ Verify that you can run the built-in web server. It will dramatically shorten yo
 ```
 $ hugo server --verbose
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/ to /Users/quoha/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [index.html _default/list.html _default/single.html]
 WARN: 2014/09/29 Unable to locate layout: [404.html]
 0 draft content
@@ -322,8 +322,8 @@ Now that we have an empty theme, let's generate the site again.
 ```
 $ hugo --verbose
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/ to /Users/quoha/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
 0 future content
@@ -389,8 +389,8 @@ drwxr-xr-x  5 quoha  staff  170 Sep 29 17:31 themes/zafta/layouts
 drwxr-xr-x  4 quoha  staff  136 Sep 29 17:31 themes/zafta/layouts/_default
 drwxr-xr-x  4 quoha  staff  136 Sep 29 17:31 themes/zafta/layouts/partials
 drwxr-xr-x  4 quoha  staff  136 Sep 29 17:31 themes/zafta/static
-drwxr-xr-x  2 quoha  staff   68 Sep 29 17:31 themes/zafta/static/css
-drwxr-xr-x  2 quoha  staff   68 Sep 29 17:31 themes/zafta/static/js
+drwxr-xr-x  2 quoha  staff   68 Sep 29 17:31 themes/zafta/css
+drwxr-xr-x  2 quoha  staff   68 Sep 29 17:31 themes/zafta/js
 $
 ```
 
@@ -444,8 +444,8 @@ Here's sample output showing Hugo detecting a change to the template for the hom
 $ rm -rf public
 $ hugo server --watch --verbose
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/ to /Users/quoha/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
 0 future content
@@ -501,8 +501,8 @@ Build the web site and then verify the results.
 ```
 $ hugo --verbose
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/ to /Users/quoha/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
 0 future content
@@ -628,8 +628,8 @@ Build the web site and then verify the results.
 $ rm -rf public
 $ hugo --verbose
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/ to /Users/quoha/Sites/zafta/public/
 INFO: 2014/09/29 found taxonomies: map[string]string{"category":"categories", "tag":"tags"}
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
@@ -701,8 +701,8 @@ Build the web site and then verify the results.
 $ rm -rf public
 $ hugo --verbose
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/ to /Users/quoha/Sites/zafta/public/
 INFO: 2014/09/29 found taxonomies: map[string]string{"tag":"tags", "category":"categories"}
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
@@ -778,8 +778,8 @@ Build the web site and verify the results.
 $ rm -rf public
 $ hugo --verbose
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/ to /Users/quoha/Sites/zafta/public/
 INFO: 2014/09/29 found taxonomies: map[string]string{"tag":"tags", "category":"categories"}
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
@@ -847,8 +847,8 @@ Build the web site and verify the results.
 $ rm -rf public
 $ hugo --verbose
 INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/ to /Users/quoha/Sites/zafta/public/
 INFO: 2014/09/29 found taxonomies: map[string]string{"tag":"tags", "category":"categories"}
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content

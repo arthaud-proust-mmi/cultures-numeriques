@@ -18,5 +18,5 @@ description: Le headbanging est un type de danse qui consiste à secouer
   volume du son hard rock. cette installation prend profondément sa référence
   dans la jeune culture du jeu musical mais place le joueur véritablement comme
   une rock star et pas seulement comme un joueur devant une télé.
-image: /assets/images/events/headbanging.jpg
+image: /images/events/headbanging.jpg
 ---

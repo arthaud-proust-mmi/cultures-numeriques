@@ -23,7 +23,7 @@ description: "***Neuromancien*** (titre original : *Neuromancer*) est le prem
   \"Matrix (film)\")*. Il a notamment remporté le [Prix
   Nebula](https://fr.wikipedia.org/wiki/Prix_Nebula \"Prix Nebula\") du meilleur
   roman en 1984."
-image: /assets/images/events/neuromancien.jpeg
+image: /images/events/neuromancien.jpeg
 gallery: null
 resources: https://www.babelio.com/livres/Gibson-Neuromancien/5334
 ---

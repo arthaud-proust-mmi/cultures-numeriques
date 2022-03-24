@@ -27,6 +27,6 @@ abstract: "Deux brillants scientifiques, Lillian Reynolds et « Mike » Brace,
   stratagème pour visionner à distance le précieux enregistrement en détraquant
   les systèmes de sécurité du centre de recherches…"
 description: ""
-image: /assets/images/events/18473859.jpg
-gallery: /assets/images/events/brainstorming.jpg
+image: /images/events/18473859.jpg
+gallery: /images/events/brainstorming.jpg
 ---

@@ -11,5 +11,5 @@ description: "Un code correcteur, souvent désigné par le sigle anglais **ECC**
   codage basée sur la redondance. Elle est destinée à corriger les erreurs de
   transmission d'une information (plus souvent appelée message) sur un canal de
   communication peu fiable."
-image: /assets/images/events/440px-code_correcteur_parfait.jpg
+image: /images/events/440px-code_correcteur_parfait.jpg
 ---

@@ -14,5 +14,5 @@ description: Mindflex est un jouet de Mattel par lequel un enfant utilise ses
   l'enfant de contrôler un flux d'air en se concentrant, soulevant ou abaissant
   ainsi une balle en mousse. Le jeu est sorti à l'automne 2009 et utilise la
   même puce que le MindSet de NeuroSky et des machines EEG maison.
-image: /assets/images/events/mindflex-duel-mattel.jpg
+image: /images/events/mindflex-duel-mattel.jpg
 ---

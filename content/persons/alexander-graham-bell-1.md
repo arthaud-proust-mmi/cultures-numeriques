@@ -2,7 +2,7 @@
 title: Alexander Graham Bell
 first_name: Alexander
 last_name: Graham Bell
-image: /assets/images/persons/alexander_graham_bell.jpeg
+image: /images/persons/alexander_graham_bell.jpeg
 description: >-
   Alexander Graham Bell est un scientifique, un ingénieur et un inventeur
   scotto-canadien, il est surtout connu pour l'invention du téléphone

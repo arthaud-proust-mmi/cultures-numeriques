@@ -19,5 +19,5 @@ description: |-
   Il est toutefois possible qu'une partie des quipus ait véhiculé
   une information d'un autre type, notamment des mots-clefs
   comme payé ou vendu, voire de véritables textes2.
-image: /assets/images/events/image_2022-03-22_120322.png
+image: /images/events/image_2022-03-22_120322.png
 ---

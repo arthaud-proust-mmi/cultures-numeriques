@@ -26,5 +26,5 @@ description: >-
   * un récepteur (*receiver*), qui décode le signal dans le but de remettre le message[](https://fr.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication#cite_note-ShannonWeaver194834-11);
 
   * une destinataire (*destination*), une personne ou un objet, pour laquelle le message a été conçu[](https://fr.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication#cite_note-ShannonWeaver194834-11).
-image: /assets/images/events/1024px-shannon_communication_system.svg.png
+image: /images/events/1024px-shannon_communication_system.svg.png
 ---

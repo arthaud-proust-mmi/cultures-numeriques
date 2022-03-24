@@ -26,6 +26,6 @@ description: >-
 
 
   Renommé *Fighting Street* à l'occasion de ses portages console, le jeu connait un succès relatif.
-image: /assets/images/events/street_fighter_old_logo.png
-gallery: /assets/images/events/street_fighter_old_logo.png
+image: /images/events/street_fighter_old_logo.png
+gallery: /images/events/street_fighter_old_logo.png
 ---

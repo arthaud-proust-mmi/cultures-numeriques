@@ -42,5 +42,5 @@ description: >-
 
 
   <!--EndFragment-->
-image: /assets/images/events/flatland_cover.jpg
+image: /images/events/flatland_cover.jpg
 ---

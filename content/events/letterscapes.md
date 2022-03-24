@@ -12,5 +12,5 @@ description: "[Letterscapes](https://www.typotopo.com/project/letterscapes) est
   sous forme d'applet Java (et ne fonctionne plus sur le web). Letterscapes a
   reçu le prix interactif 2002 du Tokyo Type Directors Club et un prix d'argent
   en 2002 du Art Directors Club of NYC."
-image: /assets/images/events/letterscapes-a.png
+image: /images/events/letterscapes-a.png
 ---

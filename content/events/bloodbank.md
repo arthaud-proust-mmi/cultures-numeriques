@@ -14,5 +14,5 @@ description: >-
 
 
   Dans ce jeu vidéo, vous devez diriger un personnage grâce à une allumette. Le personnage se déplace suivant la position de la flamme, si elle s’éteint, il n’y a plus de lumière dans l’écran et de grands dangers vont apparaitre (et vous perdez la partie). Vous allez donc devoir trouver la sortie avant d’avoir consumé totalement l’allumette.
-image: /assets/images/events/bloodbank.jpg
+image: /images/events/bloodbank.jpg
 ---

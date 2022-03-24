@@ -16,5 +16,5 @@ description: >-
 
 
   In the story, a mother and father struggle with their technologically advanced home taking over their role as parents, and their children becoming uncooperative as a result of their lack of discipline.
-image: /assets/images/events/the_veldt.webp
+image: /images/events/the_veldt.webp
 ---

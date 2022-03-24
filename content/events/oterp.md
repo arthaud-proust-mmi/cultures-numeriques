@@ -16,5 +16,5 @@ description: Pac-Manhattan est un jeu urbain à grande échelle qui utilise la
   de NYU, afin d'explorer ce qui se passe lorsque les jeux sont retirés de leur
   "petit monde" de tables, de téléviseurs et d'ordinateurs et placés dans le
   "monde réel" plus large de la rue. les coins et les villes.
-image: /assets/images/events/pacmanhattan.jpg
+image: /images/events/pacmanhattan.jpg
 ---

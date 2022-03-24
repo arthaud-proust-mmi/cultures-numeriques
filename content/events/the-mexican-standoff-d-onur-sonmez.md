@@ -28,5 +28,5 @@ description: "\"The Mexican Standoff supprime le lien entre les pensées et les
   des armes à feu, créant une situation très tendue. Une impasse mexicaine est
   un terme d\"argot défini comme une impasse ou une impasse, une confrontation
   qu'aucune des deux parties ne peut gagner.\" (Tim Levine & Onur Sonmez)"
-image: /assets/images/events/the-mexican-standoff-d-onur-sonmez.jpg
+image: /images/events/the-mexican-standoff-d-onur-sonmez.jpg
 ---

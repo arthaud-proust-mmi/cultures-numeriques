@@ -2,7 +2,7 @@
 title: Ray Bradbury
 first_name: Ray
 last_name: Bradbury
-image: /assets/images/persons/ray-bradbury.jpeg
+image: /images/persons/ray-bradbury.jpeg
 description: Raymond Douglas Bradbury dit Ray Bradbury, né le 22 août 1920 à
   Waukegan dans l’Illinois et mort le 5 juin 2012 (à 91 ans) à Los Angeles en
   Californie, est un écrivain américain, référence du genre de l’anticipation.

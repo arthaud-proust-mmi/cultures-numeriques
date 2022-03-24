@@ -2,7 +2,7 @@
 title: Linus Torvalds
 first_name: Linus
 last_name: Torvalds
-image: /assets/images/persons/linus_torvalds.jpg
+image: /images/persons/linus_torvalds.jpg
 description: >-
   Linus Benedict Torvalds, né le 28 décembre 1969 à Helsinki en Finlande, est un
   informaticien américano-finlandais connu notamment pour avoir créé le noyau

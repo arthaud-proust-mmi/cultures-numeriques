@@ -34,6 +34,6 @@ description: >-
   Est-ce que Stiller est schizophrène ? Beaucoup de ses collègues le croient – jusqu’à ce qu’un jour, lors d’une opération de routine dans les circuits de Simulacron, il croit y revoir une vieille connaissance: Günter Lause, le responsable de sécurité de l’institut de cybernétique et futurologie dont tout le monde, sauf Stille, affirme, qu’il n’a jamais existé.\
 
   L’action du MONDE SUR LE FIL ne se situe pas ici, mais elle ne se situe pas non plus ailleurs. Le film n’est pas situé dans notre présent, mais pas non plus dans le passé ou dans l’avenir. LE MONDE SUR LE FIL a lieu dans un univers artificiel et dans un temps artificiel – une fiction, une hypothèse, un jeu intellectuel, pas plus. Et pas moins
-image: /assets/images/events/21204934-24334128.jpg
-gallery: /assets/images/events/monde-de-nil.jpg
+image: /images/events/21204934-24334128.jpg
+gallery: /images/events/monde-de-nil.jpg
 ---

@@ -2,7 +2,7 @@
 title: Norbert Wiener
 first_name: Norbert
 last_name: Wiener
-image: /assets/images/persons/norbert_wiener.jpeg
+image: /images/persons/norbert_wiener.jpeg
 description: >-
   Norbert Wiener est le fondateur de la cybernétique, une science qui formalise
   la nation de feedback (rétroaction) et à des implications dans les domaines de

@@ -9,6 +9,6 @@ description: >-
 
 
   Elle est probablement inspirée par la série Gradius de Konami, dont le premier épisode est sorti deux ans auparavant.
-image: /assets/images/events/h2x1_wiiuvc_rtype.jpg
-gallery: /assets/images/events/h2x1_wiiuvc_rtype.jpg
+image: /images/events/h2x1_wiiuvc_rtype.jpg
+gallery: /images/events/h2x1_wiiuvc_rtype.jpg
 ---

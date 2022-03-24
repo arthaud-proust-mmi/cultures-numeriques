@@ -18,5 +18,5 @@ description: Un ***multi-user dungeon***, plus communément appelé **MUD**, e
   commandes qui ressemblent au langage courant.
 resources: https://fr.wikipedia.org/wiki/Multi-user_dungeon
 person: roy-trubshaw
-image: /assets/images/events/multi-user-dungeon.png
+image: /images/events/multi-user-dungeon.png
 ---

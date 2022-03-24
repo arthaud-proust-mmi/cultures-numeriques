@@ -20,5 +20,5 @@ description: "Inspiré par le concept d'\"animal-machine\" formulé un siècl
   profit d'un monisme. Son déterminisme mécaniste l’amène naturellement à
   rejeter toute idée de Dieu, même celui des panthéistes avec lequel il
   refuse de confondre la nature."
-image: /assets/images/events/l-homme-machine.png
+image: /images/events/l-homme-machine.png
 ---

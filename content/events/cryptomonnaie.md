@@ -7,5 +7,5 @@ description: En 1989, l’entreprise, DigiCash (avec le mathématicien américai
   a créé un protocole de paiement anonyme basé sur la cryptographie. Néanmoins
   Digicash a échoué dans son projet d’adoption massive de sa cryptomonnaie.
   L’entreprise a été forcée de déclarer faillite en 1998
-image: /assets/images/events/digicash.jpg
+image: /images/events/digicash.jpg
 ---

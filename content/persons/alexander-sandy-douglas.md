@@ -2,7 +2,7 @@
 title: Alexander Sandy Douglas
 first_name: Alexander
 last_name: Douglas
-image: /assets/images/persons/alexander_douglas.jpeg
+image: /images/persons/alexander_douglas.jpeg
 description: Alexander Sandy Douglas était un professeur britannique de science
   de l'informatique, crédité de la création du premier jeu sur ordinateur dotés
   de graphismes intitulé OXO (aussi connu sous le nom Noughts & Crosses), un jeu

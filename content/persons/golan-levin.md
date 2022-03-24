@@ -2,7 +2,7 @@
 title: Golan Levin
 first_name: Golan
 last_name: " Levin"
-image: /assets/images/persons/golan.jpg
+image: /images/persons/golan.jpg
 description: Golan Levin est un artiste, un ingénieur, chercheur et éducateur
   qui s'intéresse aux nouvelles intersections entre le code machine, la culture
   visuelle et la création critique. Son travail combine des mesures égales de

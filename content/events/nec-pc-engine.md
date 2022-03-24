@@ -23,6 +23,6 @@ description: >-
   versions de la PCE, à savoir l’autofire si prisé des fans de shoot’em up.
 
   Au niveau des branchements, comme précisé ci-dessus, la bête utilise une alimentation externe, de format 9V très classique, permettant de la brancher en France sans problème. Le soucis vient beaucoup plus de la sortie vidéo. Celle présente sur le côté de la console sort un format NTSC, il vous faudra donc une télévision qui supporte ce format, ce qui est loin d’être le cas de toutes nos télés françaises, même encore aujourd’hui. Heureusement, les importateurs ont pensé à nous en sortant un adaptateur qui se branche derrière la console par le biais du port d’extension et qui permet de sortir une péritel nourrie au RGB. Idéale pour nos télévisions.
-image: /assets/images/events/nec-pc-engine.jpg
-gallery: /assets/images/events/nec-pc-engine.jpg
+image: /images/events/nec-pc-engine.jpg
+gallery: /images/events/nec-pc-engine.jpg
 ---

@@ -2,7 +2,7 @@
 title: Rafi Haladjian
 first_name: Rafi
 last_name: Haladjian
-image: /assets/images/persons/rafi_haladjian.jpg
+image: /images/persons/rafi_haladjian.jpg
 description: Rafi Haladjian (Րաֆֆի Հալաճեան en arménien, رافي حلاجيان en arabe)
   est né à Beyrouth au Liban. Entrepreneur français d'origines arménienne et
   libanaise, il a fondé plusieurs entreprises dans le domaine des nouvelles

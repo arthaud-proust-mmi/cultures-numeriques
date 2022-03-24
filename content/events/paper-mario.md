@@ -14,5 +14,5 @@ description: |-
   «GamePlay».
   Ce jeu fait partie d’une série commencée
   en 2001 sur Nintendo 64.
-image: /assets/images/events/956959202.webp
+image: /images/events/956959202.webp
 ---

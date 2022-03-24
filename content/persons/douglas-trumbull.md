@@ -2,7 +2,7 @@
 title: Douglas Trumbull
 first_name: Douglas
 last_name: Trumbull
-image: /assets/images/persons/douglas_trumbull_2007.jpg
+image: /images/persons/douglas_trumbull_2007.jpg
 description: >-
   Douglas Trumbull est le fils de Donald Trumbull (1909-2004), un pionnier des
   effets visuels qui a notamment travaillé sur Le Magicien d'Oz.

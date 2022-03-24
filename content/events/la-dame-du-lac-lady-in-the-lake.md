@@ -8,5 +8,5 @@ description: Hollywood, années 1940. Le détective Philip Marlowe est chargé p
   auparavant pour lui annoncer qu'elle partait au Mexique épouser un certain
   Chris Lavery. Or, Kingsley a rencontré Lavery quelques jours auparavant à
   Hollywood et il semble tout ignorer de ce voyage.
-image: /assets/images/events/image-w1280.jpg
+image: /images/events/image-w1280.jpg
 ---

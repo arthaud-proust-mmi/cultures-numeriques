@@ -12,5 +12,5 @@ description: Deux modèles ont été conçus simultanément par Charles CROS en
   quelques mois plus tard devint le "père" du phonographe. Cet appareil
   transformait simplement l'énergie acoustique en énergie mécanique, gravant
   ensuite le résultat sur un cylindre de cire.
-image: /assets/images/events/5463b4a4c1fd2.jpg
+image: /images/events/5463b4a4c1fd2.jpg
 ---

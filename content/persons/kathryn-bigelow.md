@@ -2,7 +2,7 @@
 title: Kathryn Bigelow
 first_name: Kathryn
 last_name: Bigelow
-image: /assets/images/persons/330px-kathryn_bigelow_by_david_shankbone.jpg
+image: /images/persons/330px-kathryn_bigelow_by_david_shankbone.jpg
 description: >-
   Kathryn Bigelow née le 27 novembre 1951 à San Carlos (Californie), est une
   réalisatrice, scénariste et productrice américaine, première femme à recevoir

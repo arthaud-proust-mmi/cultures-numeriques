@@ -9,5 +9,5 @@ abstract: >-
   en hébreu signifiant « poussière ») est le nom donné à tout instrument mécanique plan facilitant
 
   le calcul.
-image: /assets/images/events/abaque.png
+image: /images/events/abaque.png
 ---

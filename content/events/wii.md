@@ -9,6 +9,6 @@ description: La Wii  est une console de jeux de salon du fabricant japonais
   d'exemplaires écoulés en 2016. Elle a comme particularité d'utiliser un
   accéléromètre capable de détecter la position, l'orientation et les mouvements
   dans l'espace de la manette.
-image: /assets/images/events/wii.png
-gallery: /assets/images/events/capture-d-e-cran-2022-03-23-a-12.20.43.png
+image: /images/events/wii.png
+gallery: /images/events/capture-d-e-cran-2022-03-23-a-12.20.43.png
 ---

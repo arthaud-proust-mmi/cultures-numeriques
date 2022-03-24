@@ -29,5 +29,5 @@ description: L'appareil se présente sous la forme d'un masque recouvrant les
   capteurs permettent de détecter les mouvements de tête de l'utilisateur, ce
   qui permet d'adapter en temps réel l'image projetée sur l'écran, afin de
   produire l'illusion d'une immersion dans la scène restituée.
-image: /assets/images/events/oculus-rift-s_83a964c5f06bf604__450_400.jpg
+image: /images/events/oculus-rift-s_83a964c5f06bf604__450_400.jpg
 ---

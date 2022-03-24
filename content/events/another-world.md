@@ -18,5 +18,5 @@ description: |-
   l'époque, en utilisant des graphismes
   vectoriels, permettant une animation
   extrêmement fluide.
-image: /assets/images/events/h2x1_nswitchds_anotherworld_image1600w.jpg
+image: /images/events/h2x1_nswitchds_anotherworld_image1600w.jpg
 ---

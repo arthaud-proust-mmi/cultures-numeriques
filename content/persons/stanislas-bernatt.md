@@ -2,7 +2,7 @@
 title: Stanislas Bernatt
 first_name: Stanislas
 last_name: Bernatt
-image: /assets/images/persons/stanislas-bernatt.jpg
+image: /images/persons/stanislas-bernatt.jpg
 description: >-
   Après l'obtention de mon diplôme de Design de Produit de l’École Nationale
   Supérieure des Beaux-Arts de Lyon, France, en 2010, j'ai ensuite opté pour un

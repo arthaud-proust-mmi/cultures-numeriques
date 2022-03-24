@@ -15,5 +15,5 @@ description: >-
 
 
   En 2004, [Adrian Bowyer](https://fr.wikipedia.org/wiki/Adrian_Bowyer "Adrian Bowyer") crée le projet [RepRap](https://fr.wikipedia.org/wiki/RepRap "RepRap"), premier projet open source d’imprimante 3D, et donne naissance à la [culture maker](https://fr.wikipedia.org/wiki/Culture_maker)
-image: /assets/images/events/ultimaker-original-1st.jpg
+image: /images/events/ultimaker-original-1st.jpg
 ---

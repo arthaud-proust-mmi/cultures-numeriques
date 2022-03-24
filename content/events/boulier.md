@@ -12,5 +12,5 @@ description: |-
   l'on peut penser qu'il a été inventé
   indépendamment dans différents
   endroits
-image: /assets/images/events/image_2022-03-22_115723.png
+image: /images/events/image_2022-03-22_115723.png
 ---

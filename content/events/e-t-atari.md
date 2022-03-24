@@ -16,5 +16,5 @@ description: |-
   dans le domaine du jeu vidéo, et le crash
   du marché qui va s’ensuivre est
   mémorable.
-image: /assets/images/events/et-atari-640x402.jpg
+image: /images/events/et-atari-640x402.jpg
 ---

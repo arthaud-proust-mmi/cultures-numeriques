@@ -13,5 +13,5 @@ description: REZ est un Jeu abstrait basé sur le rythme musical et le rythme
   plutôt que comme un produit de divertissement. Rez est un jeu vidéo développé
   par United Game Artists et édité par Sega. Il est sorti sur Dreamcast et
   PlayStation 2 en 2001
-image: /assets/images/events/me3050786991_2.jpg
+image: /images/events/me3050786991_2.jpg
 ---

@@ -2,7 +2,7 @@
 title: Alan Turing
 first_name: "Alan "
 last_name: Turing
-image: /assets/images/persons/alan-turing.jpeg
+image: /images/persons/alan-turing.jpeg
 description: Génie de l'informatique et héros de la Seconde Guerre mondiale,
   Alan Turing est célèbre pour avoir décrypté les communications codées de
   l'armée allemande en venant à bout d'Enigma, la machine de chiffrement

@@ -26,6 +26,6 @@ description: >-
 
 
   Considéré comme un titre phare du genre, Maniac Mansion est, à sa sortie, acclamé par la presse spécialisée. De nombreuses critiques saluent ainsi ses graphismes, ses scènes cinématiques, ses animations et son humour. Son interface en pointer-et-cliquer est considérée comme une révolution pour le genre et influence un grand nombre de jeux d'aventure. En 1990, le jeu donne également naissance à une série télévisée, écrite par Eugene Levy et mettant en scène Joe Flaherty, qui dure trois saisons et 66 épisodes. Une suite intitulée Day of the Tentacle est publiée par Lucasfilm Games en 1993. À sa sortie, elle est acclamée par les critiques et reste considérée comme un des meilleurs jeux du genre.
-image: /assets/images/events/maniac_mansion_logo.png
-gallery: /assets/images/events/maniac_mansion_logo.png
+image: /images/events/maniac_mansion_logo.png
+gallery: /images/events/maniac_mansion_logo.png
 ---

@@ -12,5 +12,5 @@ abstract: Passionné de logiciels et des années trente, Hannon Fuller est parve
   Pour l'inspecteur McBrian, Douglas devient le suspect ideal. Pour prouver son
   innocence, Douglas décide de trouver l'assassin de son ami dans son passé
   virtuel.
-image: /assets/images/events/19106189.jpg
+image: /images/events/19106189.jpg
 ---

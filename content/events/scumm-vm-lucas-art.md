@@ -65,6 +65,6 @@ description: "**ScummVM** est une [machine
   les termes de la licence [GNU
   GPL](https://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_GNU
   \"Licence publique générale GNU\")."
-image: /assets/images/events/langfr-220px-scummvm_logo.svg.png
-gallery: /assets/images/events/langfr-220px-scummvm_logo.svg.png
+image: /images/events/langfr-220px-scummvm_logo.svg.png
+gallery: /images/events/langfr-220px-scummvm_logo.svg.png
 ---

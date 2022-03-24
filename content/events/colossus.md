@@ -8,5 +8,5 @@ description: La première machine permettait de décoder des signaux codés
   allemands. La machine fonctionnait à l'aide de 2000 tubes à vide et pouvait
   lire des rubans perforés, ancêtres des disquettes, au rythme de 5000
   caractères à la seconde.
-image: /assets/images/events/colossus.jpeg
+image: /images/events/colossus.jpeg
 ---

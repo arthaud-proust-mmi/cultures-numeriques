@@ -17,5 +17,5 @@ description: >-
 
 
   The transfinite est une **expérience apaisante, surprenante et hypnotique**, elle utilise de la lumière, les ombres, des effets stroboscopiques ainsi que des sons électronique.
-image: /assets/images/events/spectacle_image_650_432_727f4eb8a086ef075863d7b25633a044.jpg
+image: /images/events/spectacle_image_650_432_727f4eb8a086ef075863d7b25633a044.jpg
 ---

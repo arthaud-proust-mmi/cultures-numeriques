@@ -15,5 +15,5 @@ description: Les Zooids n’ont pas été dessinés pour être attendrissants ma
   beaucoup moins le Zooid à une machine, explique le doctorant, mais plutôt « à
   des petits animaux ». Bestioles, qui plus est, capables de nous apporter notre
   téléphone.
-image: /assets/images/events/zooids.jpg
+image: /images/events/zooids.jpg
 ---

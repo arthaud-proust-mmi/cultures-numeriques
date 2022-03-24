@@ -37,5 +37,5 @@ description: >-
 
 
   *World of Warcraft* a fêté son 15ème anniversaire en Novembre 2019. Le mois suivant, à la suite de la sortie de l'extension *Warlords of Draenor*, Blizzard annonce que *World of Warcraft* repasse le cap des 10 millions d'abonnés.
-image: /assets/images/events/wow.jpg
+image: /images/events/wow.jpg
 ---

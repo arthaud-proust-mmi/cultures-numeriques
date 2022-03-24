@@ -30,6 +30,6 @@ description: >-
 
 
   Le 10 janvier 2008, Bill Simser annonce, sur son blog, le passage du code source de SimCity sous Licence publique générale GNU et le changement de nom du jeu en Micropolis ; le nom SimCity appartenant à Electronic Arts1. Don Hopkins a mis le code source disponible gratuitement sur SourceForge.net, et il est désormais possible d'y jouer sur les navigateurs internet, Unix et les ordinateurs Windows plus récents qui ne supportent pas les applications en real-mode (x32 - 16 bits).
-image: /assets/images/events/simcity_1989.png
-gallery: /assets/images/events/simcity_1989.png
+image: /images/events/simcity_1989.png
+gallery: /images/events/simcity_1989.png
 ---

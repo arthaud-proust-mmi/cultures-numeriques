@@ -11,5 +11,5 @@ description: >-
 
 
   Elle absorbe en 1924 l'entreprise International Business Machine Corporation (IBM) dont elle conserve le nom.
-image: /assets/images/events/ibm.png
+image: /images/events/ibm.png
 ---

@@ -2,7 +2,7 @@
 title: Ben Fry
 first_name: Ben
 last_name: Fry
-image: /assets/images/persons/podcast-ben-fry-thumbnail.jpg
+image: /images/persons/podcast-ben-fry-thumbnail.jpg
 description: >-
   Benjamin Fry est un designer américain spécialisé dans la visualisation des
   données.

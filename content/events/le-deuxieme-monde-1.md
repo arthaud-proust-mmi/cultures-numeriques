@@ -25,6 +25,6 @@ description: >-
 
 
   *Le Deuxième Monde* a été arrêté en [2001](https://fr.wikipedia.org/wiki/2001_en_jeu_vid%C3%A9o "2001 en jeu vidéo") par choix éditorial de Canal+. L'Association des Bimondiens (ADB), une [association](https://fr.wikipedia.org/wiki/Association_loi_de_1901 "Association loi de 1901") destinée à faire pression pour le relancer, a été créée en novembre 2001, en vain[](https://fr.wikipedia.org/wiki/Le_Deuxi%C3%A8me_Monde#cite_note-1).
-image: /assets/images/events/le-deuxieme-monde.jpg
-gallery: /assets/images/events/deuxieme-monde.webp
+image: /images/events/le-deuxieme-monde.jpg
+gallery: /images/events/deuxieme-monde.webp
 ---

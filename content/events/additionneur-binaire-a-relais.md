@@ -11,5 +11,5 @@ description: En automne 1937, alors qu'il travaillait en tant qu'ingénieur chez
   lumineux et autres composants classiques pour réaliser son additionneur
   binaire, pouvant additionner deux bits conformément à la loi de Boole et
   afficher le résultat.
-image: /assets/images/events/57aea55445c5a2c6445eebf8fc627a29.jpeg
+image: /images/events/57aea55445c5a2c6445eebf8fc627a29.jpeg
 ---

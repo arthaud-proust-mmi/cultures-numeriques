@@ -2,7 +2,7 @@
 title: Mamoru Oshi
 first_name: "Mamoru "
 last_name: Oshi
-image: /assets/images/persons/mamoru_oshii_-_lucca_comics_-_games_2015.jpg
+image: /images/persons/mamoru_oshii_-_lucca_comics_-_games_2015.jpg
 description: >-
   Mamoru Oshii, né le 8 août 1951 à Ōta, un arrondissement de Tōkyō, au Japon,
   est un réalisateur japonais de cinéma d'animation et de cinéma, producteur et

@@ -12,5 +12,5 @@ description: En 1525, l'artisan français Jean Fernel créa le premier podomètr
   une machine qui compte le nombre de pas d'un homme ou d'un cheval ; il avait
   la forme d'une montre et avait quatre cadrans d'affichage (unités, dizaines,
   centaines, milliers) liés par un système de progression de retenue.
-image: /assets/images/events/image_2022-03-22_124427.png
+image: /images/events/image_2022-03-22_124427.png
 ---

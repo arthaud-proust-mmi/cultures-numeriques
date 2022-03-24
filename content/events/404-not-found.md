@@ -19,6 +19,6 @@ description: >-
 
 
   Ce code peut aussi être détourné de son sens et renvoyé à la suite d'une restriction d’accès à certaines ressources web comme, par exemple, la censure.
-image: /assets/images/events/erreur-404-2.jpg
-gallery: /assets/images/events/erreur-404-2.jpg
+image: /images/events/erreur-404-2.jpg
+gallery: /images/events/erreur-404-2.jpg
 ---

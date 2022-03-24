@@ -23,6 +23,6 @@ description: >-
 
 
   Le temps tient une place particulière dans la série : dans l'épisode original, le joueur doit sauver la princesse en moins d'une heure ; dans la trilogie Les Sables du Temps, ceux-ci occupent une place centrale dans le scénario et dans le gameplay, ils permettent au joueur de revenir quelques secondes dans le passé, permettant par exemple de retenter un saut raté ayant été fatal au prince. Ce système de retour dans le temps n'est pas repris dans le nouvel épisode sorti fin 2008.
-image: /assets/images/events/prince_of_persia.jpg
-gallery: /assets/images/events/prince_of_persia.jpg
+image: /images/events/prince_of_persia.jpg
+gallery: /images/events/prince_of_persia.jpg
 ---

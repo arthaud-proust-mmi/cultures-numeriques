@@ -10,5 +10,5 @@ description: "En 1979, CompuServe lance son premier service en ligne : MicroNET.
   centraux de l'entreprise la nuit. Pour 5 dollars de l'heure (plus le coût de
   l'appel téléphonique), ils pouvaient exécuter des programmes, s'envoyer des
   courriels et lire des articles de presse."
-image: /assets/images/events/200924-trs-80.jpg
+image: /images/events/200924-trs-80.jpg
 ---

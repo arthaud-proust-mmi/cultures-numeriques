@@ -2,7 +2,7 @@
 title: Peter Cho
 first_name: "Peter "
 last_name: " Cho"
-image: /assets/images/persons/1_dni88cpjgwdb32aebzl_8g.jpeg
+image: /images/persons/1_dni88cpjgwdb32aebzl_8g.jpeg
 description: >
   Passionné d’informatique, il fonde HTC en étroite collaboration avec Cher
   Wang, en 1997. Son entreprise se lance dès 1998 dans la fabrication de

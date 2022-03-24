@@ -2,7 +2,7 @@
 title: Daniel Francis Galouye
 first_name: Daniel Francis
 last_name: Galouye
-image: /assets/images/persons/daniel_galouye_5205.jpg
+image: /images/persons/daniel_galouye_5205.jpg
 description: >-
   Daniel Francis Galouye, né le 11 février 1920 à La Nouvelle-Orléans en
   Louisiane et mort le 7 septembre 1976 (à 56 ans), est un écrivain de

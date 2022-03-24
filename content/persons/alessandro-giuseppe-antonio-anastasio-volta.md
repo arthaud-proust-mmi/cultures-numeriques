@@ -2,7 +2,7 @@
 title: Alessandro Giuseppe Antonio Anastasio Volta
 first_name: Alessandro
 last_name: Volta
-image: /assets/images/persons/alessandro_volta.jpeg
+image: /images/persons/alessandro_volta.jpeg
 description: >
   Le comte Alessandro Giuseppe Antonio Anastasio Volta, né à Côme le 18 février
   1745 et mort dans cette même ville le 5 mars 1827, est un physicien et

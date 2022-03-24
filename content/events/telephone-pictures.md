@@ -24,5 +24,5 @@ description: >-
 
 
   Laszlo Moholy-Nagy, The New Vision and Abstract of an Artist (New York: Wittenborn, 1947), p. 79.
-image: /assets/images/events/capture-d-e-cran-2022-03-23-a-11.26.10.png
+image: /images/events/capture-d-e-cran-2022-03-23-a-11.26.10.png
 ---

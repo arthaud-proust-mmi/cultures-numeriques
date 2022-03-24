@@ -9,5 +9,5 @@ abstract: Ralph Baer émet l'hypothèse de rajouter un système permettant de jo
 description: Cette idée est totalement rejetée par la direction de cette
   entreprise. Il faudra attendre vingt et un an plus tard pour voir la sortie de
   la première console de jeux pouvant se brancher sur une télé.
-image: /assets/images/events/ralphbaer-simon.jpeg
+image: /images/events/ralphbaer-simon.jpeg
 ---

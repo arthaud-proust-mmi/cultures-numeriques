@@ -8,5 +8,5 @@ description: La PlayStation 3 (abrégé officiellement PS3) est une console de
   mars 2007 en Europe. Elle succède à la PlayStation 2 (qui avait elle-même
   succédé à la PlayStation), et concurrence la Xbox 360 de Microsoft ainsi que
   la Wii de Nintendo.
-image: /assets/images/events/ps3.png
+image: /images/events/ps3.png
 ---

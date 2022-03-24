@@ -9,5 +9,5 @@ abstract: "Un langage d'assemblage ou langage assembleur est, en programmation
   sous une forme lisible par un humain. "
 description: Maurice V. Wilkes est à l'origine du langage assembleur. Ce langage
   permet de programmer beaucoup plus rapidement qu'en langage machine.
-image: /assets/images/events/motorola_6800_assembly_language.png
+image: /images/events/motorola_6800_assembly_language.png
 ---

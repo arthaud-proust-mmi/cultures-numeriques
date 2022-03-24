@@ -19,5 +19,5 @@ abstract: >-
 
 
   En France, l'organisme chargé de veiller au respect de la neutralité du réseau est l'Autorité de régulation des communications électroniques et des postes (Arcep).
-image: /assets/images/events/330px-symbole_de_la_neutralite_du_reseau_en_francais.svg.png
+image: /images/events/330px-symbole_de_la_neutralite_du_reseau_en_francais.svg.png
 ---

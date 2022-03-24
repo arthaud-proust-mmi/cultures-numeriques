@@ -15,6 +15,6 @@ description: >-
 
 
   Le rétroacronyme « Yet Another Hierarchical Officious Oracle » créé en avril 1994 est souvent cité comme signification, mais ses créateurs Jerry Yang et David Filo, qui devaient choisir un nom de projet commençant par un « Y » pour s'inscrire dans la nomenclature des projets informatiques de l'université Stanford, affirment avoir choisi le nom à cause des « Yahoos », nom donné aux humains dans le dernier des Voyages de Gulliver de Jonathan Swift.
-image: /assets/images/events/yahoo-_-2019-.svg.png
-gallery: /assets/images/events/image_2022-03-23_122914.png
+image: /images/events/yahoo-_-2019-.svg.png
+gallery: /images/events/image_2022-03-23_122914.png
 ---

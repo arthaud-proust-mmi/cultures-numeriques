@@ -2,7 +2,7 @@
 title: Steve Wozniak
 first_name: "Stephen "
 last_name: Wozniak
-image: /assets/images/persons/steve_wozniak.jpg
+image: /images/persons/steve_wozniak.jpg
 description: >-
   Stephen Wozniak, dit Steve Wozniak, né le 11 août 1950 à San José, aussi
   appelé Woz, est un informaticien, professeur d'informatique et électronicien

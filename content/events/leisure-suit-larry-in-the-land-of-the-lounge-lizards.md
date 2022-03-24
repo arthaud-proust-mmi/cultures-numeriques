@@ -7,6 +7,6 @@ description: "Leisure Suit Larry: In the Land of the Lounge Lizards est un jeu
   série des Leisure Suit Larry. Quelques années plus tard, un remake en
   pointer-cliquer est sorti avec des graphismes, des sons et une jouabilité plus
   avancées. Un autre remake est sorti le 27 juin 2013."
-image: /assets/images/events/leisure-suit-larry.png
-gallery: /assets/images/events/leisure-suit-larry.png
+image: /images/events/leisure-suit-larry.png
+gallery: /images/events/leisure-suit-larry.png
 ---

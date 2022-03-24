@@ -19,5 +19,5 @@ description: |-
   vie. A cette occasion le monde découvrit
   que le jeu se terminait après le 256e
   niveau
-image: /assets/images/events/pac-man-screenshot.png
+image: /images/events/pac-man-screenshot.png
 ---

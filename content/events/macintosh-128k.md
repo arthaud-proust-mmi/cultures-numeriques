@@ -15,5 +15,5 @@ description: >-
 
 
   Le projet Macintosh débute à la fin des années 1970. Jef Raskin, employé d'Apple depuis 1978, avait dans l'idée de créer un ordinateur simple d'utilisation et peu cher et donc accessible aux consommateurs moyens. Il présente son idée à Mike Markkula, l'un des trois fondateurs d'Apple Computer, en mars 1979. Celui-ci lui donne son feu vert en septembre 1979 pour embaucher quelques personnes et monter une équipe au sein d'Apple, projet qui porte le nom de Macintosh, du nom de la pomme préférée de Raskin, la McIntosh. Raskin rassemble toutes les idées récoltées pour cet ordinateur dans un recueil qu'il nomme The Book of Macintosh (Le Livre du Macintosh). À la recherche d'un ingénieur pour monter un prototype de la machine, Raskin engage, sur recommandation de Bill Atkinson du projet Apple Lisa, Burrell Smith, qui, selon Atkinson, faisait un travail remarquable dans le département maintenance de l'Apple II.
-image: /assets/images/events/macintosh_128k_transparency.png
+image: /images/events/macintosh_128k_transparency.png
 ---
