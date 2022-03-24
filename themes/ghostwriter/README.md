@@ -37,7 +37,7 @@ npm run build
 To customize your theme you can use following params:
 
 ```yaml
-baseurl: "https://example.com/"
+baseresources: "https://example.com/"
 title: mytitle
 theme: ghostwriter
 languageCode: en-us
@@ -92,18 +92,18 @@ params:
   shareFacebook: true
   shareLinkedIn: false
   dateFormat: "Mon, Jan 2, 2006"
-  exponeaJsUrl: ""
+  exponeaJsresources: ""
   exponeaTarget: ""
   exponeaToken: ""
   exponeaTrackVisits: false
   readingTime: true
   readingTimeText: "Estimated reading time:"
-  fathomUrl: ""
+  fathomresources: ""
   fathomSiteId: ""
   plausibleAnalytics:
     domain: ""
     # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
-    serverURL: ""
+    serverresources: ""
 
 permalinks:
   post: "/:year/:month/:day/:filename/"
@@ -111,16 +111,16 @@ permalinks:
 menu:
   main:
     - name: Blog
-      url: /
+      resources: /
       weight: 1
     - name: Projects
-      url: /project/
+      resources: /project/
       weight: 2
     - name: Contact
-      url: /page/contact/
+      resources: /page/contact/
       weight: 3
     - name: About
-      url: /page/about/
+      resources: /page/about/
       weight: 4
 ```
 

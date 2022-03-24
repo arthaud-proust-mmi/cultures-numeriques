@@ -8,5 +8,5 @@ abstract: "Simulacron 3 (titre original : Simulacron 3) est un roman de
   permettant de simuler un monde avec ses habitants à des fins d'études. Mais
   quel monde est vraiment réel ?"
 image: /assets/images/events/simulacron-3.jpeg
-url: https://fr.wikipedia.org/wiki/Simulacron_3
+resources: https://fr.wikipedia.org/wiki/Simulacron_3
 ---

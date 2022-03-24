@@ -25,5 +25,5 @@ description: "***Neuromancien*** (titre original : *Neuromancer*) est le prem
   roman en 1984."
 image: /assets/images/events/neuromancien.jpeg
 gallery: null
-url: https://www.babelio.com/livres/Gibson-Neuromancien/5334
+resources: https://www.babelio.com/livres/Gibson-Neuromancien/5334
 ---

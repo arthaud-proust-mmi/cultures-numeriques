@@ -3,7 +3,7 @@ title = "My blog"
 theme = "ghostwriter"
 
 [Params]
-    mainSections = ["post"]
+    mainSections = ["events"]
     intro = true
     headline = "My headline"
     description = "My description"

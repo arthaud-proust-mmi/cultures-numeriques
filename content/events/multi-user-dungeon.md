@@ -16,7 +16,7 @@ description: Un ***multi-user dungeon***, plus communément appelé **MUD**, e
   textuelles de salles, d'objets ou d'autres personnages dans un monde virtuel.
   Ils peuvent interagir entre eux et avec l'environnement en tapant des
   commandes qui ressemblent au langage courant.
-url: https://fr.wikipedia.org/wiki/Multi-user_dungeon
+resources: https://fr.wikipedia.org/wiki/Multi-user_dungeon
 person: roy-trubshaw
 image: /assets/images/events/multi-user-dungeon.png
 ---

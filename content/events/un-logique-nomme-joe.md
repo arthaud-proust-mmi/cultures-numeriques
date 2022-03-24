@@ -31,5 +31,5 @@ description: >
 
   Un logique nommé Joe – publié en 1946, époque où l’ordinateur le plus perfectionné pesait trente tonnes et remplissait une salle de 150 m2 – est une nouvelle véritablement visionnaire. Non sans humour, Leinster décrit les ravages exponentiels découlant d’un accès illimité à la connaissance et de ses usages immodérés.
 image: /assets/images/events/un-logique-nomme-joe.jpg
-url: https://www.lepassagerclandestin.fr/catalogue/dyschroniques/un-logique-nomme-joe/
+resources: https://www.lepassagerclandestin.fr/catalogue/dyschroniques/un-logique-nomme-joe/
 ---
