@@ -12,20 +12,24 @@
         <div>
             {{ .Params.description }}
         </div>
-        {{ with .Params.tags }}
+
+        <!-- Events -->
+        slug: {{ .File.BaseFileName  }}
         <div>
+            persons:
             <ul id="tags">
-                {{ range . }}
-                <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                <!-- 
+                    point à améliorer : 
+                    passer à un range where
+                 -->
+                {{ range .Site.Pages}}
+                    {{ if in .Params.persons $.File.BaseFileName}}
+                        <li><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></li>
+                    {{ end }}
                 {{ end }}
             </ul>
         </div>
-        {{ end }}
-        {{ with .Site.DisqusShortname }}
-        <div>
-            {{ template "_internal/disqus.html" . }}
-        </div>
-        {{ end }}
+
     </article>
 </main>
 {{ end }}

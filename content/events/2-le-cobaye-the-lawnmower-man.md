@@ -2,7 +2,7 @@
 title: "Le Cobaye (The Lawnmower Man) "
 kind: films
 year: 1992
-persons:
+persons: 
   - brett-leonard
 abstract: Un homme simple d'esprit fait l'objet d'une expérience scientifique
   basée sur la réalité virtuelle. Son intelligence se développe de manière
