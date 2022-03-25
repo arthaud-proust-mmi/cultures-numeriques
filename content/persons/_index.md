@@ -1,0 +1,4 @@
+---
+type: "persons"
+layout: "list"
+---
