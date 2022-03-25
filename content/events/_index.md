@@ -1,4 +1,4 @@
 ---
 type: "events"
-layout: single
+layout: list
 ---
