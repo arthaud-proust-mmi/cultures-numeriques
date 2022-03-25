@@ -12,9 +12,14 @@ theme = "culturesNumeriquesTheme"
     name = "Persons"
     pre = "persons"
     url = "/persons/"
-    weight = 2
+    weight = 1
   [[menu.main]]
     name = "Organization"
     pre = "organizations"
     url = "/organizations/"
-    weight = 3
+    weight = 1
+   [[menu.main]]
+    name = "Évenements"
+    pre = "events"
+    url = "/events/"
+    weight = 1

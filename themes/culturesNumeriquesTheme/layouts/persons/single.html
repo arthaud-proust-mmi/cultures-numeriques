@@ -1,0 +1,31 @@
+{{ define "main" }}
+<main>
+    <article>
+        <h1>{{ .Title }}</h1>
+        <img src="{{.Params.image}}">
+        <p>
+            {{ .Params.birth }} -
+            {{ if .Params.death }}
+            {{ .Params.death }}
+            {{ end }}
+        </p>
+        <div>
+            {{ .Params.description }}
+        </div>
+        {{ with .Params.tags }}
+        <div>
+            <ul id="tags">
+                {{ range . }}
+                <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+        {{ with .Site.DisqusShortname }}
+        <div>
+            {{ template "_internal/disqus.html" . }}
+        </div>
+        {{ end }}
+    </article>
+</main>
+{{ end }}
