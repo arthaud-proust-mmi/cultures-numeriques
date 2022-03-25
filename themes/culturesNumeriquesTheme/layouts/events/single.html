@@ -2,6 +2,10 @@
 	<main id="event-container">
 		<article>
 			<h1>{{ .Title }}</h1>
+			<div class="flex">
+				<p>{{ .Params.date }}</p>
+				<p>#{{ .Params.kind }}</p>
+			</div>
 			<p>{{ .Params.description }}</p>
 			<img src={{ .Params.image }} alt="">
 		</article>
