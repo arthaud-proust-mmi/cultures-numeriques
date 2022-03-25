@@ -1,7 +1,7 @@
 ---
-title: Entreprise 1
-birth: 2000
+title: Entreprise 2
+birth: 1900
 description: Lorem ipsum dolor sit amet
 image: https://picsum.photos/200
-persons: [alan-kay, alan-turing]
+persons: [jean-fernel]
 ---
