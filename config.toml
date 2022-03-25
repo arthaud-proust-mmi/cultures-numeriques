@@ -1,3 +1,20 @@
 baseurl = "/"
 title = "My blog"
 theme = "culturesNumeriquesTheme"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Persons"
+    pre = "persons"
+    url = "/persons/"
+    weight = 2
+  [[menu.main]]
+    name = "Organization"
+    pre = "organizations"
+    url = "/organizations/"
+    weight = 3
