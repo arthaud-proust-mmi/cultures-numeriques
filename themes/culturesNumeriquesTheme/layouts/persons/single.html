@@ -14,13 +14,17 @@
         </div>
 
         <!-- Events -->
-        slug: {{ .File.BaseFileName  }}
         <div>
-            persons:
-            <ul id="tags">
+            Évènements liés:
+            <ul id="events">
                 <!-- 
                     point à améliorer : 
-                    passer à un range where
+                    passer à un range where (where all + if ensuite actuellement)
+                    cibler les pages event uniquement (range à travers toutes les pages du site actuellement)
+
+                    essayé mais ne marchant pas: 
+                    - range where .Site.Pages ".Params.Persons" "in" .File.BaseFileName
+                    - range where .Site.Pages ".Params.Persons" "intersect" .File.BaseFileName
                  -->
                 {{ range .Site.Pages}}
                     {{ if in .Params.persons $.File.BaseFileName}}
