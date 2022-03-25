@@ -1,0 +1,18 @@
+<article>
+    <img src={{ .Params.image }}>
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    {{ range .Params.tags }}
+    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+    <div>
+        <p>{{ .Params.birth }} -
+        {{ if .Params.death}}
+            {{ .Params.death }}
+            {{end}}
+        </p>
+        {{ .Summary }}
+        {{ if .Truncated }}
+        <a href="{{ .Permalink }}">Read more...</a>
+        {{ end }}
+    </div>
+</article>
