@@ -1,7 +1,7 @@
 ---
-type: "organization"
-layout: "list"
+type: organizations
+layout: list
 
-title: "Entreprises"
+title: Entreprises
 ---
 Liste des entreprises
