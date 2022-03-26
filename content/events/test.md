@@ -8,6 +8,6 @@ persons:
 organizations:
   - example
 abstract: Ceci est un test du panel admin
-image: ""
+image: /assets/images/events/logo-white4x.jpg
 gallery: ""
 ---
