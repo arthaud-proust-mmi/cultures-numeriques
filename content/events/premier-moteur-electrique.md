@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Premier moteur électrique
 kind: inventions
 year: 1822

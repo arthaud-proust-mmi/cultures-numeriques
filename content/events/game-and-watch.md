@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Game And Watch "
 kind: jeux-videos
 year: 1978

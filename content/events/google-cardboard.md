@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Moss
 kind: jeux-videos
 year: 2018

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Rainer Werner Fassbinder "
 first_name: "Rainer Werner "
 last_name: "Fassbinder "

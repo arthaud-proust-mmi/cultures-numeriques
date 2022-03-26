@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Richard Garfield
 first_name: "Richard "
 last_name: "Garfield "

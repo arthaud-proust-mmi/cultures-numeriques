@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le premier SMS commercial
 kind: inventions
 year: 1992

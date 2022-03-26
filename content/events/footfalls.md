@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Footfalls
 kind: inventions
 year: 2006

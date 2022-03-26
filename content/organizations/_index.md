@@ -1,4 +1,5 @@
 ---
+visibleInCms: false
 type: organizations
 layout: list
 

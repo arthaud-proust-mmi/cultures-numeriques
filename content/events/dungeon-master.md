@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Dungeon Master
 kind: jeux-videos
 year: 1987

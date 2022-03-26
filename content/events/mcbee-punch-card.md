@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: McBee Punch Card
 kind: inventions
 year: 1904

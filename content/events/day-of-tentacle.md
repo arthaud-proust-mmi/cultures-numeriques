@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Day of Tentacle
 kind: jeux-videos
 year: 1993

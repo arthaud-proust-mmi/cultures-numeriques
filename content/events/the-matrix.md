@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: The Matrix
 kind: films
 year: 1999

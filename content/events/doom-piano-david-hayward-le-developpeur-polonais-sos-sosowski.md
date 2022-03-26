@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Doom Piano, David Hayward, le développeur polonais Sos Sosowski…
 kind: inventions
 year: 2013

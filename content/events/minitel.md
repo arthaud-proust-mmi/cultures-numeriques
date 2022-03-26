@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Minitel
 kind: inventions
 year: 1980

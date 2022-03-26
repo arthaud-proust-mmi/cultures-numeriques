@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Beat Saber
 kind: jeux-videos
 year: 2019

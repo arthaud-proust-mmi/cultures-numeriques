@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: BloodBank
 kind: jeux-videos
 year: 2017

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Elon Musk
 first_name: Elon
 last_name: Musk

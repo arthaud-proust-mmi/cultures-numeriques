@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Nintendo
 kind: jeux-videos
 year: 1886

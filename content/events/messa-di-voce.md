@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Messa di Voce
 kind: inventions
 year: 2003

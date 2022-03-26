@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: World Wide Web
 kind: inventions
 year: 1989

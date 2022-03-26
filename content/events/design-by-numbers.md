@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Design by Numbers
 kind: livres
 year: 1999

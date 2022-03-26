@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: ARPANET
 kind: inventions
 year: 1969

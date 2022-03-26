@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Wolfenstein 3D
 kind: jeux-videos
 year: 1992

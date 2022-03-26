@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Denis Diderot
 first_name: "Denis "
 last_name: Diderot

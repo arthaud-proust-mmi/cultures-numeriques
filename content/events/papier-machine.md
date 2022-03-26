@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Papier Machine
 kind: inventions
 year: 2016

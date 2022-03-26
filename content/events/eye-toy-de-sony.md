@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Eye toy de SONY "
 kind: jeux-videos
 year: 2003

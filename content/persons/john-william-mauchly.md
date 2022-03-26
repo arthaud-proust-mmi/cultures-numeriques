@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: John William Mauchly
 first_name: John William
 last_name: Mauchly

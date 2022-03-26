@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: La PC Engine (TurboGrafx-16 aux États-Unis)
 kind: inventions
 year: 1987

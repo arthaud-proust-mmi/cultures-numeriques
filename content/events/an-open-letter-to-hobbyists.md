@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: An Open Letter to Hobbyists
 kind: livres
 year: 1976

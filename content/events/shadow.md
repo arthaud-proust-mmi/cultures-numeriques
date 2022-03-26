@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Shadow
 kind: jeux-videos
 year: 2019

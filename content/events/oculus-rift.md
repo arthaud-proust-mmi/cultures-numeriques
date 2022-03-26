@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Oculus Rift
 kind: inventions
 year: 2012

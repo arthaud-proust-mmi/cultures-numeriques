@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: La machine analytique
 kind: inventions
 year: 1834

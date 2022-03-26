@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Colossus
 kind: inventions
 year: 1944

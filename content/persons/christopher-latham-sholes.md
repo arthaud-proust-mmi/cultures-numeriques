@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Christopher Latham Sholes
 first_name: Christopher
 last_name: Latham Sholes

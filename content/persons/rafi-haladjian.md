@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Rafi Haladjian
 first_name: Rafi
 last_name: Haladjian

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Julien Offray de La Mettrie
 first_name: Julien
 last_name: Offray de La Mettrie

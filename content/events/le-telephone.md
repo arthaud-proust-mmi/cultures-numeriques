@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le téléphone
 kind: invention
 year: 1876

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Letterscapes
 kind: inventions
 year: 2002

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: The Adventures of Link (Nintendo) Zelda II
 kind: jeux-videos
 year: 1983

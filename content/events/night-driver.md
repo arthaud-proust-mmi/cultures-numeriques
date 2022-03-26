@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Night Driver
 kind: jeux-videos
 year: 1976

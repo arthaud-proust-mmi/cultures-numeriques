@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Frank Wilfred Jordan
 first_name: Frank
 last_name: Jordan

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Skintillates
 kind: inventions
 year: 2016

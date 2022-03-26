@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Star Trek
 kind: films
 year: 1966

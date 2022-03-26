@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: HomePod
 kind: inventions
 year: 2018

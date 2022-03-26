@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Play Station 3 "
 kind: jeux-videos
 year: 2006

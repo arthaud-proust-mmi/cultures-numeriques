@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: SCUMM-VM (Lucas Art)
 kind: inventions
 year: 1987

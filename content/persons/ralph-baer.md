@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Ralph Baer
 first_name: Ralph
 last_name: Baer

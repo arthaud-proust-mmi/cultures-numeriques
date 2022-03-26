@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Canuts
 first_name: Canuts
 last_name: ", prononcé [kany]"

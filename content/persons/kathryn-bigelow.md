@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Kathryn Bigelow
 first_name: Kathryn
 last_name: Bigelow

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Les Aventuriers de l'arche perdue
 kind: films
 year: 1981

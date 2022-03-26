@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Impression 3D
 kind: inventions
 year: 2004

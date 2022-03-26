@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: L'Affaire Thomas Crown
 kind: films
 year: 1968

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Télégraphe Chappe
 kind: inventions
 year: 1794

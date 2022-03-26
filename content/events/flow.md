@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Flow
 kind: jeux-videos
 year: 2007

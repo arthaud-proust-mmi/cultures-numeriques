@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Réseau de satellite Starlink
 kind: inventions
 year: 2018

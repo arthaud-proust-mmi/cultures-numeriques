@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: The Veldt
 kind: livres
 year: 1950

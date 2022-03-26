@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Metal Gear (Konami)
 kind: jeux-videos
 year: 1987

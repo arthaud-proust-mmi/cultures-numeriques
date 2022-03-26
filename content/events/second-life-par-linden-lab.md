@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Second life par Linden Lab
 kind: jeux-videos
 year: 2003

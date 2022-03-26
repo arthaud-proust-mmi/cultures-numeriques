@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Pixel noir"
 kind: inventions
 year: 2010

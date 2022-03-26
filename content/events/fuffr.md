@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Fuffr
 kind: inventions
 year: 2014

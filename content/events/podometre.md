@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Podomètre
 kind: inventions
 year: 2000

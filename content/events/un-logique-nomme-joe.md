@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 abstract: « Vous connaissez les “logiques“. Vous en avez un chez vous. Ça
   ressemble à un récepteur d’images, seulement il y a des touches au lieu de
   cadrans et vous pianotez pour avoir ce que vous voulez ». Joe est un de ces

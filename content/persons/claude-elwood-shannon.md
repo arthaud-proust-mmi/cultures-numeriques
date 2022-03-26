@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Claude Elwood Shannon
 first_name: Claude
 last_name: Shannon

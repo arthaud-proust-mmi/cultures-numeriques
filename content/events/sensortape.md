@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: SensorTape
 kind: inventions
 year: 2015

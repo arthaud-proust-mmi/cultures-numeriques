@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "12 o’clocks "
 kind: inventions
 year: 1996

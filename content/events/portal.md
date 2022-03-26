@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Portal "
 kind: jeux-videos
 year: 2007

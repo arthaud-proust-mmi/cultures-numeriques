@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: World of Warcraft
 kind: jeux-videos
 year: 2004

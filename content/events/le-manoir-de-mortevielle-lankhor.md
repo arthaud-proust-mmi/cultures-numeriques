@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le Manoir de Mortevielle (Lankhor)
 kind: jeux-videos
 year: 1987

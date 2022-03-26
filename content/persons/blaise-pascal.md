@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Blaise Pascal
 first_name: Blaise
 last_name: Pascal

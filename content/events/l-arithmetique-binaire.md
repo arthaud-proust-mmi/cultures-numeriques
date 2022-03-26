@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: L’arithmétique binaire
 kind: inventions
 year: 1679

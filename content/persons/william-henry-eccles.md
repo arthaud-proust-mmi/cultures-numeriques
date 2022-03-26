@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: William Henry Eccles
 first_name: William
 last_name: Eccles

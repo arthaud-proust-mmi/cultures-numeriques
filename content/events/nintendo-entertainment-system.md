@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Nintendo Entertainment System
 kind: jeux-videos
 year: 1983

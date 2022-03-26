@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Mac Paint
 kind: inventions
 year: 1984

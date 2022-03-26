@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Compter avec des cailloux
 kind: inventions
 year: 1000

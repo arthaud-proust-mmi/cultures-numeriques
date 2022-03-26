@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le Deuxième Monde
 kind: jeux-videos
 year: 1997

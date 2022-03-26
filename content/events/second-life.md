@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Second life
 kind: jeux-videos
 year: 2003

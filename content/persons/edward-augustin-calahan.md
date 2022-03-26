@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Edward Augustin Calahan
 first_name: Edward
 last_name: Calahan

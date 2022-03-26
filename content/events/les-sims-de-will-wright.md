@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Les Sims de Will Wright
 kind: jeux-videos
 year: 2000

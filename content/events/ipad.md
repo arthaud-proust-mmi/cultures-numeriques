@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: iPad
 kind: inventions
 year: 2010

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: CompuServe
 first_name: Compuserve
 last_name: .

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: George Boole
 first_name: "George "
 last_name: Boole

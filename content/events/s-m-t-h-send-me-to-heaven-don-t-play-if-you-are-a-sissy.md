@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: S.M.T.H. (Send Me To Heaven), DON´T PLAY IF YOU ARE A SISSY!
 kind: jeux-videos
 year: 2013

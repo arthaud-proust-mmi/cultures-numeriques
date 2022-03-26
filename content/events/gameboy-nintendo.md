@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Gameboy (Nintendo)
 kind: jeux-videos
 year: 1989

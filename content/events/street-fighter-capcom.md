@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Street Fighter (Capcom)
 kind: jeux-videos
 year: 1987

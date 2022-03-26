@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le Monde sur le fil (Welt am Draht)
 kind: films
 year: 1973

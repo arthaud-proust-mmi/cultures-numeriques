@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Brett Leonard
 first_name: "Brett "
 last_name: Leonard

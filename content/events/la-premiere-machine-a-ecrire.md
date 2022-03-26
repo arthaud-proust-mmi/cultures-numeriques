@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: La première machine à écrire
 kind: inventions
 year: 1872

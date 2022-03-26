@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: La dame du lac (Lady in the Lake )
 kind: films
 year: 1947

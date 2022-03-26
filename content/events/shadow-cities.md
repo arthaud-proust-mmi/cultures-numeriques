@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Shadow Cities
 kind: jeux-videos
 year: 2010

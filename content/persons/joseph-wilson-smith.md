@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Joseph Wilson Swan
 first_name: Joseph
 last_name: Swan

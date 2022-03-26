@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Mega Drive Sega
 kind: inventions
 year: 1989

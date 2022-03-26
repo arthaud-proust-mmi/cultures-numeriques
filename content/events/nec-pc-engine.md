@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: NEC PC engine
 kind: jeux-videos
 year: 1989

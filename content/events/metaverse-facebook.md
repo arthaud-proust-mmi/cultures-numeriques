@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Metaverse Facebook
 kind: inventions
 year: 2021

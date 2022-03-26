@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Richard Bartle
 first_name: Richard
 last_name: Bartle

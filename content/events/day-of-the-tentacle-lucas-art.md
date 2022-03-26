@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Day of the Tentacle (Lucas Art)
 kind: jeux-videos
 year: 1989

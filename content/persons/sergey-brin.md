@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Sergey Brin
 first_name: Sergey
 last_name: Brin

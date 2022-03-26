@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: John Napier
 first_name: "John "
 last_name: Napier

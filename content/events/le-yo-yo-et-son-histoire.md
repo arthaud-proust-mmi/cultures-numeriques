@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Le Yo-Yo et son histoire  "
 kind: inventions
 year: 1000

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Blockchain
 kind: inventions
 year: 2000

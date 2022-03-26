@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Mirror's Edge de Digital Illusions
 kind: jeux-videos
 year: 2008

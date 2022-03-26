@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Les début de LAN
 kind: jeux-videos
 year: 1997

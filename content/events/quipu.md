@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Quipu
 kind: inventions
 year: 1000

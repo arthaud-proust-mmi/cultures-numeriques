@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: R-Type
 kind: jeux-videos
 year: 1987

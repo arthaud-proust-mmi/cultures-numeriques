@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: John Draper
 first_name: John
 last_name: Draper

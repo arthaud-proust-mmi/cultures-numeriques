@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Maniac Manson (Lucas Art)
 kind: jeux-videos
 year: 1987

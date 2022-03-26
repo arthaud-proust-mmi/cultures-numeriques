@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: The Transfinite
 kind: inventions
 year: 2011

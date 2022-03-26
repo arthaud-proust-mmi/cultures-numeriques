@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Stanislas Bernatt
 first_name: Stanislas
 last_name: Bernatt

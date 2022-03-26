@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Steve Wozniak
 first_name: "Stephen "
 last_name: Wozniak

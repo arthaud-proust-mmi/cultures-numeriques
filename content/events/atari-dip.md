@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Atari/DIP
 kind: inventions
 year: 1989

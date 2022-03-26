@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Paper Mario "
 kind: jeux-videos
 year: 2003

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Neal Stephenson
 first_name: Neal
 last_name: Stephenson

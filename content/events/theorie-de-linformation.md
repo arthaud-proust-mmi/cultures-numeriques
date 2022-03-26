@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Théorie de l'information
 kind: inventions
 year: 1949

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: IBM
 kind: inventions
 year: 1924

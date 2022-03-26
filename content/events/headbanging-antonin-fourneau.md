@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Headbanging, Antonin Fourneau
 kind: inventions
 year: 1968

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Populous (EA/Bullfrog)
 kind: jeux-videos
 year: 1989

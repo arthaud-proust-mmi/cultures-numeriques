@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: John Maeda
 first_name: John
 last_name: Maeda

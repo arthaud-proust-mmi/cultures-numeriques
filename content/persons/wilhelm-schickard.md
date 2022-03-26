@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Wilhelm Schickard
 first_name: Wilhelm
 last_name: Schickard

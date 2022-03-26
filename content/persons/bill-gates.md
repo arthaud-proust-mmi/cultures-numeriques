@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Bill Gates
 first_name: Bill
 last_name: Gates

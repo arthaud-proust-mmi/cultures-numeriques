@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Ready Player One
 kind: films
 year: 2018

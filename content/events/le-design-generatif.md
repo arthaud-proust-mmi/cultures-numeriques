@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le design génératif
 kind: inventions
 year: 1871

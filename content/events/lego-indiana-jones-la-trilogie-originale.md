@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Lego Indiana Jones : la Trilogie originale "
 kind: jeux-videos
 year: 2008

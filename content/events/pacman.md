@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: PacMan
 kind: jeux-videos
 year: 1979

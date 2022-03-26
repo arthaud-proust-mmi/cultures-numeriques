@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: L’Homme Machine
 kind: livres
 year: 1748

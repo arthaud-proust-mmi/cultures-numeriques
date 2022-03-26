@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Phantasy Star (Sega)
 kind: jeux-videos
 year: 1987

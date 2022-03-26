@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Active World
 kind: jeux-videos
 year: 1995

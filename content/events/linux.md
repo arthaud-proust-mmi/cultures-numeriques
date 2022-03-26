@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Linux
 kind: inventions
 year: 1991

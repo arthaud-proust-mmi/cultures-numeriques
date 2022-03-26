@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Multi User Dungeon
 kind: jeux-videos
 year: 1978

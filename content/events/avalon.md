@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Avalon
 kind: films
 year: 2001

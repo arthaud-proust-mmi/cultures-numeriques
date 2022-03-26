@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: La triode de John Fleming
 kind: inventions
 year: 1907

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: MUD 1
 kind: jeux-videos
 year: 2000

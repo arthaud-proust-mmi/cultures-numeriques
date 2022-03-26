@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: L’Arche du Capitaine Blood (Exxos/Cryo)
 kind: jeux-videos
 year: 1988

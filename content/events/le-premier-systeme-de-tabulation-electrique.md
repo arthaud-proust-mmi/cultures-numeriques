@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le premier système de tabulation électrique
 kind: inventions
 year: 1924

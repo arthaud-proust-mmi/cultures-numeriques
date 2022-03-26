@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Apple II
 kind: inventions
 year: 1977

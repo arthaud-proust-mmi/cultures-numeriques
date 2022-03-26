@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Processing
 kind: inventions
 year: 2001

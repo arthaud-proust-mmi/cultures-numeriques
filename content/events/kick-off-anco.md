@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Kick Off (Anco)
 kind: jeux-videos
 year: 1989

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Code correcteur
 kind: inventions
 year: 1939

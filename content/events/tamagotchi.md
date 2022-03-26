@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Tamagotchi
 kind: jeux-videos
 year: 1997

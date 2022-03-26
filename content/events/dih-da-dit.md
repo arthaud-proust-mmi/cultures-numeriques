@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Dih-Da-Dit
 kind: inventions
 year: 2014

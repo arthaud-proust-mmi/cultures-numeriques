@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Pile électrique
 kind: inventions
 year: 1800

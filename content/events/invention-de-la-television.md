@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Invention de la télévision
 kind: inventions
 year: 1927

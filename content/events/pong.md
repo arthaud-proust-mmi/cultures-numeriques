@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Pong
 kind: jeux-videos
 year: 1972

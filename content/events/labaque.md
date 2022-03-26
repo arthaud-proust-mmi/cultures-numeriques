@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: L'abaque
 kind: inventions
 year: 1000

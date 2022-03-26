@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Mindflex Duel | Mattel
 kind: inventions
 year: 2009

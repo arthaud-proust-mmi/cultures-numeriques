@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Arduino
 kind: inventions
 year: 2005

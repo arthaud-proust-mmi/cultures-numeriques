@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Village global
 kind: livres
 year: 1967

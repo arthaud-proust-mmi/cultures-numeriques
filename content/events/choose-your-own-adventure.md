@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Choose Your Own Adventure
 kind: livres
 year: 1976

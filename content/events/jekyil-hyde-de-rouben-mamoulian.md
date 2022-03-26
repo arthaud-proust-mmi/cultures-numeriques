@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Jekyil & Hyde de Rouben Mamoulian
 kind: films
 year: 1932

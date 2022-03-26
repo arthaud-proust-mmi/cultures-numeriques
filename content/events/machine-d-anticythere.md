@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Machine d’Anticythère
 kind: inventions
 year: 1000

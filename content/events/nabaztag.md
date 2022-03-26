@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Nabaztag
 kind: jeux-videos
 year: 2005

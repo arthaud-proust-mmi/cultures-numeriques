@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Antonio Meucci
 first_name: "Antonio "
 last_name: Meucci

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Algorithme "
 kind: invention
 year: 1840

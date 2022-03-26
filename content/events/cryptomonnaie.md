@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Cryptomonnaie
 kind: inventions
 year: 1989

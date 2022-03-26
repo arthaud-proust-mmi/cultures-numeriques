@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Lunette SegaScope 3D
 kind: inventions
 year: 1987

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Maurice Vincent Wilkes
 first_name: Maurice Vincent
 last_name: Wilkes

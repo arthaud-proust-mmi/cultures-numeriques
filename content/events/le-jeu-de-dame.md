@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Le Jeu de Dame "
 kind: inventions
 year: 1100

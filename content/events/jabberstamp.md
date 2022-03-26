@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Jabberstamp
 kind: inventions
 year: 2006

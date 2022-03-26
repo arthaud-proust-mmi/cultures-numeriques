@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: E.T Atari
 kind: jeux-videos
 year: 1982

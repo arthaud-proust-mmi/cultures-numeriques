@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Nitendo Wii fit
 kind: jeux-videos
 year: 2007

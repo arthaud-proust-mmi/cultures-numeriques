@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: RR the head banging Simulator
 kind: jeux-videos
 year: 2007

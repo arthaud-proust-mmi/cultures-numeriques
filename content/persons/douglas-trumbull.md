@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Douglas Trumbull
 first_name: Douglas
 last_name: Trumbull

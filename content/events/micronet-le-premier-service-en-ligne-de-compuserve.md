@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "MicroNET : le premier service en ligne de CompuServe"
 kind: inventions
 year: 1979

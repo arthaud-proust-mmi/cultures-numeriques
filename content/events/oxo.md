@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: OXO
 kind: jeux-videos
 year: 1948

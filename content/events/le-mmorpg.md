@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le MMORPG
 kind: jeux-videos
 year: 1995

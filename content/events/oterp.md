@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Pac-Manhattan
 kind: jeux-videos
 year: 2004

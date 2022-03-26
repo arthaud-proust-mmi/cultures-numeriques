@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Habitat
 kind: jeux-videos
 year: 1985

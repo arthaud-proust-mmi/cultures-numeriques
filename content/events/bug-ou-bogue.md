@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Bug (ou bogue)
 kind: inventions
 year: 1945

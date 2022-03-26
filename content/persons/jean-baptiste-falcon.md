@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Jean-Baptiste Falcon
 first_name: Jean-Baptiste
 last_name: Falcon

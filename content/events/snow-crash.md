@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Snow Crash
 kind: livres
 year: 1992

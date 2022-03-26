@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Paul Schilling
 first_name: Paul
 last_name: Schiling

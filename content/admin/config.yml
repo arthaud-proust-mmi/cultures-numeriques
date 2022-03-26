@@ -15,10 +15,12 @@ collections:
     folder: content/events
     create: true
     editor: { preview: false }
+    filter: {field: "visibleInCms", value: true}
     view_groups:
       - label: Type
         field: kind
     fields:
+      - {label: "Visible", name: "visibleInCms", widget: hidden, default: true}
       - { label: Titre, name: title }
       - { label: Type, name: kind, widget: relation, collection: kinds, display_fields: [title], value_field: "{{slug}}", search_fields: [title] }
       - { label: Année, name: year, widget: number, default: 2000, value_type: int, min: 1000, max: 3000, step: 1 }
@@ -38,7 +40,9 @@ collections:
     folder: content/persons
     create: true
     editor: { preview: false }
+    filter: {field: "visibleInCms", value: true}
     fields:
+      - {label: "Visible", name: "visibleInCms", widget: hidden, default: true}
       - { label: Nom complet, name: title }
       - { label: Prénom, name: first_name }
       - { label: Nom, name: last_name }
@@ -53,7 +57,9 @@ collections:
     folder: content/organizations
     create: true
     editor: { preview: false }
+    filter: {field: "visibleInCms", value: true}
     fields:
+      - {label: "Visible", name: "visibleInCms", widget: hidden, default: true}
       - { label: Nom, name: title }
       - { label: Image, name: image, widget: image, media_folder: '/assets/images/persons', allow_multiple: false }
       - { label: Description, name: description, required: false, widget: text }
@@ -66,6 +72,8 @@ collections:
     folder: content/kinds
     create: true
     editor: { preview: false }
+    filter: {field: "visibleInCms", value: true}
     fields:
+      - {label: "Visible", name: "visibleInCms", widget: hidden, default: true}
       - { label: Titre, name: title }
       - { label: Description, name: description, widget: text, required: false }

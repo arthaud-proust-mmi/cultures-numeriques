@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: ValoClimb
 kind: inventions
 year: 2016

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Firme XEROX
 first_name: Xerox
 last_name: Corporation

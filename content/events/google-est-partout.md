@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Google est partout
 kind: inventions
 year: 2005

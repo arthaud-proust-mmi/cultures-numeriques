@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Steam
 kind: jeux-videos
 year: 2003

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Ampoule électrique
 kind: inventions
 year: 1879

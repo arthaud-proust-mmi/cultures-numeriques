@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Tron
 kind: films
 year: 1982

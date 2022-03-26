@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Gunpei Yokoi
 first_name: Gunpei
 last_name: Yokoi

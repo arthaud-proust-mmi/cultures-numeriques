@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: David Cronenberg
 first_name: David
 last_name: Cronenberg

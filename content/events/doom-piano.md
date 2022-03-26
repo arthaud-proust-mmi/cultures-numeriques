@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Doom Piano
 kind: jeux-videos
 year: 2013

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Cati Vaucelle
 first_name: Cati
 last_name: Vaucelle

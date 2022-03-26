@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: " Ryoji Ikeda"
 first_name: " Ryoji"
 last_name: Ikeda

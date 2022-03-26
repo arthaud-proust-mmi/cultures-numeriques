@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Stock Ticker
 kind: inventions
 year: 1867

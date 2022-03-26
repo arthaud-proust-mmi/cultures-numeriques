@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Pascaline
 kind: inventions
 year: 1642

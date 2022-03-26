@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Jean Fernel
 first_name: Jean
 last_name: Fernel

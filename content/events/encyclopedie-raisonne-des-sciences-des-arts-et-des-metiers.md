@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Encyclopédie raisonné des sciences, des arts et des métiers
 kind: livres
 year: 1751

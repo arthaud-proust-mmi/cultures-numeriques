@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: SCUMM-VM
 kind: jeux-videos
 year: 1987

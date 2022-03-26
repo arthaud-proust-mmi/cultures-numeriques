@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: John Fleming
 first_name: John
 last_name: Fleming

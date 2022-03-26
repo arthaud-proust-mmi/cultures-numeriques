@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Boulier
 kind: inventions
 year: 1000

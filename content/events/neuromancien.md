@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Neuromancien
 kind: livres
 year: 1984

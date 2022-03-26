@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Susan Kare
 first_name: Susan
 last_name: Kare

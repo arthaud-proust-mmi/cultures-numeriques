@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Richard Stallman
 first_name: Richard
 last_name: Stallman

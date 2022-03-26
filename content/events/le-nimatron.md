@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le Nimatron
 kind: jeux-videos
 year: 1940

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Parodius (Konami)
 kind: jeux-videos
 year: 1988

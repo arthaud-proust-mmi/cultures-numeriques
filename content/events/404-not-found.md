@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: 404 Not Found
 kind: inventions
 year: 1989

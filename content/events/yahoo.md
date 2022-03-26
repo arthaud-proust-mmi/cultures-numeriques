@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Yahoo!
 kind: inventions
 year: 1993

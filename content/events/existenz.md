@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: eXistenZ
 kind: films
 year: 1999

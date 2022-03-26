@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Vannevar Bush
 first_name: Vannevar
 last_name: Bush

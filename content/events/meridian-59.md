@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Meridian 59
 kind: jeux-videos
 year: 1996

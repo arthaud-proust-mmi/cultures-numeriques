@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Golan Levin
 first_name: Golan
 last_name: " Levin"

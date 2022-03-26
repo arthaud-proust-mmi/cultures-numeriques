@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Neutralité du net
 kind: inventions
 year: 2003

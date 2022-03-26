@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Tim Wu
 first_name: Tim
 last_name: Wu

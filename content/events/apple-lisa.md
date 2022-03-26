@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Apple Lisa
 kind: inventions
 year: 1983

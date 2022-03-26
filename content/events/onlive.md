@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: OnLive
 kind: jeux-videos
 year: 2009

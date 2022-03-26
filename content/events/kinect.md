@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Kinect
 kind: jeux-videos
 year: 2010

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Fortnite
 kind: jeux-videos
 year: 2017

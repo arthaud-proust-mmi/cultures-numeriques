@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: The Reactive Square
 kind: inventions
 year: 1995

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Josef Rusnak
 first_name: Josef
 last_name: Rusnak

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Lana et Lilly Wachowski
 first_name: Lana et Lilly
 last_name: Wachowski

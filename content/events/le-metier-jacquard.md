@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le Métier Jacquard
 kind: inventions
 year: 1801

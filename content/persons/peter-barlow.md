@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Peter Barlow
 first_name: Peter
 last_name: Barlow

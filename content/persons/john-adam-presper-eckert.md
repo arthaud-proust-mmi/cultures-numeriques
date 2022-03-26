@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "John Adam Presper Eckert "
 first_name: John
 last_name: Eckert

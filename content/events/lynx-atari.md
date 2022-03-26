@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Lynx (Atari)
 kind: jeux-videos
 year: 1989

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Mark Weiser
 first_name: Mark
 last_name: Weiser

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Indiana Jones and the Last Crusade (Lucas Art)
 kind: jeux-videos
 year: 1988

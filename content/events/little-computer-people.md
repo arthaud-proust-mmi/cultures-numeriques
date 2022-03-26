@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Little Computer People "
 kind: jeux-videos
 year: 1985

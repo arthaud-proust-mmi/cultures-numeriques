@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Johnny Mnemonic
 kind: films
 year: 1995

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Edward Condon
 first_name: Edward
 last_name: Condon

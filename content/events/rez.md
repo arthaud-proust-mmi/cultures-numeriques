@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: REZ
 kind: jeux-videos
 year: 2002

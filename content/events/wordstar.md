@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Wordstar
 kind: inventions
 year: 1978

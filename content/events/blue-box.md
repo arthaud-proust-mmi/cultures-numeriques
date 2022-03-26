@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Blue Box
 kind: inventions
 year: 1971

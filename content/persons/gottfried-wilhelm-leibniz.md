@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Gottfried Wilhelm Leibniz
 first_name: "Gottfried Wilhelm "
 last_name: Leibniz

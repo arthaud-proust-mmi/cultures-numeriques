@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: László Moholy-Nagy
 first_name: László
 last_name: Moholy-Nagy

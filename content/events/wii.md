@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Wii
 kind: jeux-videos
 year: 2006

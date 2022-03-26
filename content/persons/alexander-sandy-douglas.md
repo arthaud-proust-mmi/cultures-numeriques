@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Alexander Sandy Douglas
 first_name: Alexander
 last_name: Douglas

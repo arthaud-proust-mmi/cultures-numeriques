@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Projet Xanadu
 kind: inventions
 year: 1965

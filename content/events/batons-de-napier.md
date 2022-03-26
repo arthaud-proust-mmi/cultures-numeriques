@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Bâtons de Napier
 kind: inventions
 year: 1617

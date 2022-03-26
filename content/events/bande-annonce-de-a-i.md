@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Bande annonce de A.I.
 kind: films
 year: 2001

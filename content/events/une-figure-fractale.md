@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Une figure fractale
 kind: inventions
 year: 1975

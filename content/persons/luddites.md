@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Luddites
 first_name: .
 last_name: .

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Charles Babbage
 first_name: "Charles "
 last_name: Babbage

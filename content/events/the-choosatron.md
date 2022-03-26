@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: The Choosatron
 kind: inventions
 year: 2012

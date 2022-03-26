@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Stewart Brand
 first_name: Stewart
 last_name: " Brand"

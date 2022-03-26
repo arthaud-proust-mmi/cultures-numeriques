@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Cent Mille Milliards de Poèmes
 kind: livres
 year: 1961

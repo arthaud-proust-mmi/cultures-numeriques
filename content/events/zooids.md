@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Zooids
 kind: inventions
 year: 2016

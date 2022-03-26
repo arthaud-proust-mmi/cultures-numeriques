@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: UNIVAC I
 kind: inventions
 year: 1949

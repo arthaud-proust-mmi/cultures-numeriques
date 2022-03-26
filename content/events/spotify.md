@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Spotify
 kind: inventions
 year: 2008

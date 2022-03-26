@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le premier tube à vide
 kind: inventions
 year: 1904

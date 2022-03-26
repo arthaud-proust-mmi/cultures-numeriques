@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Illustrator version 1.0
 kind: inventions
 year: 1984

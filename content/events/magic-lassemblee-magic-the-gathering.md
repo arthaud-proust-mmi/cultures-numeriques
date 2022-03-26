@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Magic : L'Assemblée (Magic: The Gathering)"
 kind: inventions
 year: 1993

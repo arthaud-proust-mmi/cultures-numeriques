@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le Format GIF Animé
 kind: inventions
 year: 1989

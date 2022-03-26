@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Popular Mechanics
 kind: livres
 year: 1902

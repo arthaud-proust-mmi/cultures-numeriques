@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: ENIAC (Electronic Numerical Integrator and Computer)
 kind: inventions
 year: 1946

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Steven Lisberger
 first_name: Steven
 last_name: Lisberger

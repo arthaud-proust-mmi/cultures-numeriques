@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Telephone pictures
 kind: inventions
 year: 1922

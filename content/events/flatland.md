@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Flatland
 kind: livres
 year: 1884

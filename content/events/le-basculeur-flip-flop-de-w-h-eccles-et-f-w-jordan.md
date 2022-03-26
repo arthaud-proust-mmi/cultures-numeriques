@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le basculeur (flip-flop) de W. H. ECCLES et F. W. JORDAN
 kind: inventions
 year: 1919

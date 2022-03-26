@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Android
 kind: inventions
 year: 2009

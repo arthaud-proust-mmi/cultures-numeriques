@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Another World "
 kind: jeux-videos
 year: 1991

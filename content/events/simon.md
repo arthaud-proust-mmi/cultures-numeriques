@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Simon
 kind: jeux-videos
 year: 1974

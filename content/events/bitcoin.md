@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Bitcoin
 kind: inventions
 year: 2009

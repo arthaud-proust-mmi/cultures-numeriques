@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: BabyCastles
 kind: jeux-videos
 year: 2000

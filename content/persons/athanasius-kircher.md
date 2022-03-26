@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Athanasius Kircher
 first_name: Athanasius
 last_name: Kircher

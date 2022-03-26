@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Ben Fry
 first_name: Ben
 last_name: Fry

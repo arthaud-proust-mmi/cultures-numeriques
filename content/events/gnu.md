@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: GNU
 kind: inventions
 year: 1983

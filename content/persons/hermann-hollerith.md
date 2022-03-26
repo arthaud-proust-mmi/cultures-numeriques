@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Hermann Hollerith
 first_name: Hermann
 last_name: Hollerith

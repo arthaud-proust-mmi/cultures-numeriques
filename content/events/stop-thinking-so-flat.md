@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Stop Thinking So Flat
 kind: inventions
 year: 1998

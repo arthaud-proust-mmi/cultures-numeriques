@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Populus
 kind: jeux-videos
 year: 1989

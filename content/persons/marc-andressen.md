@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Marc Andressen
 first_name: Marc
 last_name: Andressen

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Larry Page
 first_name: Larry
 last_name: Page

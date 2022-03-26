@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Assembleur
 kind: inventions
 year: 1950

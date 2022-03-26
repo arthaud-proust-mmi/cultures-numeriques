@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Mamoru Oshi
 first_name: "Mamoru "
 last_name: Oshi

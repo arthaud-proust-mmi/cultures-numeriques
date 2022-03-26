@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Ikaruga
 kind: jeux-videos
 year: 2002

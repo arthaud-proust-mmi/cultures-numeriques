@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Norbert Wiener
 first_name: Norbert
 last_name: Wiener

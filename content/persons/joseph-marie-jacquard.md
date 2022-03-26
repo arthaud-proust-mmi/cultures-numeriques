@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Joseph Marie Jacquard
 first_name: Joseph
 last_name: Marie Jacquard

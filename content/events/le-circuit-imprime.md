@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Le circuit imprimé
 kind: inventions
 year: 1940

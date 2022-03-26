@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: NCSA Mosaic
 kind: inventions
 year: 1993

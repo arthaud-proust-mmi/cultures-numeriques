@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Quake "
 kind: jeux-videos
 year: 1997

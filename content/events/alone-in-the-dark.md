@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Alone in the Dark
 kind: jeux-videos
 year: 1990

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Le Cobaye (The Lawnmower Man) "
 kind: films
 year: 1992

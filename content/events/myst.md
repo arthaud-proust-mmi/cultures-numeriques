@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Myst
 kind: jeux-videos
 year: 1993

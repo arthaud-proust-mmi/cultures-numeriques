@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: MORIPAD, Antonin Fourneau
 kind: jeux-videos
 year: 2005

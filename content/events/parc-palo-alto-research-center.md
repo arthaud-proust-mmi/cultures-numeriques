@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Parc : Palo Alto Research Center"
 kind: inventions
 year: 1970

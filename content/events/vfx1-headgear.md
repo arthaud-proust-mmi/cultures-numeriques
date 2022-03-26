@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: VFX1 Headgear
 kind: inventions
 year: 1995

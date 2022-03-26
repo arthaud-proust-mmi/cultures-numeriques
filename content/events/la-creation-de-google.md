@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: La création de Google
 kind: inventions
 year: 1999

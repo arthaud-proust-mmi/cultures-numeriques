@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Macintosh 128K
 kind: inventions
 year: 1984

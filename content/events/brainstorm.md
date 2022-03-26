@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Brainstorm
 kind: films
 year: 1983

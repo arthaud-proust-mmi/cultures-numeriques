@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: John Perry Barlow
 first_name: John
 last_name: Perry Barlow

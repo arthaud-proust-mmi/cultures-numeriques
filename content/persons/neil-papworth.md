@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Neil Papworth
 first_name: Neil
 last_name: Papworth

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Computer Space
 kind: jeux-videos
 year: 1971

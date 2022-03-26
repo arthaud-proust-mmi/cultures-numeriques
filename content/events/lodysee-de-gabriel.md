@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: L'Odysée de Gabriel
 kind: livres
 year: 2010

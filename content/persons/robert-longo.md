@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Robert Longo
 first_name: Robert
 last_name: Longo

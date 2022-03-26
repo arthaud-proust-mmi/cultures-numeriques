@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Amazon Kindle
 kind: inventions
 year: 2007

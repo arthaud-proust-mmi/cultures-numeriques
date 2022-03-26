@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Basile Bouchon
 first_name: Basile
 last_name: Bouchon

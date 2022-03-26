@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Alexander Graham Bell
 first_name: Alexander
 last_name: Bell

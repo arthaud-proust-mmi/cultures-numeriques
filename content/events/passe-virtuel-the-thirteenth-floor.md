@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Passé virtuel (The Thirteenth Floor)
 kind: films
 year: 1999

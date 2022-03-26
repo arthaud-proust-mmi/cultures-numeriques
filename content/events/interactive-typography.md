@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Interactive typography "
 kind: inventions
 year: 1998

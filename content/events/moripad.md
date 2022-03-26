@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Moripad
 kind: jeux-videos
 year: 2007

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Final Fantasy (Square Co)
 kind: jeux-videos
 year: 1987

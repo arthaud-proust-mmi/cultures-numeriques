@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Bill Atkinson
 first_name: Bill
 last_name: Atkinson

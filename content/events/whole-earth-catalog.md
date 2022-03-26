@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Whole Earth Catalog
 kind: livres
 year: 1968

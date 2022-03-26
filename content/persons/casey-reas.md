@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Casey Reas
 first_name: "Casey "
 last_name: Reas

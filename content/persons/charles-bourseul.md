@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Charles Bourseul
 first_name: Charles
 last_name: Bourseul

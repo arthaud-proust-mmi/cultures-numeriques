@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: XBOX 360
 kind: jeux-videos
 year: 2006

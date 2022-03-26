@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Jean Le Rond d'Alembert
 first_name: "Jean "
 last_name: Le Rond d'Alembert

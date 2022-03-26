@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Scott Elliot Fahlman
 first_name: Scott
 last_name: Fahlman

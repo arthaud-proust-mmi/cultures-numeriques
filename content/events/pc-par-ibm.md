@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: IBM PC
 kind: inventions
 year: 1981

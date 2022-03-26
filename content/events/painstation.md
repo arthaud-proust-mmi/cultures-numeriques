@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Painstation
 kind: jeux-videos
 year: 2006

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Peter Cho
 first_name: "Peter "
 last_name: " Cho"

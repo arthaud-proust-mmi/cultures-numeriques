@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Le premier smiley : :-)"
 kind: inventions
 year: 1982

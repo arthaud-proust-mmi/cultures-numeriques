@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "L'Alphabet Synthesis Machine "
 kind: inventions
 year: 2002

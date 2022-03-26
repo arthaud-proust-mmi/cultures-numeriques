@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Flower
 kind: jeux-videos
 year: 2009

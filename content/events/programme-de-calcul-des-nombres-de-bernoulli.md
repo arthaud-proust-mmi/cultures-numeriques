@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Programme de calcul des nombres de Bernoulli
 kind: inventions
 year: 1843

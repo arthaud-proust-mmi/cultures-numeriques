@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: " Raymond Queneau "
 first_name: " Raymond "
 last_name: "Queneau "

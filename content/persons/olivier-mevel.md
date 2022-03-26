@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Olivier Mével
 first_name: Olivier
 last_name: Mével

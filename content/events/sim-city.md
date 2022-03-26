@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Sim City
 kind: jeux-videos
 year: 1989

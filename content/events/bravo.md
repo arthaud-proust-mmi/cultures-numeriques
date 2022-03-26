@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: BRAVO
 kind: inventions
 year: 1975

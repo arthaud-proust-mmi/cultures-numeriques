@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Xerox Alto
 kind: inventions
 year: 1974

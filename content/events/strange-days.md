@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Strange Days
 kind: films
 year: 1995

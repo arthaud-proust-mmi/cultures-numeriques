@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Augusta Ada King
 first_name: Ada
 last_name: Lovelace

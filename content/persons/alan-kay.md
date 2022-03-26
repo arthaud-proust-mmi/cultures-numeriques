@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Alan Kay
 first_name: Alan
 last_name: Kay

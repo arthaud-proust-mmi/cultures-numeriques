@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Musical Origami Interactive
 kind: inventions
 year: 2015

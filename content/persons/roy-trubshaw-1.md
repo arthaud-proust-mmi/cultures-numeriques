@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Randy Farmer
 first_name: Randy
 last_name: Farmer

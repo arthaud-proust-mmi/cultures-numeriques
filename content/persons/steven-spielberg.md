@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Steven Spielberg
 first_name: Steven
 last_name: Spielberg

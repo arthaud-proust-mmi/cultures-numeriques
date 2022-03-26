@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Soli / Google
 kind: inventions
 year: 2015

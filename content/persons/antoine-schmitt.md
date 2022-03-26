@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Antoine Schmitt
 first_name: "Antoine "
 last_name: Schmitt

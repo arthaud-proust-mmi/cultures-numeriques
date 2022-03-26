@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: George Stibitz
 first_name: George
 last_name: Stibitz

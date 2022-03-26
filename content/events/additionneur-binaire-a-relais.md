@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Additionneur binaire à relais
 kind: inventions
 year: 1937

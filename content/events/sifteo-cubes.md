@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Sifteo Cubes
 kind: jeux-videos
 year: 2012

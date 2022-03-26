@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Nintendo Virtual Boy
 kind: inventions
 year: 1996

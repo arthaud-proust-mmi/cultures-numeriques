@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Samuel Morse "
 first_name: Samuel
 last_name: "Morse "

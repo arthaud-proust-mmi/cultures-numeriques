@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Thomas Alva Edison
 first_name: Thomas
 last_name: Edison

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Ray Bradbury
 first_name: Ray
 last_name: Bradbury

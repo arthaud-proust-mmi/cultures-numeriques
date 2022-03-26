@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Grace Murray Hooper
 first_name: Grace
 last_name: Hopper

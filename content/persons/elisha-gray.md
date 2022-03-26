@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Elisha Gray
 first_name: Elisha
 last_name: Gray

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Little Big Planet
 kind: jeux-videos
 year: 2008

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: William Gibson
 first_name: William
 last_name: Gibson

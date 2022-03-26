@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Space Invader
 kind: jeux-videos
 year: 1976

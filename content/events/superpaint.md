@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Superpaint
 kind: inventions
 year: 1973

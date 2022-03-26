@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Cette identité visuelle du MIT Media Lab
 kind: inventions
 year: 2000

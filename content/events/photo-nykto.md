@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Photo/Nykto "
 kind: jeux-videos
 year: 2011

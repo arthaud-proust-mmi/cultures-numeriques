@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Déclaration d'indépendance du cyberespace "
 kind: livres
 year: 1996

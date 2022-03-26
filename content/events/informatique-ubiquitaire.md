@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Informatique ubiquitaire "
 kind: inventions
 year: 1988

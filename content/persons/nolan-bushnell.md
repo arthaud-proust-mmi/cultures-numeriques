@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Nolan Bushnell
 first_name: Nolan
 last_name: Bushnell

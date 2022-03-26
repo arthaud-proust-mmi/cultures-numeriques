@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: John Von Neumann
 first_name: "John "
 last_name: Von Neumann

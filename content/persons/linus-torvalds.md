@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Linus Torvalds
 first_name: Linus
 last_name: Torvalds

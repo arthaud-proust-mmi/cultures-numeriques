@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Alessandro Giuseppe Antonio Anastasio Volta
 first_name: Alessandro
 last_name: Volta

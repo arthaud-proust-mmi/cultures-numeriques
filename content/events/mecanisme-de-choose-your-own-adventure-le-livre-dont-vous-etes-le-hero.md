@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Bataille navale (jeu)
 kind: jeux-videos
 year: 1931

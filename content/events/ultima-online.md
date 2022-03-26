@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Ultima Online "
 kind: jeux-videos
 year: 1997

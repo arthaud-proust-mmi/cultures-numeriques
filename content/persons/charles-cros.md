@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Charles Cros
 first_name: Charles
 last_name: Cros

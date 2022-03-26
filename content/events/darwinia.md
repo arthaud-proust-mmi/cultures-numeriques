@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Darwinia
 kind: jeux-videos
 year: 2005

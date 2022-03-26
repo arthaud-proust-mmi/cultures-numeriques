@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Daniel Francis Galouye
 first_name: Daniel Francis
 last_name: Galouye

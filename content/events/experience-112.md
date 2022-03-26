@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: eXperience 112
 kind: jeux-videos
 year: 2007

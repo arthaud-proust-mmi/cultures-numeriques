@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Leisure Suit Larry In the Land of the Lounge Lizards
 kind: jeux-videos
 year: 1987

@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: The Mexican Standoff d’Onur Sonmez
 kind: jeux-videos
 year: 2009

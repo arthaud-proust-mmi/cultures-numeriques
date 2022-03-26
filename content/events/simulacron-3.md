@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Simulacron 3
 kind: livres
 year: 1964

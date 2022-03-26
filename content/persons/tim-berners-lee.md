@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Tim Berners-Lee
 first_name: Tim
 last_name: Berners-Lee

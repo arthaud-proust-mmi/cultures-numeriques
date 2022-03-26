@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: DynaTAC
 kind: inventions
 year: 1983

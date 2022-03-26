@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Windows 3.0
 kind: inventions
 year: 1990

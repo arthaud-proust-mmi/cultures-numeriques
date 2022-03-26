@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Herbert Marshall McLuhan
 first_name: Marshall
 last_name: McLuhan

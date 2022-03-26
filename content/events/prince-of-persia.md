@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Prince Of Persia
 kind: jeux-videos
 year: 1989

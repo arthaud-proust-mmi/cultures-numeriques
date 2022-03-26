@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: The Boston Strangler
 kind: films
 year: 1968

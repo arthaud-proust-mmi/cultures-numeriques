@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: "Wargames "
 kind: films
 year: 1983

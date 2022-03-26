@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Morse
 kind: inventions
 year: 1832

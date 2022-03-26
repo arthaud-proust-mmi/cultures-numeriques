@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: La création du World Wide Web (WWW)
 kind: inventions
 year: 1990

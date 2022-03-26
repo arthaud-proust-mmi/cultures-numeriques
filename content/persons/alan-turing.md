@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Alan Turing
 first_name: "Alan "
 last_name: Turing

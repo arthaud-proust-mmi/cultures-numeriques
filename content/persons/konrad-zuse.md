@@ -1,4 +1,5 @@
 ---
+visibleInCms: true
 title: Konrad Zuse
 first_name: Konrad
 last_name: Zuse
