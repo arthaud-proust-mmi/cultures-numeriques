@@ -1,0 +1,21 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ .Title }}</title>
+	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+	
+    <!-- <link rel="stylesheet" href="{{ "css/style.css" | relURL }}"> -->
+	
+	{{ $sass := resources.Get "sass/main.scss" }}
+	{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+
+    {{ with .OutputFormats.Get "RSS" -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+	{{- end }}
+
+	<!-- netlify cms -->
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>

@@ -1,0 +1,53 @@
+/* dark theme */
+@media (prefers-color-scheme: dark) {
+    body {
+        --primary-1: #FFFFFF;
+        --background-1: #1E1E1E;
+        --accent-1: #5487FF;
+    }
+}
+body.dark-theme {
+    --primary-1: #FFFFFF;
+    --background-1: #1E1E1E;
+    --accent-1: #5487FF;
+}
+
+/* light theme */
+@media (prefers-color-scheme: light) {
+    body {
+        --primary-1: #1E1E1E;
+        --background-1: #FFFFFF;
+        --accent-1: #5487FF;
+    }
+}
+
+body.light-theme {
+    --primary-1: #1E1E1E;
+    --background-1: #FFFFFF;
+    --accent-1: #0e0f0f;
+}
+
+
+
+body {
+    color: var(--primary-1);
+    background: var(--background-1);
+}
+
+
+#event-container img, #event-list-container img {
+    width: 100%;
+}
+
+#event-list-container p, #event-list-container h2 {
+    margin: 0;
+}
+
+#event-list-container .event-sum {
+    margin-left: 80px;
+    margin-bottom: 70px;
+}
+
+#event-list-container .flex {
+    display: flex;
+}
