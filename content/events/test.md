@@ -8,5 +8,5 @@ persons:
 organizations:
   - example
 abstract: Ceci est un test du panel admin
-image: /assets/images/events/logo-white4x.jpg
+image: /assets/images/events/logo-classic4x.jpg
 ---
