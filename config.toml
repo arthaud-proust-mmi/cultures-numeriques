@@ -2,7 +2,6 @@ baseurl = "/"
 title = "My blog"
 theme = "culturesNumeriquesTheme"
 
-staticDir = "assets/"
 
 [menu]
   [[menu.main]]
