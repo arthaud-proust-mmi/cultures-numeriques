@@ -28,7 +28,7 @@ collections:
       - { label: Organisations, name: organizations, widget: relation, collection: organizations, display_fields: [title], value_field: "{{slug}}", search_fields: [title], multiple: true, min: 0, required: false }
       - { label: Abstract, name: abstract, required: false, widget: text }
       - { label: Description, name: description, widget: markdown, minimal: true, required: false, buttons: [bold, link], editor_components: [], modes: [rich_text] }
-      - { label: Image, name: image, widget: image, media_folder: /static/images/events, allow_multiple: false, required: false }
+      - { label: Image, name: image, widget: image, media_folder: /static/images/events, public_folder: images/events, allow_multiple: false, required: false }
       - { label: Galerie, name: gallery, widget: image, media_folder: /static/images/events, allow_multiple: true, required: false, min: 0 }
       - { label: "Liens vers des ressources", name: resources, required: false, multiple: true, min: 0 }
       - { label: "Lien vers une vidéo", name: video, required: false }
