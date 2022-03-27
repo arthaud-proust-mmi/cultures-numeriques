@@ -8,5 +8,5 @@ persons:
 organizations:
   - example
 abstract: ceci est un évènement de test
-image: /assets/images/events/favicon-fond-blanc.png
+image: /images/events/favicon-fond-blanc.png
 ---
