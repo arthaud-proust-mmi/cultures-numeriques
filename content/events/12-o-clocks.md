@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: "12 o’clocks "
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1996
 persons:
   - john-maeda
