@@ -1,4 +1,8 @@
 .event-summary {
+    .event-summary-container {
+        border: 1px solid var(--primary-1);
+        border-radius: 0.5rem;
+    }
     // .event-summary-img-container {
     //     height: 200px;
     //     width: 100%;

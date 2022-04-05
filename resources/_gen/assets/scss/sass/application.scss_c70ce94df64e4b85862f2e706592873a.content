@@ -6361,6 +6361,10 @@ header {
       color: var(--color-1);
       text-decoration: none; }
 
+.event-summary .event-summary-container {
+  border: 1px solid var(--primary-1);
+  border-radius: 0.5rem; }
+
 .event-summary .event-summary-img-container img {
   width: 100%;
   object-fit: cover;
