@@ -1,0 +1,20 @@
+.text-p {
+    font-weight: 300;
+}
+
+
+
+.text-link {
+    text-decoration: none;
+    color: var(--primary-1);
+}
+
+.text-link:hover {
+    text-decoration: underline;
+    color: var(--primary-1);
+}
+
+
+.underlined {
+    text-decoration: underline;
+}
