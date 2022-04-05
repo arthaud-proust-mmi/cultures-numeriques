@@ -1,0 +1,4 @@
+---
+visibleInCms: true
+title: Mécanique
+---
