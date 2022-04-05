@@ -6271,6 +6271,11 @@ progress {
 .underlined {
   text-decoration: underline; }
 
+.divider {
+  height: 1px;
+  width: 100%;
+  background: var(--primary-1); }
+
 /* dark theme */
 @media (prefers-color-scheme: dark) {
   body {
@@ -6296,10 +6301,14 @@ body.light-theme {
   --accent-1: #0e0f0f; }
 
 body {
+  min-height: 100vh;
   margin: 0;
   font-family: 'Inter', sans-serif;
   color: var(--primary-1);
   background: var(--background-1); }
+
+#content {
+  height: 100%; }
 
 #event-container img, #event-list-container img {
   width: 100%; }
@@ -6313,11 +6322,3 @@ body {
 
 #event-list-container .flex {
   display: flex; }
-
-.footer .footer-divider {
-  height: 1px;
-  background: var(--primary-1); }
-
-.footer .footer-link {
-  color: var(--primary-1);
-  text-decoration: none; }

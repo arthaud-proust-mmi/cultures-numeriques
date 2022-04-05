@@ -18,3 +18,9 @@
 .underlined {
     text-decoration: underline;
 }
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background: var(--primary-1);
+}

@@ -30,10 +30,14 @@ body.light-theme {
 
 
 body {
+    min-height: 100vh;
     margin: 0;
     font-family: 'Inter', sans-serif;
     color: var(--primary-1);
     background: var(--background-1);
+}
+#content {
+    height: 100%;
 }
 
 
