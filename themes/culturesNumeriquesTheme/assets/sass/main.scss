@@ -1,28 +1,21 @@
+// Default is light theme
 body {
-    // Default is light theme
     --primary-1: #1E1E1E;
     --background-1: #FFFFFF;
-    --accent-1: #0e0f0f;
+    --accent-1: #5487FF;  
+}
+body.dark-theme {
+    --primary-1: #FFFFFF;
+    --background-1: #1E1E1E;
+    --accent-1: #5487FF;
+}
 
+body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Inter', sans-serif;
     color: var(--primary-1);
     background: var(--background-1);
-}
-
-/* dark theme */
-// @media (prefers-color-scheme: dark) {
-//     body {
-//         --primary-1: #FFFFFF;
-//         --background-1: #1E1E1E;
-//         --accent-1: #5487FF;
-//     }
-// }
-body.dark-theme {
-    --primary-1: #FFFFFF;
-    --background-1: #1E1E1E;
-    --accent-1: #5487FF;
 }
 
 #content {
