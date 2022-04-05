@@ -1,0 +1,22 @@
+{
+  "name": "culturesnumeriques",
+  "version": "1.0.0",
+  "description": "Projet open source initié par [Étienne mineur](https://etienne.design/) et réalisé en collaboration avec [Noesya](https://www.noesya.coop/) et [MMI Bordeaux](https://www.mmibordeaux.com/).",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthaud-proust/cultures-numeriques.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthaud-proust/cultures-numeriques/issues"
+  },
+  "homepage": "https://github.com/arthaud-proust/cultures-numeriques#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
