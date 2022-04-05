@@ -1,5 +1,15 @@
 <header>
-	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+	<h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+
+	<div class="buttons-container">
+		<button class="theme-switch-btn">T</button>
+		<button class="search-btn">S</button>
+		<button class="open-menu-btn">M</button>
+	</div>
+</header>
+
+<section class="nav-menu">
+	<button class="close-menu-btn">Fermer</button>
 	{{ with .Site.Menus.main }}
 	<nav>
 		<ul>
@@ -9,4 +19,4 @@
 		</ul>
 	</nav>
 	{{ end }}
-</header>
+</section>
