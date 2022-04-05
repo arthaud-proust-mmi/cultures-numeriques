@@ -1,6 +1,6 @@
 ---
 visibleInCms: true
-title: " Dispositif d'enregistrement de sons sur cylindres de cire"
+title: 0123456789012345678912345e
 kind: inventions
 thematique: mecanique
 year: 1877
