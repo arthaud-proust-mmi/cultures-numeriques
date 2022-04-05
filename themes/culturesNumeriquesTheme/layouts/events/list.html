@@ -1,13 +1,20 @@
 {{ define "main" }}
 	<main id="event-list-container">
-		<h1>Les évenements</h1>
+		<h1>Les évènements</h1>
 
-		{{ range .Pages.ByParam "year" }}
+        <div class="row">
+            {{ range .Paginator.Pages.ByParam "year" }}
+			    {{ .Render "event-summary" }}
+            {{ end }}
+        </div>
+
+
+        <!-- {{ range .Paginator.Pages.ByParam "year" }}
 			<div class="flex">
 				<h2 class="event-year">{{.Params.year}}</h2>
 				<div class="event-sum">{{ .Render "event-summary" }}</div>
 			</div>
-		{{ end }}
+		{{ end }} -->
 	</main>
 <!-- {{ partial "sidebar.html" . }} -->
 {{ end }}
