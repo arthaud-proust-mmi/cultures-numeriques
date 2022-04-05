@@ -57,3 +57,57 @@ body {
 #event-list-container .flex {
     display: flex;
 }
+
+// Header
+header {
+    background-color: var(--background-1);
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+
+    h2 {
+        a {
+            color: var(--color-1);
+            text-decoration: none;
+        }
+    }
+
+    .buttons-container {
+        display: flex;
+        align-items: center;
+
+        button:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+}
+
+.nav-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-1);
+    
+    &.active {
+        display: block;
+    }
+
+    .close-menu-btn {
+    }
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        a {
+            color: var(--color-1);
+            text-decoration: none;
+        }
+    }
+}
