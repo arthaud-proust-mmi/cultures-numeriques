@@ -6271,10 +6271,18 @@ progress {
 .underlined {
   text-decoration: underline; }
 
-.divider {
+.divider, .divider-min {
   height: 1px;
-  width: 100%;
   background: var(--primary-1); }
+
+.divider {
+  width: 100%; }
+
+.divider-min {
+  width: 90%; }
+
+.border-box {
+  box-sizing: border-box !important; }
 
 /* dark theme */
 @media (prefers-color-scheme: dark) {
@@ -6322,3 +6330,37 @@ body {
 
 #event-list-container .flex {
   display: flex; }
+
+header {
+  background-color: var(--background-1);
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px; }
+  header h2 a {
+    color: var(--color-1);
+    text-decoration: none; }
+  header .buttons-container {
+    display: flex;
+    align-items: center; }
+    header .buttons-container button:not(:last-child) {
+      margin-right: 10px; }
+
+.nav-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-1); }
+  .nav-menu.active {
+    display: block; }
+  .nav-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .nav-menu ul a {
+      color: var(--color-1);
+      text-decoration: none; }

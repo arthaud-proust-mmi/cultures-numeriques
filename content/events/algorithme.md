@@ -1,7 +1,7 @@
 ---
 visibleInCms: true
 title: "Algorithme "
-kind: invention
+kind: inventions
 year: 1840
 abstract: Un algorithme est une suite finie et non ambiguë d'instructions et
   d’opérations permettant de résoudre une classe de problèmes.
