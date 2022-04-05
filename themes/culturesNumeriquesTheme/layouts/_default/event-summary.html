@@ -1,8 +1,10 @@
-<article>
-    <a href="{{ .Permalink }}">
-        <!-- <img src={{ .Params.image }} alt={{ .Title }}> -->
-        <h2>{{ .Title }}</h2>
-        <p>{{ .Params.abstract }}</p>
-        <p>Lire la suite -></p>
-    </a>
+<article class="col-sm-6 col-md-4 col-lg-4">
+    <div class="d-flex flex-row justify-content-between">
+        <span>{{ .Title }}</span>
+        <span>{{ .Type }}</span>
+    </div>
+    <div class="divider mb-3"></div>
+    <img src={{ .Params.image }} alt={{ .Title }}>
+    <p class="py-2">{{ .Params.abstract }}</p>
+    <a href="{{ .Permalink }}">En savoir plus</a>
 </article>
