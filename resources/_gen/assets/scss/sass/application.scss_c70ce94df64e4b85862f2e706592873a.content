@@ -6271,15 +6271,10 @@ progress {
 .underlined {
   text-decoration: underline; }
 
-.divider, .divider-min {
-  height: 1px;
-  background: var(--primary-1); }
-
 .divider {
+  height: 1px;
+  background: var(--primary-1);
   width: 100%; }
-
-.divider-min {
-  width: 90%; }
 
 .border-box {
   box-sizing: border-box !important; }
@@ -6365,3 +6360,8 @@ header {
     .nav-menu ul a {
       color: var(--color-1);
       text-decoration: none; }
+
+.event-summary .event-summary-img-container img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1; }
