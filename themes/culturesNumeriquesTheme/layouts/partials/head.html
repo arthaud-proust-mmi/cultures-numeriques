@@ -8,7 +8,7 @@
 	
     <!-- <link rel="stylesheet" href="{{ "css/style.css" | relURL }}"> -->
 	
-	{{ $sass := resources.Get "sass/main.scss" }}
+	{{ $sass := resources.Get "sass/application.scss" }}
 	{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
