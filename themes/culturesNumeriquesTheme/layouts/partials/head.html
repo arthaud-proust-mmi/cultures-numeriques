@@ -7,7 +7,6 @@
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 	
     <!-- <link rel="stylesheet" href="{{ "css/style.css" | relURL }}"> -->
-	
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +20,8 @@
     {{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
+
+	<script type="text/javascript" src="/js/header.js" defer></script>
 
 	<!-- netlify cms -->
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

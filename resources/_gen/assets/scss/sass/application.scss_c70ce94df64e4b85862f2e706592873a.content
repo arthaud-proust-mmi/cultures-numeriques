@@ -6276,36 +6276,21 @@ progress {
   width: 100%;
   background: var(--primary-1); }
 
-/* dark theme */
-@media (prefers-color-scheme: dark) {
-  body {
-    --primary-1: #FFFFFF;
-    --background-1: #1E1E1E;
-    --accent-1: #5487FF; } }
-
-body.dark-theme {
-  --primary-1: #FFFFFF;
-  --background-1: #1E1E1E;
-  --accent-1: #5487FF; }
-
-/* light theme */
-@media (prefers-color-scheme: light) {
-  body {
-    --primary-1: #1E1E1E;
-    --background-1: #FFFFFF;
-    --accent-1: #5487FF; } }
-
-body.light-theme {
+body {
   --primary-1: #1E1E1E;
   --background-1: #FFFFFF;
-  --accent-1: #0e0f0f; }
-
-body {
+  --accent-1: #0e0f0f;
   min-height: 100vh;
   margin: 0;
   font-family: 'Inter', sans-serif;
   color: var(--primary-1);
   background: var(--background-1); }
+
+/* dark theme */
+body.dark-theme {
+  --primary-1: #FFFFFF;
+  --background-1: #1E1E1E;
+  --accent-1: #5487FF; }
 
 #content {
   height: 100%; }
@@ -6322,3 +6307,52 @@ body {
 
 #event-list-container .flex {
   display: flex; }
+
+header {
+  background-color: var(--background-1);
+  border-bottom: 1px solid var(--primary-1); }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  header h2 a {
+    color: var(--color-1);
+    text-decoration: none; }
+    header h2 a:hover {
+      color: var(--color-1); }
+  header .buttons-container {
+    display: flex;
+    align-items: center; }
+    header .buttons-container button:not(:last-child) {
+      margin-right: 49px; }
+    header .buttons-container button {
+      background: none;
+      border: none; }
+    header .buttons-container button.theme-switch-btn span {
+      display: none; }
+      header .buttons-container button.theme-switch-btn span.active {
+        display: block; }
+    header .buttons-container button.search-btn path, header .buttons-container button.theme-switch-btn #sun-icon path {
+      fill: var(--primary-1); }
+    header .buttons-container button.open-menu-btn path, header .buttons-container button.theme-switch-btn #moon-icon path {
+      stroke: var(--primary-1); }
+
+.nav-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-1); }
+  .nav-menu.active {
+    display: block; }
+  .nav-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .nav-menu ul a {
+      color: var(--color-1);
+      text-decoration: none; }
