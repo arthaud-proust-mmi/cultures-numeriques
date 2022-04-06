@@ -1,0 +1,30 @@
+{{ define "main" }}
+	<main>
+        <div class="row d-flex flex-row flex-nowrap align-items-center">
+            <h3 class="d-inline w-auto me-2">à propos</h3>
+            <div class="divider flex-shrink-1"></div>
+        </div>
+
+
+        <div class="row pt-5">
+            <article class="col-sm-8 mt-md-5 pt-md-5 col-md-7 col-xl-6 offset-xl-2">
+                <h1>{{ .Params.Owner.Title }}</h1>
+                <h2>{{ .Params.Owner.Subtitle }}</h2>
+                {{ range .Params.Owner.Lines }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end}}
+            </article>
+
+            <div class="mb-5 mb-md-0  offset-5 order-first order-sm-0 offset-sm-0 col-6 col-sm-4 col-md-4 offset-md-1 col-md-3 offset-xl-1 col-xl-3">
+                <img class="img-fluid" src="{{ .Params.Owner.Image }}">
+            </div>
+
+            <article class="mt-5 col-md-7 col-xl-6 offset-xl-2">
+                <h1>{{ .Params.Project.Title }}</h1>
+                {{ range .Params.Project.Lines }}
+                    <p>{{ . | markdownify }}</p>
+                {{ end}}
+            </article>
+        </div>
+	</main>
+{{ end }}

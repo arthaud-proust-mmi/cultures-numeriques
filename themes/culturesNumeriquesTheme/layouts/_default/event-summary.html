@@ -20,7 +20,7 @@
                 {{ end }}
             {{ end}}
         </div>
-        <p class="py-2">{{ .Params.abstract }}</p>
-        <a class="mt-auto" href="{{ .Permalink }}">En savoir plus</a>
+        <p class="py-2">{{ .Params.abstract | truncate 120 }} <a class="mt-auto text-link underlined" href="{{ .Permalink }}">En savoir plus</a></p>
+        
     </div>
 </article>

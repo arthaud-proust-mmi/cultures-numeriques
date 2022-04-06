@@ -3,12 +3,18 @@
 body {
     --primary-1: #1E1E1E;
     --background-1: #FFFFFF;
-    --accent-1: #5487FF;  
+    --accent-1: #5487FF; 
+    --secondary-1: #F5F5F5;
+ 
 }
+
 body.dark-theme {
     --primary-1: #FFFFFF;
     --background-1: #1E1E1E;
     --accent-1: #5487FF;
+    --secondary-1: #343434;
+
+
 }
 
 body {
