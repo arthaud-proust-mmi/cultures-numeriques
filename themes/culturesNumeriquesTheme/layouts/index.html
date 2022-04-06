@@ -1,15 +1,42 @@
 {{ define "main" }}
 	<main>
-		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+		<!-- {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 		{{ range $paginator.Pages }}
 			{{ .Render "summary" }}
 		{{ end }}
-		{{ partial "pagination.html" . }}
+		{{ partial "pagination.html" . }} -->
 
-	<a class="pagination-controls" href="#">1</a>
+		<div class="container">
+			<div class="row mb-5"><h3>cultures numériques</h3></div>
+			<div class="row">
+				<div class="col">
+					<h3>Bienvenue</h3>
+					<p>dans mon recueil de la culture numérique. Vous y trouverez toutes les ressources et le savoir que j’ai pu accumuler tout au long de mon parcours.</p>
+				</div>
+				<div class="col-2"></div>
+				<div class="col mt-5">
+					<h3>Mon but</h3>
+					<p>est de donner accès à cette culture à un grand nombre d’étudiants, de non-initiés et de spécialistes du numérique.</p>
+				</div>
+			</div>
+			<div class="row mt-5 mb-5"><p class="center"><strong>Approfondissez, apprenez et contribuez aux sujets de votre choix.</strong></p></div>
+		</div>
 
+		<section>
+			<div class="title-divider">
+				<h2>à la une</h2>
+				<div class="divider"></div>
+			</div>
+		</section>
+
+		<section>
+			<div class="title-divider">
+				<h2>Chronologie</h2>
+				<div class="divider"></div>
+			</div>
+		</section>
 	</main>
-{{ partial "sidebar.html" . }}
+<!-- {{ partial "sidebar.html" . }} -->
 {{ end }}
 
 
