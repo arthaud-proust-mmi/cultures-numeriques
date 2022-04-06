@@ -18,12 +18,12 @@
 </header>
 
 <section class="nav-menu" id="menu-burger">
-	<button class="close-menu-btn" id="close-menu-btn">Fermer</button>
-	{{ with .Site.Menus.main }}
+	<p class="close-menu-btn" id="close-menu-btn">Fermer</p>
+	{{ with .Site.Menus.main }}	
 	<nav>
 		<ul>
 			{{ range . }}
-			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			<li><h3><a href="{{ .URL | relURL }}">{{ .Name }}</a></h3></li>
 			{{ end }}
 		</ul>
 	</nav>

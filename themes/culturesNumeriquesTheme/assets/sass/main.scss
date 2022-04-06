@@ -108,18 +108,31 @@ header {
     width: 100%;
     height: 100%;
     background-color: var(--background-1);
-    
+    padding: 150px;
+
     &.active {
         display: block;
     }
 
     .close-menu-btn {
+        text-align: right;
+        margin: 0;
+        color: var(--primary-1);
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
     }
     
     ul {
         padding: 0;
         margin: 0;
         list-style: none;
+        margin-top: 45px;
+        text-align: right;
+
+        li:not(:last-child) {
+            margin-bottom: 45px;
+        }
 
         a {
             color: var(--color-1);
