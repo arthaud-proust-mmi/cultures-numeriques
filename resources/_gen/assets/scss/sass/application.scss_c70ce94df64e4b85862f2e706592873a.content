@@ -6260,6 +6260,15 @@ progress {
 .text-p {
   font-weight: 300; }
 
+<<<<<<< HEAD
+.img-fluid {
+  width: 100%;
+  height: auto; }
+=======
+p.center {
+  text-align: center; }
+>>>>>>> a2e59df808a7ef6fc769334b5ca29c6e01d2d971
+
 .text-link {
   text-decoration: none;
   color: var(--primary-1); }
@@ -6300,9 +6309,6 @@ body {
 
 #content {
   height: 100%; }
-
-p.center {
-  text-align: center; }
 
 .title-divider {
   display: flex;

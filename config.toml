@@ -2,7 +2,6 @@ baseurl = "/"
 title = "cultures numériques"
 theme = "culturesNumeriquesTheme"
 
-
 [module]
     [[module.mounts]]
       source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
