@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Cryptomonnaie
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1989
 description: En 1989, l’entreprise, DigiCash (avec le mathématicien américain
   David Chaum) créée la première monnaie virtuelle utilisée dans le monde. Elle
