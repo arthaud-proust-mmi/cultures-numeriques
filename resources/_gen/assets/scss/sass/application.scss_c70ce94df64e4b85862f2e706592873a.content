@@ -6282,12 +6282,14 @@ progress {
 body {
   --primary-1: #1E1E1E;
   --background-1: #FFFFFF;
-  --accent-1: #5487FF; }
+  --accent-1: #5487FF;
+  --secondary-1: #F5F5F5; }
 
 body.dark-theme {
   --primary-1: #FFFFFF;
   --background-1: #1E1E1E;
-  --accent-1: #5487FF; }
+  --accent-1: #5487FF;
+  --secondary-1: #343434; }
 
 body {
   min-height: 100vh;
@@ -6397,12 +6399,13 @@ header {
   position: relative;
   width: 52px;
   height: 63px;
-  color: #000000;
-  background: #F5F5F5;
+  color: var(--primary-1);
+  background: var(--secondary-1);
   border-radius: 4px; }
 
 .pagination-controls:hover {
-  color: #000000;
+  color: var(--primary-1);
+  background: var(--secondary-1);
   border: 2px solid #5487FF;
   box-sizing: border-box;
   border-radius: 4px; }
