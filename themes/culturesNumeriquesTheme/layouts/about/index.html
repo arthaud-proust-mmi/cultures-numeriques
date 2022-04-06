@@ -1,7 +1,7 @@
 {{ define "main" }}
 	<main>
         <div class="row d-flex flex-row flex-nowrap align-items-center">
-            <h3 class="d-inline w-auto me-2">à propos</h3>
+            <h3 class="d-inline w-auto me-2">À propos</h3>
             <div class="divider flex-shrink-1"></div>
         </div>
 
@@ -25,6 +25,28 @@
                     <p>{{ . | markdownify }}</p>
                 {{ end}}
             </article>
+        </div> 
+
+        <div class="mt-5 py-5 row d-flex flex-row flex-nowrap align-items-center">
+            <h3 class="d-inline w-auto me-2">L'équipe</h3>
+            <div class="divider flex-shrink-1"></div>
+        </div>
+
+        <div class="mb-5 pb-5 team-section d-flex flex-column gap-5">
+            {{ range .Params.Team }}
+                <div class="group row align-items-center">
+                    <h5 class="fw-light col-12 col-lg-2 offset-xl-2">{{ .group }}</h5>
+                    <div class="group-members gap-4 col-12 col-lg-10 col-xl-7 d-flex flex-row flex-wrap ">
+                        {{ range .members }}
+                            <div class="group-member">
+                                <img src="{{.img }}">
+                                <h6 class="mt-2 mb-1"><strong>{{ .name }}</strong></h6>
+                                <span class="fw-light">{{ .role }}</span>
+                            </div>
+                        {{ end }}
+                    </div>
+                </div>
+            {{ end }}
         </div>
 	</main>
 {{ end }}

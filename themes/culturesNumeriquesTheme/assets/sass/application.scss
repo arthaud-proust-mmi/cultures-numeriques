@@ -5,8 +5,12 @@
 
 @import './utils';
 @import './main';
+
+// Composants
 @import './components/button.scss';
 
+// Pages
+@import './pages/about.scss';
 
-// @import './partials/footer.scss';
+// Partials
 @import './partials/event-summary.scss';
