@@ -1,7 +1,7 @@
 <article class="event-summary col-md-6 col-lg-4 col-xl-4 mb-5">
-    <div class="event-summary-container p-4">
+    <div class="event-summary-container p-4 h-100 d-flex flex-column align-items-start">
 
-        <div class="d-flex flex-row justify-content-between">
+        <div class="d-flex flex-row justify-content-between w-100">
             <span>{{ .Title }}</span>
             <span>{{ .Type }}</span>
         </div>
@@ -21,6 +21,6 @@
             {{ end}}
         </div>
         <p class="py-2">{{ .Params.abstract }}</p>
-        <a href="{{ .Permalink }}">En savoir plus</a>
+        <a class="mt-auto" href="{{ .Permalink }}">En savoir plus</a>
     </div>
 </article>
