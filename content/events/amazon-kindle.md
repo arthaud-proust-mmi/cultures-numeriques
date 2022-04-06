@@ -1,14 +1,12 @@
 ---
 visibleInCms: true
 title: Amazon Kindle
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 2007
-abstract: "Le Kindle (du verbe anglais « to kindle », « allumer un feu » en
-  français) est une liseuse qui permet de se connecter à Internet pour
-  télécharger des contenus (livres numérisés, journaux et magazines…) dont la
-  licence d'utilisation est vendue en ligne par le site américain Amazon.com. Le
-  format des fichiers est propriétaire, ils sont protégés par un système de
-  gestion numérique des droits (DRM). "
+abstract: Le Kindle est une liseuse qui permet de se connecter à Internet pour
+  télécharger des contenus à lire.
 description: >-
   Le Kindle (du verbe anglais « to kindle », « allumer un feu » en français) est
   une liseuse qui permet de se connecter à Internet pour télécharger des

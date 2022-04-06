@@ -6,7 +6,7 @@
                 <h3>Évènement</h3>
             </div>
 
-            <div class="col-12 col-xl-9 row d-flex flex-row align-items-start">
+            <div class="col-12 col-xl-9 row d-flex flex-row align-items-stretch">
                 {{ range .Paginator.Pages.ByParam "year" }}
                     {{ .Render "event-summary" }}
                 {{ end }}
