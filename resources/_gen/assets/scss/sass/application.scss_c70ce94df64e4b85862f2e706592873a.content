@@ -6260,6 +6260,10 @@ progress {
 .text-p {
   font-weight: 300; }
 
+.img-fluid {
+  width: 100%;
+  height: auto; }
+
 .text-link {
   text-decoration: none;
   color: var(--primary-1); }
