@@ -6373,6 +6373,25 @@ header {
       color: var(--color-1);
       text-decoration: none; }
 
+.pagination-controls {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 52px;
+  height: 63px;
+  color: #000000;
+  background: #F5F5F5;
+  border-radius: 4px; }
+
+.pagination-controls:hover {
+  color: #000000;
+  border: 2px solid #5487FF;
+  box-sizing: border-box;
+  border-radius: 4px; }
+
 .event-summary .event-summary-container {
   border: 1px solid var(--primary-1);
   border-radius: 0.5rem; }

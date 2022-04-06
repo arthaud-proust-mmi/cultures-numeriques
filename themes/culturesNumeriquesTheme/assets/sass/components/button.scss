@@ -1,0 +1,28 @@
+
+
+.pagination-controls{
+    text-decoration:none;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    width: 52px;
+    height: 63px;
+    
+    color: #000000;
+    background: #F5F5F5;
+    border-radius: 4px;
+}
+
+
+
+.pagination-controls:hover{
+    color: #000000;
+    border: 2px solid #5487FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+
