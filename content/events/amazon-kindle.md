@@ -5,7 +5,8 @@ kind:
   - inventions
 thematique: informatique-et-reseau
 year: 2007
-abstract: ""
+abstract: Le Kindle est une liseuse qui permet de se connecter à Internet pour
+  télécharger des contenus à lire.
 description: >-
   Le Kindle (du verbe anglais « to kindle », « allumer un feu » en français) est
   une liseuse qui permet de se connecter à Internet pour télécharger des
