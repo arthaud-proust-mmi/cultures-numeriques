@@ -1,6 +1,6 @@
 ---
 visibleInCms: true
-title: 0123456789012345678912345e
+title: Enregistreur de son sur cire
 kind: inventions
 thematique: mecanique
 year: 1877
