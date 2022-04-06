@@ -6260,9 +6260,14 @@ progress {
 .text-p {
   font-weight: 300; }
 
+<<<<<<< HEAD
 .img-fluid {
   width: 100%;
   height: auto; }
+=======
+p.center {
+  text-align: center; }
+>>>>>>> a2e59df808a7ef6fc769334b5ca29c6e01d2d971
 
 .text-link {
   text-decoration: none;
@@ -6303,6 +6308,18 @@ body {
 #content {
   height: 100%; }
 
+.title-divider {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 100px 0; }
+  .title-divider h2 {
+    text-transform: lowercase;
+    margin: 0 30px 0 0; }
+  .title-divider .divider {
+    width: 100%;
+    border-bottom: 1px solid black; }
+
 #event-container img, #event-list-container img {
   width: 100%; }
 
@@ -6318,7 +6335,7 @@ body {
 
 header {
   background-color: var(--background-1);
-  border-bottom: 1px solid var(--primary-1); }
+  border-bottom: 1.8px solid var(--primary-1); }
   header .container {
     display: flex;
     justify-content: space-between;
@@ -6349,7 +6366,7 @@ header {
 
 .nav-menu {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -6376,6 +6393,25 @@ header {
     .nav-menu ul a {
       color: var(--color-1);
       text-decoration: none; }
+
+.pagination-controls {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 52px;
+  height: 63px;
+  color: #000000;
+  background: #F5F5F5;
+  border-radius: 4px; }
+
+.pagination-controls:hover {
+  color: #000000;
+  border: 2px solid #5487FF;
+  box-sizing: border-box;
+  border-radius: 4px; }
 
 .event-summary .event-summary-container {
   border: 1px solid var(--primary-1);

@@ -6,7 +6,7 @@
 				<p>{{ .Params.date }}</p>
 				<p>#{{ .Params.kind }}</p>
 			</div>
-			<p>{{ .Params.description }}</p>
+			<p>{{ .Params.description | markdownify }}</p>
 			<img src={{ .Params.image }} alt="">
 		</article>
 	</main>
