@@ -7,6 +7,20 @@
 		{{ partial "pagination.html" . }} -->
 
 		<div class="container">
+			<h1>Bienvenue à la culture numérique.</h1>
+			<p>Vous y trouverez toutes les ressources et le savoir que j’ai pu accumuler tout au long de mon parcours. Mon but est de donner accès à cette culture à un grand nombre d’étudiants, de non-initiés et de spécialistes du numérique.</p>
+			
+			<div class="row">
+				<div class="col"><p>Approfondissez et apprenez aux sujets de votre choix.</p></div>
+				<div class="col">
+					{{range $index, $item := (where (where .Site.Pages ".Title" "!=" "") ".Type" "thematiques") }}
+						<p>{{ $index }} - {{ $item.Title }}</p>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="container">
 			<div class="row mb-5"><h3>cultures numériques</h3></div>
 			<div class="row">
 				<div class="col">
@@ -20,7 +34,12 @@
 				</div>
 			</div>
 			<div class="row mt-5 mb-5"><p class="center"><strong>Approfondissez, apprenez et contribuez aux sujets de votre choix.</strong></p></div>
-		</div>
+			<div class="container">
+				{{ range where .Site.Pages ".Type" "thematiques" }}
+					<li>{{ .Title }}</li>
+				{{ end }}
+			</div>
+		</div> -->
 
 		<section>
 			<div class="title-divider">

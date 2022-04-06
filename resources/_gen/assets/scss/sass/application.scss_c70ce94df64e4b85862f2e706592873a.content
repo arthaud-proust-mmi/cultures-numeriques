@@ -6260,6 +6260,9 @@ progress {
 .text-p {
   font-weight: 300; }
 
+p.center {
+  text-align: center; }
+
 .text-link {
   text-decoration: none;
   color: var(--primary-1); }
@@ -6298,9 +6301,6 @@ body {
 
 #content {
   height: 100%; }
-
-p.center {
-  text-align: center; }
 
 .title-divider {
   display: flex;
