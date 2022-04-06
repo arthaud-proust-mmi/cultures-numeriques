@@ -6282,6 +6282,21 @@ p.center {
 .border-box {
   box-sizing: border-box !important; }
 
+.no-maring {
+  padding: 0 !important; }
+
+.title-divider {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 100px 0; }
+  .title-divider h2 {
+    text-transform: lowercase;
+    margin: 0 30px 0 0; }
+  .title-divider .divider {
+    width: 100%;
+    border-bottom: 1px solid var(--primary-1); }
+
 body {
   --primary-1: #1E1E1E;
   --background-1: #FFFFFF;
@@ -6301,18 +6316,6 @@ body {
 
 #content {
   height: 100%; }
-
-.title-divider {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin: 100px 0; }
-  .title-divider h2 {
-    text-transform: lowercase;
-    margin: 0 30px 0 0; }
-  .title-divider .divider {
-    width: 100%;
-    border-bottom: 1px solid black; }
 
 #event-container img, #event-list-container img {
   width: 100%; }
@@ -6387,6 +6390,13 @@ header {
     .nav-menu ul a {
       color: var(--color-1);
       text-decoration: none; }
+
+.landing .hero-title {
+  font-size: 64px;
+  width: 200%; }
+
+.landing .grey-bg {
+  background-color: grey; }
 
 .pagination-controls {
   text-decoration: none;

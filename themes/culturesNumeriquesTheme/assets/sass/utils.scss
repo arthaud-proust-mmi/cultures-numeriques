@@ -33,7 +33,24 @@ p.center {
     box-sizing: border-box !important;
 }
 
+.no-maring {
+    padding: 0 !important;
+}
 
+// Title-divider
+.title-divider {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 100px 0;
 
+    h2 {
+        text-transform: lowercase;
+        margin: 0 30px 0 0;
+    }
 
-
+    .divider {
+        width: 100%;
+        border-bottom: 1px solid var(--primary-1);
+    }
+}
