@@ -151,7 +151,7 @@ header {
         .grey-bg {
             display: flex;
             align-items: center;
-            background-color: #F5F5F5;
+            background-color: var(--bg-2);
 
             p {
                 padding: 25% 0;

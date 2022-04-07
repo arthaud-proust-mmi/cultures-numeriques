@@ -6525,7 +6525,7 @@ header {
   .landing .landing-bottom-row .grey-bg {
     display: flex;
     align-items: center;
-    background-color: #F5F5F5; }
+    background-color: var(--bg-2); }
     .landing .landing-bottom-row .grey-bg p {
       padding: 25% 0;
       margin: 0; }
