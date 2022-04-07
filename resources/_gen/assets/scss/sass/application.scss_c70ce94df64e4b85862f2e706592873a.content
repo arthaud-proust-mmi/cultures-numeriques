@@ -6529,11 +6529,23 @@ header {
   .landing img {
     width: 10px; }
   .landing .grey-bg {
-    background-color: #F5F5F5; }
-  .landing .margin-left {
-    padding-left: 50px;
+    background-color: #F5F5F5;
     display: flex;
     align-items: center; }
+  .landing .margin-left {
+    padding-left: 50px; }
+  .landing .thematiques-list {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .landing .thematiques-list .thematique-item {
+      display: flex;
+      align-items: center; }
+      .landing .thematiques-list .thematique-item strong {
+        width: 50px;
+        font-size: 31px;
+        font-weight: bold; }
+      .landing .thematiques-list .thematique-item p {
+        margin: 0 0 0 1rem; }
 
 .pagination-controls {
   text-decoration: none;

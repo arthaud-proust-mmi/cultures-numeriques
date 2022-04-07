@@ -159,12 +159,31 @@ header {
 
     .grey-bg {
         background-color: #F5F5F5;
+        display: flex;
+        align-items: center;
     }
 
     .margin-left {
         padding-left: 50px;
-        display: flex;
-        align-items: center;
+    }
 
+    .thematiques-list {
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .thematique-item {
+            display: flex;
+            align-items: center;
+
+            strong {
+                width: 50px;
+                font-size: 31px;
+                font-weight: bold;
+            }
+
+            p {
+                margin: 0 0 0 1rem;
+            }
+        }
     }
 }
