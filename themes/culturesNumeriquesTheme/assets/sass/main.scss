@@ -1,29 +1,15 @@
-// Default is light theme
-
-body {
-    --primary-1: #1E1E1E;
-    --background-1: #FFFFFF;
-    --accent-1: #5487FF; 
-    --secondary-1: #F5F5F5;
- 
-}
-
-body.dark-theme {
-    --primary-1: #FFFFFF;
-    --background-1: #1E1E1E;
-    --accent-1: #5487FF;
-    --secondary-1: #343434;
-
-
-}
+// les variables sont dans ./variables.scss
 
 body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Inter', sans-serif;
-    color: var(--primary-1);
-    background: var(--background-1);
+    color: var(--fg-1);
+    background: var(--bg-1);
 }
+
+
+
 
 #content {
     height: 100%;
@@ -48,8 +34,8 @@ body {
 
 // Header
 header {
-    background-color: var(--background-1);
-    border-bottom: 1.8px solid var(--primary-1);
+    background-color: var(--bg-1);
+    border-bottom: 1.8px solid var(--fg-1);
 
     .container {
         display: flex;
@@ -62,11 +48,11 @@ header {
 
     h2 {
         a {
-            color: var(--color-1);
+            color: var(--fg-1);
             text-decoration: none;
 
             &:hover {
-                color: var(--color-1);
+                color: var(--fg-1);
             }
         }
     }
@@ -96,11 +82,11 @@ header {
         }
 
         button.search-btn path, button.theme-switch-btn #sun-icon path {
-            fill: var(--primary-1);
+            fill: var(--fg-1);
         }
 
         button.open-menu-btn path, button.theme-switch-btn #moon-icon path {
-            stroke: var(--primary-1);
+            stroke: var(--fg-1);
         }
     }
 }
@@ -112,7 +98,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--background-1);
+    background-color: var(--bg-1);
     padding: 150px;
 
     &.active {
@@ -122,7 +108,7 @@ header {
     .close-menu-btn {
         text-align: right;
         margin: 0;
-        color: var(--primary-1);
+        color: var(--fg-1);
         text-decoration: none;
         font-size: 16px;
         cursor: pointer;
@@ -140,20 +126,41 @@ header {
         }
 
         a {
-            color: var(--color-1);
+            color: var(--fg-1);
             text-decoration: none;
         }
     }
 }
 
 .landing {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+
+    .col, .col-5 {
+        margin: 0;
+        padding: 0;
+    }
 
     .hero-title {
         font-size: 64px;
         width: 200%;
     }
 
+    img {
+        width: 10px;
+    }
+
     .grey-bg {
-        background-color: grey;
+        background-color: #F5F5F5;
+    }
+
+    .margin-left {
+        padding-left: 50px;
+        display: flex;
+        align-items: center;
+
     }
 }

@@ -11,14 +11,14 @@
     width: 52px;
     height: 63px;
     
-    color: var(--primary-1);
-    background: var(--secondary-1);
+    color: var(--fg-1);
+    background: var(--bg-2);
     border-radius: 4px;
 }
 
 .pagination-controls:hover{
-    color: var(--primary-1);
-    background: var(--secondary-1);
+    color: var(--fg-1);
+    background: var(--bg-2);
     border: 2px solid #5487FF;
     box-sizing: border-box;
     border-radius: 4px;

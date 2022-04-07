@@ -1,0 +1,75 @@
+// Default is light theme
+
+body {
+    // changement des couleurs selon la maquette
+    
+    // foreground (texte, icones, ...)
+    --fg-1: #1E1E1E;
+    --fg-2: #646464;
+    
+    // background
+    --bg-1: #FFFFFF;
+    --bg-2: #F5F5F5;
+
+    // couleur d'accentuation
+    --accent-1: #0039BF;
+
+
+    // anciens styles
+    // --primary-1: #1E1E1E;
+    // --background-1: #FFFFFF;
+    // --accent-1: #5487FF; 
+    // --secondary-1: #F5F5F5;
+ 
+}
+
+body.dark-theme {
+
+    // changement des couleurs selon la maquette
+    
+    // foreground (texte, icones, ...)
+    --fg-1: #FFFFFF;
+    --fg-2: #F5F5F5;
+    
+    // background
+    --bg-1: #1E1E1E;
+    --bg-2: #646464;
+
+    // couleur d'accentuation
+    --accent-1: #84A9FF;
+
+
+    // anciens styles
+    // --primary-1: #FFFFFF;
+    // --background-1: #1E1E1E;
+    // --accent-1: #5487FF;
+    // --secondary-1: #343434;
+}
+
+// fonts
+body {
+    /* font weight */
+    --fw-light: 300;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+
+    /* font size */
+    // --fs-heading-1: 64px;
+    --fs-heading-1: calc(1.5rem + 1.8vw);
+    
+    // --fs-heading-2: 39px;
+    --fs-heading-2: calc( 1.370rem + 1.5vw);
+    
+    // --fs-title: 25px;
+    --fs-title: calc(1.25rem + 0.6vw);
+
+    --fs-text: 18px;
+    --fs-label: 16px;
+
+    /* line height */
+    --line-175: 1.75;
+    --line-120: 1.2;
+
+    /* letter spacing */
+    --letter-snug: -5.5%;
+}

@@ -1,6 +1,49 @@
-.text-p {
-    font-weight: 300;
+// 
+// Les utils sont des classes génériques réutilisables partout
+// 
+
+// couleurs
+.text-fg-2 {color: var(--fg-1)}
+.text-fg-2 {color: var(--fg-2)}
+.text-bg-1 {color: var(--bg-1)}
+.text-bg-2 {color: var(--bg-2)}
+.text-accent-1 {color: var(--accent-1)}
+
+.border-fg-2 {border-color: var(--fg-1)}
+.border-fg-2 {border-color: var(--fg-2)}
+.border-bg-1 {border-color: var(--bg-1)}
+.border-bg-2 {border-color: var(--bg-2)}
+.border-accent-1 {border-color: var(--accent-1)}
+
+.bg-fg-2 {background-color: var(--fg-1)}
+.bg-fg-2 {background-color: var(--fg-2)}
+.bg-bg-1 {background-color: var(--bg-1)}
+.bg-bg-2 {background-color: var(--bg-2)}
+.bg-accent-1 {background-color: var(--accent-1)}
+
+
+
+// fonts
+
+.heading-1 {        font-weight: var(--fw-semibold);    font-size: var(--fs-heading-1);     line-height: var(--line-120); }
+.heading-2 {        font-weight: var(--fw-medium);      font-size: var(--fs-heading-1);     line-height: var(--line-120); }
+.heading-3 {        font-weight: var(--fw-light);       font-size: var(--fs-heading-2);     line-height: var(--line-120); }
+.text-title {       font-weight: var(--fw-medium);      font-size: var(--fs-title);         line-height: var(--line-120); }
+.text-subtitle {    font-weight: var(--fw-medium);      font-size: var(--fs-label);         line-height: auto; letter-spacing: var(--letter-snug);}
+.text-p {           font-weight: var(--fw-light);       font-size: var(--fs-text);          line-height: var(--line-175); }
+.text-btn {         font-weight: var(--fw-medium);      font-size: var(--fs-label);         line-height: var(--line-120); }
+
+.letter-snug {letter-spacing: var(--letter-snug);}
+
+.card-title, .card-thematique, .card-text { font-size: var(--fs-label); line-height: auto; letter-spacing: var(--letter-snug);}
+.card-title, .card-thematique { font-weight: var(--fw-medium);  }
+.card-text { font-weight: var(--fw-light); }
+
+.heading-1, .heading-2, .heading-3, .text-title, .text-subtitle, .text-btn {
+    margin: 0;
 }
+
+
 
 .img-fluid {
     width: 100%;
@@ -13,12 +56,12 @@ p.center {
 
 .text-link {
     text-decoration: none;
-    color: var(--primary-1);
+    color: var(--fg-1);
 }
 
 .text-link:hover {
     text-decoration: underline;
-    color: var(--primary-1);
+    color: var(--fg-1);
 }
 
 
@@ -29,7 +72,7 @@ p.center {
 
 .divider {
     height: 1px;
-    background: var(--primary-1);
+    background: var(--fg-1);
     width: 100%;
 }
 
@@ -56,6 +99,6 @@ p.center {
 
     .divider {
         width: 100%;
-        border-bottom: 1px solid var(--primary-1);
+        border-bottom: 1px solid var(--fg-1);
     }
 }
