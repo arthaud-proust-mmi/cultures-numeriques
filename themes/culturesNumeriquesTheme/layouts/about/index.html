@@ -5,13 +5,17 @@
             <div class="divider flex-shrink-1"></div>
         </div>
 
+        <h1>H1</h1>
+        <h2>H2</h2>
+        <h3>H3</h3>
+        <h4>H4</h4>
 
         <div class="row pt-5">
             <article class="col-sm-8 mt-md-5 pt-md-5 col-md-7 col-xl-6 offset-xl-2">
                 <h1>{{ .Params.Owner.Title }}</h1>
-                <h2>{{ .Params.Owner.Subtitle }}</h2>
+                <h2 class="text-fg-2">{{ .Params.Owner.Subtitle }}</h2>
                 {{ range .Params.Owner.Lines }}
-                    <p>{{ . | markdownify }}</p>
+                    <p class="text-p">{{ . | markdownify }}</p>
                 {{ end}}
             </article>
 
@@ -41,7 +45,7 @@
                             <div class="group-member">
                                 <img src="{{.img }}">
                                 <h6 class="mt-2 mb-1"><strong>{{ .name }}</strong></h6>
-                                <span class="fw-light">{{ .role }}</span>
+                                <span class="fw-light text-fg-2">{{ .role }}</span>
                             </div>
                         {{ end }}
                     </div>

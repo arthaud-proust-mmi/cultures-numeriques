@@ -1,6 +1,36 @@
-.text-p {
-    font-weight: 300;
-}
+// 
+// Les utils sont des classes génériques réutilisables partout
+// 
+
+// couleurs
+.text-fg-2 {color: var(--fg-1)}
+.text-fg-2 {color: var(--fg-2)}
+.text-bg-1 {color: var(--bg-1)}
+.text-bg-2 {color: var(--bg-2)}
+.text-accent-1 {color: var(--accent-1)}
+
+.border-fg-2 {border-color: var(--fg-1)}
+.border-fg-2 {border-color: var(--fg-2)}
+.border-bg-1 {border-color: var(--bg-1)}
+.border-bg-2 {border-color: var(--bg-2)}
+.border-accent-1 {border-color: var(--accent-1)}
+
+.bg-fg-2 {background-color: var(--fg-1)}
+.bg-fg-2 {background-color: var(--fg-2)}
+.bg-bg-1 {background-color: var(--bg-1)}
+.bg-bg-2 {background-color: var(--bg-2)}
+.bg-accent-1 {background-color: var(--accent-1)}
+
+
+
+// fonts
+.text-p {font-weight: 300}
+.text-title { font-weight: 500}
+.text-subtitle { font-weight: 500}
+.text-btn { font-weight: 500}
+
+
+
 
 .img-fluid {
     width: 100%;
