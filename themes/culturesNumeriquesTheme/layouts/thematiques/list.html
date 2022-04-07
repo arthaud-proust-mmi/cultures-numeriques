@@ -1,0 +1,8 @@
+{{ define "main" }}
+	<main class="container">
+        <h3 class="title mb-5">Thématiques</h3>
+        {{ range .Pages }}
+            <h4 class="heading-3 mb-2"><a class="text-link" href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        {{ end}}
+	</main>
+{{ end }}
