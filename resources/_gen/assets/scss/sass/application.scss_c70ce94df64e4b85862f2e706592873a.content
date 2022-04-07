@@ -6520,32 +6520,35 @@ header {
   width: 100%;
   max-width: 100vw;
   overflow-x: hidden; }
-  .landing .col, .landing .col-5 {
-    margin: 0;
-    padding: 0; }
-  .landing .hero-title {
-    font-size: 64px;
-    width: 200%; }
-  .landing img {
-    width: 10px; }
-  .landing .grey-bg {
-    background-color: #F5F5F5;
+  .landing .landing-bottom-row p {
+    font-size: 25px; }
+  .landing .landing-bottom-row .grey-bg {
     display: flex;
-    align-items: center; }
-  .landing .margin-left {
-    padding-left: 50px; }
-  .landing .thematiques-list {
+    align-items: center;
+    background-color: #F5F5F5; }
+    .landing .landing-bottom-row .grey-bg p {
+      padding: 25% 0;
+      margin: 0; }
+  .landing .landing-bottom-row .thematiques-list {
     margin-top: 50px;
     margin-bottom: 50px; }
-    .landing .thematiques-list .thematique-item {
+    .landing .landing-bottom-row .thematiques-list .thematique-item {
       display: flex;
       align-items: center; }
-      .landing .thematiques-list .thematique-item strong {
+      .landing .landing-bottom-row .thematiques-list .thematique-item strong {
         width: 50px;
         font-size: 31px;
         font-weight: bold; }
-      .landing .thematiques-list .thematique-item p {
+      .landing .landing-bottom-row .thematiques-list .thematique-item p {
         margin: 0 0 0 1rem; }
+  .landing .landing-top-row .hero-title {
+    font-size: 64px;
+    width: 200%; }
+  .landing .col, .landing .col-5 {
+    margin: 0;
+    padding: 0; }
+  .landing .margin-left {
+    padding-left: 50px; }
 
 .pagination-controls {
   text-decoration: none;
