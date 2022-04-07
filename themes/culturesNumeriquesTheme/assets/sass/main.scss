@@ -3,7 +3,8 @@
 body {
     --primary-1: #1E1E1E;
     --background-1: #FFFFFF;
-    --accent-1: #5487FF; 
+    --accent-1: #0039BF; 
+    --accent-2: #5487FF;
     --secondary-1: #F5F5F5;
  
 }
@@ -11,11 +12,13 @@ body {
 body.dark-theme {
     --primary-1: #FFFFFF;
     --background-1: #1E1E1E;
-    --accent-1: #5487FF;
+    --accent-1: #5487FF ;
     --secondary-1: #343434;
 
 
 }
+
+
 
 body {
     min-height: 100vh;
@@ -23,6 +26,7 @@ body {
     font-family: 'Inter', sans-serif;
     color: var(--primary-1);
     background: var(--background-1);
+
 }
 
 #content {

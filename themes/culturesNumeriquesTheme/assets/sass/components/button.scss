@@ -1,4 +1,37 @@
 
+  .primary-button{
+    position: relative;
+    text-decoration:none;  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    position: static;
+    width: 126px;
+    height: 39px;
+
+
+    background: var(--background-1);
+    color: var(--accent-1);
+
+
+    border: 1px solid var(--accent-1);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0 var(--accent-1);
+
+}
+
+
+ .primary-button:hover{
+  box-shadow: 5px 5px 0 var(--accent-1);
+  color: var(--accent-1);
+  transition: box-shadow 0.2s;
+
+ }
+
+
 
 .pagination-controls{
     text-decoration:none;  
@@ -19,9 +52,11 @@
 .pagination-controls:hover{
     color: var(--primary-1);
     background: var(--secondary-1);
-    border: 2px solid #5487FF;
+    border: 2px solid var(--accent-2);
     box-sizing: border-box;
     border-radius: 4px;
   }
+
+
 
 
