@@ -6260,14 +6260,12 @@ progress {
 .text-p {
   font-weight: 300; }
 
-<<<<<<< HEAD
 .img-fluid {
   width: 100%;
   height: auto; }
-=======
+
 p.center {
   text-align: center; }
->>>>>>> a2e59df808a7ef6fc769334b5ca29c6e01d2d971
 
 .text-link {
   text-decoration: none;
