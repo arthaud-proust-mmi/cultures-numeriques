@@ -13,12 +13,12 @@ p.center {
 
 .text-link {
     text-decoration: none;
-    color: var(--primary-1);
+    color: var(--fg-1);
 }
 
 .text-link:hover {
     text-decoration: underline;
-    color: var(--primary-1);
+    color: var(--fg-1);
 }
 
 
@@ -29,7 +29,7 @@ p.center {
 
 .divider {
     height: 1px;
-    background: var(--primary-1);
+    background: var(--fg-1);
     width: 100%;
 }
 
@@ -56,6 +56,6 @@ p.center {
 
     .divider {
         width: 100%;
-        border-bottom: 1px solid var(--primary-1);
+        border-bottom: 1px solid var(--fg-1);
     }
 }

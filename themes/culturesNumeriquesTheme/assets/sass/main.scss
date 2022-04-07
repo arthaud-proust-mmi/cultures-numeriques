@@ -1,28 +1,57 @@
 // Default is light theme
 
 body {
-    --primary-1: #1E1E1E;
-    --background-1: #FFFFFF;
-    --accent-1: #5487FF; 
-    --secondary-1: #F5F5F5;
+    // changement des couleurs selon la maquette
+    
+    // foreground (texte, icones, ...)
+    --fg-1: #1E1E1E;
+    --fg-2: #646464;
+    
+    // background
+    --bg-1: #FFFFFF;
+    --bg-2: #F5F5F5;
+
+    // couleur d'accentuation
+    --accent-1: #0039BF;
+
+
+    // anciens styles
+    // --primary-1: #1E1E1E;
+    // --background-1: #FFFFFF;
+    // --accent-1: #5487FF; 
+    // --secondary-1: #F5F5F5;
  
 }
 
 body.dark-theme {
-    --primary-1: #FFFFFF;
-    --background-1: #1E1E1E;
-    --accent-1: #5487FF;
-    --secondary-1: #343434;
+
+    // changement des couleurs selon la maquette
+    
+    // foreground (texte, icones, ...)
+    --fg-1: #FFFFFF;
+    --fg-2: #F5F5F5;
+    
+    // background
+    --bg-1: #1E1E1E;
+    --bg-2: #646464;
+
+    // couleur d'accentuation
+    --accent-1: #84A9FF;
 
 
+    // anciens styles
+    // --primary-1: #FFFFFF;
+    // --background-1: #1E1E1E;
+    // --accent-1: #5487FF;
+    // --secondary-1: #343434;
 }
 
 body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Inter', sans-serif;
-    color: var(--primary-1);
-    background: var(--background-1);
+    color: var(--fg-1);
+    background: var(--bg-1);
 }
 
 #content {
@@ -48,8 +77,8 @@ body {
 
 // Header
 header {
-    background-color: var(--background-1);
-    border-bottom: 1.8px solid var(--primary-1);
+    background-color: var(--bg-1);
+    border-bottom: 1.8px solid var(--fg-1);
 
     .container {
         display: flex;
@@ -96,11 +125,11 @@ header {
         }
 
         button.search-btn path, button.theme-switch-btn #sun-icon path {
-            fill: var(--primary-1);
+            fill: var(--fg-1);
         }
 
         button.open-menu-btn path, button.theme-switch-btn #moon-icon path {
-            stroke: var(--primary-1);
+            stroke: var(--fg-1);
         }
     }
 }
@@ -112,7 +141,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--background-1);
+    background-color: var(--bg-1);
     padding: 150px;
 
     &.active {
@@ -122,7 +151,7 @@ header {
     .close-menu-btn {
         text-align: right;
         margin: 0;
-        color: var(--primary-1);
+        color: var(--fg-1);
         text-decoration: none;
         font-size: 16px;
         cursor: pointer;
