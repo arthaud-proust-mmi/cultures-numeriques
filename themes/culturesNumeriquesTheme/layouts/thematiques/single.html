@@ -1,0 +1,21 @@
+{{ define "main" }}
+	<main class="container" id="event-list-container">
+        <div class="row">
+
+            <div class="col-12 col-xl-3">
+                <h3>{{ .Title }}</h3>
+                {{ $thematiqueName := .File.BaseFileName }}
+                {{ $thematiqueName }}
+            </div>
+
+            <div class="col-12 col-xl-9 row d-flex flex-row align-items-stretch">
+                {{ range (where .Site.Pages "Section" "events") }}
+                    {{ range (where .Pages "Params.thematique" $thematiqueName ) }}
+                        {{ .Render "event-summary" }}
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+	</main>
+<!-- {{ partial "sidebar.html" . }} -->
+{{ end }}

@@ -18,4 +18,49 @@ project:
         - L’objectif étant de donner accès à cette culture à un grand nombre d’étudiants, de non-initiés et de spécialistes du numérique. C’est en collaboration avec **Arnaud Levy**, ainsi que les étudiants de la formation **MMI** de l’**IUT Bordeaux Montaigne** que ce site est imaginé, designé et développé.
         - Approfondissez, apprenez et contribuez aux sujets de votre choix.
         - Étienne Mineur
+
+
+team:
+    - group: UI Design
+      members:
+        - name: Auréliane Dor
+          role: UI Design / DA
+          img: /media/aureliane.jpg
+        - name: Leïly Coquard
+          role: UI Design / DA
+          img: /media/leily.jpg
+        - name: Florentin Sendra
+          role: UI Design / DA
+          img: /media/florentin.jpg
+        - name: Régis Cosaque
+          role: UI / UX Design
+          img: /media/regis.jpg
+        - name: Kayo Monteiro
+          role: UI Design
+          img: /media/kayo.jpg
+
+    - group: Développeurs
+      members:
+        - name: Gabriel Rouleau
+          role: Back end
+          img: /media/gabriel.jpg
+        - name: Arthaud Proust
+          role: Back end
+          img: /media/arthaud.jpg
+        - name: Adel Saana
+          role: Back end
+          img: /media/adel.jpg
+
+    - group: Scrum Master
+      members:
+        - name: Arthur Blanc
+          role: Chef de projet
+          img: /media/arthur.jpg
+        - name: Jason Nago
+          role: Chef de projet / UX
+          img: /media/jason.jpg
+        - name: Lyam Roux
+          role: Chef de projet
+          img: /media/lyam.jpg
+        
 ---

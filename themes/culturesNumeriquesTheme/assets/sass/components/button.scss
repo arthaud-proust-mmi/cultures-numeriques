@@ -44,15 +44,21 @@
     width: 52px;
     height: 63px;
     
-    color: var(--primary-1);
-    background: var(--secondary-1);
+    color: var(--fg-1);
+    background: var(--bg-2);
     border-radius: 4px;
 }
 
 .pagination-controls:hover{
+<<<<<<< HEAD
     color: var(--primary-1);
     background: var(--secondary-1);
     border: 2px solid var(--accent-2);
+=======
+    color: var(--fg-1);
+    background: var(--bg-2);
+    border: 2px solid #5487FF;
+>>>>>>> 63a48526aa7cebe5a173221db8526431a3e184bc
     box-sizing: border-box;
     border-radius: 4px;
   }

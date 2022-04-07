@@ -3,10 +3,18 @@
 @import "node_modules/bootstrap/scss/bootstrap-grid";
 @import "node_modules/bootstrap/scss/bootstrap-utilities";
 
+
+// font size, colors etc
+@import './variables.scss';
+
 @import './utils';
 @import './main';
+
+// Composants
 @import './components/button.scss';
 
+// Pages
+@import './pages/about.scss';
 
-// @import './partials/footer.scss';
+// Partials
 @import './partials/event-summary.scss';
