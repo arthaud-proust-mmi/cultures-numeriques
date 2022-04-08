@@ -52,6 +52,7 @@ body {
     --fw-light: 300;
     --fw-medium: 500;
     --fw-semibold: 600;
+    --fw-normal: 400;
 
     /* font size */
     // --fs-heading-1: 64px;
@@ -75,4 +76,5 @@ body {
 
     /* letter spacing */
     --letter-snug: -5.5%;
+    --letter-spacing: -0.055em;
 }
