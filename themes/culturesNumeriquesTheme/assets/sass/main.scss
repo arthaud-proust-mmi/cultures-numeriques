@@ -42,11 +42,12 @@ header {
     background-color: var(--bg-1);
     border-bottom: 1.8px solid var(--fg-1);
 
-    .container {
+    .header-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
 
+        margin: 0 2rem 0 2rem ;
         padding-top: 20px;
         padding-bottom: 20px;
     }
