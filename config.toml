@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "cultures numériques"
+title = "Cultures Numériques"
 theme = "culturesNumeriquesTheme"
 
 [module]

@@ -1,0 +1,22 @@
+<nav class="container pt-2 pb-4 mb-5">
+    <ul id="breadcrumb" class="breadcrumb">
+        {{ template "breadcrumbnav" (dict "p1" . "p2" . "siteTitle" .Site.Title) }}
+    </ul>
+</nav>
+
+{{ define "breadcrumbnav" }}
+    {{ if .p1.Parent }}
+        {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 "siteTitle" .siteTitle)  }}
+    {{ else if not .p1.IsHome }}
+        {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 "siteTitle" .siteTitle)  }}
+    {{ end }}
+    <li>
+        {{ $title := cond (eq .p1.Title .siteTitle) "Accueil" .p1.Title }}
+        {{ if eq .p1 .p2 }}
+            <span>{{ $title }}</span>
+        {{ else }}
+            <a class="breadcrumb-link" href="{{ .p1.RelPermalink }}">{{ $title }}</a>
+            <span>></span>
+        {{ end }}
+    </li>
+{{ end }}

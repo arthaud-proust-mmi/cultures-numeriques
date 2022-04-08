@@ -4,7 +4,8 @@
     <body>
         <div class="min-vh-100">
             {{- partial "header.html" . -}}
-            <div id="content" class="pt-5">
+            <div id="content" class="pt-4">
+                {{ partial "breadcrumb" . }}
                 {{- block "main" . }}{{- end }}
             </div>
         </div>
