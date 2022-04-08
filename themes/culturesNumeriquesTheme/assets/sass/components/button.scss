@@ -6,12 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-
-    position: static;
-    width: 126px;
-    height: 39px;
-
+    padding: 0.55rem;
 
     background: var(--bg-1);
     color: var(--accent-1);
@@ -36,6 +31,7 @@
 .pagination-controls{
     text-decoration:none;  
     display: flex;
+    flex-shrink: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;

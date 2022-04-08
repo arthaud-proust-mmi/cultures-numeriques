@@ -1,6 +1,8 @@
 <header>
-	<div class="container">
-		<h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+	<div class="header-container">
+		<div class="logo-site">
+			{{partial "logo"}}
+		</div>
 
 		<div class="buttons-container">
 			<button class="theme-switch-btn" id="toggle-theme-btn">

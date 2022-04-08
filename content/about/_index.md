@@ -47,7 +47,7 @@ team:
         - name: Arthaud Proust
           role: Back end
           img: /media/arthaud.jpg
-        - name: Adel Saana
+        - name: Adel Sanaa
           role: Back end
           img: /media/adel.jpg
 
