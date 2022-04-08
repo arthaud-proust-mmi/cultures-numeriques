@@ -1,41 +1,12 @@
-<<<<<<< HEAD
-// Default is light theme
-
-body {
-    --primary-1: #1E1E1E;
-    --background-1: #FFFFFF;
-    --accent-1: #0039BF; 
-    --accent-2: #5487FF;
-    --secondary-1: #F5F5F5;
- 
-}
-
-body.dark-theme {
-    --primary-1: #FFFFFF;
-    --background-1: #1E1E1E;
-    --accent-1: #5487FF ;
-    --secondary-1: #343434;
-
-
-}
-=======
 // les variables sont dans ./variables.scss
->>>>>>> 63a48526aa7cebe5a173221db8526431a3e184bc
-
 
 
 body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Inter', sans-serif;
-<<<<<<< HEAD
-    color: var(--primary-1);
-    background: var(--background-1);
-
-=======
     color: var(--fg-1);
     background: var(--bg-1);
->>>>>>> 63a48526aa7cebe5a173221db8526431a3e184bc
 }
 
 
@@ -226,3 +197,4 @@ header {
         padding-left: 50px;
     }
 }
+
