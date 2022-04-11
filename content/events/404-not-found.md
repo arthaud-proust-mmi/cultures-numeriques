@@ -2,12 +2,14 @@
 visibleInCms: true
 title: 404 Not Found
 kind: inventions
+thematique: informatique-et-reseau
 year: 1989
 abstract: >-
   Code vous indiquant que vous ne pouvez pas communiquer avec le serveur que
   vous avez demandez.
 
   Dans ce code le premier chiffre "4" une erreur client et les deux autres chiffres indiquent une erreur générale.
+gallery: /images/events/erreur-404-2.jpg
 description: >-
   Dans le World Wide Web, l’erreur 404 signale que la ressource demandée,
   généralement une page Web, n'a pas été trouvée. Elle est souvent accompagnée
@@ -21,5 +23,4 @@ description: >-
 
   Ce code peut aussi être détourné de son sens et renvoyé à la suite d'une restriction d’accès à certaines ressources web comme, par exemple, la censure.
 image: /images/events/erreur-404-2.jpg
-gallery: /images/events/erreur-404-2.jpg
 ---
