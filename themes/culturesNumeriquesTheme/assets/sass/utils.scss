@@ -30,7 +30,8 @@
 .heading-3 {        font-weight: var(--fw-light);       font-size: var(--fs-heading-2);     line-height: var(--line-120); }
 .text-title {       font-weight: var(--fw-medium);      font-size: var(--fs-title);         line-height: var(--line-120); }
 .text-subtitle {    font-weight: var(--fw-medium);      font-size: var(--fs-label);         line-height: auto; letter-spacing: var(--letter-snug);}
-.text-p {           font-weight: var(--fw-normal);       font-size: var(--fs-text);          line-height: var(--line-175); letter-spacing: var(--letter-spacing);}
+.text-p {           font-weight: var(--fw-light);       font-size: var(--fs-text);          line-height: var(--line-175);}
+.text-p-normal {    font-weight: var(--fw-normal);       font-size: var(--fs-text);          line-height: var(--line-175); letter-spacing: var(--letter-spacing);}
 .text-btn {         font-weight: var(--fw-medium);      font-size: var(--fs-label);         line-height: var(--line-120); }
 
 .letter-snug {letter-spacing: var(--letter-snug);}

@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Apple II
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1977
 persons:
   - steve-wozniak

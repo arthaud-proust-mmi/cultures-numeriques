@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Additionneur binaire à relais
-kind: inventions
+kind:
+  - inventions
+thematique: pre-informatique
 year: 1937
 persons:
   - george-stibitz
