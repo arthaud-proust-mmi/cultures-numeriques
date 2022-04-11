@@ -3,6 +3,7 @@ visibleInCms: true
 title: L'Odysée de Gabriel
 kind:
   - livres
+thematique: histoire-du-jeu-video
 year: 2010
 persons:
   - stanislas-bernatt
