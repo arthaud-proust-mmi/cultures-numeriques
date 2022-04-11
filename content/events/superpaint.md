@@ -1,7 +1,8 @@
 ---
 visibleInCms: true
 title: Superpaint
-kind: inventions
+kind:
+  - inventions
 year: 1973
 persons:
   - firme-xerox
