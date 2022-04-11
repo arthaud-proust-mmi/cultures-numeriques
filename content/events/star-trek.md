@@ -1,10 +1,10 @@
 ---
 visibleInCms: true
 title: Star Trek
-kind: films
+kind:
+  - films
 year: 1966
-abstract: "Star Trek (à l'origine nommée sous son titre français, Patrouille du
-  cosmos) est un univers de science-fiction, créé par Gene Roddenberry. "
+abstract: ""
 description: >-
   Star Trek (à l'origine nommée sous son titre français, Patrouille du cosmos)
   est un univers de science-fiction, créé par Gene Roddenberry. 
