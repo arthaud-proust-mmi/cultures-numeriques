@@ -47,20 +47,33 @@
 				<div class="col">
 					<p>Entrez une date</p>
 					<div>
-						<button onclick="previousYear()"><-</button>
-						<span id="date-previous">1986</span>
-						<input type="number" id="date-input" value="1987" onchange="onInputSet()">
-						<span id="date-next">1988</span>
-						<button onclick="nextYear()">-></button>
+						<button id="eventManager-yearPrevious"><-</button>
+						<span id="date-previous"></span>
+						<input type="number" id="date-input" value="">
+						<span id="date-next"></span>
+						<button id="eventManager-yearNext">-></button>
 					</div>
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col">
+
+            <div class="row">
+
+                <div class="col-12 col-xl-3">
 					<p>trier par</p>
-				</div>
-			</div>
+                    <button id="eventManager-paginatePrevious">Précédent</button>
+                    <button id="eventManager-paginateNext">Suivant</button>
+                </div>
+    
+                <div class="col-12 col-xl-9 row d-flex flex-row align-items-stretch" id="events-homepage">
+                    <!-- {{ range .Paginator.Pages.ByParam "year" }}
+                        {{ partial "event-summary" . }} 
+                    {{ end }} -->
+                </div>
+                <div class="col-12 offset-xl-3 col-xl-9">
+                    <button id="eventManager-loadMore" class="mx-auto">Afficher plus</button>
+                </div>
+            </div>
 		</section>
 	</main>
 	<script src="/js/index.js" defer></script>

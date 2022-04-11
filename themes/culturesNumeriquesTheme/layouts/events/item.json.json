@@ -1,0 +1,7 @@
+{
+    "title": "{{ .Title }}",
+    "permalink": "{{ .Permalink }}",
+    "image": "{{ .Params.image }}",
+    "year": "{{ .Params.year }}",
+    "abstract": {{ jsonify .Params.abstract }}
+}
