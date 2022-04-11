@@ -1,28 +1,30 @@
 <article class="event-summary col-md-6 col-lg-4 col-xl-4 mb-5">
-    <div class="event-summary-container p-4 h-100 d-flex flex-column align-items-start">
+    <a href="{{ .Permalink }}">
+        <div class="event-summary-container p-4 h-100 d-flex flex-column align-items-start">
 
-        <div class="d-flex flex-row justify-content-between w-100">
-            <span>{{ .Title }}</span>
-            <span>{{ .Params.Thematique }}</span>
+            <div class="d-flex flex-row justify-content-between w-100">
+                <span>{{ .Title }}</span>
+                <span>{{ .Params.Thematique }}</span>
+            </div>
+
+            <div class="divider mt-1 mb-3"></div>
+            <div class="event-summary-img-container">
+                <img src={{ .Params.image }} alt={{ .Title }}>
+            </div>
+
+            <div class="mt-3 d-flex flex-row gap-2">
+                <span>{{ .Params.Year }}</span>
+                {{ $type := (printf "%T" .Params.Kind) }}
+                {{ if eq $type "string" }}
+                    <span>{{ .Params.Kind }}</span>
+                {{ else }}
+                    {{ range .Params.Kind }}
+                        <span>{{ . }}</span>
+                    {{ end }}
+                {{ end}}
+            </div>
+            <p class="py-2 text-p-normal">{{ .Params.abstract | truncate 120 }} <a class="mt-auto text-link underlined" href="{{ .Permalink }}">En savoir plus</a></p>
+
         </div>
-
-        <div class="divider mt-1 mb-3"></div>
-        <div class="event-summary-img-container">
-            <img src={{ .Params.image }} alt={{ .Title }}>
-        </div>
-
-        <div class="mt-3 d-flex flex-row gap-2">
-            <span>{{ .Params.Year }}</span>
-            {{ $type := (printf "%T" .Params.Kind) }}
-            {{ if eq $type "string" }}
-                <span>{{ .Params.Kind }}</span>
-            {{ else }}
-                {{ range .Params.Kind }}
-                    <span>{{ . }}</span>
-                {{ end }}
-            {{ end}}
-        </div>
-        <p class="py-2 text-p-normal">{{ .Params.abstract | truncate 120 }} <a class="mt-auto text-link underlined" href="{{ .Permalink }}">En savoir plus</a></p>
-
-    </div>
+    </a>
 </article>

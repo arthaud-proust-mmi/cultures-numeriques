@@ -44,7 +44,14 @@
     margin: 0;
 }
 
+a {
+    color: unset;
+    // text-decoration: unset;
 
+    &:hover {
+        color: unset;
+    }
+}
 
 .img-fluid {
     width: 100%;
@@ -119,5 +126,32 @@ p.center {
     .divider {
         width: 100%;
         border-bottom: 1px solid var(--fg-1);
+    }
+}
+
+// Paginator controls
+.pagiantor-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        color: var(--accent-1);
+        background-color: var(--bg-2);
+        border-radius: 4px;
+        padding: 20px;
+        margin: 0 1rem;
+
+        &:focus {
+            border: 2px solid var(--accent-1);
+        }
+    }
+
+    p {
+        margin: 0 1rem;
+    }
+
+    svg.mirror {
+        transform: rotate(180deg);
     }
 }
