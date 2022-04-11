@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Stock Ticker
-kind: inventions
+kind:
+  - inventions
+thematique: mecanique
 year: 1867
 persons:
   - thomas-alva-edison
