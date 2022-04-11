@@ -1,13 +1,13 @@
 ---
 visibleInCms: true
 title: GNU
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1983
 persons:
   - richard-stallman
-abstract: "GNU est un système d’exploitation libre créé en 1983 par Richard
-  Stallman, maintenu par le projet GNU. Il reprend les concepts et le
-  fonctionnement d’UNIX. "
+abstract: ""
 description: >-
   GNU est un système d’exploitation libre créé en 1983 par Richard Stallman,
   maintenu par le projet GNU. Il reprend les concepts et le fonctionnement
