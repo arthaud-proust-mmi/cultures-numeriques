@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Footfalls
-kind: inventions
+kind:
+  - inventions
+thematique: histoire-du-jeu-video
 year: 2006
 persons:
   - golan-levin
