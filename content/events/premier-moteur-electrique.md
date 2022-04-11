@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Premier moteur électrique
-kind: inventions
+kind:
+  - inventions
+thematique: mecanique
 year: 1822
 persons:
   - peter-barlow
