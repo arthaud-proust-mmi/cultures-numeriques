@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Blockchain
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 2000
 description: Il s’agit d’une base de données distribuée dont les informations
   envoyées par les utilisateurs et les liens internes à la base sont vérifiés et
