@@ -1,17 +1,23 @@
 .container-quatre-cent-quatre{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 20%;
-    margin-right: 10%;
+    justify-content: space-around;
+    margin-left: 15%;
 
 }
-
 
 
 .quatre-cent-quatre-container-text{
-    margin-left: 5%;
-    padding-bottom: 10rem;
+    margin-left: 15%;
+    padding-bottom: 5%;
+}
 
+
+.quatre-cent-quatre-theme{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--accent-1);
     
 }
+
+
