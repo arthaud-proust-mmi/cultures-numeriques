@@ -2,7 +2,7 @@
 visibleInCms: true
 title: Encyclopédie
 kind:
-  - inventions
+  - livres
 year: 1751
 persons:
   - jean-le-rond-dalembert
