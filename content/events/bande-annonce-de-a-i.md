@@ -1,8 +1,11 @@
 ---
 visibleInCms: true
 title: Bande annonce de A.I.
-kind: films
+kind:
+  - films
 year: 2001
+persons:
+  - steven-spielberg
 abstract: "A.I. Intelligence artificielle (Artificial Intelligence: A.I. ou
   simplement A.I.) est un film de science-fiction américain écrit et réalisé par
   Steven Spielberg et sorti en 2001, sur une idée de Stanley Kubrick. Il est
