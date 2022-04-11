@@ -1,7 +1,8 @@
 ---
 visibleInCms: true
 title: Tron
-kind: films
+kind:
+  - films
 year: 1982
 persons:
   - steven-lisberger
