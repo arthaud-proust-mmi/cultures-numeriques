@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Bug (ou bogue)
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1945
 persons:
   - grace-murray-hooper
