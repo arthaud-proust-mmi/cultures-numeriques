@@ -1,8 +1,10 @@
 ---
 visibleInCms: true
 title: Compter avec des cailloux
-kind: inventions
-year: 1000
+kind:
+  - inventions
+thematique: pre-informatique
+year: 1001
 abstract: Le moyen le plus simple consiste à utiliser des cailloux disposés sur le sol.
 description: >-
   Le moyen le plus simple consiste à utiliser des cailloux disposés sur le sol.
