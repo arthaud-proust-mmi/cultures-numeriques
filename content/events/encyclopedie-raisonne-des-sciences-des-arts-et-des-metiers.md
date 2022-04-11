@@ -1,14 +1,13 @@
 ---
 visibleInCms: true
-title: Encyclopédie raisonné des sciences, des arts et des métiers
-kind: livres
+title: Encyclopédie
+kind:
+  - inventions
 year: 1751
 persons:
   - jean-le-rond-dalembert
   - denis-diderot
-abstract: L’Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des
-  métiers est une encyclopédie française, éditée de 1751 à 1772 sous la
-  direction de Denis Diderot et, partiellement, de Jean Le Rond d'Alembert.
+abstract: ""
 description: >-
   L’Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers
   est une encyclopédie française, éditée de 1751 à 1772 sous la direction de
