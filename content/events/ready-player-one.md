@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Ready Player One
-kind: films
+kind:
+  - films
+thematique: histoire-du-jeu-video
 year: 2018
 persons:
   - steven-spielberg
