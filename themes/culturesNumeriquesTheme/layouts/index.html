@@ -28,6 +28,11 @@
 				<div class="divider"></div>
 			</div>
 
+			<div class="row">
+				{{ range (where .Site.Pages ".Title" "Code") }}
+				<p>{{ .Title }}</p>
+				{{ end }}
+			</div>
 
 		</section>
 
