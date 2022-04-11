@@ -1,12 +1,11 @@
 ---
 visibleInCms: true
 title: ARPANET
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1969
-abstract: ARPANET ou Arpanet (de l'anglais Advanced Research Projects Agency
-  Network, aussi typographié « ARPAnet ») est l'acronyme du premier réseau à
-  transfert de paquets de données conçu aux États-Unis par la Defense  Advanced
-  Research Projects Agency (DARPA).
+abstract: ""
 description: >-
   ARPANET ou Arpanet (de l'anglais Advanced Research Projects Agency Network,
   aussi typographié « ARPAnet ») est l'acronyme du premier réseau à transfert de

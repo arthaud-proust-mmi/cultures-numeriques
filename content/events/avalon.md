@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Avalon
-kind: films
+kind:
+  - films
+thematique: histoire-du-jeu-video
 year: 2001
 persons:
   - mamoru-oshi

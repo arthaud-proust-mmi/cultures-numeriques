@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Atari/DIP
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1989
 abstract: >-
   L'Atari Portfolio, lancé par Atari en 1989, est le premier ordinateur portable
@@ -9,6 +11,7 @@ abstract: >-
 
 
   Le portfolio avait été conçu par la société Distributed Information Processing (DIP), basée à Guildford, Surrey au Royaume-Uni. Le fondateur de DIP était Ian Cullimore, qui avait préalablement travaillé sur le design des premiers modèles de la marque Psion.
+gallery: /images/events/atari-portfolio-computer.png
 description: >-
   Le portfolio est basé sur un processeur Intel 80C88 cadencé à 4.9152MHz et
   fait tourner une variante du MS-DOS appelé DIP DOS 2.11. Il dispose de 128kB
@@ -36,5 +39,4 @@ description: >-
 
   Le Porfolio connait encore aujourd'hui une certaine popularité. Beaucoup de gens l'affectionnent pour sa simplicité et son dépouillement. De plus, beaucoup de modifications ont été proposées pour le Portfolio, et notamment un accessoire permettant d'ajouter un rétro-éclairage à l'écran ou bien un convertisseur de cartes Porfolio - CompactFlash.
 image: /images/events/atari-portfolio-computer.png
-gallery: /images/events/atari-portfolio-computer.png
 ---

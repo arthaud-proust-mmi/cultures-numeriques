@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Apple Lisa
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1983
 abstract: Le Lisa (officiellement pour Local Integrated Software Architecture1,
   bien que Steve Jobs reconnût plus tard que c'était en honneur à sa fille Lisa

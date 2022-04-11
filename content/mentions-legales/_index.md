@@ -12,6 +12,11 @@ sections:
         - "Propriétaire: "
         - "Responsable de publication: "
     
+    - title: Hébergeur
+      lines:
+        - "Netlify - 44 Montgomery Street, Suite 300, San Francisco, California 94104"
+        - "https://netlify.com"
+        - "support@netlify.com"
     - title: Propriété intellectuelle
       lines: 
         - "Sauf mention contraire, tous les éléments accessibles sur le site (textes, images, graphismes, logo, icônes, sons, logiciels, etc.) restent la propriété exclusive de leurs auteurs, en ce qui concerne les droits de propriété intellectuelle ou les droits d’usage."

@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Beat Saber
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 2019
 abstract: Beat Saber est un jeu de rythme en VR où vous devez trancher les notes
   d'une musique entraînante qui arrivent vers vous, au sein d'un univers

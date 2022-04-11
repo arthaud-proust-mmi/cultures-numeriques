@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Arduino
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 2005
 abstract: Arduino est la marque d'une plateforme de prototypage open-source qui
   permet aux utilisateurs de créer des objets électroniques interactifs à partir

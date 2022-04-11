@@ -1,10 +1,10 @@
 ---
 visibleInCms: true
 title: Bâtons de Napier
-kind: inventions
+kind:
+  - inventions
+thematique: pre-informatique
 year: 1617
-persons:
-  - john-napier
 abstract: >-
   L'invention par John Napier / Jean Neper, de ses bâtons, ou réglettes de
   Neper, en 1617. 
@@ -12,6 +12,9 @@ abstract: >-
   Ces réglettes furent incorporées dans des instruments de formes diverses, parfois
 
   approchant le début de la mécanisation du calcul.
+gallery: /images/events/batons_de_napier.png
+persons:
+  - john-napier
 description: >-
   Le bâton de Napier, ou réglette de Neper est un abaque facilitant le calcul
   des produits, quotients, puissances et racines, inventé par le mathématicien
@@ -26,5 +29,4 @@ description: >-
 
   Sur chaque réglette est portée la table de multiplication du nombre qui apparaît sur la case supérieure. Ainsi sur la réglette qui débute par le 7, les cases suivantes contiendront 14, 21, 28… jusqu'à 63. Ce sont des nombres à deux chiffres, on fait figurer le chiffre des dizaines et celui des unités de part et d'autre du trait diagonal (voir illustration ci-contre).
 image: /images/events/abacos_neperianos_-m.a.n._madrid-_03.jpg
-gallery: /images/events/batons_de_napier.png
 ---

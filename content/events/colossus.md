@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Colossus
-kind: inventions
+kind:
+  - inventions
+thematique: mecanique
 year: 1944
 abstract: Colossus est une série de calculateurs électroniques fondé sur le
   système binaire.

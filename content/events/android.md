@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Android
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 2009
 abstract: Android, système d'exploitation Open Source pour smartphones.
 description: >-
