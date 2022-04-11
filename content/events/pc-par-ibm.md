@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: IBM PC
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1981
 description: >-
   L'**IBM Personal Computer** ou **IBM PC**, **modèle 5150**, est un [ordinateur
