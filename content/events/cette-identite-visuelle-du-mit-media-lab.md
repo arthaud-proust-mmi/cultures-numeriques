@@ -1,7 +1,8 @@
 ---
 visibleInCms: true
-title: Cette identité visuelle du MIT Media Lab
-kind: inventions
+title: Identité visuelle MIT MediaLab
+kind:
+  - inventions
 year: 2000
 abstract: >+
   Cette identité visuelle du MIT Media Lab s'inspire de la communauté qui le

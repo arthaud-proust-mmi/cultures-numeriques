@@ -1,11 +1,11 @@
 ---
 visibleInCms: true
 title: Impression 3D
-kind: inventions
+kind:
+  - inventions
+thematique: mecanique
 year: 2004
-abstract: L'impression 3D ou fabrication additive regroupe les procédés de
-  fabrication de pièces en volume par ajout de matière en couches successives
-  depuis une modélisation 3D
+abstract: ""
 description: >-
   Le 16 juillet 1984, le 1er brevet sur la « fabrication additive » est déposé,
   par trois Français : Jean-Claude André, Olivier de Witte et Alain le Méhauté,

@@ -1,9 +1,11 @@
 ---
 visibleInCms: true
 title: Google est partout
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 2005
-abstract: Google est partout avec Google vidéo, Gmail, Google Calendar, ...
+abstract: ""
 description: Google est partout avec Google vidéo, Gmail, Google Calendar,
   Blogger, Picasa, Google Talk, Google Desktop, Google Analytics, Google trends,
   Google earth, google maps, Google AdsSense, Google Latitude...
