@@ -5,7 +5,10 @@ kind:
   - inventions
 thematique: mecanique
 year: 2005
-abstract: "\n\n"
+abstract: >-
+  
+
+  Arrivé sur le marché en 2005 comme un modeste outil pour les étudiants de l’Interaction Design Institute Ivrea, Arduino a initié une révolution dans l’univers de l’électronique à l’échelle mondiale.
 description: >-
   Arrivé sur le marché en 2005 comme un modeste outil pour les étudiants de
   l’Interaction Design Institute Ivrea, Arduino a initié une révolution dans
