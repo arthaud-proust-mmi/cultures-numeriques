@@ -1,7 +1,7 @@
 {{ define "main" }}
 	<main>
 		<section id="landing-section" class="landing container">
-			<div class="row landing-top-row">
+			<div class="row landing-top-row g-0">
 				<div class="col-5 margin-left">
 					<h1 class="mt-3 mb-5 hero-title">Bienvenue à la<br/>culture numérique.</h1>
 					<p class="w-75 mb-4">Vous y trouverez toutes les ressources et le savoir que j’ai pu accumuler tout au long de mon parcours. Mon but est de donner accès à cette culture à un grand nombre d’étudiants, de non-initiés et de spécialistes du numérique.</p>
@@ -10,7 +10,7 @@
 					<img class="w-100" id="landing-bg" src="/images/landing-bg.png" alt="">
 				</div>
 			</div>
-			<div class="row landing-bottom-row">
+			<div class="row landing-bottom-row g-0">
 				<div class="col-5 margin-left grey-bg">
 					<p class="w-50">Approfondissez et apprenez aux sujets de votre choix.</p>
 				</div>
@@ -22,46 +22,64 @@
 			</div>
 		</section>
 
-		<section id="last-post-section">
-			<div class="title-divider">
-				<h2>à la une</h2>
-				<div class="divider"></div>
-			</div>
+		<div class="container-sm">
+			<section id="last-post-section">
+				<div class="title-divider">
+					<h2>à la une</h2>
+					<div class="divider"></div>
+				</div>
 
-			<div class="row">
-				{{ range (where .Site.Pages ".Title" "Code") }}
-				<p>{{ .Title }}</p>
-				{{ end }}
-			</div>
-
-		</section>
-
-		<section id="chronologie-section">
-			<div class="title-divider">
-				<h2>Chronologie</h2>
-				<div class="divider"></div>
-			</div>
-
-			<div class="row">
-				<div class="col"><p>Rechercher par date</p></div>
-				<div class="col">
-					<p>Entrez une date</p>
-					<div>
-						<button onclick="previousYear()"><-</button>
-						<span id="date-previous">1986</span>
-						<input type="number" id="date-input" value="1987" onchange="onInputSet()">
-						<span id="date-next">1988</span>
-						<button onclick="nextYear()">-></button>
+				<div class="row">
+					<div class="col">
+						<img class="w-100" src="/media/adel.jpg" alt="Evénement">
+					</div>
+					<div class="col latest-post-texts">
+						<h4>Titre de l'événement</h4>
+						<div class="title-divider">
+							<p>Thématique</p>
+							<div class="divider"></div>
+							<p>
+								<span><svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.7085 0C4.91875 0 0.208496 4.71025 0.208496 10.5C0.208496 16.2897 4.91875 21 10.7085 21C16.4982 21 21.2085 16.2897 21.2085 10.5C21.2085 4.71025 16.4982 0 10.7085 0ZM10.7085 19.8202C5.56931 19.8202 1.38827 15.6392 1.38827 10.5C1.38827 5.36082 5.56931 1.17978 10.7085 1.17978C15.8477 1.17978 20.0287 5.36082 20.0287 10.5C20.0287 15.6392 15.8477 19.8202 10.7085 19.8202ZM11.2984 10.2489V3.14621C11.2984 2.82032 11.0344 2.55632 10.7085 2.55632C10.3826 2.55632 10.1186 2.82032 10.1186 3.14621V10.5C10.1186 10.6605 10.184 10.814 10.2998 10.9251L14.3505 14.8187C14.4648 14.9286 14.6119 14.9834 14.7592 14.9834C14.9139 14.9834 15.0688 14.9228 15.1847 14.8022C15.4103 14.5672 15.4029 14.1939 15.1682 13.9681L11.2984 10.2489Z" fill="#1E1E1E"/></svg></span>
+								4 min de lecture
+							</p>
+						</div>
+						<p class="description w-75">
+							La première version d’Illustrator fut développée pour la plateforme Macintosh d’Apple en 1985.
+							<br><br>Il s’agissait d’un portage de l’application maison d’Adobe de création de fontes et de manipulation de fichiers PostScript.
+						</p>
+						<a href="#" class="primary-button">en savoir plus</a>
 					</div>
 				</div>
-			</div>
 
-			<div class="row">
-				<div class="col">
-					<p>trier par</p>
+			</section>
+
+			<section id="chronologie-section">
+				<div class="title-divider">
+					<h2>Chronologie</h2>
+					<div class="divider"></div>
 				</div>
-			</div>
-		</section>
+
+				<div class="row">
+					<div class="col"><p>Rechercher par date</p></div>
+					<div class="col">
+						<p>Entrez une date</p>
+						<div>
+							<button onclick="previousYear()"><-</button>
+							<span id="date-previous">1986</span>
+							<input type="number" id="date-input" value="1987" onchange="onInputSet()">
+							<span id="date-next">1988</span>
+							<button onclick="nextYear()">-></button>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<p>trier par</p>
+					</div>
+				</div>
+			</section>
+		</div>
 	</main>
 	<script src="/js/index.js" defer></script>
 {{ end }}
