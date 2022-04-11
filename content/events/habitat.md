@@ -1,10 +1,14 @@
 ---
 visibleInCms: true
 title: Habitat
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1985
 persons:
   - roy-trubshaw-1
+abstract: Habitat est un jeu de rôle en ligne massivement multijoueur (MMORPG)
+  développé par LucasArts.
 description: Habitat est un jeu de rôle en ligne massivement multijoueur
   (MMORPG) développé par LucasArts. Il s'agit de la première tentative de
   communauté virtuelle commerciale à grande échelle\[4] basée sur le graphisme.
