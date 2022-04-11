@@ -1,7 +1,8 @@
 ---
 visibleInCms: true
-title: SCUMM-VM (Lucas Art)
-kind: inventions
+title: SCUMM-VM
+kind:
+  - inventions
 year: 1987
 description: "**ScummVM** est une [machine
   virtuelle](https://fr.wikipedia.org/wiki/Machine_virtuelle#Machine_virtuelle_\
@@ -68,4 +69,5 @@ description: "**ScummVM** est une [machine
   \"Licence publique générale GNU\")."
 image: /images/events/langfr-220px-scummvm_logo.svg.png
 gallery: /images/events/langfr-220px-scummvm_logo.svg.png
+thematique: histoire-du-jeu-video
 ---
