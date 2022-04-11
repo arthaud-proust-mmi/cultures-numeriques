@@ -1,8 +1,13 @@
 ---
 visibleInCms: true
 title: Gameboy (Nintendo)
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1989
+abstract: La (ou le4) Game Boy (ゲームボーイ, Gēmu Bōi) est une console portable de
+  jeu vidéo 8-bits de quatrième génération développée et fabriquée par Nintendo.
+gallery: /images/events/game-boy.jpg
 description: La (ou le4) Game Boy (ゲームボーイ, Gēmu Bōi) est une console portable de
   jeu vidéo 8-bits de quatrième génération développée et fabriquée par Nintendo.
   Mise en vente au Japon le 21 avril 1989, puis en Amérique du Nord en octobre
@@ -12,5 +17,4 @@ description: La (ou le4) Game Boy (ゲームボーイ, Gēmu Bōi) est une conso
   Game and Watch ainsi que de nombreux jeux à succès sur Nintendo Entertainment
   System.
 image: /images/events/game-boy.jpg
-gallery: /images/events/game-boy.jpg
 ---
