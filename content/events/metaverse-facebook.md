@@ -1,8 +1,12 @@
 ---
 visibleInCms: true
 title: Metaverse Facebook
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
+gallery: /images/events/capture-d-ecran-2022-03-23-125545.jpg
 year: 2021
+persons: []
 description: >-
   Facebook vient de l’annoncer en grande pompe : le groupe Facebook va devenir
   Meta. Ce changement a pour but de mettre en avant le futur objectif du groupe
@@ -127,5 +131,4 @@ description: >-
 
   Mais qu’il s’agisse ou non d’une tactique pour détourner l’attention — même si le projet, on l’a dit, est en fait bien antérieur aux plus récents ennuis de la plateforme –, ce sont surtout les questions du gouvernance, de vie privée et de données personnelles qui se poseront. Mais également de la toxicité que l’on reproche à l’écosystème Facebook. Personne ne tient à la subir encore, environnement en 3D ou pas.
 image: /images/events/capture-d-ecran-2022-03-23-125557.jpg
-gallery: /images/events/capture-d-ecran-2022-03-23-125545.jpg
 ---
