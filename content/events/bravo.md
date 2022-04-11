@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: BRAVO
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1975
 persons:
   - firme-xerox
