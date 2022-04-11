@@ -3,9 +3,12 @@ visibleInCms: true
 title: Flatland
 kind:
   - livres
+thematique: pre-informatique
 year: 1884
 persons: []
-abstract: ""
+abstract: "Flatland (également publiée, en France, sous le nom de Flatland ou Le
+  plat pays ,ou plus récemment Flatland : Fantaisie en plusieurs dimensions) est
+  une allégorie publiée en 1884."
 description: >-
   ***Flatland*** (également publiée, en France, sous le nom de ***Flatland ou Le
   plat pays***[](https://fr.wikipedia.org/wiki/Flatland#cite_note-1), ou plus
