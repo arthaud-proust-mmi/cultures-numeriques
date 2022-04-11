@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Blue Box
-kind: inventions
+kind:
+  - inventions
+thematique: mecanique
 year: 1971
 persons:
   - john-draper

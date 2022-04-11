@@ -1,9 +1,12 @@
 ---
 visibleInCms: true
 title: Fortnite
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 2017
 abstract: ""
+gallery: ""
 description: >-
   ***Fortnite*** est un [jeu en
   ligne](https://fr.wikipedia.org/wiki/Jeu_en_ligne "Jeu en ligne") développé
@@ -38,5 +41,4 @@ description: >-
 
   Si les deux jeux ont été un succès pour Epic Games, *Fortnite Battle Royale* est devenu un phénomène de société, attirant plus de 125 millions de joueurs en moins d'un an et générant des centaines de millions de dollars par mois. Epic Games annonce en 2019 que Fortnite compte 250 millions de joueurs, soit deux fois plus qu'en juin 2018[1](https://fr.wikipedia.org/wiki/Fortnite#cite_note-1). Depuis début décembre 2020, il est possible de souscrire à un abonnement mensuel, la nouvelle formule payante de Fortnite
 image: /images/events/fortnite.png
-gallery: ""
 ---

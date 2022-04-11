@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
-title: ENIAC (Electronic Numerical Integrator and Computer)
-kind: inventions
+title: ENIAC Electronic Numerical Integrator and Computer
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1946
 persons:
   - john-adam-presper-eckert

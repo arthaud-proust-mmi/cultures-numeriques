@@ -7,19 +7,24 @@ theme = "culturesNumeriquesTheme"
       source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
       target = "assets/js/bootstrap.bundle.min.js"
 
+[outputs]
+    home = ["html", "json"]
+    section = ["html", "json"]
+    page = ["html", "json"]
+
 [menu]
   [[menu.main]]
-    name = "Home"
+    name = "Acceuil"
     pre = "home"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Persons"
+    name = "Personnages"
     pre = "persons"
     url = "/persons/"
     weight = 1
   [[menu.main]]
-    name = "Organization"
+    name = "Entreprises"
     pre = "organizations"
     url = "/organizations/"
     weight = 1

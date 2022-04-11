@@ -1,12 +1,15 @@
 ---
 visibleInCms: true
 title: Final Fantasy (Square Co)
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1987
 abstract: "Final Fantasy (ファイナルファンタジー, Fainaru Fantajī) est un jeu vidéo de rôle
   développé et publié par Square Co., Ltd. pour la Nintendo Entertainment System
   (NES) en 1987. Il est le jeu inaugural de la série principale de Square :
   Final Fantasy."
+gallery: /images/events/final_fantasy_-us-_logo.jpg
 description: "Final Fantasy a été plus tard réédité sur plusieurs consoles de
   jeu vidéo, y compris les ordinateurs MSX 2, la PlayStation et les consoles
   portables Wonderswan Color, Game Boy Advance et PSP. Deux versions produites
@@ -18,5 +21,4 @@ description: "Final Fantasy a été plus tard réédité sur plusieurs consoles 
   Game Boy Advance, voir respectivement Final Fantasy Origins et Final Fantasy I
   and II: Dawn of Souls."
 image: /images/events/final_fantasy_-us-_logo.jpg
-gallery: /images/events/final_fantasy_-us-_logo.jpg
 ---

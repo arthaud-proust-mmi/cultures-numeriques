@@ -1,17 +1,13 @@
 ---
 visibleInCms: true
-title: Day of the Tentacle (Lucas Art)
-kind: jeux-videos
+title: Day of the Tentacle
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1989
-abstract: "Day of the Tentacle, également connu sous le nom de Maniac Mansion:
-  Day of the Tentacle, est un jeu vidéo d'aventure graphique développé et publié
-  par LucasArts en juin 1993 sur PC puis Macintosh. Le jeu est sorti à la fois
-  sur disquettes et sur CD-ROM, et fait suite à Maniac Mansion sorti en 1987. Il
-  suit les aventures de Bernard Bernoulli et de ses amis Hoagie et Laverne qui
-  tentent d'empêcher le démoniaque Tentacule Pourpre de dominer le monde. Le
-  joueur contrôle ses personnages grâce à une interface graphique en
-  pointer-et-cliquer et doit résoudre des énigmes à travers différentes périodes
-  de l'histoire pour avancer dans le jeu."
+abstract: ""
+gallery: /images/events/day_of_the_tentacle_logo.png
+persons: []
 description: >-
   Comme son prédécesseur Maniac Mansion, Day of the Tentacle est un jeu
   d'aventure en deux dimensions de type pointer-et-cliquer. Le joueur dirige un
@@ -34,5 +30,4 @@ description: >-
 
   Par l’intermédiaire d’un ordinateur présent dans le jeu, le joueur peut accéder à une version complète de Maniac Mansion.
 image: /images/events/day_of_the_tentacle_logo.png
-gallery: /images/events/day_of_the_tentacle_logo.png
 ---

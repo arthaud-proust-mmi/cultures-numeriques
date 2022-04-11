@@ -17,9 +17,8 @@
 	{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
-    {{ with .OutputFormats.Get "RSS" -}}
-		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-	{{- end }}
+    {{- $js := resources.Get "js/app.js" | js.Build -}}
+	<script type="text/javascript" src="{{ $js.Permalink }}" defer></script>
 
 	<script type="text/javascript" src="/js/header.js" defer></script>
 

@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Nitendo Wii fit
-kind: jeux-videos
+kind:
+  - inventions
+thematique: histoire-du-jeu-video
 year: 2007
 description: Wii Fit est un jeu vidéo de simulation, développé et édité par
   Nintendo, sorti sur Wii le 1er décembre 2007 au Japon, le 25 avril 2008 en

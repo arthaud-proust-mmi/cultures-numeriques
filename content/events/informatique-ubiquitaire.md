@@ -1,11 +1,14 @@
 ---
 visibleInCms: true
 title: "Informatique ubiquitaire "
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1988
 persons:
   - mark-weiser
-abstract: Dans cette ère, l'utilisateur a à sa disposition une gamme de petits
+abstract: ""
+description: Dans cette ère, l'utilisateur dispose d'une gamme de petits
   appareils informatiques tels que le téléphone multifonction ou l'assistant
   personnel, et leur utilisation fait partie de sa vie quotidienne. Ces
   appareils facilitent l'accès à l'information pour tout le monde, n'importe où

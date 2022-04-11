@@ -1,14 +1,13 @@
 ---
 visibleInCms: true
 title: La machine analytique
-kind: inventions
+kind:
+  - inventions
+thematique: pre-informatique
 year: 1834
 persons:
   - charles-babbage
-abstract: >
-  La machine analytique est une avancée fondamentale dans d'automatisation des
-  calculs, cette machine a définit les principaux concepts sur lesquels reposent
-  les machines informatiques.
+abstract: "\n"
 description: La machine analytique est une avancée fondamentale en matière
   d'automatisation des calculs, elle fut réalisée par [Charles
   Babbage](https://culturesnumeriques.net/personnes/charles-babbage) entre 1834

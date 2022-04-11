@@ -1,12 +1,11 @@
 ---
 visibleInCms: true
 title: Le Deuxième Monde
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1997
-abstract: Le Deuxième Monde est un monde virtuel qui a été créé par Canal+
-  Multimedia et paru en 1997 et clos en 2001. Il est plutôt considéré comme un
-  logiciel d'immersion dans une réalité virtuelle (un monde virtuel) que comme
-  un véritable jeu vidéo.
+abstract: ""
 description: >-
   Le Deuxième Monde est un monde virtuel qui a été créé par Canal+ Multimedia et
   paru en 1997 et clos en 2001. Il est plutôt considéré comme un logiciel

@@ -1,13 +1,12 @@
 ---
 visibleInCms: true
 title: The Reactive Square
-kind: inventions
+kind:
+  - livres
 year: 1995
 persons:
   - john-maeda
-abstract: Le premier livre réactif, "The Reactive Square", est une adaptation du
-  tableau de Kazimir Malevich, "Black Square" (1915), au dynamisme et au
-  mouvement du monde numérique.
+abstract: ""
 description: Le premier livre réactif, *The Reactive Square*, est une adaptation
   du tableau de Kazimir Malevich, *Black Square* (1915), au dynamisme et au
   mouvement du monde numérique. Il présente neuf compositions qui traduisent le

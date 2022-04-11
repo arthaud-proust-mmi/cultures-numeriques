@@ -1,8 +1,12 @@
 ---
 visibleInCms: true
-title: Le Manoir de Mortevielle (Lankhor)
-kind: jeux-videos
+title: Le Manoir de Mortevielle
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
+gallery: /images/events/405602.png
 year: 1987
+persons: []
 description: Le Manoir de Mortevielle (ou Le Manoir de Mortvielle selon les
   versions) est un jeu vidéo d'aventure développé et édité par Lankhor en 1987.
   La version pour Atari ST est le premier jeu vidéo offrant des dialogues en
@@ -15,5 +19,4 @@ description: Le Manoir de Mortevielle (ou Le Manoir de Mortvielle selon les
   et n'a pas tous les raffinements de la version ST ; notamment, la synthèse
   vocale en est absente.
 image: /images/events/405602.png
-gallery: /images/events/405602.png
 ---

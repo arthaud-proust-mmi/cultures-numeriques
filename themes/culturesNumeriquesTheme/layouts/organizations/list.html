@@ -1,14 +1,16 @@
 {{ define "main" }}
-	<main>
-		{{ if or .Title .Content }}
-		<div>
-			{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-			{{ with .Content }}<div>{{ . }}</div>{{ end }}
-		</div>
-		{{ end }}
 
-		{{ range .Pages }}
-			{{ .Render "organization-summary" }}
-		{{ end }}
-	</main>
+<main id="persons-list" class="container">
+    <div class="row">
+        <h3>Personnages</h3>
+    </div>
+    <div class="row d-flex flex-row align-items-stretch">
+        {{ range (.Paginate .Pages 12).Pages }}
+            {{ partial "person-summary" . }} 
+        {{ end }}
+
+        {{ partial "pagination.html" . }}
+    </div>
+</main>
+
 {{ end }}

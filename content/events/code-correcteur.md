@@ -2,6 +2,7 @@
 visibleInCms: true
 title: Code correcteur
 kind: inventions
+thematique: code
 year: 1939
 abstract: Elle est destinée à corriger les erreurs de transmission d'une
   information (plus souvent appelée message) sur un canal de communication peu

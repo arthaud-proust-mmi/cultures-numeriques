@@ -52,7 +52,9 @@ header {
             display: flex;
             justify-content: center;
 
-
+            a {
+                color: unset;
+            }
         }
     }
 
@@ -193,11 +195,6 @@ header {
         }
     }
 
-    .col, .col-5 {
-        margin: 0;
-        padding: 0;
-    }
-
     .margin-left {
         padding-left: 72px;
     }
@@ -214,3 +211,18 @@ section#chronologie-section {
     }
 }
 
+
+.latest-post-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a{
+        width: fit-content;
+    }
+}
