@@ -1,11 +1,11 @@
 ---
 visibleInCms: true
-title: Mirror's Edge de Digital Illusions
-kind: jeux-videos
+title: Mirror's Edge
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 2008
-abstract: Mirror's Edge est un jeu vidéo d'action-aventure développé par le
-  studio suédois DICE et édité par Electronic Arts. Le jeu a été annoncé le 10
-  juillet 2007 et est sorti sur PlayStation 3 et Xbox 360 en novembre 2008.
+abstract: ""
 description: Mirror's Edge est un jeu vidéo d'action-aventure développé par le
   studio suédois DICE et édité par Electronic Arts. Le jeu a été annoncé le 10
   juillet 2007 et est sorti sur PlayStation 3 et Xbox 360 en novembre 2008. Une
