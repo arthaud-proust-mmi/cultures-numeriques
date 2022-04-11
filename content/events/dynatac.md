@@ -1,11 +1,11 @@
 ---
 visibleInCms: true
 title: DynaTAC
-kind: inventions
+kind:
+  - inventions
+thematique: mecanique
 year: 1983
-abstract: Le DynaTac 8000, sorti en 1983 par le fabricant américain Motorola,
-  est le tout premier téléphone mobile portable au monde. DynaTAC est une
-  abréviation de Dynamic Total Area Control.
+abstract: ""
 description: >-
   Le DynaTac 8000, sorti en 1983 par le fabricant américain Motorola, est le
   tout premier téléphone mobile portable au monde. DynaTAC est une abréviation
