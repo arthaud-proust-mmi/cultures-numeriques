@@ -28,3 +28,11 @@ theme = "culturesNumeriquesTheme"
     pre = "events"
     url = "/events/"
     weight = 1
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = 'persons'
+    weight = 100

@@ -1,14 +1,51 @@
 {{ define "main" }}
 	<main id="event-container">
-		<article>
-			<h1>{{ .Title }}</h1>
-			<div class="flex">
-				<p>{{ .Params.date }}</p>
-				<p>#{{ .Params.kind }}</p>
+
+		<div class="margin-left">
+		<div class="title-divider">
+			<h2 class="heading-3">{{ .Title }}</h2>
+			<div class="divider"></div>
+		</div>
+
+<!--		<p>{{ .Params.date }}</p>-->
+		<article class="article-main-container container-fluid">
+			<div class="image-article margin-bottom row">
+				<img class="" src={{ .Params.image }} alt="">
 			</div>
-			<p>{{ .Params.description | markdownify }}</p>
-			<img src={{ .Params.image }} alt="">
+			<div class="article-description-container margin-bottom row me-0">
+				<div class="col-lg-5 article-description col text-p letter-snug">{{ .Params.description | markdownify }}</div>
+				<div class="col-lg-3"></div>
+
+				<div class="col-lg-4">
+					<p class="text-title">Autres sujets :</p>
+					<ul class="">
+						{{ range $index, $item := (where .Site.Pages ".Title" "!=" "") | shuffle | first 4 }}
+							<li class="text-link">
+								<a href="{{ $item.Permalink }}">
+									<span class="chevron"></span>
+									{{ $item.Title }}
+								</a>
+							</li>
+						{{ end }}
+					</ul>
+				</div>
+
+			</div>
+
 		</article>
+		</div>
+
+		<div class="margin-left">
+			<div class="title-divider">
+				<h2 class="heading-3">Personnalités et organisations en rapport avec l’événement</h2>
+				<div class="divider"></div>
+			</div>
+		</div>
+
+
+		{{ range $item := .Params.Persons }}
+			<a href="/persons/{{ $item }}">{{ . }}</a>
+		{{ end }}
 	</main>
 <!-- {{ partial "sidebar.html" . }} -->
 {{ end }}
