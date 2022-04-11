@@ -1,13 +1,14 @@
 ---
 visibleInCms: true
 title: An Open Letter to Hobbyists
-kind: livres
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1976
+abstract: ""
+gallery: /images/events/copyright_popular_electronics_1975.jpg
 persons:
   - bill-gates
-abstract: An Open Letter to Hobbyists ( « Une lettre ouverte aux bricoleurs »)
-  est une lettre ouverte écrite en janvier 1976 par Bill Gates (il avait donc 21
-  ans à l’époque).
 description: >-
   An Open Letter to Hobbyists ( « Une lettre ouverte aux bricoleurs ») est une
   lettre ouverte écrite en janvier 1976 par Bill Gates (il avait donc 21 ans à
@@ -33,5 +34,4 @@ description: >-
 
   Et nous pourrions même dire que cela à contribué à développer et à structurer le mouvement Open Source avec Richard Stallman et son projet GNU du début des années 1980.
 image: /images/events/bill_gates_letter_to_hobbyists.jpg
-gallery: /images/events/copyright_popular_electronics_1975.jpg
 ---
