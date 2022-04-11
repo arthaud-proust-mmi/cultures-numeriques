@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Flower
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 2009
 abstract: ""
 description: Flower est un jeu vidéo développé par thatgamecompany et édité par
