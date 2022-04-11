@@ -11,7 +11,7 @@ class EventManager {
         
         this.pagination = {
             enabled: true,
-            countPerPage: 9,
+            countPerPage: 6,
             actualPage: 0
         };
 
@@ -47,6 +47,7 @@ class EventManager {
      * @returns {EventManager} EventManager
      */
     clearFilter() {
+        this.pagination.actualPage = 0;
         this.events.filtered = this.events.fetched;
 
         return this;
@@ -103,7 +104,7 @@ class EventManager {
      * 
      * @returns {EventManager} EventManager
      */
-    clear() {
+    clearDOM() {
         while (this.rootEl.lastElementChild) {
             this.rootEl.removeChild(this.rootEl.lastElementChild);
         }
@@ -118,7 +119,7 @@ class EventManager {
      * 
      * @returns {EventManager} EventManager
      */
-    renderEvent(eventData) {
+    renderEventDOM(eventData) {
         let el = this.getTemplateEl();
         el.querySelector('.event-summary-title').innerText = eventData.title;
         el.querySelector('.event-summary-abstract').innerText = eventData.abstract;
@@ -134,7 +135,7 @@ class EventManager {
      * 
      * @returns {EventManager} EventManager
      */
-    render() {
+    renderDOM() {
         let iStart, iMax;
         if(!this.pagination.enabled) {
             iStart = 0;
@@ -144,12 +145,27 @@ class EventManager {
             iMax = Math.min(iStart+this.pagination.countPerPage, this.events.filtered.length);
         }
         for(let i=iStart; i<iMax; i++) {
-            this.renderEvent(this.events.filtered[i])
+            this.renderEventDOM(this.events.filtered[i])
         }
 
         return this;
     }
 
+
+    /**
+     * Affiche les résultats de la page 
+     * 
+     * @param {integer} 
+     * @returns {EventManager} EventManager
+     */
+    paginateTo(page) {
+        if(page>=0) {
+            this.pagination.actualPage = page;
+            this.clearDOM().renderDOM();
+        }
+
+        return this;
+    }
 
     /**
      * Affiche les résultats de la page précédente si on est pas au début
@@ -159,7 +175,7 @@ class EventManager {
     paginatePrevious() {
         if(this.pagination.actualPage>0) {
             this.pagination.actualPage--;
-            this.clear().render();
+            this.clearDOM().renderDOM();
         }
 
         return this;
@@ -172,7 +188,7 @@ class EventManager {
      */
     paginateNext() {
         this.pagination.actualPage++;
-        this.clear().render();
+        this.clearDOM().renderDOM();
 
         return this;
     }
@@ -185,7 +201,7 @@ class EventManager {
      */
     loadMore() {
         this.pagination.actualPage++;
-        this.render();
+        this.renderDOM();
 
         return this;
     }
