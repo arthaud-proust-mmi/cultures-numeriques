@@ -1,13 +1,13 @@
 ---
 visibleInCms: true
 title: La triode de John Fleming
-kind: inventions
+kind:
+  - inventions
+thematique: ""
 year: 1907
 persons:
   - john-fleming
-abstract: Mise au point à partir de la diode de J. FLEMMING, sur laquelle il
-  rajoute une feuille métallique, "l'audion" qui s'appellera ensuite "triode"
-  est un amplificateur d'intensité électrique.
+abstract: ""
 description: Mise au point à partir de la diode de J. FLEMMING, sur laquelle il
   rajoute une feuille métallique, "l'audion" qui s'appellera ensuite "triode"
   est un amplificateur d'intensité électrique. La première "lampe" réellement

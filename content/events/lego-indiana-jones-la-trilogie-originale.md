@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
-title: "Lego Indiana Jones : la Trilogie originale "
-kind: jeux-videos
+title: Lego Indiana Jones
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 2008
 persons:
   - steven-spielberg

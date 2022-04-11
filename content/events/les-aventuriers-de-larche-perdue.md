@@ -1,7 +1,8 @@
 ---
 visibleInCms: true
-title: Les Aventuriers de l'arche perdue
-kind: films
+title: Indiania Jones
+kind:
+  - films
 year: 1981
 persons:
   - steven-spielberg

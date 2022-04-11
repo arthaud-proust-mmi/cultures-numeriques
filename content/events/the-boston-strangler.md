@@ -1,11 +1,10 @@
 ---
 visibleInCms: true
 title: The Boston Strangler
-kind: films
+kind:
+  - films
 year: 1968
-abstract: >
-  L'Étrangleur de Boston (The Boston Strangler) est un film américain réalisé
-  par Richard Fleischer, sorti en 1968.
+abstract: ""
 description: >-
   L'Étrangleur de Boston (The Boston Strangler) est un film américain réalisé
   par Richard Fleischer, sorti en 1968.

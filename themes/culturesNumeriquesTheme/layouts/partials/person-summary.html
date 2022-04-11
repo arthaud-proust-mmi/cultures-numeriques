@@ -1,18 +1,26 @@
-<article>
-    <img src={{ .Params.image }}>
-    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-    {{ range .Params.tags }}
-    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-    {{ end }}
-    <div>
-        <p>{{ .Params.birth }} -
-        {{ if .Params.death}}
-            {{ .Params.death }}
-            {{end}}
-        </p>
-        {{ .Summary }}
-        {{ if .Truncated }}
-        <a href="{{ .Permalink }}">Read more...</a>
-        {{ end }}
-    </div>
-</article>
+<article class="event-summary  col-md-6 col-lg-4 col-xl-3 mb-5">
+    <a href="{{ .Permalink }}">
+        <div class="event-summary-container p-4 h-100 d-flex flex-column align-items-start">
+
+            <!-- Card's header -->
+            <div class="d-flex flex-row justify-content-between w-100">
+                <span>{{ .Title }}</span>
+                <span>
+                    {{ .Params.birth }}
+                    {{ if .Params.death}}
+                        <br>{{ .Params.death }}
+                    {{ else }}
+                        -
+                    {{end}}
+                </span>
+            </div>
+
+            <!-- Card's image -->
+            <div class="divider mt-1 mb-3"></div>
+            <div class="event-summary-img-container w-100">
+                <img src={{ .Params.image }} alt={{ .Title }}>
+            </div>
+
+        </div>
+    </a>
+</article> 

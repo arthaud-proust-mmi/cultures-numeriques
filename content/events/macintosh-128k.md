@@ -1,11 +1,11 @@
 ---
 visibleInCms: true
 title: Macintosh 128K
-kind: inventions
+kind:
+  - inventions
+thematique: informatique-et-reseau
 year: 1984
-abstract: "Le Macintosh est le premier ordinateur personnel de la famille des
-  Macintosh lancé par Apple Computer le 24 janvier 1984. Son boitier beige
-  embarque un écran de 9 pouces de diagonale en plus de l'unité centrale. "
+abstract: ""
 description: >-
   Le Macintosh est le premier ordinateur personnel de la famille des Macintosh
   lancé par Apple Computer le 24 janvier 1984. Son boitier beige embarque un

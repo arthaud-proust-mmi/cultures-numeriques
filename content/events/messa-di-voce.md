@@ -1,13 +1,12 @@
 ---
 visibleInCms: true
 title: Messa di Voce
-kind: inventions
+kind:
+  - inventions
 year: 2003
 persons:
   - golan-levin
-abstract: Messa di Voce est une performance audiovisuelle dans laquelle la
-  parole, les cris et les chansons produits par deux chanteurs sont imagé
-  virtuellement en temps réel par un logiciel de visualisation
+abstract: ""
 description: "**Messa di Voce** (en italien, \"placer la voix\") est une
   performance audiovisuelle dans laquelle la parole, les cris et les chansons
   produits par deux chanteurs sont imagé virtuellement en temps réel par un

@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Populus
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1989
 abstract: ""
 description: Populous est un jeu de stratégie en temps réel sur ordinateur,

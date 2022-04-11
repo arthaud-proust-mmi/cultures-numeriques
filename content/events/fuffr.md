@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Fuffr
-kind: inventions
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 2014
 description: >-
   L'étui pour iPhone Fuffr vous permet de contrôler votre téléphone, en dehors

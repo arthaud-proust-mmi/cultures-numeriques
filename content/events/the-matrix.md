@@ -1,7 +1,8 @@
 ---
 visibleInCms: true
 title: The Matrix
-kind: films
+kind:
+  - films
 year: 1999
 persons:
   - lana-et-lilly-wachowski
