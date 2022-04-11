@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Papier Machine
-kind: inventions
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 2016
 description: >-
   Le duo de designers formé par Marion Pinaffo et Raphaël Pluvinage, récents
