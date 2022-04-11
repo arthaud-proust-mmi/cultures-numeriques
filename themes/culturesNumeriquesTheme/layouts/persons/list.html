@@ -5,7 +5,7 @@
         <h3>Personnages</h3>
     </div>
     <div class="row d-flex flex-row align-items-stretch">
-        {{ range (.Paginate .Pages 12).Pages }}
+        {{ range (.Paginate .Pages 12).Pages.ByTitle }}
             {{ partial "person-summary" . }} 
         {{ end }}
 

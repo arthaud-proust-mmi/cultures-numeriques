@@ -1,7 +1,7 @@
 ---
 visibleInCms: true
-title: " Raymond Queneau "
-first_name: " Raymond "
+title: "Raymond Queneau "
+first_name: "Raymond "
 last_name: "Queneau "
 image: /images/persons/raymond_queneau_s.jpg
 description: Raymond Queneau, né le 21 février 1903 au Havre et mort le 25
