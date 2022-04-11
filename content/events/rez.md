@@ -1,14 +1,11 @@
 ---
 visibleInCms: true
 title: REZ
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 2002
-abstract: |-
-  REZ est un Jeu abstrait basé sur le rythme
-  musical et le rythme visuel. C’est un des
-  premiers jeux ce revendiquant clairement
-  comme une œuvre plutôt que comme un
-  produit de divertissement.
+abstract: ""
 description: REZ est un Jeu abstrait basé sur le rythme musical et le rythme
   visuel. C’est un des premiers jeux ce revendiquant clairement comme une œuvre
   plutôt que comme un produit de divertissement. Rez est un jeu vidéo développé
