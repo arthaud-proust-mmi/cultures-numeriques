@@ -8,7 +8,7 @@
 
             <div class="col-12 col-xl-9 row d-flex flex-row align-items-stretch">
                 {{ range .Paginator.Pages.ByParam "year" }}
-                    {{ .Render "event-summary" }}
+                    {{ partial "event-summary" . }} 
                 {{ end }}
             </div>
         </div>
