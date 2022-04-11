@@ -2,6 +2,7 @@
 visibleInCms: true
 title: Design by Numbers
 kind: livres
+thematique: code
 year: 1999
 persons:
   - john-maeda
