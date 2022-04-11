@@ -13,7 +13,7 @@
                 <p style="width: 60%;">Pourquoi ne pas vous laisser tenter par les thèmes proposés ci-dessous ?</p>
                
                 <div class="col thematiques-list margin-left quatre-cent-quatre-theme">
-					{{range $item := (where (where .Site.Pages ".Title" "!=" "") ".Type" "thematiques") }}
+					{{range $item := (where (where (where .Site.Pages ".Title" "!=" "Thématiques") ".Title" "!=" "") ".Type" "thematiques") }}
 						<div style="margin-right: 2rem; margin-top: 2rem; width: 35%;" class="thematique-item"><a href="{{ $item.Permalink }}">> {{ $item.Title }}</a></div>
 					{{ end }}
 				</div>

@@ -34,7 +34,7 @@
 					<div class="divider"></div>
 				</div>
 
-				{{range where .Site.Pages ".Title" "Active World" }}
+				{{ range where .Site.Pages ".Title" "Active World" }}
 					{{ partial "latest" . }}
 				{{ end }}
 			</section>
