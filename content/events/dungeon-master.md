@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: Dungeon Master
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1987
 abstract: Dungeon Master est un jeu vidéo de rôle de type dungeon crawler
   développé par FTL Games. Le jeu est d'abord publié sur Atari ST en 1987 avant
@@ -13,6 +15,7 @@ abstract: Dungeon Master est un jeu vidéo de rôle de type dungeon crawler
   maléfique et menaçant d'envahir le monde. Pour l'en empêcher, le joueur
   contrôle quatre champions devant explorer le donjon de Chaos afin de retrouver
   le seul objet capable de réunifier l'âme du magicien.
+gallery: /images/events/dungeon_master_logo.png
 description: >-
   La sortie de Dungeon Master est considérée comme une formidable avancée dans
   le domaine du jeu vidéo de rôle. Il innove en effet en matière de présentation
@@ -31,5 +34,4 @@ description: >-
 
   Dungeon Master a bénéficié d'une extension — Chaos Strikes Back — qui est publiée en 1989 sous la forme d'un stand-alone. Le jeu a également bénéficié d'une suite — Dungeon Master II: The Legend of Skullkeep — qui est publiée en 1995. Comme le jeu original, celle-ci est bien accueillie par les critiques et connait un certain succès commercial, ce qui ne l'empêche pas d'être considérée comme décevante au regard de l'impact du jeu original. Il a enfin été adapté sur Sega Saturn en 1998, sous le titre Dungeon Master Nexus, cette version bénéficiant d'un nouveau moteur graphique proposant des graphismes en trois dimensions.
 image: /images/events/dungeon_master_logo.png
-gallery: /images/events/dungeon_master_logo.png
 ---

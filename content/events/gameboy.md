@@ -1,8 +1,11 @@
 ---
 visibleInCms: true
 title: Gameboy
-kind: jeux-videos
+kind:
+  - inventions
+thematique: histoire-du-jeu-video
 year: 1989
+persons: []
 description: Le Nintendo Entertainment System, par abréviation NES, également
   couramment appelée Nintendo en France3,4,5, est une console de jeux vidéo de
   génération 8 bits fabriquée par l'entreprise japonaise Nintendo et distribuée

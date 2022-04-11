@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
 title: "Game And Watch "
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1978
 persons:
   - gunpei-yokoi

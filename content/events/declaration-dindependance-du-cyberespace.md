@@ -1,7 +1,9 @@
 ---
 visibleInCms: true
-title: "Déclaration d'indépendance du cyberespace "
-kind: livres
+title: Déclaration d'indépendance
+kind:
+  - inventions
+thematique: pre-informatique
 year: 1996
 persons:
   - john-perry-barlow
