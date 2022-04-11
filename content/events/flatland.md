@@ -1,12 +1,14 @@
 ---
 visibleInCms: true
 title: Flatland
-kind: livres
+kind:
+  - livres
 year: 1884
+persons: []
 abstract: ""
 description: >-
   ***Flatland*** (également publiée, en France, sous le nom de ***Flatland ou Le
-  plat pays***[1](https://fr.wikipedia.org/wiki/Flatland#cite_note-1), ou plus
+  plat pays***[](https://fr.wikipedia.org/wiki/Flatland#cite_note-1), ou plus
   récemment ***Flatland : Fantaisie en plusieurs dimensions***) est
   une [allégorie](https://fr.wikipedia.org/wiki/All%C3%A9gorie
   "Allégorie") publiée
@@ -39,9 +41,6 @@ description: >-
   L'auteur entraîne patiemment son lecteur sur ce chemin qui, en jouant du prétexte d'une démonstration de [géométrie euclidienne](https://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_euclidienne "Géométrie euclidienne"), prend soudainement le ton d'une interrogation bien plus profonde à une époque où, en Grande-Bretagne, l'[ère victorienne](https://fr.wikipedia.org/wiki/%C3%89poque_victorienne "Époque victorienne") avait encore quelques années devant elle.
 
 
-  Abbott nous montre également, à travers le fait qu'un carré (convaincu que le monde n'a que deux dimensions) découvre une troisième dimension difficile à imaginer et à décrire, que nous-mêmes (qui sommes convaincus que le monde n'a que trois dimensions) pourrions nous trouver en réalité dans un monde à [quatre dimensions](https://fr.wikipedia.org/wiki/Espace_%C3%A0_quatre_dimensions "Espace à quatre dimensions") difficile à imaginer et à décrire dont nous ne parcourrions que la « surface » tridimensionnelle[2](https://fr.wikipedia.org/wiki/Flatland#cite_note-2).
-
-
-  <!--EndFragment-->
+  Abbott nous montre également, à travers le fait qu'un carré (convaincu que le monde n'a que deux dimensions) découvre une troisième dimension difficile à imaginer et à décrire, que nous-mêmes (qui sommes convaincus que le monde n'a que trois dimensions) pourrions nous trouver en réalité dans un monde à [quatre dimensions](https://fr.wikipedia.org/wiki/Espace_%C3%A0_quatre_dimensions "Espace à quatre dimensions") difficile à imaginer et à décrire dont nous ne parcourrions que la « surface » tridimensionnelle[](https://fr.wikipedia.org/wiki/Flatland#cite_note-2).
 image: /images/events/flatland_cover.jpg
 ---
