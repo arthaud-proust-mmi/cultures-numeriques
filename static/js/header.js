@@ -37,15 +37,11 @@ function displayMenuBurger(value) {
             document.body.classList.remove("dark-theme");
             sunIcon.classList.remove("active");
             moonIcon.classList.add("active");
-            document.querySelector("#logo-part-1").style.fill = "black";
-            document.querySelector("#logo-part-2").style.stroke = "black";
         }
         else {
             document.body.classList.add("dark-theme");
             sunIcon.classList.add("active");
-            moonIcon.classList.remove("active");
-            document.querySelector("#logo-part-1").style.fill = "white";
-            document.querySelector("#logo-part-2").style.stroke = "white";
+            moonIcon.classList.remove("active");           
         }
     }
 }
