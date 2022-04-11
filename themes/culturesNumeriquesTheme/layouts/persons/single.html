@@ -1,40 +1,36 @@
 {{ define "main" }}
 <main>
-    <article>
-        <h1>{{ .Title }}</h1>
-        <img src="{{.Params.image}}">
-        <p>
-            {{ .Params.birth }} -
+    <article class="container-persons">
+    
 
-            {{ if .Params.death }}
-            {{ .Params.death }}
-            {{ end }}
-        </p>
-        <div>
-            {{ .Params.description }}
+        <div class="container-name-age">
+
+                    <h1 style="width: 100%;">{{ .Title }}</h1>
+                    <div class="divider divider-padding-left-txt-img" ></div>
+                    <p>
+                        {{ .Params.birth }} -   
+                        {{ if .Params.death }}
+                        {{ .Params.death }}
+                        {{ end }}
+                    </p>
         </div>
+
+
+        <div class="container-img-des">
+                <div class="image-persons">
+                        <img src="{{.Params.image}}">
+                </div>  
+
+
+                <div class="des-persons">
+                    {{ .Params.description }}
+                </div>
+        </div>
+   
+    </div>
 
         <!-- Events -->
-        <div>
-            Événements liés:
-            <ul id="events">
-                <!-- 
-                    point à améliorer : 
-                    passer à un range where (where all + if ensuite actuellement)
-                    cibler les pages event uniquement (range à travers toutes les pages du site actuellement)
-
-                    essayé mais ne marchant pas: 
-                    - range where .Site.Pages ".Params.Persons" "in" .File.BaseFileName
-                    - range where .Site.Pages ".Params.Persons" "intersect" .File.BaseFileName
-                 -->
-                {{ range .Site.Pages}}
-                    {{ if in .Params.persons $.File.BaseFileName}}
-                        <li><a href="{{ .Page.RelPermalink }}">{{ .Title }}</a></li>
-                    {{ end }}
-                {{ end }}
-            </ul>
-        </div>
-
     </article>
 </main>
 {{ end }}
+

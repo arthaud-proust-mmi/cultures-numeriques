@@ -145,6 +145,16 @@ p.center {
         &:focus {
             border: 2px solid var(--accent-1);
         }
+
+        &:hover{
+            color: var(--fg-1);
+            background: var(--bg-2);
+            border: 2px solid #5487FF;
+            // box-sizing: border-box;
+            // border-radius: 4px;
+          
+           }
+          
     }
 
     p {
