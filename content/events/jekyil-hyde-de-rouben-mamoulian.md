@@ -1,11 +1,10 @@
 ---
 visibleInCms: true
-title: Jekyil & Hyde de Rouben Mamoulian
-kind: films
+title: Jekyil & Hyde
+kind:
+  - films
 year: 1932
-abstract: |-
-  Jekyil & Hyde de Rouben Mamoulian en 1932
-  Les premiers films en vision subjective
+abstract: ""
 description: Docteur Jekyll et M. Hyde (Dr. Jekyll and Mr. Hyde) est un film
   d'horreur et science-fiction américain réalisé en 1931 par Rouben Mamoulian
   (1897-1987), et produit par Adolph Zukor pour la Paramount Pictures. Cette
