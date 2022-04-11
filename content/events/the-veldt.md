@@ -1,14 +1,12 @@
 ---
 visibleInCms: true
 title: The Veldt
-kind: livres
+kind:
+  - livres
 year: 1950
 persons:
   - ray-bradbury
-abstract: '"The Veldt" is a science fiction short story by American author Ray
-  Bradbury. Originally appearing as "The World the Children Made" in the
-  September 23, 1950 issue of The Saturday Evening Post, it was republished
-  under its current name in the 1951 anthology The Illustrated Man.'
+abstract: ""
 description: >-
   "The Veldt" is a science fiction short story by American author Ray Bradbury.
   Originally appearing as "The World the Children Made" in the September 23,
