@@ -1,36 +1,31 @@
 {{ define "main" }}
 <main>
-    <article class="container-persons">
-    
+    <article class="article-main-container container-fluid">
+        <div class="image-article margin-bottom row">
+            <img class="" src={{ .Params.image }} alt="">
+        </div>
+        <div class="article-description-container margin-bottom row me-0">
+            <div class="col-lg-5 article-description col text-p letter-snug">{{ .Params.description | markdownify }}</div>
+            <div class="col-lg-3"></div>
 
-        <div class="container-name-age">
+            <div class="col-lg-4">
+                <p class="text-title">Autres sujets :</p>
+                <ul class="">
+                    {{ range $index, $item := (where .Site.Pages ".Title" "!=" "") | shuffle | first 4 }}
+                        <li class="text-link">
+                            <a href="{{ $item.Permalink }}">
+                                <span class="chevron"></span>
+                                {{ $item.Title }}
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
 
-                    <h1 style="width: 100%;">{{ .Title }}</h1>
-                    <div class="divider divider-padding-left-txt-img" ></div>
-                    <p>
-                        {{ .Params.birth }} -   
-                        {{ if .Params.death }}
-                        {{ .Params.death }}
-                        {{ end }}
-                    </p>
         </div>
 
-
-        <div class="container-img-des">
-                <div class="image-persons">
-                        <img src="{{.Params.image}}">
-                </div>  
-
-
-                <div class="des-persons">
-                    {{ .Params.description }}
-                </div>
-        </div>
-   
-    </div>
-
-        <!-- Events -->
     </article>
+        <!-- Events -->
 </main>
 {{ end }}
 

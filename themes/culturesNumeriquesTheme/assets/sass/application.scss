@@ -12,15 +12,13 @@
 
 // Composants
 @import './components/button.scss';
+@import './components/card.scss';
 
 
 
 // Pages
 @import './pages/personslist.scss';
-@import './pages/404.scss';
-@import './pages/persons.scss';
-
-
+@import './pages/events-single.scss';
 
 // Partials
 @import './partials/event-summary.scss';

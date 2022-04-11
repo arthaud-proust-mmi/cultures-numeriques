@@ -1,5 +1,5 @@
 <nav class="container pt-2 pb-4 mb-5">
-    <ul id="breadcrumb" class="breadcrumb">
+    <ul id="breadcrumb" class="breadcrumb gap-3">
         {{ template "breadcrumbnav" (dict "p1" . "p2" . "siteTitle" .Site.Title) }}
     </ul>
 </nav>
@@ -10,7 +10,7 @@
     {{ else if not .p1.IsHome }}
         {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 "siteTitle" .siteTitle)  }}
     {{ end }}
-    <li>
+    <li class="d-flex gap-3">
         {{ $title := cond (eq .p1.Title .siteTitle) "Accueil" .p1.Title }}
         {{ if eq .p1 .p2 }}
             <span>{{ $title }}</span>
