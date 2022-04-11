@@ -44,7 +44,7 @@ header {
         justify-content: space-between;
         align-items: center;
 
-        margin: 0 2rem 0 2rem ;
+        margin: 0 72px 0 72px;
         padding-top: 20px;
         padding-bottom: 20px;
 
@@ -199,7 +199,18 @@ header {
     }
 
     .margin-left {
-        padding-left: 50px;
+        padding-left: 72px;
+    }
+}
+
+section#chronologie-section {
+    input {
+        border: 1px solid var(--fg-1);
+        border-radius: 0px;
+
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
     }
 }
 
