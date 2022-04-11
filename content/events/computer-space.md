@@ -1,20 +1,17 @@
 ---
 visibleInCms: true
 title: Computer Space
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1971
-abstract: |-
-  Computer Space est un jeu vidéo
-  d'arcade distribué en novembre
-  1971 par Nutting Associates.
-description: |-
-  Computer Space est un jeu vidéo
-  d'arcade distribué en novembre
-  1971 par Nutting Associates. Créé
-  par Nolan Bushnell et Ted Dabney,
-  il s'agit du premier jeu vidéo à être
-  distribué en série sur le circuit
-  commercial et ainsi le premier jeu
-  vidéo qui ait été vendu.
+persons:
+  - nolan-bushnell
+organizations: []
+abstract: ""
+description: Computer Space est un jeu vidéo d'arcade distribué en novembre 1971
+  par Nutting Associates. Créé par Nolan Bushnell et Ted Dabney, il s'agit du
+  premier jeu vidéo à être distribué en série sur le circuit commercial et ainsi
+  le premier jeu vidéo qui ait été vendu.
 image: /images/events/computerspace-05-g-1-.jpg
 ---
