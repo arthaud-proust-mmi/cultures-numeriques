@@ -6,46 +6,45 @@
         </div>
 
         <div class="row pt-5">
-            <article class="col-sm-8 mt-md-5 pt-md-5 col-md-7 col-xl-6 offset-xl-2">
-                <h1 class="text-title mb-1">{{ .Params.Owner.Title }}</h1>
-                <h3 class="text-p text-fg-2 mb-3">{{ .Params.Owner.Subtitle }}</h3>
-                {{ range .Params.Owner.Lines }}
-                    <p class="text-p">{{ . | markdownify }}</p>
-                {{ end}}
+
+          <h1 class="text-title mb-1 d-block d-sm-none pb-5">{{ .Params.Owner.Title }}</h1>
+
+          <div class="col-12 col-xl-4 col-lg-6 col-md-8 col-sm-10 p-0">
+            <img class="img-fluid pb-5" src="{{ .Params.Owner.Image }}">
+          </div>
+
+          <div class="col-sm-8 col-md-7 col-xl-6 offset-xl-1">
+
+            <article class="pb-5">
+              <h1 class="text-title mb-1 d-none d-sm-block pb-5">{{ .Params.Owner.Title }}</h1>
+              {{ range .Params.Owner.Lines }}
+                <p class="text-p">{{ . | markdownify }}</p>
+              {{ end}}
             </article>
 
-            <div class="mb-5 mb-md-0  offset-5 order-first order-sm-0 offset-sm-0 col-6 col-sm-4 col-md-4 offset-md-1 col-md-3 offset-xl-1 col-xl-3">
-                <img class="img-fluid" src="{{ .Params.Owner.Image }}">
-            </div>
-
-            <article class="mt-5 col-md-7 col-xl-6 offset-xl-2">
-                <h1 class="text-title mb-3">{{ .Params.Project.Title }}</h1>
-                {{ range .Params.Project.Lines }}
-                    <p class="text-p">{{ . | markdownify }}</p>
-                {{ end}}
+            <article class="mt-5">
+              <h1 class="text-title mb-3 pb-5">{{ .Params.Project.Title }}</h1>
+              {{ range .Params.Project.Lines }}
+                <p class="text-p">{{ . | markdownify }}</p>
+              {{ end}}
             </article>
-        </div> 
+          </div>
 
-        <div class="mt-5 py-5 row d-flex flex-row flex-nowrap align-items-center">
-            <h3 class="heading-3 d-inline w-auto me-2">L'équipe</h3>
-            <div class="divider flex-shrink-1"></div>
         </div>
 
-        <div class="mb-5 pb-5 team-section d-flex flex-column gap-5">
-            {{ range .Params.Team }}
-                <div class="group row align-items-center">
-                    <h5 class="fw-light col-12 col-lg-2 offset-xl-2">{{ .group }}</h5>
-                    <div class="group-members gap-4 col-12 col-lg-10 col-xl-7 d-flex flex-row flex-wrap ">
-                        {{ range .members }}
-                            <div class="group-member">
-                                <img src="{{.img }}">
-                                <h6 class="text-subtitle mt-2 mb-1"><strong>{{ .name }}</strong></h6>
-                                <span class="text-subtitle fw-light text-fg-2">{{ .role }}</span>
-                            </div>
-                        {{ end }}
-                    </div>
-                </div>
-            {{ end }}
+        <div class="mt-5 py-5 row d-flex flex-row flex-nowrap align-items-center">
+          <h3 class="heading-3 d-inline w-auto me-2">L'équipe</h3>
+          <div class="divider flex-shrink-1"></div>
+        </div>
+
+        <div class="mb-5 pb-5 team-section row">
+          {{ range .Params.Team }}
+            <div class="group-member pb-5 col-5 col-sm-4 col-md-3 col-xl-2">
+              <img src="{{.img }}">
+              <h6 class="text-subtitle mt-2 mb-1"><strong>{{ .name }}</strong></h6>
+              <span class="text-subtitle fw-light text-fg-2">{{ .role }}</span>
+            </div>
+          {{ end }}
         </div>
 	</main>
 {{ end }}
