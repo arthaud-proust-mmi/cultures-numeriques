@@ -1,7 +1,8 @@
 ---
 visibleInCms: true
 title: 404 Not Found
-kind: inventions
+kind:
+  - inventions
 thematique: informatique-et-reseau
 year: 1989
 abstract: >-
