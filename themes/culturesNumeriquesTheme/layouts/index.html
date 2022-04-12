@@ -39,39 +39,38 @@
 				{{ end }}
 			</section>
 
-			<!-- Navigation -->
-			<section id="chronologie-section">
-				<div class="title-divider">
-					<h2>Chronologie</h2>
-					<div class="divider"></div>
-				</div>
-
-			<div class="row">
-				<div class="col"><p>Rechercher par date</p></div>
-				<div class="col">
-					<p>Entrez une date</p>
-					<div>
-						<button id="eventManager-yearPrevious"><-</button>
-						<span id="date-previous"></span>
-						<input type="number" id="date-input" value="">
-						<span id="date-next"></span>
-						<button id="eventManager-yearNext">-></button>
-					</div>
-				</div>
+        </div> 
+        
+        <section class="container mt-5 pt-5" id="chronologie-section">
+            <div class="row py-5 d-flex flex-row flex-nowrap align-items-center">
+                <h3 class="heading-3 d-inline w-auto me-2">Parcourez le catalogue</h3>
+                <div class="divider flex-shrink-1"></div>
+            </div>
 
 
             <div class="row">
-
-                <div class="col-12 col-xl-3">
-					<p>trier par</p>
+                <div class="col-12 mb-5 ">
+                    <span class="pe-5">Trier par type</span>
+                    <div id="eventManager-type-filters" class="d-inline-flex flex-row gap-4">
+                        <div><input type="checkbox" data-type="films" id="typefilter-films"><label for="typefilter-films">Films</label></div>
+                        <div><input type="checkbox" data-type="inventions" id="typefilter-inventions"><label for="typefilter-inventions">Inventions</label></div>
+                        <div><input type="checkbox" data-type="livres" id="typefilter-livres"><label for="typefilter-livres">Livres</label></div>
+                        <div><input type="checkbox" data-type="jeux-videos" id="typefilter-jeux-videos"><label for="typefilter-jeux-videos">Jeux-vidéos</label></div>
+                    </div>
                 </div>
-    
-                <div class="col-12 col-xl-9 row d-flex flex-row align-items-stretch" id="events-homepage">
+                
+                <div class="col-12 offset-xl-3 col-xl-9 d-flex flex-row justify-content-center">
+                    <button id="eventManager-paginationPrevious"><-</button>
+                    <span id="eventManager-paginationActual"></span>
+                    <button id="eventManager-paginationNext">-></button>
+                </div>
+
+                <div class="col-12 row d-flex flex-row align-items-stretch" id="events-homepage">
                     <!-- {{ range .Paginator.Pages.ByParam "year" }}
                         {{ partial "event-summary" . }} 
                     {{ end }} -->
                 </div>
-                <div class="col-12 offset-xl-3 col-xl-9">
+                <div class="col-12">
                     <button id="eventManager-loadMore" class="mx-auto">Afficher plus</button>
                 </div>
             </div>
