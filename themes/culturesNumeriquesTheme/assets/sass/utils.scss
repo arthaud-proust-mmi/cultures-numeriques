@@ -140,6 +140,8 @@ p.center {
         border-radius: 4px;
         padding: 20px;
         margin: 0 1rem;
+        border: 2px solid transparent;
+
 
         &:focus {
             border: 2px solid var(--accent-1);
