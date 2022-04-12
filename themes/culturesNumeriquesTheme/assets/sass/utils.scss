@@ -146,16 +146,12 @@ p.center {
         &:hover{
             color: var(--fg-2);
             background: var(--bg-2);
-<<<<<<< HEAD
             border: 2px solid #5487FF;
             // box-sizing: border-box;
             // border-radius: 4px;
 
            }
 
-=======
-           } 
->>>>>>> 7a7e27d71d7a3d16f2aa61d1922e126e32684ade
     }
 
     p {
@@ -165,28 +161,4 @@ p.center {
     svg.mirror {
         transform: rotate(180deg);
     }
-<<<<<<< HEAD
 }
-=======
-
-    .chevron {
-        border-style: solid;
-        border-width: 0.15em 0.15em 0 0;
-        display: inline-block;
-        height: 0.5em;
-        left: 0.15em;
-        position: relative;
-        top: -0.1em;
-        transform: rotate(45deg);
-        vertical-align: center;
-        width: 0.5em;
-        margin-right: 8.5px;
-
-        
-      }
-      .chevron-gauche{
-        transform: rotate(-135deg);
-        }
-
-}
->>>>>>> 7a7e27d71d7a3d16f2aa61d1922e126e32684ade
