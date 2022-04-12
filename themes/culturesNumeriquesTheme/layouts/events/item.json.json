@@ -3,5 +3,6 @@
     "permalink": "{{ .Permalink }}",
     "image": "{{ .Params.image }}",
     "year": "{{ .Params.year }}",
+    "kind": "{{ .Params.kind }}",
     "abstract": {{ jsonify .Params.abstract }}
 }
