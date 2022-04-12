@@ -17,7 +17,7 @@
 				<div class="col thematiques-list margin-left">
 					{{range $index, $item := (where (where (where .Site.Pages ".Title" "!=" "Thématiques") ".Title" "!=" "") ".Type" "thematiques") }}
 						<div class="thematique-item">
-							<strong>{{ $index }}</strong>
+							<strong>{{ printf "%02d" (add 1 $index) }}</strong>
 							<p><a class="text-link" href="{{ .Permalink }}">{{ $item.Title }}</a></p>
 						</div>
 					{{ end }}
