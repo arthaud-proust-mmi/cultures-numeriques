@@ -1,31 +1,30 @@
 {{ define "main" }}
-<main>
-    <article class="article-main-container container-fluid">
-        <div class="image-article margin-bottom row">
-            <img class="" src={{ .Params.image }} alt="">
-        </div>
-        <div class="article-description-container margin-bottom row me-0">
-            <div class="col-lg-5 article-description col text-p letter-snug">{{ .Params.description | markdownify }}</div>
-            <div class="col-lg-3"></div>
+	<main class="container" id="event-list-container">
+        <div class="row">
 
-            <div class="col-lg-4">
-                <p class="text-title">Autres sujets :</p>
-                <ul class="">
-                    {{ range $index, $item := (where .Site.Pages ".Title" "!=" "") | shuffle | first 4 }}
-                        <li class="text-link">
-                            <a href="{{ $item.Permalink }}">
-                                <span class="chevron"></span>
-                                {{ $item.Title }}
-                            </a>
-                        </li>
+            <div class="title-divider">
+                <h3 class="col-12 col-xl-3">{{ .Title }}</h3>
+                   {{ $thematiqueName := .File.BaseFileName }}
+                <div class="divider"></div>
+                <h3 style="margin-left: 5%;" class="col-xl-2">
+                    {{ .Params.birth }} -
+                    {{ if .Params.death }}
+                    {{ .Params.death }}
                     {{ end }}
-                </ul>
+                </h3>
             </div>
 
+            <div class="container-img-des">
+                <div class="image-persons">
+                        <img src="{{.Params.image}}">
+                </div>   
+
+                <div class="des-persons">
+                    {{ .Params.description }}
+                </div>
+
+            </div>
         </div>
-
-    </article>
-        <!-- Events -->
-</main>
+	</main>
+<!-- {{ partial "sidebar.html" . }} -->
 {{ end }}
-
