@@ -44,7 +44,12 @@
 
 
 		{{ range $item := .Params.Persons }}
-			<a href="/persons/{{ $item }}">{{ . }}</a>
+			{{ $path := printf "/%s" . }}
+			{{ with $.Site.GetPage $path }}
+<!--				<a href="{{ .Permalink }}">{{ .Title }}</a>-->
+				{{ partial "person-summary.html" . }}
+
+			{{ end }}
 		{{ end }}
 	</main>
 <!-- {{ partial "sidebar.html" . }} -->
