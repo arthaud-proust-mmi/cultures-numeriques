@@ -14,7 +14,7 @@ theme = "culturesNumeriquesTheme"
 
 [menu]
   [[menu.main]]
-    name = "Acceuil"
+    name = "Accueil"
     pre = "home"
     url = "/"
     weight = 1

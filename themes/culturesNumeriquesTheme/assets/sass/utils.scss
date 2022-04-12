@@ -37,7 +37,7 @@
 .letter-snug {letter-spacing: var(--letter-snug);}
 
 .card-title, .card-thematique, .card-text { font-size: var(--fs-label); line-height: auto; letter-spacing: var(--letter-snug);}
-.card-title, .card-thematique { font-weight: var(--fw-medium);  }
+.card-title, .card-thematique { font-weight: var(--fw-light);  }
 .card-text { font-weight: var(--fw-light); }
 
 // fonts mobile
@@ -50,7 +50,7 @@
 
 a {
     color: unset;
-    // text-decoration: unset;
+    text-decoration: none;
 
     &:hover {
         color: unset;
@@ -75,7 +75,6 @@ p.center {
     text-decoration: underline;
     color: var(--fg-1);
 }
-
 
 .underlined {
     text-decoration: underline;
@@ -140,26 +139,23 @@ p.center {
     a {
         text-decoration: none;
         color: var(--accent-1);
+        font-weight: bold;
         background-color: var(--bg-2);
-        border-radius: 4px;
         padding: 20px;
-        margin: 0 1rem;
-        border: 2px solid transparent;
-
-
-        &:focus {
-            border: 2px solid var(--accent-1);
-        }
-
+        margin: 0 2rem;
         &:hover{
-            color: var(--fg-1);
+            color: var(--fg-2);
             background: var(--bg-2);
+<<<<<<< HEAD
             border: 2px solid #5487FF;
             // box-sizing: border-box;
             // border-radius: 4px;
 
            }
 
+=======
+           } 
+>>>>>>> 7a7e27d71d7a3d16f2aa61d1922e126e32684ade
     }
 
     p {
@@ -169,4 +165,28 @@ p.center {
     svg.mirror {
         transform: rotate(180deg);
     }
+<<<<<<< HEAD
 }
+=======
+
+    .chevron {
+        border-style: solid;
+        border-width: 0.15em 0.15em 0 0;
+        display: inline-block;
+        height: 0.5em;
+        left: 0.15em;
+        position: relative;
+        top: -0.1em;
+        transform: rotate(45deg);
+        vertical-align: center;
+        width: 0.5em;
+        margin-right: 8.5px;
+
+        
+      }
+      .chevron-gauche{
+        transform: rotate(-135deg);
+        }
+
+}
+>>>>>>> 7a7e27d71d7a3d16f2aa61d1922e126e32684ade

@@ -1,20 +1,34 @@
-<article>
-    <div class="row">
-        <div class="col">
+<article class="latest-post">
+    <div class="row gx-5">
+        <div class="col ps-0 pe-5">
             <img class="w-100" src={{ .Params.image }} alt={{ .Title }}>
         </div>
-        <div class="col latest-post-texts">
-            <h4>{{ .Title }}</h4>
+        <div class="col ps-5 pe-0 latest-post-texts">
+            <h4 class="mt-3">{{ .Title }}</h4>
             <div class="title-divider">
-                <p>{{ .Params.Thematique }}</p>
+                <p>
+                    {{ $thematiquePath := printf "/%s" .Params.Thematique }}
+                    {{ with .Site.GetPage $thematiquePath }}
+                        {{ .Title }}
+                    {{ end }}
+                </p>
                 <div class="divider"></div>
                 <p>
                     <span><svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.7085 0C4.91875 0 0.208496 4.71025 0.208496 10.5C0.208496 16.2897 4.91875 21 10.7085 21C16.4982 21 21.2085 16.2897 21.2085 10.5C21.2085 4.71025 16.4982 0 10.7085 0ZM10.7085 19.8202C5.56931 19.8202 1.38827 15.6392 1.38827 10.5C1.38827 5.36082 5.56931 1.17978 10.7085 1.17978C15.8477 1.17978 20.0287 5.36082 20.0287 10.5C20.0287 15.6392 15.8477 19.8202 10.7085 19.8202ZM11.2984 10.2489V3.14621C11.2984 2.82032 11.0344 2.55632 10.7085 2.55632C10.3826 2.55632 10.1186 2.82032 10.1186 3.14621V10.5C10.1186 10.6605 10.184 10.814 10.2998 10.9251L14.3505 14.8187C14.4648 14.9286 14.6119 14.9834 14.7592 14.9834C14.9139 14.9834 15.0688 14.9228 15.1847 14.8022C15.4103 14.5672 15.4029 14.1939 15.1682 13.9681L11.2984 10.2489Z" fill="#1E1E1E"/></svg></span>
-                    4 min de lecture
+                    {{ $lectureDuration := div (countwords .Params.description) 150 }}
+                    {{ $lectureDuration }} 
+                    <!-- Pluriel -->
+                    {{ if gt $lectureDuration 1 }}
+                        minutes
+                    <!-- Singulier -->
+                    {{ else }}
+                        minute
+                    {{ end }}
+                    de lecture
                 </p>
             </div>
-            <p class="description w-75">{{ .Params.Abstract }}</p>
-            <a href="#" class="primary-button">en savoir plus</a>
+            <p class="w-75">{{ .Params.Abstract }}</p>
+            <a href="{{ .Permalink }}" class="primary-button mt-5">continuer à lire</a>
         </div>
     </div>
 </article>

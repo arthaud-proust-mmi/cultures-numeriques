@@ -1,26 +1,27 @@
-<article class="event-summary  col-md-6 col-lg-4 col-xl-3 mb-5">
+<article class="cards-summary col-3">
     <a href="{{ .Permalink }}">
-        <div class="event-summary-container p-4 h-100 d-flex flex-column align-items-start">
+
+        <div class="cards-summary-container p-4 h-100 d-flex flex-column align-items-start">
 
             <!-- Card's header -->
-            <div class="d-flex flex-row justify-content-between w-100">
-                <span>{{ .Title }}</span>
-                <span>
+            <div class="d-flex flex-row justify-content-between">
+                <p class="text-subtitle">{{ .Title }}</p>
+                <p>
                     {{ .Params.birth }}
                     {{ if .Params.death}}
                         <br>{{ .Params.death }}
                     {{ else }}
                         -
                     {{end}}
-                </span>
+                </p>
             </div>
 
             <!-- Card's image -->
-            <div class="divider mt-1 mb-3"></div>
-            <div class="event-summary-img-container w-100">
+            <div class="cards-summary-img-container w-100">
                 <img src={{ .Params.image }} alt={{ .Title }}>
             </div>
 
         </div>
+
     </a>
 </article> 
