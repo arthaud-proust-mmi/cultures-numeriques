@@ -1,11 +1,11 @@
-<article class="cards-summary col-3">
+<article class=" col-3">
     <a href="{{ .Permalink }}">
 
-        <div class="cards-summary-container p-4 h-100 d-flex flex-column align-items-start">
+        <div class=" p-4 h-100 d-flex flex-column align-items-start">
 
             <!-- Card's header -->
             <div class="d-flex flex-row justify-content-between">
-                <p class="text-subtitle">{{ .Title }}</p>
+                <p >{{ .Title }}</p>
                 <p>
                     {{ .Params.birth }}
                     {{ if .Params.death}}
@@ -17,7 +17,7 @@
             </div>
 
             <!-- Card's image -->
-            <div class="cards-summary-img-container w-100">
+            <div class="w-100">
                 <img src={{ .Params.image }} alt={{ .Title }}>
             </div>
 
