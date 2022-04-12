@@ -1,10 +1,10 @@
 <article class="latest-post">
     <div class="row gx-5">
-        <div class="col p-5">
+        <div class="col ps-0 pe-5">
             <img class="w-100" src={{ .Params.image }} alt={{ .Title }}>
         </div>
-        <div class="col p-5 latest-post-texts">
-            <h4>{{ .Title }}</h4>
+        <div class="col ps-5 pe-0 latest-post-texts">
+            <h4 class="mt-3">{{ .Title }}</h4>
             <div class="title-divider">
                 <p>
                     {{ $thematiquePath := printf "/%s" .Params.Thematique }}
@@ -27,8 +27,8 @@
                     de lecture
                 </p>
             </div>
-            <p class="description">{{ .Params.Abstract }}</p>
-            <a href="{{ .Permalink }}" class="primary-button">continuer à lire</a>
+            <p class="w-75">{{ .Params.Abstract }}</p>
+            <a href="{{ .Permalink }}" class="primary-button mt-5">continuer à lire</a>
         </div>
     </div>
 </article>

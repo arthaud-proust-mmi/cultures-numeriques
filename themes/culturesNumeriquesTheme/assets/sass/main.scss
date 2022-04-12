@@ -145,7 +145,7 @@ header {
 }
 
 // Homepage > Landing section
-#landing {
+section#landing {
     padding: 0;
     margin: 0;
     max-width: 100vw;
@@ -166,44 +166,45 @@ header {
             width: 5%;
             font-size: 31px;
         }
-    }
 
-    .grey-bg {
-        background-color: var(--bg-2);
-
-        p {
-            padding: 100px 0;
-        }
-    }
-}
-
-section#chronologie-section {
-    input {
-        border: 1px solid var(--fg-1);
-        border-radius: 0px;
-
-        &::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-        }
-    }
-}
-
-.latest-post {
+        .grey-box {
+            background-color: var(--bg-2);
     
-    .latest-post-texts {
-
-        .title-divider {
-            margin: 60px 0 80px 0;
-        }
-
-        .description {
-            width: 85%;
-        }
-
-        a{
-            width: fit-content;
-            margin-top: 44px;
+            p {
+                padding: 100px 0;
+            }
         }
     }
-
+    
 }
+
+// Homepage / Latest event
+.latest-post {
+    .title-divider {
+        margin: 60px 0 80px 0;
+    }
+
+    a {
+        width: fit-content;
+    }
+}
+
+// .latest-post {
+    
+//     .latest-post-texts {
+
+//         .title-divider {
+//             margin: 60px 0 80px 0;
+//         }
+
+//         .description {
+//             width: 85%;
+//         }
+
+//         a{
+//             width: fit-content;
+//             margin-top: 44px;
+//         }
+//     }
+
+// }
