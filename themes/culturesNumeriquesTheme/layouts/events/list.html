@@ -7,7 +7,7 @@
                 <div class="divider flex-shrink-1"></div>
             </div>
 
-            <div class="row g-3" data-masonry='{"percentPosition": false, "horizontalOrder": true, "fitWidth": true}'>
+            <div class="row g-3" data-masonry='{"percentPosition": false, "fitWidth": true, "isAnimated": true}'>
 
                 {{ range .Paginator.Pages.ByParam "year" }}
 <!--                    {{ partial "event-summary" . }} -->
