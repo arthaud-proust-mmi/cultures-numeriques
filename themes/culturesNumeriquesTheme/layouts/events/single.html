@@ -42,15 +42,16 @@
 			</div>
 		</div>
 
-
+		<div class="margin-left row">
 		{{ range $item := .Params.Persons }}
 			{{ $path := printf "/%s" . }}
 			{{ with $.Site.GetPage $path }}
 <!--				<a href="{{ .Permalink }}">{{ .Title }}</a>-->
 				{{ partial "person-summary.html" . }}
-
 			{{ end }}
 		{{ end }}
+		</div>
+
 	</main>
 <!-- {{ partial "sidebar.html" . }} -->
 {{ end }}
