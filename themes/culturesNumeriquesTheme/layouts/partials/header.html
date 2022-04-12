@@ -1,28 +1,24 @@
-<header>
-	<div>
-		<div>
-			<a href="/">
-				{{partial "logo"}}
-			</a>
-		</div>
+<header class="container d-flex flex-row justify-content-between">
+    <a href="/" class="h-16">
+        {{partial "logo"}}
+    </a>
 
-		<div>
-			<button>
-				<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.6875 22.5H25.3125M4.6875 7.5H25.3125H4.6875ZM4.6875 15H25.3125H4.6875Z" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"/></svg>
-			</button>
-		</div>
-	</div>
+    <button id="openMenu" class="p-4 border-0 mb-3 bg-transparent">
+        <svg width="35" height="35" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.6875 22.5H25.3125M4.6875 7.5H25.3125H4.6875ZM4.6875 15H25.3125H4.6875Z" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
 </header>
 
-<section>
-	<p>Fermer</p>
-	{{ with .Site.Menus.main }}	
-	<nav>
-		<ul>
-			{{ range . }}
-			<li><h3><a href="{{ .URL | relURL }}">{{ .Name }}</a></h3></li>
-			{{ end }}
-		</ul>
-	</nav>
-	{{ end }}
+<section id="menu" class="d-none bg-light position-fixed top-0 end-0 vh-100 left-auto d-flex flex-column">
+    <div class="my-auto px-5">
+        <button class="p-0 border-0 mb-3 bg-transparent" id="closeMenu">Fermer</button>
+        {{ with .Site.Menus.main }}	
+        <nav>
+            <ul class="list-unstyled">
+                {{ range . }}
+                <li><h3><a href="{{ .URL | relURL }}">{{ .Name }}</a></h3></li>
+                {{ end }}
+            </ul>
+        </nav>
+        {{ end }}
+    </div>
 </section>

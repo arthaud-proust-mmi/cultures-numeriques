@@ -1,8 +1,30 @@
 $primary: #1E1E1E;
 $secondary: #646464;
+$info: #0039BF;
 
 $body-bg: white;
 $body-color: #1E1E1E;
 
+$light: #F5F5F5;
+
+$btn-border-width: 1px;
+
+$border-color: $body-color;
+$navbar-light-color: $body-bg;
+
+$link-color: $primary; 
+$link-hover-color: $info; //shift-color
+$link-decoration: null; //mettre none sinon
 
 $enable-rounded: false;
+
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-weight-base: 300;
+
+$font-size-base:              1.125rem !default; // le 1.125 pour le 18
+$h1-font-size:                $font-size-base * 3.556 !default; //64 semibold
+$h2-font-size:                $font-size-base * 3.556 !default; //64 medium
+$h3-font-size:                $font-size-base * 2.167 !default; //39
+$h4-font-size:                $font-size-base * 1.389 !default; //25
+$h5-font-size:                $font-size-base * 0.889 !default; //16
+$h6-font-size:                $font-size-base * 0.889 !default; //16
