@@ -1,0 +1,33 @@
+.cards-summary {
+  //display: inline-block;
+  //height: 100%;
+
+  a>* {
+    text-decoration: none;
+  }
+
+  .cards-summary-container {
+    border: 1px solid var(--fg-1);
+  }
+
+  .cards-summary-img-container {
+    img {
+      width: 100%;
+    }
+  }
+
+  .birth-death-date {
+    text-align: end;
+  }
+}
+
+.fill-background-person {
+  background-color: var(--fg-1);
+  color: var(--bg-1);
+}
+
+.fill-background-event {
+  text-decoration: none !important;
+  background-color: var(--bg-1);
+  color: var(--fg-1);
+}

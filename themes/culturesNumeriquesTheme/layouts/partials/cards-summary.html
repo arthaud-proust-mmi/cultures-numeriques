@@ -1,0 +1,32 @@
+<article class="cards-summary col-4">
+    <a href="{{ .self.Permalink }}">
+        <div class="cards-summary-container p-4 h-100 d-flex flex-column align-items-start
+        {{ if eq .dark "fill-background-person"}}
+            {{ .dark }}
+        {{ else }}
+            fill-background-event
+        {{ end }}
+        ">
+
+            <!-- Card's header -->
+            <div class="d-flex flex-row justify-content-between w-100 mb-4">
+                <p class="card-title">{{ .self.Title }}</p>
+                {{ if .self.Params.Year }}
+                <p class="event-summary-year">{{ .self.Params.Year }}</p>
+                {{ end }}
+                <p class="card-title birth-death-date">
+                    {{ .self.Params.birth }}
+                    {{ if .self.Params.death}}
+                        <br>- {{ .self.Params.death }}
+                    {{end}}
+                </p>
+            </div>
+
+            <!-- Card's image -->
+            <div class="cards-summary-img-container w-100">
+                <img src={{ .self.Params.image }} alt={{ .self.Title }}>
+            </div>
+
+        </div>
+    </a>
+</article> 

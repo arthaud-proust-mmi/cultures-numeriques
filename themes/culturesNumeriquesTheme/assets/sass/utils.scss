@@ -37,7 +37,7 @@
 .letter-snug {letter-spacing: var(--letter-snug);}
 
 .card-title, .card-thematique, .card-text { font-size: var(--fs-label); line-height: auto; letter-spacing: var(--letter-snug);}
-.card-title, .card-thematique { font-weight: var(--fw-medium);  }
+.card-title, .card-thematique { font-weight: var(--fw-light);  }
 .card-text { font-weight: var(--fw-light); }
 
 .heading-1, .heading-2, .heading-3, .text-title, .text-subtitle, .text-btn {
@@ -46,7 +46,7 @@
 
 a {
     color: unset;
-    // text-decoration: unset;
+    text-decoration: none;
 
     &:hover {
         color: unset;
@@ -71,7 +71,6 @@ p.center {
     text-decoration: underline;
     color: var(--fg-1);
 }
-
 
 .underlined {
     text-decoration: underline;
@@ -136,26 +135,14 @@ p.center {
     a {
         text-decoration: none;
         color: var(--accent-1);
+        font-weight: bold;
         background-color: var(--bg-2);
-        border-radius: 4px;
         padding: 20px;
-        margin: 0 1rem;
-        border: 2px solid transparent;
-
-
-        &:focus {
-            border: 2px solid var(--accent-1);
-        }
-
+        margin: 0 2rem;
         &:hover{
-            color: var(--fg-1);
+            color: var(--fg-2);
             background: var(--bg-2);
-            border: 2px solid #5487FF;
-            // box-sizing: border-box;
-            // border-radius: 4px;
-          
-           }
-          
+           } 
     }
 
     p {

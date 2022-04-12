@@ -19,8 +19,12 @@
 // Pages
 @import './pages/personslist.scss';
 @import './pages/events-single.scss';
+@import './pages/404.scss';
+
 
 // Partials
+@import './partials/cards-summary.scss';
 @import './partials/event-summary.scss';
+@import './partials/person-summary.scss';
 @import './partials/breadcrumb.scss';
 
