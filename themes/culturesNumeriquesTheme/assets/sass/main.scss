@@ -200,6 +200,14 @@ header {
     }
 }
 
+.mx-custom {
+    margin-left: ($spacer * 4) !important;
+    margin-right: ($spacer * 4) !important;
+}
+.me-custom {
+    margin-right: ($spacer * 4) !important;
+}
+
 section#chronologie-section {
     input {
         border: 1px solid var(--fg-1);

@@ -1,11 +1,6 @@
 .person-summary {
-  background-color: var(--fg-1);
   display: inline-block;
-
-  * {
-    text-decoration: none;
-    color: var(--bg-1);
-  }
+  width: 23%;
 
   .person-summary-container {
     border: 1px solid var(--fg-1);
@@ -39,4 +34,14 @@
     object-fit: cover;
     aspect-ratio: 1 / 1;
   }
+}
+
+.fill-background-person {
+  background-color: var(--fg-1);
+  color: var(--bg-1);
+}
+
+.fill-background-event {
+  background-color: var(--bg-1);
+  color: var(--fg-1);
 }
