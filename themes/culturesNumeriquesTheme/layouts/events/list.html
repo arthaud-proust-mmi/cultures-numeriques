@@ -10,6 +10,7 @@
                 {{ range .Paginator.Pages.ByParam "year" }}
                     {{ partial "event-summary" . }} 
                 {{ end }}
+                {{ partial "pagination.html" . }}
             </div>
         </div>
 

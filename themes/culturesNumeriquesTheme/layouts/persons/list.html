@@ -1,7 +1,9 @@
 {{ define "main" }}
 
 <main id="persons-list" class="container">
-    <div class="row d-flex flex-row flex-nowrap align-items-center"><h3 class="heading-3 d-inline w-auto me-2">Personnages</h3><div class="divider flex-shrink-1"></div></div>
+    <div class="row">
+        <h3>Personnes</h3>
+    </div>
     <div class="row d-flex flex-row align-items-stretch">
         {{ range (.Paginate .Pages 12).Pages.ByTitle }}
             {{ partial "person-summary" . }} 
