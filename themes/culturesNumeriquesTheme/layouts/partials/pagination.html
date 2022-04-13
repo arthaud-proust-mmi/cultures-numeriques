@@ -2,24 +2,33 @@
 
     <!-- Previous -->
     {{ if .Paginator.HasPrev }}
-        <a href="{{ .Paginator.Prev.URL }}">
-            <svg  width="12" height="15" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.8114 0.457531L11.3559 -2.60623e-08L-4.06351e-07 11.4085L0.455424 11.866L11.8114 0.457531Z" fill="var(--accent-1)"/><path d="M12 22.5425L11.5446 23L0.188642 11.5915L0.644065 11.134L12 22.5425Z" fill="var(--accent-1)"/></svg>            
-        </a>
-        <a href="{{ .Paginator.First.URL }}">{{ .Paginator.First.PageNumber }}</a>
+    <a href="{{ .Paginator.Prev.URL }}">
+        <svg  width="12" height="15" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.8114 0.457531L11.3559 -2.60623e-08L-4.06351e-07 11.4085L0.455424 11.866L11.8114 0.457531Z" fill="var(--accent-1)"/><path d="M12 22.5425L11.5446 23L0.188642 11.5915L0.644065 11.134L12 22.5425Z" fill="var(--accent-1)"/></svg>            
+    </a>
+    
+    <a href="{{ .Paginator.Prev.URL }}">{{ .Paginator.Prev.PageNumber }}</a>
     {{ end }}
-
-    <!-- Current page -->
+    
+    <!-- Current -->
     <p style="text-decoration: none;
     color: var(--bg-2);
     font-weight: bold;
     background-color: var(--accent-1);
     padding: 20px;
     margin: 0 1rem;
-    "
-    >{{ .Paginator.PageNumber }}</p>
-
+    ">{{ .Paginator.PageNumber }}</p>
+    
+    
+    <!-- Next -->
     {{ if .Paginator.HasNext }}
-        <a href="{{ .Paginator.Last.URL }}">{{ .Paginator.Last.PageNumber }}</a>
+        <a href="{{ .Paginator.Next.URL }}">{{ .Paginator.Next.PageNumber }}</a>
+        {{ if .Paginator.Next.HasNext }}
+            <a href="{{ .Paginator.Next.Next.URL }}">{{ .Paginator.Next.Next.PageNumber }}</a>
+            {{ if .Paginator.Next.Next.HasNext }}
+                <a href="{{ .Paginator.Next.Next.Next.URL }}">{{ .Paginator.Next.Next.Next.PageNumber }}</a>
+            {{ end }}
+        {{ end }}
+
         <a href="{{ .Paginator.Next.URL }}">
             <svg class="mirror" width="12" height="15" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.8114 0.457531L11.3559 -2.60623e-08L-4.06351e-07 11.4085L0.455424 11.866L11.8114 0.457531Z" fill="var(--accent-1)"/><path d="M12 22.5425L11.5446 23L0.188642 11.5915L0.644065 11.134L12 22.5425Z" fill="var(--accent-1)"/></svg>            
         </a>

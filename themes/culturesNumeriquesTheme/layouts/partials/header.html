@@ -22,14 +22,16 @@
 </header>
 
 <section class="nav-menu" id="menu-burger">
-	<p class="close-menu-btn" id="close-menu-btn">Fermer</p>
-	{{ with .Site.Menus.main }}	
-	<nav>
-		<ul>
-			{{ range . }}
-			<li><h3><a href="{{ .URL | relURL }}">{{ .Name }}</a></h3></li>
-			{{ end }}
-		</ul>
-	</nav>
-	{{ end }}
+	<div class="container p-5">
+		<p class="close-menu-btn" id="close-menu-btn">Fermer</p>
+		{{ with .Site.Menus.main }}
+		<nav>
+			<ul>
+				{{ range . }}
+					<li><h3 class="text-link"><a href="{{ .URL | relURL }}">{{ .Name }}</a></h3></li>
+				{{ end }}
+			</ul>
+		</nav>
+		{{ end }}
+	</div>
 </section>

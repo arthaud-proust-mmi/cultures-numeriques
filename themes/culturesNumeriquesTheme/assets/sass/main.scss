@@ -8,7 +8,6 @@ body {
     background: var(--bg-1);
 }
 
-
 strong {
     font-weight: var(--fw-semibold);
 }
@@ -104,17 +103,20 @@ header {
 }
 
 .nav-menu {
-    display: none;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: -100%;
     height: 100%;
+    width: 100%;
     background-color: var(--bg-1);
-    padding: 150px;
+
+    @media screen and (min-width: 800px) {
+        transition: right 0.4s ease-in-out;
+        width: 512px;
+    }
 
     &.active {
-        display: block;
+        right: 0;
     }
 
     .close-menu-btn {
@@ -178,7 +180,7 @@ section#landing {
     
 }
 
-// Homepage / Latest event
+// Homepage > Latest event
 .latest-post {
     .title-divider {
         margin: 60px 0 80px 0;
@@ -188,23 +190,3 @@ section#landing {
         width: fit-content;
     }
 }
-
-// .latest-post {
-    
-//     .latest-post-texts {
-
-//         .title-divider {
-//             margin: 60px 0 80px 0;
-//         }
-
-//         .description {
-//             width: 85%;
-//         }
-
-//         a{
-//             width: fit-content;
-//             margin-top: 44px;
-//         }
-//     }
-
-// }
