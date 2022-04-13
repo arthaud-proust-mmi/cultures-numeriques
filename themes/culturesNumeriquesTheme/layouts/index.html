@@ -34,16 +34,17 @@
 
     <!-- Latest post -->
     <section>
-        <h3>À la une</h3>
+        {{ partial "components/heading.html" "A la une" }}
         {{ range where .Site.Pages ".Title" "Arduino" }} {{ partial "latest-event" . }} {{ end }}
     </section>
 
 
 
-    <section>
-        <h3>Quelques propositions d'évènements</h3>
+    <section class="row">
+        {{ partial "components/heading.html" "Quelques propositions d'évènements" }}
         {{ range (where .Site.Pages "Section" "events") }}
             {{ range .Pages }}
+                {{ partial "components/card-summary" . }}
             {{ end }}
         {{ end }}
     </section>
