@@ -18,7 +18,7 @@
                 {{range $index, $item := (where (where (where .Site.Pages ".Title" "!=" "Thématiques") ".Title" "!=" "") ".Type" "thematiques") }}
                 <div>
                     <strong>{{ printf "%02d" (add 1 $index) }}</strong>
-                    <p><a class="icon-link" href="{{ .Permalink }}">{{ $item.Title }}</a></p>
+                    <p><a href="{{ .Permalink }}">{{ $item.Title }}</a></p>
                 </div>
                 {{ end }}
             </div>
