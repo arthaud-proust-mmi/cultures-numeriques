@@ -9,6 +9,8 @@
         {{ range (.Paginate .Pages 12).Pages.ByTitle }}
             {{ partial "components/card-summary" . }}
         {{ end }}
+    </div>
+    <div class="row justify-content-center mt-5 mb-3">
         {{ partial "pagination.html" . }}
     </div>
 </main>
