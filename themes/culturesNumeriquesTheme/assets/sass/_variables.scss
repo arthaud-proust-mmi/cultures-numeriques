@@ -8,6 +8,8 @@ $primary: $custom-accent;
 // $secondary: #646464;
 // $info: #0039BF;
 
+$enable-rounded: false;
+
 $body-bg: $custom-bg-1;
 $body-color: $custom-fg-2;
 
@@ -36,3 +38,16 @@ $h5-font-size:                $font-size-base * 0.889; //16
 $h6-font-size:                $font-size-base * 0.889; //16
 
 $headings-color: $custom-fg-1;
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 12,
+) !default;
