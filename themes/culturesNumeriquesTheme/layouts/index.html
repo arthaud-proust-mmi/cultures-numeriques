@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main>
+<main class="container">
     <section>
         <div>
             <div class="col-5">
@@ -25,7 +25,6 @@
         </div>
     </section>
 
-    <div>
 
         <!-- Latest post -->
         <section>
@@ -37,7 +36,6 @@
             {{ range where .Site.Pages ".Title" "Active World" }} {{ partial "latest" . }} {{ end }}
         </section>
 
- 
 </main>
 <script src="/js/index.js" defer></script>
 {{ end }}
