@@ -1,0 +1,39 @@
+{{ $dataType := .Type }}
+
+<div class="col-4 mb-4">
+    <a href="{{ .Permalink }}">
+        <!-- Black card for persons and organizations -->
+        {{ if or (eq $dataType "persons") (eq $dataType "organizations") }}
+            <div class="card text-white bg-dark p-3">
+        {{ else }}
+            <div class="card p-3">
+        {{ end }}
+
+            <div class="card-header d-flex justify-content-between">
+                <p class="mb-0">{{ $dataType }}</p>
+                
+                <!-- Person brith/death date -->
+                <p class="text-end mb-0">
+                    {{ if eq $dataType "persons" }}
+                        {{ .Params.birth }}<br>
+
+                        {{ if .Params.death }}
+                            {{ .Params.death }}
+                        {{ else }}
+                            -
+                        {{end}}
+                    <!-- Organization creation date -->
+                    {{ else if eq $dataType "organizations" }}
+                        {{ .Params.birth }}
+                    <!-- Event date -->
+                    {{ else if eq $dataType "events" }}
+                        {{ .Params.Year }}
+                    {{ end }}
+                </p>
+
+            </div>
+            <img class="card-img w-100" style="height: 320px;" src={{ .Params.image }} alt={{ .Title }}>
+        </div>
+
+    </a>
+</div>
