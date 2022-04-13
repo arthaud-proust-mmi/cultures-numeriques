@@ -7,12 +7,11 @@
                 <div class="divider flex-shrink-1"></div>
             </div>
 
-            <div class="row g-3" data-masonry='{"percentPosition": false, "fitWidth": true, "isAnimated": true}'>
-
+<!--            <div class="row g-3" data-masonry='{"percentPosition": false, "fitWidth": true, "isAnimated": true}'>-->
+            <div class="row g-3">
                 {{ range .Paginator.Pages.ByParam "year" }}
                     {{ partial "components/card-summary" ( dict "tempalte" "event" "self" .) }}
                 {{ end }}
-                {{ partial "pagination.html" . }}
             </div>
         </div>
 
@@ -24,5 +23,12 @@
 			</div>
 		{{ end }} -->
 	</main>
+<<<<<<< HEAD
+{{ end }}
+=======
+
+{{ partial "pagination.html" . }}
+
 <!-- {{ partial "sidebar.html" . }} -->
 {{ end }}
+>>>>>>> d269cccb9d5761ec2c06abfa6a28411f5ba2807d

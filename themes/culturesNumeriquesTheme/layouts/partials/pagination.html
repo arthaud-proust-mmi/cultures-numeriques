@@ -1,38 +1,44 @@
-<div>
+<nav class="col-6">
+    <ul class="pagination">
+        <!-- Si page > 1 -->
+        {{ if .Paginator.HasPrev }}
+            <li class="page-item p-4 "><a class="page-link fw-bold text-primary text-center" href="{{ .Paginator.Prev.URL }}">{{ partial "svg/left-arrow.html" (dict "strokeColor" "#0039BF" "self" .) }}
+                précedent</a></li>
+        {{ else }}
+            <!-- Si pas de page précédente -->
+            <li class="page-item disabled p-4"><a class="">{{ partial "svg/left-arrow.html" (dict "strokeColor" "#8A9095" "self" .) }} précédent</a></li>
+        {{ end }}
+        <!-- Active -->
+        <li class="page-item active p-4"><a class="page-link text-center" href="#">{{ .Paginator.PageNumber }}</a></li>
 
-    <!-- Previous -->
-    {{ if .Paginator.HasPrev }}
-    <a href="{{ .Paginator.Prev.URL }}">
-        <svg  width="12" height="15" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.8114 0.457531L11.3559 -2.60623e-08L-4.06351e-07 11.4085L0.455424 11.866L11.8114 0.457531Z" fill="var(--accent-1)"/><path d="M12 22.5425L11.5446 23L0.188642 11.5915L0.644065 11.134L12 22.5425Z" fill="var(--accent-1)"/></svg>            
-    </a>
-    
-    <a href="{{ .Paginator.Prev.URL }}">{{ .Paginator.Prev.PageNumber }}</a>
-    {{ end }}
-    
-    <!-- Current -->
-    <p style="text-decoration: none;
-    color: var(--bg-2);
-    font-weight: bold;
-    background-color: var(--accent-1);
-    padding: 20px;
-    margin: 0 1rem;
-    ">{{ .Paginator.PageNumber }}</p>
-    
-    
-    <!-- Next -->
-    {{ if .Paginator.HasNext }}
-        <a href="{{ .Paginator.Next.URL }}">{{ .Paginator.Next.PageNumber }}</a>
-        {{ if .Paginator.Next.HasNext }}
-            <a href="{{ .Paginator.Next.Next.URL }}">{{ .Paginator.Next.Next.PageNumber }}</a>
-            {{ if .Paginator.Next.Next.HasNext }}
-                <a href="{{ .Paginator.Next.Next.Next.URL }}">{{ .Paginator.Next.Next.Next.PageNumber }}</a>
-            {{ end }}
+        {{ if .Paginator.HasNext }}
+        <li class="page-item p-4"><a class="page-link text-center" href="{{ .Paginator.Next.URL }}">
+            {{ .Paginator.Next.PageNumber }}
+        </a></li>
         {{ end }}
 
-        <a href="{{ .Paginator.Next.URL }}">
-        <span></span>
-             <svg  class="mirror" width="11" height="14" viewBox="0 0 12 23" fill="none"  xmlns="http://www.w3.org/2000/svg"><path d="M11.8114 0.457531L11.3559 -2.60623e-08L-4.06351e-07 11.4085L0.455424 11.866L11.8114 0.457531Z" fill="var(--accent-1)"/><path d="M12 22.5425L11.5446 23L0.188642 11.5915L0.644065 11.134L12 22.5425Z" fill="var(--accent-1)"/></svg>            
-        </a>
-    {{ end }}
+        <!-- Last page -->
 
-</div>
+        {{ $currentPage := .Paginator }}
+        {{ $currentPageIndex := add .Paginator.PageNumber 3 }}
+            <!-- Boucle -->
+            {{ range $index, $pages := .Paginator.Pagers }}
+                <!-- Réindexation index, pour ne pas avoir la prochaine page car déjà obtenue via .Paginator.Next.PageNumber -->
+                {{ $index := sub $index 1 }}
+                     <!--  Si index de la boucle > les pages bouclées  -->
+                    {{ if ge $index $currentPage.PageNumber }}
+                        <!-- Si prochaine page < à page actuelle + 2 -->
+                        {{ if le .PageNumber $currentPageIndex }}
+                            <li class="page-item p-4"><a class="page-link text-center" href="{{ .URL }}">{{ .PageNumber }}</a></li>
+                         {{ end }}
+                    {{ end }}
+             {{ end }}
+
+        <!-- Si page suivante -->
+        {{ if .Paginator.HasNext }}
+            <li class="page-item p-4"><a class="page-link text-primary fw-bold" href="{{ .Paginator.Next.URL }}">
+                {{ partial "svg/right-arrow.html" . }} suivant
+            </a></li>
+        {{ end }}
+    </ul>
+</nav>
