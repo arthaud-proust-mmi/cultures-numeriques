@@ -4,18 +4,17 @@
 
             <div class="col-12 col-xl-3">
                 <h3>{{ .Title }}</h3>
-                {{ $thematiqueName := .File.BaseFileName }}
-                {{ $thematiqueName }}
             </div>
 
-            <div class="col-12 col-xl-9 row d-flex flex-row align-items-stretch">
-                {{ range (where .Site.Pages "Section" "events") }}
-                    {{ range (where .Pages "Params.thematique" $thematiqueName ).ByParam "year" }}
-                       {{ partial "event-summary" . }} 
-                    {{ end }}
-                {{ end }}
-            </div>
         </div>
-	</main>
+        <div class="row" data-masonry='{"percentPosition": true }'>
+            {{ $thematiqueName := .File.BaseFileName }}
+            {{ range (where .Site.Pages "Section" "events") }}
+                {{ range (where .Pages "Params.thematique" $thematiqueName).ByParam "year" }}
+                    {{ partial "components/card-summary.html" . }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </main>
 <!-- {{ partial "sidebar.html" . }} -->
 {{ end }}
