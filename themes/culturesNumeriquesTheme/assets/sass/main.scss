@@ -1,0 +1,192 @@
+// les variables sont dans ./variables.scss
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--fg-1);
+    background: var(--bg-1);
+}
+
+strong {
+    font-weight: var(--fw-semibold);
+}
+
+#content {
+    height: 100%;
+}
+
+#event-container img, #event-list-container img {
+    width: 100%;
+}
+
+#event-list-container p, #event-list-container h2 {
+    margin: 0;
+}
+
+#event-list-container .event-sum {
+    margin-left: 80px;
+    margin-bottom: 70px;
+}
+
+#event-list-container .flex {
+    display: flex;
+}
+
+// Header
+header {
+    background-color: var(--bg-1);
+    border-bottom: 1.8px solid var(--fg-1);
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 0 72px 0 72px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .logo-site{
+            display: flex;
+            justify-content: center;
+
+            a {
+                color: unset;
+            }
+        }
+    }
+
+    h2 {
+        a {
+            color: var(--fg-1);
+            text-decoration: none;
+
+            &:hover {
+                color: var(--fg-1);
+            }
+        }
+    }
+
+    .buttons-container {
+        display: flex;
+        align-items: center;
+
+        button:not(:last-child) {
+            margin-right: 49px;
+        }
+
+        button {
+            background: none;
+            border: none;
+        }
+
+        button.theme-switch-btn {
+            // For moon/sun icon switching
+            span {
+                display: none;
+
+                &.active {
+                    display: block;
+                }
+            }
+        }
+
+        button.search-btn path, button.theme-switch-btn #sun-icon path {
+            fill: var(--fg-1);
+        }
+
+        button.open-menu-btn path, button.theme-switch-btn #moon-icon path {
+            stroke: var(--fg-1);
+        }
+    }
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bg-1);
+
+    @media screen and (min-width: 800px) {
+        transition: right 0.4s ease-in-out;
+        width: 512px;
+    }
+
+    &.active {
+        right: 0;
+    }
+
+    .close-menu-btn {
+        text-align: right;
+        margin: 0;
+        color: var(--fg-1);
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-top: 45px;
+        text-align: right;
+
+        li:not(:last-child) {
+            margin-bottom: 45px;
+        }
+
+        a {
+            color: var(--fg-1);
+            text-decoration: none;
+        }
+    }
+}
+
+// Homepage > Landing section
+section#landing {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+
+    .top-row {
+        h1 {
+            font-size: 64px;
+            width: 200%;
+        }
+    }
+
+    .bottom-row {
+        p {
+            font-size: 25px;
+        }
+        
+        p.font-weight-bold {
+            width: 5%;
+            font-size: 31px;
+        }
+
+        .grey-box {
+            background-color: var(--bg-2);
+    
+            p {
+                padding: 100px 0;
+            }
+        }
+    }
+    
+}
+
+// Homepage > Latest event
+.latest-post {
+    .title-divider {
+        margin: 60px 0 80px 0;
+    }
+
+    a {
+        width: fit-content;
+    }
+}

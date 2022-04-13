@@ -10,9 +10,7 @@
 <!--            <div class="row g-3" data-masonry='{"percentPosition": false, "fitWidth": true, "isAnimated": true}'>-->
             <div class="row g-3">
                 {{ range .Paginator.Pages.ByParam "year" }}
-<!--                    {{ partial "event-summary" . }} -->
-                {{ partial "cards-summary" ( dict "self" .) }}
-
+                    {{ partial "components/card-summary" ( dict "tempalte" "event" "self" .) }}
                 {{ end }}
             </div>
         </div>
