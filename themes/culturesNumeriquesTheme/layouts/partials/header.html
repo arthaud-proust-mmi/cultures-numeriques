@@ -1,28 +1,29 @@
-<header>
-	<div>
-		<div>
-			<a href="/">
-				{{partial "logo"}}
-			</a>
-		</div>
+<header class="container">
+    <nav class="navbar navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                {{partial "logo"}}
+            </a>
 
-		<div>
-			<button>
-				<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.6875 22.5H25.3125M4.6875 7.5H25.3125H4.6875ZM4.6875 15H25.3125H4.6875Z" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"/></svg>
-			</button>
-		</div>
-	</div>
-</header>
+            <button class="p-4 border-0 mb-3 bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+                <svg width="35" height="35" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.6875 22.5H25.3125M4.6875 7.5H25.3125H4.6875ZM4.6875 15H25.3125H4.6875Z" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+        </div>
+    </nav>
 
-<section>
-	<p>Fermer</p>
-	{{ with .Site.Menus.main }}	
-	<nav>
-		<ul>
-			{{ range . }}
-			<li><h3><a href="{{ .URL | relURL }}">{{ .Name }}</a></h3></li>
-			{{ end }}
-		</ul>
-	</nav>
-	{{ end }}
-</section>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-body mt-5">
+            <button type="button" class="p-0 border-0 mb-3 bg-transparent" data-bs-dismiss="offcanvas" aria-label="Fermer">Fermer</button>
+            {{ with .Site.Menus.main }}	
+            <nav>
+                <ul class="list-unstyled">
+                    {{ range . }}
+                    <li><h3><a href="{{ .URL | relURL }}">{{ .Name }}</a></h3></li>
+                    {{ end }}
+                </ul>
+            </nav>
+            {{ end }}
+        </div>
+    </div>
+</header>   
