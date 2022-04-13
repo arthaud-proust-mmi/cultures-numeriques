@@ -51,7 +51,10 @@
 	<main class="container">
 		<!-- Heading -->
 		<div class="d-flex mt-5 mb-5 align-items-center">
-			<h3 class="mb-0 me-5">{{ .Title }}</h3>
+			<div>
+				<h3 class="mb-0 me-5">{{ .Title }}</h3>
+				<p>{{ .Params.Year }}</p>
+			</div>
 			<hr class="w-auto flex-grow-1 me-4">
             {{ partial "components/read-time" .Params.description }}
 		  </div>
