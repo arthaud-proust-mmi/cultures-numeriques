@@ -1,5 +1,5 @@
-<nav class="container pt-2 pb-4 mb-5">
-    <ul>
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="fil d'arianne" class="container">
+    <ul class="breadcrumb">
         {{ template "breadcrumbnav" (dict "p1" . "p2" . "siteTitle" .Site.Title) }}
     </ul>
 </nav>
@@ -10,13 +10,12 @@
     {{ else if not .p1.IsHome }}
         {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 "siteTitle" .siteTitle)  }}
     {{ end }}
-    <li class="d-flex gap-3">
+    <li class="pe-3 breadcrumb-item">
         {{ $title := cond (eq .p1.Title .siteTitle) "Accueil" .p1.Title }}
         {{ if eq .p1 .p2 }}
-            <span>{{ $title }}</span>
+            <span class="breadcrumb-item active">{{ $title }}</span>
         {{ else }}
-            <a href="{{ .p1.RelPermalink }}">{{ $title }}</a>
-            <span>/</span>
+            <a class="breadcrumb-item" href="{{ .p1.RelPermalink }}">{{ $title }}</a>
         {{ end }}
     </li>
 {{ end }}
