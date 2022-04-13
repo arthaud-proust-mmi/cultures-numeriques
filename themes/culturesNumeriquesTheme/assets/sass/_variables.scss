@@ -1,17 +1,17 @@
 $custom-fg-1: #1f1f1f;
-$custom-fg-2: #646464;
+$custom-fg-2: #2C2C2C;
 $custom-bg-1: #ffffff;
 $custom-bg-2: #F5F5F5;
 $custom-accent: #0039BF;
 
 $primary: $custom-accent;
-// $secondary: #646464;
+$light: $custom-bg-1;
+$dark: $custom-fg-1;
 // $info: #0039BF;
 
 $body-bg: $custom-bg-1;
-$body-color: $custom-fg-2;
+$body-color: $custom-fg-1;
 
-// $light: #F5F5F5;
 
 $btn-border-width: 1px;
 
@@ -36,3 +36,14 @@ $h5-font-size:                $font-size-base * 0.889; //16
 $h6-font-size:                $font-size-base * 0.889; //16
 
 $headings-color: $custom-fg-1;
+
+
+
+// navbar
+$navbar-dark-color: $custom-fg-1;
+$navbar-light-color: $custom-fg-2;
+$navbar-light-hover-color: $custom-fg-1;
+$navbar-light-active-color: $custom-fg-1;
+// $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='1' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-light-toggler-icon-bg:       url("data:image/svg+xml,<svg viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4.6875 22.5H25.3125M4.6875 7.5H25.3125H4.6875ZM4.6875 15H25.3125H4.6875Z' stroke='#1E1E1E' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+$navbar-light-toggler-border-color: transparent;
