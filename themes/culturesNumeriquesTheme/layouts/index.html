@@ -32,6 +32,12 @@
     </section>
 
 
+    <section class="row mt-6">
+        {{ range $.Site.Data.home.presentations }}
+            {{ partial "components/card-presentation" .}}
+        {{ end }}
+    </section>
+
     <!-- Latest post -->
     <section class="row mt-6">
         {{ partial "components/heading.html" "À la une" }}
