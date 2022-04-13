@@ -42,11 +42,11 @@
 
     <section class="row">
         {{ partial "components/heading.html" "Quelques propositions d'évènements" }}
-        {{ range (where .Site.Pages "Section" "events") }}
-            {{ range .Pages }}
-                {{ partial "components/card-summary" . }}
-            {{ end }}
+        {{ $paginator := .Paginate (where .Site.Pages "Section" "events") }}
+        {{ range $paginator.Pages }}
+            {{ partial "components/card-summary" . }}
         {{ end }}
+        <!-- {{ template "_internal/pagination.html" . }} -->
     </section>
 </main>
 <script src="/js/index.js" defer></script>
