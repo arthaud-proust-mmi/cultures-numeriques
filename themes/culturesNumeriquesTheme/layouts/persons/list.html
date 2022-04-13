@@ -8,10 +8,8 @@
         {{ range (.Paginate .Pages 12).Pages.ByTitle }}
             {{ partial "components/card-summary" . }}
         {{ end }}
-
     </div>
     {{ partial "pagination.html" . }}
-
 </main>
 
 {{ end }}

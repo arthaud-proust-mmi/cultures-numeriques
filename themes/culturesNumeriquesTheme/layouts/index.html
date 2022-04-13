@@ -34,7 +34,7 @@
 
     <!-- Latest post -->
     <section>
-        {{ partial "components/heading.html" "A la une" }}
+        {{ partial "components/heading.html" "À la une" }}
         {{ range where .Site.Pages ".Title" "Arduino" }} {{ partial "latest-event" . }} {{ end }}
     </section>
 
