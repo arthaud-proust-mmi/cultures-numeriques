@@ -5,11 +5,12 @@ $custom-bg-2: #F5F5F5;
 $custom-accent: #0039BF;
 
 $primary: $custom-accent;
-$light: $custom-bg-1;
+$light: $custom-bg-2;
 $dark: $custom-fg-1;
 // $info: #0039BF;
 
 $enable-rounded: false;
+$enable-negative-margins: true;
 
 $body-bg: $custom-bg-1;
 $body-color: $custom-fg-1;
