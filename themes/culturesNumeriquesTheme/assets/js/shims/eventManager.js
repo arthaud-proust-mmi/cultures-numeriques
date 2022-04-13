@@ -1,22 +1,32 @@
 class EventManager {
     constructor(rootElementSelector) {
         this.rootEl = document.querySelector(rootElementSelector);
+        this.eventTemplate = document.querySelector("template#event-template");
 
         this.events = {
             fetched: [],
             filtered: []
         }
-        
-        this.eventTemplate = document.querySelector("template#event-template");
+
+        this.filters = {}
+        this.filtersAvailable = [
+            'year',
+            'thematique',
+            'kind'
+        ]
         
         this.pagination = {
             enabled: true,
             countPerPage: 6,
-            actualPage: 0
+            currentPageN: 0,
+            pages: [[]],
+            currentPage: ()=>this.pagination.pages[this.pagination.currentPageN]
         };
 
         return this;
     }
+
+
 
     /**
      * Retourne l'élément html template
@@ -27,6 +37,8 @@ class EventManager {
     getTemplateEl() {
         return document.importNode(this.eventTemplate.content, true)
     }
+
+
 
     /**
      * Récupère tous les évènements
@@ -41,63 +53,122 @@ class EventManager {
         return this;
     }
 
+
+
     /**
      * Remets dans la liste tous les évènements
      * 
      * @returns {EventManager} EventManager
      */
     clearFilter() {
-        this.pagination.actualPage = 0;
+        this.filters = {};
+        this.pagination.currentPageN = 0;
         this.events.filtered = this.events.fetched;
 
         return this;
     }
 
+
+
     /**
-     * Filtre les évènements selon l'année donnée
+     * Retourne si l'évènement passe le filtre
      * 
-     * @param {string} year
-     * @param {string} filterFetched - Si true filtre la liste events.fetched
+     * @param {string} filter
+     * @param {object} event
+     * 
+     * @returns {boolean} pass
+     */
+    passFilter(filterName, event) {
+        const eventValue = event[filterName];
+        const filterValue = this.filters[filterName];
+        const isFilterArray = Array.isArray(filterValue);
+        const isEventFilterArray = Array.isArray(eventValue);
+
+        switch(true) {
+            case isEventFilterArray && isFilterArray :
+                return [...new Set([...filterValue, ...eventValue])].length > 0;
+
+            case !isEventFilterArray && isFilterArray :
+                return filterValue.includes(eventValue);
+
+            case isEventFilterArray && !isFilterArray :
+                return eventValue.includes(filterValue);
+
+            case !isEventFilterArray && !isFilterArray :
+                return eventValue == filterValue;
+
+            default:
+                return false;
+        }
+    }
+
+
+
+    /**
+     * Filtre les évènements selon les filtres ajoutés
      * 
      * @returns {EventManager} EventManager
      */
-    filterByYear(year, filterFetched=true) {
-        const eventsToFilter = filterFetched ? [...this.events.fetched] : [...this.events.filtered];
+    filter() {
+        const eventsToFilter = [...this.events.fetched];
         this.events.filtered = [];
 
         for(let event of eventsToFilter) {
-            if(event.year == year) {
-                this.events.filtered.push(event);
+            if(
+                // (this.filters.hasOwnProperty('year')
+                // && event.year != this.filters.year)
+                // ||
+                // (this.filters.hasOwnProperty('thematique')
+                // && event.thematique != this.filters.thematique)
+                (this.filters.hasOwnProperty('year')
+                && !this.passFilter('year', event))
+                ||
+                (this.filters.hasOwnProperty('thematique')
+                && !this.passFilter('thematique', event))
+            ) {
+                // on ajoute pas l'event
+                continue;
             }
+            this.events.filtered.push(event);
         }
-
         return this;
     }
 
+
+
     /**
-     * Filtre les évènements selon la thématique donnée
+     * Ajoute le filtre avec la valeur passée
      * 
-     * @param {string} thematique
-     * @param {string} filterFetched - Si true filtre la liste events.fetched
+     * @param {string} filter
+     * @param {string} value
      * 
      * @returns {EventManager} EventManager
      */
-    filterByThematique(thematique, filterFetched) {
-        const eventsToFilter = filterFetched ? [...this.events.fetched] : [...this.events.filtered];
-        this.events.filtered = [];
-
-        for(let event of eventsToFilter) {
-            if(event.thematique == thematique) {
-                this.events.filtered.push(event);
-            }
+    addFilter(filter, value) {
+        if(this.filtersAvailable.includes(filter)) {
+            this.filters[filter] = value;
         }
-        return this;
-    }
-
-    orderBy() {
+        console.log(this.filters);
 
         return this;
     }
+
+
+
+    /**
+     * Retire le filtre donné
+     * 
+     * @param {string} filter
+     * 
+     * @returns {EventManager} EventManager
+     */
+    removeFilter(filter) {
+        delete this.filters[filter];
+
+        return this;
+    }
+    
+    
 
     /**
      * Vide le DOM de l'élément root
@@ -112,6 +183,8 @@ class EventManager {
         return this;
     }
 
+
+
     /**
      * Ajoute à l'élément root un élément event rempli avec les données fournies
      * 
@@ -122,6 +195,7 @@ class EventManager {
     renderEventDOM(eventData) {
         let el = this.getTemplateEl();
         el.querySelector('.event-summary-title').innerText = eventData.title;
+        el.querySelector('.event-summary-year').innerText = eventData.year;
         el.querySelector('.event-summary-abstract').innerText = eventData.abstract;
         el.querySelector('.event-summary-image').src = eventData.image;
         el.querySelector('.event-summary-permalink').href = eventData.permalink;
@@ -130,27 +204,58 @@ class EventManager {
         return this;
     }
 
+
+
     /**
      * Actualise le DOM de l'élément root
      * 
      * @returns {EventManager} EventManager
      */
     renderDOM() {
-        let iStart, iMax;
-        if(!this.pagination.enabled) {
-            iStart = 0;
-            iMax = this.events.filtered.length;
+        if(this.pagination.enabled) {
+            for(const eventData of this.pagination.currentPage() ) {
+                this.renderEventDOM(eventData)
+            }
         } else {
-            iStart = this.pagination.actualPage * this.pagination.countPerPage;
-            iMax = Math.min(iStart+this.pagination.countPerPage, this.events.filtered.length);
+            for(const eventData of this.events.filtered) {
+                this.renderEventDOM(eventData)
+            }
         }
-        for(let i=iStart; i<iMax; i++) {
-            this.renderEventDOM(this.events.filtered[i])
+        
+
+        return this;
+    }
+
+
+
+    /**
+     * Crée les différentes pages et rend utilisable les fonctions paginate*()
+     */
+    createPagination() {
+        this.pagination.enabled = true;
+        this.pagination.pages = [[]];
+
+        let pageI = 0;
+        let pageCount = 0;
+        for (let i=0; i<this.events.filtered.length; i++) {
+            if(pageCount>=this.pagination.countPerPage) {
+                pageCount = 0;
+                pageI++;
+                this.pagination.pages[pageI] = [];
+            }
+            
+            pageCount++;
+            this.pagination.pages[pageI].push(this.events.filtered[i]);
         }
 
         return this;
     }
 
+
+
+    canPaginateNext() {return this.pagination.currentPageN+1 < this.pagination.pages.length}
+    canPaginatePrevious() {return this.pagination.currentPageN-1 >= 0}
+    canPaginateTo(pageN) {return 0 <= pageN && pageN < this.pagination.pages.length}
 
     /**
      * Affiche les résultats de la page 
@@ -158,14 +263,16 @@ class EventManager {
      * @param {integer} 
      * @returns {EventManager} EventManager
      */
-    paginateTo(page) {
-        if(page>=0) {
-            this.pagination.actualPage = page;
+    paginateTo(pageN) {
+        if(this.canPaginateTo(pageN)) {
+            this.pagination.currentPageN = pageN;
             this.clearDOM().renderDOM();
         }
 
         return this;
     }
+
+
 
     /**
      * Affiche les résultats de la page précédente si on est pas au début
@@ -173,25 +280,30 @@ class EventManager {
      * @returns {EventManager} EventManager
      */
     paginatePrevious() {
-        if(this.pagination.actualPage>0) {
-            this.pagination.actualPage--;
+        if( this.canPaginatePrevious() ) {
+            this.pagination.currentPageN--;
             this.clearDOM().renderDOM();
         }
 
         return this;
     }
 
+
+
     /**
-     * Affiche les résultats de la page suivante page suivante
+     * Affiche les résultats de la page suivante
      * 
      * @returns {EventManager} EventManager
      */
     paginateNext() {
-        this.pagination.actualPage++;
-        this.clearDOM().renderDOM();
+        if( this.canPaginateNext() ) {
+            this.pagination.currentPageN++;
+            this.clearDOM().renderDOM();
+        }
 
         return this;
     }
+
 
 
     /**
@@ -200,7 +312,7 @@ class EventManager {
      * @returns {EventManager} EventManager
      */
     loadMore() {
-        this.pagination.actualPage++;
+        this.pagination.currentPageN++;
         this.renderDOM();
 
         return this;

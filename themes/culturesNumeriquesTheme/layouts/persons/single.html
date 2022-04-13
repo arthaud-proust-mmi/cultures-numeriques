@@ -1,12 +1,11 @@
 {{ define "main" }}
-	<main class="container" id="event-list-container">
+	<main class="container">
         <div class="row">
 
-            <div class="title-divider">
+            <div>
                 <h3 class="col-12 col-xl-3">{{ .Title }}</h3>
                    {{ $thematiqueName := .File.BaseFileName }}
-                <div class="divider"></div>
-                <h3 style="margin-left: 5%;" class="col-xl-2">
+                <h3 class="col-xl-2">
                     {{ .Params.birth }} -
                     {{ if .Params.death }}
                     {{ .Params.death }}
@@ -14,12 +13,12 @@
                 </h3>
             </div>
 
-            <div class="container-img-des">
-                <div class="image-persons">
+            <div>
+                <div>
                         <img src="{{.Params.image}}">
                 </div>   
 
-                <div class="des-persons">
+                <div >
                     {{ .Params.description }}
                 </div>
 

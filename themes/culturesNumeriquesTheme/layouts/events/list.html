@@ -1,14 +1,18 @@
 {{ define "main" }}
 	<main id="event-list-container">
-        <div class="row">
+        <div class="row mx-custom">
 
-            <div class="col-12 col-xl-3">
-                <h3>Évènement</h3>
+            <div class="row d-flex flex-row flex-nowrap align-items-center">
+                <h3 class="heading-3 d-inline w-auto me-2">{{ .Title }}</h3>
+                <div class="divider flex-shrink-1"></div>
             </div>
 
-            <div class="col-12 col-xl-9 row d-flex flex-row align-items-stretch">
+            <div class="row g-3" data-masonry='{"percentPosition": false, "fitWidth": true, "isAnimated": true}'>
+
                 {{ range .Paginator.Pages.ByParam "year" }}
-                    {{ partial "event-summary" . }} 
+<!--                    {{ partial "event-summary" . }} -->
+                {{ partial "cards-summary" ( dict "self" .) }}
+
                 {{ end }}
                 {{ partial "pagination.html" . }}
             </div>

@@ -1,29 +1,13 @@
 
-@import "node_modules/bootstrap/scss/bootstrap-reboot";
-@import "node_modules/bootstrap/scss/bootstrap-grid";
-@import "node_modules/bootstrap/scss/bootstrap-utilities";
+@import "./_variables.scss";
+@import "node_modules/bootstrap/scss/bootstrap";
+// @import "node_modules/bootstrap/scss/bootstrap-grid";
+// @import "node_modules/bootstrap/scss/bootstrap-utilities";
+
 
 
 // font size, colors etc
-@import './variables.scss';
+// @import './variables.scss';
 
 @import './utils';
-@import './main';
-
-// Composants
-@import './components/button.scss';
-@import './components/card.scss';
-
-
-
-// Pages
-@import './pages/personslist.scss';
-@import './pages/events-single.scss';
-@import './pages/404.scss';
-
-
-// Partials
-@import './partials/event-summary.scss';
-@import './partials/person-summary.scss';
-@import './partials/breadcrumb.scss';
 
