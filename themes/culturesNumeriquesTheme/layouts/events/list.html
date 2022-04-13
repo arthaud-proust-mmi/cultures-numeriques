@@ -1,4 +1,5 @@
 {{ define "main" }}
+
 	<main id="event-list-container">
         <div class="row mx-custom">
 
@@ -7,24 +8,20 @@
                 <div class="divider flex-shrink-1"></div>
             </div>
 
-<!--            <div class="row g-3" data-masonry='{"percentPosition": false, "fitWidth": true, "isAnimated": true}'>-->
             <div class="row g-3">
                 {{ range .Paginator.Pages.ByParam "year" }}
-                    {{ partial "components/card-summary" ( dict "tempalte" "event" "self" .) }}
+                    {{ partial "components/card-summary" . }}
                 {{ end }}
+                {{ partial "pagination.html" . }}
             </div>
         </div>
-
-
-        <!-- {{ range .Paginator.Pages.ByParam "year" }}
-			<div class="flex">
-				<h2 class="event-year">{{.Params.year}}</h2>
-				<div class="event-sum">{{ .Render "event-summary" }}</div>
-			</div>
-		{{ end }} -->
 	</main>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    {{ partial "pagination.html" . }}
+>>>>>>> a69a8680051517edbb6412dae38efab51a59011d
 
-{{ partial "pagination.html" . }}
-
-<!-- {{ partial "sidebar.html" . }} -->
+>>>>>>> d2d5bce88345c8e4d318d1cfbec4fe4e5c2aba59
 {{ end }}

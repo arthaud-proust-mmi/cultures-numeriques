@@ -1,42 +1,46 @@
 {{ define "main" }}
 	<main class="container">
 
-        <div class="row pt-5">
+    <div>
+      {{ partial "components/heading.html" .Title }}
+    </div>
 
-          <h1 class="text-title mb-1 d-block d-sm-none pb-5">{{ .Params.Owner.Title }}</h1>
+    <div class="row pt-5">
 
-          <div class="col-12 col-xl-4 col-lg-6 col-md-8 col-sm-10 p-0">
-            <img class="img-fluid pb-5" src="{{ .Params.Owner.Image }}">
-          </div>
+      <h4 class="mb-1 d-block d-sm-none pb-5">{{ .Params.Owner.Title }}</h4>
 
-          <div class="col-sm-8 col-md-7 col-xl-6 offset-xl-1">
+      <div class="col-12 col-xl-4 col-lg-6 col-md-8 col-sm-10">
+        <img class="pb-5" src="{{ .Params.Owner.Image }}">
+      </div>
 
-            <article class="pb-5">
-              <h1 class="text-title mb-1 d-none d-sm-block pb-5">{{ .Params.Owner.Title }}</h1>
-              {{ range .Params.Owner.Lines }}
-                <p class="text-p">{{ . | markdownify }}</p>
-              {{ end}}
-            </article>
+      <div class="col-sm-8 col-md-7 col-xl-6 offset-xl-1 pb-5">
 
-            <article class="mt-5">
-              <h1 class="text-title mb-3 pb-5">{{ .Params.Project.Title }}</h1>
-              {{ range .Params.Project.Lines }}
-                <p class="text-p">{{ . | markdownify }}</p>
-              {{ end}}
-            </article>
-          </div>
+        <article class="pb-5">
+          <h4 class="mb-1 d-none d-sm-block pb-5">{{ .Params.Owner.Title }}</h4>
+          {{ range .Params.Owner.Lines }}
+            <p>{{ . | markdownify }}</p>
+          {{ end}}
+        </article>
 
-        </div>
+        <article class="mt-5">
+          <h4 class="mb-3 pb-5">{{ .Params.Project.Title }}</h4>
+          {{ range .Params.Project.Lines }}
+            <p>{{ . | markdownify }}</p>
+          {{ end}}
+        </article>
+      </div>
 
-        <div class="mt-5 py-5 row d-flex flex-row flex-nowrap align-items-center">
-          <h3 class="heading-3 d-inline w-auto me-2">L'équipe</h3>
-          <div class="divider flex-shrink-1"></div>
-        </div>
+    </div>
 
-        <div class="mb-5 pb-5 team-section row">
-            {{ range .Params.Team }}
-                {{ partial "components/team-member-card.html" .}}
-            {{ end }}
-        </div>
+    <div>
+      {{ partial "components/heading.html" "L'équipe" }}
+    </div>
+
+    <div class="mb-5 pb-5 row">
+      {{ range .Params.Team }}
+        {{ partial "components/team-member-card.html" .}}
+      {{ end }}
+    </div>
+
 	</main>
 {{ end }}

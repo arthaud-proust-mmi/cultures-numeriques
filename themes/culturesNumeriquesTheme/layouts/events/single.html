@@ -1,9 +1,8 @@
 {{ define "main" }}
-	<main id="event-container">
+	<!-- <main id="event-container">
 
 		<div class="mx-custom">
 
-<!--		<p>{{ .Params.date }}</p>-->
 		<article class="article-main-container container-fluid">
 			<div class="image-article margin-bottom row">
 				<img class="" src={{ .Params.image }} alt="">
@@ -42,12 +41,23 @@
 		{{ range $item := .Params.Persons }}
 			{{ $path := printf "/%s" . }}
 			{{ with $.Site.GetPage $path }}
-<!--				<a href="{{ .Permalink }}">{{ .Title }}</a>-->
 				{{ partial "cards-summary.html" (dict "dark" "fill-background-person" "self" . ) }}
 			{{ end }}
 		{{ end }}
 		</div>
 
-		
+	</main> -->
+
+	<main class="container">
+		<!-- Heading -->
+		<div class="d-flex mt-5 mb-5 align-items-center">
+			<div>
+				<h3 class="mb-0 me-5">{{ .Title }}</h3>
+				<p>{{ .Params.Year }}</p>
+			</div>
+			<hr class="w-auto flex-grow-1 me-4">
+            {{ partial "components/read-time" .Params.description }}
+		  </div>
+		  
 	</main>
 {{ end }}

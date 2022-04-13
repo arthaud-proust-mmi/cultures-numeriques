@@ -1,16 +1,16 @@
-{{ $dataType := .Type }}
-
 <div class="col-4 mb-4">
+    {{ $dataType := .Type }}
+
     <a href="{{ .Permalink }}">
         <!-- Black card for persons and organizations -->
         {{ if or (eq $dataType "persons") (eq $dataType "organizations") }}
-            <div class="card text-white bg-dark p-3">
+        <div class="card text-white bg-dark p-3">
         {{ else }}
-            <div class="card p-3">
+        <div class="card p-3">
         {{ end }}
 
             <div class="card-header d-flex justify-content-between">
-                <p class="mb-0">{{ $dataType }}</p>
+                <p class="mb-0">{{ .Title }}</p>
                 
                 <!-- Person brith/death date -->
                 <p class="text-end mb-0">
@@ -32,8 +32,7 @@
                 </p>
 
             </div>
-            <img class="card-img w-100" style="height: 320px;" src={{ .Params.image }} alt={{ .Title }}>
+            <img class="card-img w-100" src={{ .Params.image }} alt={{ .Title }}>
         </div>
-    </div>
     </a>
 </div>
