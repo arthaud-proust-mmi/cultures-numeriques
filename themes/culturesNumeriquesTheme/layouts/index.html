@@ -28,12 +28,8 @@
 
         <!-- Latest post -->
         <section>
-            <div>
-                <h2>à la une</h2>
-                <div class="divider"></div>
-            </div>
-
-            {{ range where .Site.Pages ".Title" "Active World" }} {{ partial "latest" . }} {{ end }}
+            <h2>à la une</h2>
+            {{ range where .Site.Pages ".Title" "Active World" }} {{ partial "latest-event" . }} {{ end }}
         </section>
 
 </main>

@@ -8,21 +8,6 @@
     </button>
 </header>
 
-<<<<<<< HEAD
-<section class="nav-menu" id="menu-burger">
-	<div class="container p-5">
-		<p class="close-menu-btn" id="close-menu-btn">Fermer</p>
-		{{ with .Site.Menus.main }}
-		<nav>
-			<ul>
-				{{ range . }}
-					<li><h3 class="text-link"><a href="{{ .URL | relURL }}">{{ .Name }}</a></h3></li>
-				{{ end }}
-			</ul>
-		</nav>
-		{{ end }}
-	</div>
-=======
 <section id="menu" class="d-none bg-light position-fixed top-0 end-0 vh-100 left-auto d-flex flex-column">
     <div class="my-auto px-5">
         <button class="p-0 border-0 mb-3 bg-transparent" id="closeMenu">Fermer</button>
@@ -36,5 +21,4 @@
         </nav>
         {{ end }}
     </div>
->>>>>>> 7b0f974c6a0be0d71dba72786a8a5d9a8415ee74
 </section>
