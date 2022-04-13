@@ -9,6 +9,8 @@ $light: $custom-bg-1;
 $dark: $custom-fg-1;
 // $info: #0039BF;
 
+$enable-rounded: false;
+
 $body-bg: $custom-bg-1;
 $body-color: $custom-fg-1;
 
@@ -47,3 +49,15 @@ $navbar-light-active-color: $custom-fg-1;
 // $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='1' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 $navbar-light-toggler-icon-bg:       url("data:image/svg+xml,<svg viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4.6875 22.5H25.3125M4.6875 7.5H25.3125H4.6875ZM4.6875 15H25.3125H4.6875Z' stroke='#1E1E1E' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 $navbar-light-toggler-border-color: transparent;
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 12,
+);
