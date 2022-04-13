@@ -1,16 +1,18 @@
 {{ define "main" }}
 
 <main id="persons-list" class="container">
-    <div class="row">
-        <h3>Organismes</h3>
-    </div>
-    <div class="row d-flex flex-row align-items-stretch">
-        {{ range (.Paginate .Pages 12).Pages }}
-          {{ partial "components/card-summary" . }}
-        {{ end }}
-
-        {{ partial "pagination.html" . }}
-    </div>
+    <main class="container">
+        <div class="row">
+            {{ partial "components/heading" "Organisations" }}
+        </div>
+    
+        <div class="row">
+            {{ range (.Paginate .Pages 12).Pages.ByTitle }}
+                {{ partial "components/card-summary" . }}
+            {{ end }}
+            {{ partial "pagination.html" . }}
+        </div>
+    </main>
 </main>
 
 {{ end }}
