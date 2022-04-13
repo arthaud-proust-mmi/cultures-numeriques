@@ -1,7 +1,6 @@
 baseurl = "/"
 title = "Cultures Numériques"
 theme = "culturesNumeriquesTheme"
-enableGitInfo = true
 
 [module]
     [[module.mounts]]
@@ -12,10 +11,6 @@ enableGitInfo = true
     home = ["html", "json"]
     section = ["html", "json"]
     page = ["html", "json"]
-
-[frontmatter]
-    date = ["date", "publishDate", "lastmod"]
-    lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [menu]
   [[menu.main]]
