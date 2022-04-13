@@ -28,7 +28,7 @@
 
         <!-- Latest post -->
         <section>
-            <h3>à la une</h3>
+            {{ partial "components/heading.html" "A la une" }}
             {{ range where .Site.Pages ".Title" "Arduino" }} {{ partial "latest-event" . }} {{ end }}
         </section>
 

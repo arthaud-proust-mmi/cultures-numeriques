@@ -10,7 +10,7 @@
     {{ else if not .p1.IsHome }}
         {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 "siteTitle" .siteTitle)  }}
     {{ end }}
-    <li class="pe-3 breadcrumb-item">
+    <li class="pe-3 mt-3 breadcrumb-item">
         {{ $title := cond (eq .p1.Title .siteTitle) "Accueil" .p1.Title }}
         {{ if eq .p1 .p2 }}
             <span class="breadcrumb-item active">{{ $title }}</span>
