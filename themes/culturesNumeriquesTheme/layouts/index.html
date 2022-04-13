@@ -46,7 +46,7 @@
         </div>
         <div class="row" data-masonry='{"percentPosition": true }'>
 
-            {{ $paginator := .Paginate (where .Site.Pages "Section" "events").ByLastmod  }}
+            {{ $paginator := .Paginate (shuffle (where .Site.Pages "Section" "events")) }}
             {{ range $paginator.Pages }}
                 {{ partial "components/card-summary" . }}
             {{ end }}
