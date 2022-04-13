@@ -20,6 +20,15 @@
             <div>
                 <strong>{{ printf "%02d" (add 1 $index) }}</strong>
                 <p><a href="{{ .Permalink }}">{{ $item.Title }}</a></p>
+                <p class="w-50">Découvrez et approfondissez les sujets de votre choix.</p>
+            </div>
+            <div>
+                {{range $index, $item := (where (where (where .Site.Pages ".Title" "!=" "Thématiques") ".Title" "!=" "") ".Type" "thematiques") }}
+                <div>
+                    <strong>{{ printf "%02d" (add 1 $index) }}</strong>
+                    <p><a class="icon-link" href="{{ .Permalink }}">{{ $item.Title }}</a></p>
+                </div>
+                {{ end }}
             </div>
             {{ end }}
         </div>
