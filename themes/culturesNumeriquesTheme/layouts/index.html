@@ -33,20 +33,25 @@
 
 
     <!-- Latest post -->
-    <section>
+    <section class="row mt-6">
         {{ partial "components/heading.html" "À la une" }}
         {{ range where .Site.Pages ".Title" "Arduino" }} {{ partial "latest-event" . }} {{ end }}
     </section>
 
 
 
-    <section class="row">
-        {{ partial "components/heading.html" "Quelques propositions d'évènements" }}
-        {{ $paginator := .Paginate (where .Site.Pages "Section" "events") }}
-        {{ range $paginator.Pages }}
-            {{ partial "components/card-summary" . }}
-        {{ end }}
-        <!-- {{ template "_internal/pagination.html" . }} -->
+    <section>
+        <div class="row mt-6">
+            {{ partial "components/heading.html" "Quelques propositions d'évènements" }}
+        </div>
+        <div class="row" data-masonry='{"percentPosition": true }'>
+
+            {{ $paginator := .Paginate (where .Site.Pages "Section" "events") }}
+            {{ range $paginator.Pages }}
+                {{ partial "components/card-summary" . }}
+            {{ end }}
+            <!-- {{ template "_internal/pagination.html" . }} -->
+        </div>
     </section>
 </main>
 <script src="/js/index.js" defer></script>
