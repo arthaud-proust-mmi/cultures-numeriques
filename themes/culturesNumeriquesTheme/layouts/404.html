@@ -15,8 +15,8 @@
                 <h1>404 ERROR <br>page introuvable</h1>
             
                 <p class="mt-5">Pourquoi ne pas vous laisser tenter par les thèmes proposés ci-dessous ?</p>
-                
-                <div class="mt-5 mb-6">
+
+                <div class="mt-5 mb-6 ">
                     {{range $item := (where (where (where .Site.Pages ".Title" "!=" "Thématiques") ".Title" "!=" "") ".Type" "thematiques") }}
                         <div><a href="{{ $item.Permalink }}">> {{ $item.Title }}</a></div>
                     {{ end }}
