@@ -1,22 +1,27 @@
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-    <nav class="offcanvas-body mt-5">
+    <nav class="offcanvas-body mt-5 text-end px-5">
         <button type="button" class="p-0 border-0 mb-3 bg-transparent" data-bs-dismiss="offcanvas" aria-label="Fermer">Fermer</button>
         
         <h4><a href="/">Accueil</a></h4>
         
-        {{ with .Site.Menus.main }}	
         <hr>
         <p>Thématiques</p>
+        <ul class="list-unstyled">
+            {{ range (where .Site.Pages "Section" "thematiques") }}
+                {{ range .Pages }}
+                    <li><h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4></li>
+                {{ end }}
+            {{ end }}
+        </ul>
+
+
+        {{ with .Site.Menus.main }}	
+        <hr>
         <ul class="list-unstyled">
             {{ range . }}
             <li><h4><a href="{{ .URL | relURL }}">{{ .Name }}</a></h4></li>
             {{ end }}
         </ul>
         {{ end }}
-
-
-        <hr>
-        <h4><a href="/persons">Personnalités</a></h4>
-        <h4><a href="/organizations">Organisations</a></h4>
     </nav>
 </div>

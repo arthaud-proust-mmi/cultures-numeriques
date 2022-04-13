@@ -6,11 +6,12 @@
     </div>
     <div class="row d-flex flex-row align-items-stretch">
         {{ range (.Paginate .Pages 12).Pages.ByTitle }}
-            {{ partial "cards-summary" ( dict "dark" "fill-background-person" "self" . ) }}
+            {{ partial "components/card-summary" . }}
         {{ end }}
 
-        {{ partial "pagination.html" . }}
     </div>
+    {{ partial "pagination.html" . }}
+
 </main>
 
 {{ end }}

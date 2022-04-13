@@ -34,13 +34,9 @@
         </div>
 
         <div class="mb-5 pb-5 team-section row">
-          {{ range .Params.Team }}
-            <div class="group-member pb-5 col-5 col-sm-4 col-md-3 col-xl-2">
-              <img src="{{.img }}">
-              <h6 class="text-subtitle mt-2 mb-1"><strong>{{ .name }}</strong></h6>
-              <span class="text-subtitle fw-light text-fg-2">{{ .role }}</span>
-            </div>
-          {{ end }}
+            {{ range .Params.Team }}
+                {{ partial "components/team-member-card.html" .}}
+            {{ end }}
         </div>
 	</main>
 {{ end }}
