@@ -32,7 +32,13 @@
                 </p>
 
             </div>
-            <img class="card-img w-100" style="height: 320px;" src={{ .Params.image }} alt={{ .Title }}>
+            <img class="card-img w-100" src={{ .Params.image }} alt={{ .Title }}>
+            <p>
+                {{ if eq $dataType "events" }}
+                    {{ .Params.Abstract }}
+                {{ end }}
+            </p>
+        </div>
         </div>
     </a>
 </div>
