@@ -43,6 +43,18 @@ $breadcrumb-active-color:           $custom-accent;
 $breadcrumb-divider-color:          $custom-fg-1;
 $breadcrumb-divider:                quote(">");
 
+// Pagination
+$pagination-hover-color: $custom-bg-2;
+$pagination-hover-bg: $custom-accent;
+$pagination-hover-border-color: $custom-accent;
+
+$pagination-color:  $custom-fg-1;
+$pagination-bg:     $custom-bg-2;
+$pagination-border-color: $custom-bg-2;
+
+$pagination-focus-color: $custom-bg-2;
+$pagination-focus-bg: $custom-accent;
+$pagination-focus-outline: 0;
 
 // navbar
 $navbar-dark-color: $custom-fg-1;
