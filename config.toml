@@ -14,24 +14,14 @@ theme = "culturesNumeriquesTheme"
 
 [menu]
   [[menu.main]]
-    name = "Accueil"
-    pre = "home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Personnages"
+    name = "Personnes"
     pre = "persons"
     url = "/persons/"
     weight = 1
   [[menu.main]]
-    name = "Entreprises"
+    name = "Organisations"
     pre = "organizations"
     url = "/organizations/"
-    weight = 1
-   [[menu.main]]
-    name = "Évenements"
-    pre = "events"
-    url = "/events/"
     weight = 1
 
 [related]
