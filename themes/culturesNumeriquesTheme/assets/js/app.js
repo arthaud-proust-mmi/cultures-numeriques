@@ -1,5 +1,5 @@
 import "./bootstrap.js";
-import "masonry-layout";
+import Masonry from "masonry-layout";
 import imagesLoaded from "imagesloaded";
 
 
