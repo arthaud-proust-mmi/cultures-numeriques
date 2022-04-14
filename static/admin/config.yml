@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: 'assets/media'
+media_folder: 'static/media'
 public_folder: '/media'
 locale: fr
 slug:
@@ -29,8 +29,8 @@ collections:
       - { label: Organisations, name: organizations, widget: relation, collection: organizations, display_fields: [title], value_field: "{{slug}}", search_fields: [title], multiple: true, min: 0, required: false }
       - { label: Abstract, name: abstract, required: false, widget: text }
       - { label: Description, name: description, widget: markdown, minimal: true, required: false, buttons: [bold, link], editor_components: [], modes: [rich_text] }
-      - { label: Image, name: image, widget: image, media_folder: /assets/images/events, public_folder: /images/events, allow_multiple: false, required: false }
-      # - { label: Galerie, name: gallery, widget: image, media_folder: /assets/images/events, public_folder: /images/events, allow_multiple: true, required: false, min: 0 }
+      - { label: Image, name: image, widget: image, media_folder: /static/images/events, public_folder: /images/events, allow_multiple: false, required: false }
+      # - { label: Galerie, name: gallery, widget: image, media_folder: /static/images/events, public_folder: /images/events, allow_multiple: true, required: false, min: 0 }
       - { label: "Liens vers des ressources", name: resources, required: false, multiple: true, min: 0 }
       - { label: "Lien vers une vidéo", name: video, required: false }
       - { label: "Lien vers un podcast", name: podcast, required: false }
@@ -47,7 +47,7 @@ collections:
       - { label: Nom complet, name: title }
       - { label: Prénom, name: first_name }
       - { label: Nom, name: last_name }
-      - { label: Image, name: image, widget: image, media_folder: /assets/images/persons, public_folder: /images/persons, allow_multiple: false }
+      - { label: Image, name: image, widget: image, media_folder: /static/images/persons, public_folder: /images/persons, allow_multiple: false }
       - { label: Description, name: description, required: false, widget: text }
       - { label: Naissance, name: birth, widget: number, default: 1950, value_type: int, min: -5000, max: 3000, step: 1 }
       - { label: Décès, name: death, widget: number, value_type: int, min: 1000, max: 3000, step: 1, required: false }
@@ -62,7 +62,7 @@ collections:
     fields:
       - {label: "Visible", name: "visibleInCms", widget: hidden, default: true}
       - { label: Nom, name: title }
-      - { label: Image, name: image, widget: image, media_folder: /assets/images/organizations, public_folder: /images/organizations, allow_multiple: false }
+      - { label: Image, name: image, widget: image, media_folder: /static/images/organizations, public_folder: /images/organizations, allow_multiple: false }
       - { label: Description, name: description, required: false, widget: text }
       - { label: Fondation, name: birth, widget: number, default: 1950, value_type: int, min: 1000, max: 3000, step: 1 }
       - { label: Personnes, name: persons, widget: relation, collection: persons, display_fields: [title], value_field: "{{slug}}", search_fields: [title], multiple: true, min: 0, required: false }

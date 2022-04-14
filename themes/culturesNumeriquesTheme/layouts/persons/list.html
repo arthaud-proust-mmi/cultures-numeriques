@@ -5,7 +5,7 @@
         {{ partial "components/heading" "Personnes" }}
     </div>
 
-    <div class="row">
+    <div class="row grid-masonry">
         {{ range (.Paginate .Pages 12).Pages.ByTitle }}
             {{ partial "components/card-summary" . }}
         {{ end }}
