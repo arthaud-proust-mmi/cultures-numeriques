@@ -1,71 +1,28 @@
-{{ $dataType := .Type }}
-{{ $cardClass := "card text-decoration-none" }}
-{{ $cardImgClass := "mx-4" }}
-
-<!-- Black card for persons and organizations -->
-{{ if or (eq $dataType "persons") (eq $dataType "organizations") }}
-    {{ $cardClass = printf "%s text-white bg-dark" $cardClass }}
-    {{ $cardImgClass = printf "%s mb-4" $cardImgClass }}
-<!-- White card for events -->
-{{ else }}
-    {{ $cardClass = printf "%s text-dark" $cardClass }}
-{{ end }}
-
-<a href="{{ .Permalink }}" class="{{ $cardClass }}">
-    <!-- Header -->
-    <div class="card-header d-flex justify-content-between border-bottom-0">
-        <p class="mb-0">{{ .Title }}</p>
-
-        <!-- Person brith/death date -->
-        <p class="text-end mb-0">
-            {{ if eq $dataType "persons" }}
-                {{ .Params.birth }}<br>
-                {{ if .Params.death }}
-                    {{ .Params.death }}
-                {{ else }}
-                    -
-                {{end}}
-            <!-- Organization creation date -->
-            {{ else if eq $dataType "organizations" }}
-                {{ .Params.birth }}
-            <!-- Event date -->
-            {{ else if eq $dataType "events" }}
-                {{ .Params.Year }}
-            {{ end }}
-        </p>
-    </div>
-
-    <!-- Image -->
-    {{ $title := .Title }}
-    {{ if .Params.image }}
-        {{ $imgFile := .Params.image }}
-        {{ $imgFileStatic := printf "/static%s" $imgFile }}
-        {{ $imgData := imageConfig $imgFileStatic }}
-        {{ with $imgData }}
-            <div class="{{ $cardImgClass }}">
-              <img  src="{{ $imgFile }}"
-                    width="{{ .Width }}"
-                    height="{{ .Height }}"
-                    alt="{{ $title }}"
-                    class="img-fluid img-square">
-            </div>
-        {{ end }}
+<a href="{{ .Permalink }}" class="card text-decoration-none text-white bg-dark">
+  <div class="card-header d-flex justify-content-between border-bottom-0 my-n2 person__card">
+      <p class="mb-0">{{ .Title }}</p>
+      <p class="text-end small mb-0">
+        {{ .Params.birth }}<br>
+        {{ if .Params.death }}
+          {{ .Params.death }}
+        {{ else }}
+          -
+        {{end}}
+      </p>
+  </div>
+  {{ $title := .Title }}
+  {{ if .Params.image }}
+    {{ $imgFile := .Params.image }}
+    {{ $imgFileStatic := printf "/static%s" $imgFile }}
+    {{ $imgData := imageConfig $imgFileStatic }}
+    {{ with $imgData }}
+      <div class="mx-4 mb-4">
+        <img  src="{{ $imgFile }}"
+              width="{{ .Width }}"
+              height="{{ .Height }}"
+              alt="{{ $title }}"
+              class="img-fluid img-square">
+      </div>
     {{ end }}
-
-    <!-- Abstract & link button -->
-    {{ if eq $dataType "events" }}
-        {{ $btnTitle := "Découvrir" }}
-
-        <div class="card-body">
-            {{ if .Params.Abstract }}
-                <p>
-                    {{ truncate 100 .Params.Abstract }}
-                </p>
-                {{ $btnTitle = "Continuer à lire" }}
-            {{ end }}
-
-            <span class="btn btn-outline-primary d-block text-lowercase">{{ $btnTitle }}</span>
-        </div>
-    {{ end }}
-
+  {{ end }}
 </a>
