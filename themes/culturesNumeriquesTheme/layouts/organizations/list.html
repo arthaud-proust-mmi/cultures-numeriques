@@ -1,25 +1,20 @@
 {{ define "main" }}
+    <div class="row">
+        {{ partial "components/heading" "Organisations" }}
+    </div>
 
-<main id="persons-list" class="container">
-    <main class="container">
-        <div class="row">
-            {{ partial "components/heading" "Organisations" }}
+    <div class="row">
+        {{ range (.Paginate .Pages 12).Pages.ByTitle }}
+        <div class="col-3 mb-4">
+            {{ partial "components/cards/organization" . }}
         </div>
-    
-        <div class="row">
-            {{ range (.Paginate .Pages 12).Pages.ByTitle }}
-            <div class="col-3 mb-4">
-              {{ partial "components/cards/organization" . }}
-            </div>
-            {{ end }}
-        </div>
+        {{ end }}
+    </div>
 
-        <div class="row mt-5 mb-3">
-            <div class="col col-md-6 offset-md-3 justify-content-center">
-                {{ partial "pagination.html" . }}
-            </div>
+    <div class="row mt-5 mb-3">
+        <div class="col col-md-6 offset-md-3 justify-content-center">
+            {{ partial "pagination.html" . }}
         </div>
-    </main>
-</main>
+    </div>
 
 {{ end }}
