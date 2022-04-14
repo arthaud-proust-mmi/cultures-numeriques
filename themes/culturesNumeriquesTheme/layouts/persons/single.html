@@ -22,7 +22,7 @@
             {{ .Params.death }}
           {{ end }}
           </h4>
-          <img src="{{.Params.image}}">
+          <img class="p-0" src="{{.Params.image}}">
         </div>
 
         <div class="col-xl-7 col-lg-6 ">
@@ -31,7 +31,10 @@
       </div>
 
       <div>
-        {{ partial "components/heading.html" (printf "Organisation(s) en lien avec %s" .Title) }}
+        <div class="d-flex mt-5 mb-5 align-items-center">
+          <h5 class="mb-0 me-5">Organisation(s) en lien avec {{.Title}}</h5>
+          <hr class="w-auto flex-grow-1">
+        </div>
 
       {{ range $item := .Params.Organizations }}
 				{{ $path := printf "/%s" . }}
@@ -42,8 +45,9 @@
 
       </div>
 
-      <div>
-        {{ partial "components/heading.html" (printf "Contribution(s) de %s" .Title)}}
+      <div class="d-flex mt-5 mb-5 align-items-center">
+        <h5 class="mb-0 me-5">Contribution(s) de {{.Title}}</h5>
+        <hr class="w-auto flex-grow-1">
       </div>
 
     </div>
