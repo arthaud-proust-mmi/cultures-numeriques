@@ -1,8 +1,29 @@
 <div class="col-6">
-    <h4>{{ .title }}</h4>
+    <div class="d-flex mt-5 mb-5 align-items-center">
+        <h3 class="mb-0 me-5">{{ .presentation.title }}</h3>
+        <hr class="w-auto flex-grow-1">
+    </div>
     <div class="row">
-        
-        <img class="col-6" src="{{ .image }}" alt="Image de {{ .title | singularize }}">
-        <p class="col-6">{{ .abstract }}</p>
+        <div class="col-6">
+            {{ range first 1 (shuffle (where .site.Pages "Section" .presentation.type)) }}
+                <div class="card text-white bg-dark">
+                    <div class="card-header d-flex justify-content-between border-bottom-0">
+                        <p class="mb-0">{{ .Title }}</p>
+                    </div>
+                    {{ $title := .Title }}
+                    {{ if .Params.image }}
+                        {{ $imgFile := .Params.image }}
+                        {{ $imgFileStatic := printf "/static%s" $imgFile }}
+                        {{ $imgData := imageConfig $imgFileStatic }}
+                        {{ with $imgData }}
+                            <div class="mb-4 mx-4">
+                            <img src="{{ $imgFile }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $title }}" class="img-fluid w-100">
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            {{ end }}
+        </div>  
+        <p class="col-6">{{ .presentation.abstract }}</p>
     </div>
 </div>
