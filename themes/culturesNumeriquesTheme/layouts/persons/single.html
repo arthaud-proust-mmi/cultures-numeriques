@@ -30,7 +30,7 @@
     {{ range $item := .Params.Organizations }}
       {{ $path := printf "/%s" . }}
       {{ with $.Site.GetPage $path }}
-        {{ partial "components/card-summary" . }}
+        {{ partial "components/cards/organization" . }}
       {{ end }}
     {{ end }}
 

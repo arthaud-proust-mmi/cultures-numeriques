@@ -3,9 +3,7 @@
   <div class="row grid-masonry">
     {{ $thematiqueName := .File.BaseFileName }}
     {{ range (where .Site.Pages "Params.thematique" $thematiqueName).ByParam "year" }}
-    <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
-      {{ partial "components/card-summary.html" . }}
-    </div>
+      {{ partial "components/cards/event" . }}
     {{ end }}
   </div>
 {{ end }}
