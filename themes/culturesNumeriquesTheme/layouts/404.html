@@ -18,7 +18,7 @@
 
                 <div class="row mt-5 mb-6">
                     {{range $item := (where (where (where .Site.Pages ".Title" "!=" "Thématiques") ".Title" "!=" "") ".Type" "thematiques") }}
-                        <div class="mt-2 link"><a href="{{ $item.Permalink }}"> {{ $item.Title }}</a></div>
+                        <div class="mt-2"><a class="text-primary" href="{{ $item.Permalink }}"> {{ $item.Title }}</a></div>
                     {{ end }}
                 </div>
 
