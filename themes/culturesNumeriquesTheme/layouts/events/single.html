@@ -41,7 +41,7 @@
     <!-- Others events this year -->
     {{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
     {{ if gt ($events) 0 }}
-        <div class="row mt-6 mb-6">
+        <div class="row mt-6 mb-6 grid-masonry">
             {{ $title := printf "Aussi en %s" (string .Params.Year) }}
             {{ partial "components/heading" $title }}
 
