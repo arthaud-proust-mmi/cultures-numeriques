@@ -42,7 +42,9 @@
 
             {{ $paginator := .Paginate (shuffle (where .Site.Pages "Section" "events")) }}
             {{ range $paginator.Pages }}
-                {{ partial "components/card-summary" . }}
+            <div class="col-4 mb-4">
+                 {{ partial "components/card-summary" . }}
+            </div>
             {{ end }}
             <!-- {{ template "_internal/pagination.html" . }} -->
         </div>

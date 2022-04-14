@@ -8,7 +8,9 @@
     
         <div class="row">
             {{ range (.Paginate .Pages 12).Pages.ByTitle }}
-                {{ partial "components/card-summary" . }}
+            <div class="col-4 mb-4">
+              {{ partial "components/card-summary" . }}
+            </div>
             {{ end }}
             {{ partial "pagination.html" . }}
         </div>
