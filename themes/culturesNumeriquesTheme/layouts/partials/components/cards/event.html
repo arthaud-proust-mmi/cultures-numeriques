@@ -1,0 +1,31 @@
+{{ $dataType := .Type }}
+
+<a href="{{ .Permalink }}" class="card text-decoration-none text-dark">
+    <div class="card-header d-flex justify-content-between border-bottom-0">
+        <p class="mb-0">{{ .Title }}</p>
+        <p class="text-end mb-0">{{ .Params.Year }}</p>
+    </div>
+    {{ $title := .Title }}
+    {{ if .Params.image }}
+        {{ $imgFile := .Params.image }}
+        {{ $imgFileStatic := printf "/static%s" $imgFile }}
+        {{ $imgData := imageConfig $imgFileStatic }}
+        {{ with $imgData }}
+            <div class="mx-4">
+                <img src="{{ $imgFile }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $title }}" class="img-fluid w-100">
+            </div>
+        {{ end }}
+    {{ end }}
+
+    <div class="card-body">
+        {{ $btnTitle := "Découvrir" }}
+
+        {{ if .Params.Abstract }}
+            <p>{{ truncate 100 .Params.Abstract }}</p>
+            {{ $btnTitle = "Continuer à lire" }}
+        {{ end }}
+        <span class="btn btn-outline-primary d-block text-lowercase">{{ $btnTitle }}</span>
+    </div>
+    
+
+</a>

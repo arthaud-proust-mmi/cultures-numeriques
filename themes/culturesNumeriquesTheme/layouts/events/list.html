@@ -22,7 +22,7 @@
 
                     {{ range .Paginator.Pages.ByParam "year" }}
                         <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
-                            {{ partial "components/card-summary" . }}
+                            {{ partial "components/cards/event" . }}
                         </div>
                     {{ end }}
                 </div>
