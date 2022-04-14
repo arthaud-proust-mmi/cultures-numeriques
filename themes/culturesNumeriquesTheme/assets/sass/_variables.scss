@@ -15,7 +15,7 @@ $enable-negative-margins: true;
 $body-bg: $custom-bg-1;
 $body-color: $custom-fg-1;
 
-$btn-border-width: 1px; 
+$btn-border-width: 1px;
 
 $border-color: $body-color;
 $navbar-light-color: $body-bg;
@@ -29,6 +29,7 @@ $enable-rounded: false;
 
 $font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-weight-base: 300;
+$font-weight-bold: 500;
 
 $font-size-base:              1.125rem; // le 1.125 pour le 18
 $h1-font-size:                $font-size-base * 3.556; //64 semibold
@@ -79,3 +80,11 @@ $spacers: (
     6: $spacer * 6,
     7: $spacer * 12,
 );
+
+// Card
+$card-cap-bg: transparent;
+$card-border-color: $dark;
+$card-cap-padding-y: 25px;
+$card-cap-padding-x: 25px;
+$card-spacer-y: 25px;
+$card-spacer-x: 25px;
