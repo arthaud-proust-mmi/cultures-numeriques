@@ -17,11 +17,9 @@
 
         {{ range $item := .Params.Persons }}
             {{ $path := printf "/%s" . }}
-            <div class="col-4 mb-4">
-                {{ with $.Site.GetPage $path }}
-                    {{ partial "components/cards/person" . }}
-                {{ end }}
-            </div>
+            {{ with $.Site.GetPage $path }}
+                {{ partial "components/cards/person" . }}
+            {{ end }}
         {{ end }}
 
         {{ range $item := .Params.Organizations }}

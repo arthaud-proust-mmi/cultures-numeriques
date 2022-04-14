@@ -19,11 +19,13 @@
       {{ .Params.description }}
     </div>
   </div>
-  <div>
+
+  {{ if .Params.Organizations }}
+
     <div class="d-flex mt-5 mb-5 align-items-center">
       <h4 class="mb-0 me-5">Organisation(s) en lien avec {{ .Title }}</h4>
       <hr class="w-auto flex-grow-1">
-  </div>
+    </div>
 
     {{ range $item := .Params.Organizations }}
       {{ $path := printf "/%s" . }}
@@ -31,11 +33,13 @@
         {{ partial "components/card-summary" . }}
       {{ end }}
     {{ end }}
-  </div>
-  <div>
+
+  {{ end }}
+
+  {{if .Params.Events}}
     <div class="d-flex mt-5 mb-5 align-items-center">
       <h4 class="mb-0 me-5">Contribution(s) de {{ .Title }}</h4>
       <hr class="w-auto flex-grow-1">
-  </div>
-  </div>
-{{ end }}
+    </div>
+  {{ end }}
+{{end}}
