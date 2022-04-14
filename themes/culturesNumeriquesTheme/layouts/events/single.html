@@ -19,7 +19,7 @@
     </div>
 
     <!-- Linked persons and organizations -->
-	{{ if and (.Params.Persons) (.Params.Organizations) }}
+	{{ if or (.Params.Persons) (.Params.Organizations) }}
 	<div class="row mt-6">
 		<div class="d-flex mt-5 mb-5 align-items-center">
 			{{ $sectionTitle := printf "Organisations en lien avec %s" .Title}}
@@ -27,12 +27,13 @@
 			<hr class="w-auto flex-grow-1">
 		</div>
 
-        {{ range $item := .Params.Persons }}
+        <!-- {{ range $item := .Params.Persons }}
             {{ $path := printf "/%s" . }}
             {{ with $.Site.GetPage $path }}
                 {{ partial "components/cards/person" . }}
             {{ end }}
-        {{ end }}
+        {{ end }} -->
+        {{ partial "components/grids/persons" .Params.Persons }}
 
         {{ range $item := .Params.Organizations }}
             {{ $path := printf "/%s" . }}
