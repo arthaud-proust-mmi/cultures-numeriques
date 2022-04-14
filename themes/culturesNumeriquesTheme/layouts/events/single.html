@@ -60,7 +60,7 @@
 				{{ partial "components/read-time" .Params.description }}
 			</div>
 		</div>
-		
+
 		<!-- Image -->
 		<div class="row">
 			<div class="col col-md-10 offset-md-1">
@@ -90,12 +90,12 @@
 		<!-- Linked persons and organizations -->
 		<div class="row mt-6">
 			{{ partial "components/heading" "Personnalités et organisations en rapport avec l’événement" }}
-			
+
 			{{ range $item := .Params.Persons }}
 				{{ $path := printf "/%s" . }}
 				<div class="col-4 mb-4">
 					{{ with $.Site.GetPage $path }}
-						{{ partial "components/card-summary" . }}
+						{{ partial "components/cards/person" . }}
 					{{ end }}
 				</div>
 			{{ end }}
