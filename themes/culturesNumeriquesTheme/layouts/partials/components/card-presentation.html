@@ -1,6 +1,6 @@
 <div class="col-sm-12 col-md-12 col-lg-6">
     <div class="d-flex mt-5 mb-5 align-items-center">
-        <h3 class="mb-0 me-5">{{ .presentation.title }}</h3>
+        <h4 class="mb-0 me-5">{{ .presentation.title }}</h4>
         <hr class="w-auto flex-grow-1">
     </div>
     <div class="row">
@@ -8,7 +8,7 @@
             {{ range first 1 (shuffle (where .site.Pages "Section" .presentation.type)) }}
                 <div class="card text-white bg-dark">
                     <div class="card-header d-flex justify-content-between border-bottom-0">
-                        <p class="mb-0">{{ .Title }}</p>
+                        <h6 class="mb-0 text-light">{{ .Title }}</h6>
                     </div>
                     {{ $title := .Title }}
                     {{ if .Params.image }}
@@ -24,6 +24,11 @@
                 </div>
             {{ end }}
         </div>  
+        <div class="col-6">
+            <p>{{ .presentation.abstract }}</p>
+            <a class="mt-3 btn btn-outline-primary w-100" href="/{{ .presentation.type }}/">Découvrir</a>
+        </div>
+
         <p class="col-sm-12 col-md-12 col-lg-6">{{ .presentation.abstract }}</p>
     </div>
 </div>

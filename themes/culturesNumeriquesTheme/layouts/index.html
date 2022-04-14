@@ -28,7 +28,7 @@
     </section>
 
 
-    <section class="row mt-md-0 mt-lg-6">
+    <section class="row mt-6 d-flex flex-row justify-content-between">
         {{ range $.Site.Data.home.presentations }}
             {{ partial "components/card-presentation" (dict "presentation" . "site" $.Site) }}
         {{ end }}
