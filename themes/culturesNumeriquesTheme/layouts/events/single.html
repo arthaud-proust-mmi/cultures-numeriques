@@ -115,10 +115,13 @@
 			{{ $title := printf "Aussi en %s" (string .Params.Year) }}
 			{{ partial "components/heading" $title }}
 
+			{{ $currentPageTitle := .Title }}
 			{{ range $index, $item := (where .Site.Pages ".Params.Year" "==" .Params.Year) }}
+				{{ if ne $item.Title $currentPageTitle }}
 				<div class="col-4 mb-4">
 					{{ partial "components/card-summary" . }}
 				</div>
+				{{ end }}
 			{{ end }}
 		</div>
 
