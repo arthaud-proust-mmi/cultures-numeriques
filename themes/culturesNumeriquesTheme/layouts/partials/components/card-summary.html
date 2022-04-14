@@ -3,10 +3,10 @@
     {{ $cardImgClass := "mx-4" }}
     <!-- Black card for persons and organizations -->
     {{ if or (eq $dataType "persons") (eq $dataType "organizations") }}
-      {{ $cardClass = printf "%s text-white bg-dark" $cardClass }}
-      {{ $cardImgClass = printf "%s mb-4" $cardImgClass }}
+        {{ $cardClass = printf "%s text-white bg-dark" $cardClass }}
+        {{ $cardImgClass = printf "%s mb-4" $cardImgClass }}
     {{ else }}
-      {{ $cardClass = printf "%s text-dark" $cardClass }}
+        {{ $cardClass = printf "%s text-dark" $cardClass }}
     {{ end }}
 
     <a href="{{ .Permalink }}" class="text-decoration-none {{ $cardClass }}">

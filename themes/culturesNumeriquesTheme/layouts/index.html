@@ -30,7 +30,7 @@
 
     <section class="row mt-6">
         {{ range $.Site.Data.home.presentations }}
-            {{ partial "components/card-presentation" .}}
+            {{ partial "components/card-presentation" (dict "presentation" . "site" $.Site) }}
         {{ end }}
     </section>
 

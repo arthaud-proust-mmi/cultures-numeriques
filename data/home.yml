@@ -1,8 +1,10 @@
 presentations:
   - title: Personnes
+    type: persons
     abstract: Il y a une ou plusieurs personnes derrière chaque évènement. Qui sont-elles? À quoi ont-elles contribué?
 
 
   - title: Organisations
+    type: organizations
     abstract: Quelles sont ces entreprises, ces équipes qui ont fait de l'innovation et de la révolution technologique leur maître-mot?
     
