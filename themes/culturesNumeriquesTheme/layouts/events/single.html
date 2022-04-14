@@ -33,8 +33,6 @@
                 {{ partial "components/cards/person" . }}
             {{ end }}
         {{ end }} -->
-        {{ partial "components/grids/persons" .Params.Persons }}
-
         {{ range $item := .Params.Organizations }}
             {{ $path := printf "/%s" . }}
             <div class="col-4 mb-4">
