@@ -1,17 +1,15 @@
 <header class="border-bottom sticky-top bg-white {{ if eq .Title "Cultures Numériques" }} mb-5 {{ end }}">
     <div class="container">
-        <nav class="navbar navbar-light">
-            <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-light">
                 <a class="navbar-brand" href="/">
                     {{partial "logo"}}
                 </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-label="Ouvrir le menu">
+                <button class="navbar-toggler p-0 m-n1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-label="Ouvrir le menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            </div>
-        </nav>
-
+            </nav>
+        </div>
     </div>  
 
     {{ partial "menu.html" .}}
