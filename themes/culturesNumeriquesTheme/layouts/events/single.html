@@ -93,16 +93,20 @@
 			
 			{{ range $item := .Params.Persons }}
 				{{ $path := printf "/%s" . }}
-				{{ with $.Site.GetPage $path }}
-					{{ partial "components/card-summary" . }}
-				{{ end }}
+				<div class="col-4 mb-4">
+					{{ with $.Site.GetPage $path }}
+						{{ partial "components/card-summary" . }}
+					{{ end }}
+				</div>
 			{{ end }}
 
 			{{ range $item := .Params.Organizations }}
 				{{ $path := printf "/%s" . }}
-				{{ with $.Site.GetPage $path }}
-					{{ partial "components/card-summary" . }}
-				{{ end }}
+				<div class="col-4 mb-4">
+					{{ with $.Site.GetPage $path }}
+						{{ partial "components/card-summary" . }}
+					{{ end }}
+				</div>
 			{{ end }}
 		</div>
 
@@ -112,7 +116,9 @@
 			{{ partial "components/heading" $title }}
 
 			{{ range $index, $item := (where .Site.Pages ".Params.Year" "==" .Params.Year) }}
-				{{ partial "components/card-summary" . }}
+				<div class="col-4 mb-4">
+					{{ partial "components/card-summary" . }}
+				</div>
 			{{ end }}
 		</div>
 
