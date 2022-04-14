@@ -133,6 +133,13 @@ p.center {
     }
 }
 
+// Paginator bootstrap
+.pagination-svg:hover{
+    a svg path {
+        stroke: $custom-bg-2;
+    }
+}
+
 // Paginator controls
 .pagiantor-controls {
     display: flex;
