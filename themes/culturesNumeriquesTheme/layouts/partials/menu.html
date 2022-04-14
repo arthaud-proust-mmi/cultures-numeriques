@@ -3,35 +3,50 @@
       id="offcanvasMenu"
       aria-labelledby="offcanvasMenuLabel">
 
-  <div class="offcanvas-header">
-    <p></p>
-    <p data-bs-dismiss="offcanvas" aria-label="Fermer">
+  <div class="offcanvas-header px-5 pb-0">
+    <p><a href="/">Accueil</a></p>
+    <p type="button" data-bs-dismiss="offcanvas" aria-label="Fermer">
        Fermer
        <span class="btn-close align-middle ms-1 me-2"></span>
     </p>
   </div>
-  <div class="offcanvas-body">
-    <p><a href="/">Accueil</a></p>
+  <div class="offcanvas-body pt-0">
     <hr>
-    <p>Thématiques - <a href="/events/"><strong>Tout voir</strong></a></p>
-    <ul class="list-unstyled">
-      {{ range (where .Site.Pages "Section" "thematiques") }}
+    <div class="my-5">
+      <p class="px-5">Thématiques - <a href="/events/"><strong>Tout voir</strong></a></p>
+      <ul class="list-unstyled px-5">
+        {{ range (where .Site.Pages "Section" "thematiques") }}
         {{ range .Pages }}
-        <li>
+        <li class="my-4">
           <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
         </li>
         {{ end }}
-      {{ end }}
-    </ul>
-    <hr>
-    {{ with .Site.Menus.main }}
-      <ul class="list-unstyled">
-        {{ range . }}
-          <li>
-            <h4><a href="{{ .URL | relURL }}">{{ .Name }}</a></h4>
-          </li>
         {{ end }}
       </ul>
-    {{ end }}
+    </div>
+
+    <hr>
+    <div class="my-5">
+      {{ with .Site.Menus.main }}
+      <ul class="list-unstyled px-5">
+        {{ range . }}
+        <li class="my-4">
+          <h4><a href="{{ .URL | relURL }}">{{ .Name }}</a></h4>
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+
+    <hr>
+
+    <div class="my-4">
+      <ul class="list-unstyled px-5">
+        <li>
+          <h4><a href="/about">À propos</a></h4>
+        </li>
+      </ul>
+    </div>
+
   </div>
 </nav>

@@ -1,0 +1,6 @@
+<div class="row grid-masonry">
+  {{ range .Paginator.Pages.ByParam "year" }}
+    {{ partial "components/cards/event" . }}
+  {{ end }}
+</div>
+{{ partial "pagination.html" . }}
