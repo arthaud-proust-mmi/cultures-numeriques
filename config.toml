@@ -23,3 +23,10 @@ paginate = 60
     [[related.indices]]
         name = 'persons'
         weight = 100
+
+[taxonomies]
+    year = 'year'
+    thematiques = 'thematique'
+    types = 'types'
+    organizations = 'organization'
+    persons = 'person'
