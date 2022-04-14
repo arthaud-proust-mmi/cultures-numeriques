@@ -1,27 +1,40 @@
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-    <nav class="offcanvas-body mt-5 text-end px-5">
-        <button type="button" class="p-0 border-0 mb-3 bg-transparent" data-bs-dismiss="offcanvas" aria-label="Fermer">Fermer</button>
-        
-        <h4><a href="/">Accueil</a></h4>
+<nav class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
 
-        <hr>
-        <p>Thématiques - <a href="/events/"><strong>Tout voir</strong></a></p>
-        <ul class="list-unstyled">
-            {{ range (where .Site.Pages "Section" "thematiques") }}
-                {{ range .Pages }}
-                    <li><h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4></li>
+    <div class="offcanvas-header px-5">
+        <div class="">
+            <p class="fs-5"><a href="/">Accueil</a></p>
+        </div>
+        <div class="">
+            <button type="button" class="text-secondary fs-5 p-0 border-0 mb-3 bg-transparent" data-bs-dismiss="offcanvas" aria-label="Fermer">
+                Fermer <button type="button" class="btn-close align-middle ms-1" data-bs-dismiss="offcanvas"></button></button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="offcanvas-body container">
+         <div class="px-5">
+            <p>Thématiques - <a href="/events/"><strong>Tout voir</strong></a></p>
+            <ul class="list-unstyled">
+                {{ range (where .Site.Pages "Section" "thematiques") }}
+                    {{ range .Pages }}
+                        <li><h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4></li>
+                    {{ end }}
                 {{ end }}
-            {{ end }}
-        </ul>
+            </ul>
+         </div>
 
+    <hr>
 
-        {{ with .Site.Menus.main }}	
-        <hr>
+    <div class="px-5">
+        {{ with .Site.Menus.main }}
         <ul class="list-unstyled">
             {{ range . }}
             <li><h4><a href="{{ .URL | relURL }}">{{ .Name }}</a></h4></li>
             {{ end }}
         </ul>
         {{ end }}
-    </nav>
-</div>
+    </div>
+
+    </div>
+</nav>
