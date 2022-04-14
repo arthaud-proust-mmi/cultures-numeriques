@@ -41,7 +41,6 @@
     {{ end }}
 
     <!-- Others events this year -->
-
     {{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
     {{ if gt ($events) 0 }}
         <div class="row mt-6 mb-6">
