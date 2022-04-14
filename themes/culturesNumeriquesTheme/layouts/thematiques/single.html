@@ -1,34 +1,11 @@
 {{ define "main" }}
-	<main class="container">
-        <div class="row">
-            {{ partial "components/heading.html" .Title }}
-
-            <div class="d-none d-lg-block col-lg-4">
-                {{ $actualPage := .Title }}
-
-                <p>Les autres thématiques</p>
-                <ul class="list-unstyled">
-                {{ range (where .Site.Pages "Section" "thematiques") }}
-                    {{ if and (ne .Title $actualPage) (ne "Thématiques" .Title) }}
-                            <li class="mb-4 fw-bold"> <a class="link-primary" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                    {{ end }}
-                {{ end }}
-                </ul>
-            </div>
-
-            <div class="col-md-12 col-lg-8">
-                <div class="row grid-masonry">
-                {{ $thematiqueName := .File.BaseFileName }}
-								{{ range (where .Site.Pages "Params.thematique" $thematiqueName).ByParam "year" }}
-                    <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
-                        {{ partial "components/card-summary.html" . }}
-                    </div>
-                {{ end }}
-                </div>
-
-            </div>
-        </div>
-
-    </main>
-<!-- {{ partial "sidebar.html" . }} -->
+  {{ partial "components/heading.html" .Title }}
+  <div class="row grid-masonry">
+    {{ $thematiqueName := .File.BaseFileName }}
+    {{ range (where .Site.Pages "Params.thematique" $thematiqueName).ByParam "year" }}
+    <div class="col-md-6 col-lg-4 col-xl-3 mb-4">
+      {{ partial "components/card-summary.html" . }}
+    </div>
+    {{ end }}
+  </div>
 {{ end }}
