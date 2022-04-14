@@ -1,5 +1,6 @@
 $custom-fg-1: #1f1f1f;
-$custom-fg-2: #2C2C2C;
+$custom-fg-2: #515151;
+// $custom-fg-2: #2C2C2C;
 $custom-bg-1: #ffffff;
 $custom-bg-2: #F5F5F5;
 $custom-accent: #0039BF;
@@ -30,6 +31,7 @@ $enable-rounded: false;
 $font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-weight-base: 300;
 $font-weight-bold: 500;
+$font-weight-bolder: 500;
 
 $font-size-base:              1.125rem; // le 1.125 pour le 18
 $h1-font-size:                $font-size-base * 3.556; //64 semibold

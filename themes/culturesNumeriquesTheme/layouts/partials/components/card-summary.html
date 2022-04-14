@@ -10,7 +10,7 @@
       {{ $cardClass = printf "%s text-dark" $cardClass }}
     {{ end }}
 
-    <a href="{{ .Permalink }}" class="{{ $cardClass }}">
+    <a href="{{ .Permalink }}" class="text-decoration-none {{ $cardClass }}">
         <div class="card-header d-flex justify-content-between border-bottom-0">
             <p class="mb-0">{{ .Title }}</p>
 
