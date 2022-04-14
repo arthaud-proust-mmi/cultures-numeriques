@@ -1,4 +1,5 @@
 <nav>
+{{ if or .Paginator.HasNext .Paginator.HasPrev }}
     <ul class="pagination justify-content-center">
         <!-- Si page > 1 -->
         {{ if .Paginator.HasPrev }}
@@ -11,11 +12,11 @@
         <!-- Active -->
         <li class="page-item active w-10 mx-2"><a class="page-link text-center" href="#">{{ .Paginator.PageNumber }}</a></li>
 
-        {{ if .Paginator.HasNext }}
+    {{ if .Paginator.HasNext }}
         <li class="page-item  w-10 mx-2"><a class="page-link text-center" href="{{ .Paginator.Next.URL }}">
             {{ .Paginator.Next.PageNumber }}
         </a></li>
-        {{ end }}
+
 
         <!-- Last page -->
 
@@ -40,5 +41,7 @@
                 suivant {{ partial "svg/right-arrow.html" . }}
             </a></li>
         {{ end }}
+    {{ end }}
     </ul>
+{{ end }}
 </nav>
