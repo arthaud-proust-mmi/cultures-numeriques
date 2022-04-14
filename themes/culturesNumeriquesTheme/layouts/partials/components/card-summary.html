@@ -1,38 +1,58 @@
-<div class="col-4 mb-4">
     {{ $dataType := .Type }}
+    {{ $cardClass := "card" }}
+    {{ $cardImgClass := "mx-4" }}
+    <!-- Black card for persons and organizations -->
+    {{ if or (eq $dataType "persons") (eq $dataType "organizations") }}
+      {{ $cardClass = printf "%s text-white bg-dark" $cardClass }}
+      {{ $cardImgClass = printf "%s mb-4" $cardImgClass }}
+    {{ else }}
+      {{ $cardClass = printf "%s text-dark" $cardClass }}
+    {{ end }}
 
-    <a href="{{ .Permalink }}">
-        <!-- Black card for persons and organizations -->
-        {{ if or (eq $dataType "persons") (eq $dataType "organizations") }}
-        <div class="card text-white bg-dark p-3">
-        {{ else }}
-        <div class="card p-3">
+    <a href="{{ .Permalink }}" class="text-decoration-none {{ $cardClass }}">
+        <div class="card-header d-flex justify-content-between border-bottom-0">
+            <p class="mb-0">{{ .Title }}</p>
+
+            <!-- Person brith/death date -->
+            <p class="text-end mb-0">
+                {{ if eq $dataType "persons" }}
+                    {{ .Params.birth }}<br>
+                    {{ if .Params.death }}
+                        {{ .Params.death }}
+                    {{ else }}
+                        -
+                    {{end}}
+                <!-- Organization creation date -->
+                {{ else if eq $dataType "organizations" }}
+                    {{ .Params.birth }}
+                <!-- Event date -->
+                {{ else if eq $dataType "events" }}
+                    {{ .Params.Year }}
+                {{ end }}
+            </p>
+        </div>
+
+        {{ $title := .Title }}
+        {{ if .Params.image }}
+            {{ $imgFile := .Params.image }}
+            {{ $imgFileStatic := printf "/static%s" $imgFile }}
+            {{ $imgData := imageConfig $imgFileStatic }}
+            {{ with $imgData }}
+                <div class="{{ $cardImgClass }}">
+                  <img src="{{ $imgFile }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $title }}" class="img-fluid w-100">
+                </div>
+            {{ end }}
         {{ end }}
 
-            <div class="card-header d-flex justify-content-between">
-                <p class="mb-0">{{ .Title }}</p>
-                
-                <!-- Person brith/death date -->
-                <p class="text-end mb-0">
-                    {{ if eq $dataType "persons" }}
-                        {{ .Params.birth }}<br>
-
-                        {{ if .Params.death }}
-                            {{ .Params.death }}
-                        {{ else }}
-                            -
-                        {{end}}
-                    <!-- Organization creation date -->
-                    {{ else if eq $dataType "organizations" }}
-                        {{ .Params.birth }}
-                    <!-- Event date -->
-                    {{ else if eq $dataType "events" }}
-                        {{ .Params.Year }}
-                    {{ end }}
-                </p>
-
+        {{ if eq $dataType "events" }}
+            <div class="card-body">
+                {{ if .Params.Abstract }}
+                    <p>
+                        {{ truncate 100 .Params.Abstract }}
+                    </p>
+                {{ end }}
+                <span class="btn btn-outline-primary d-block">Continuer à lire</span>
             </div>
-            <img class="card-img w-100" src={{ .Params.image }} alt={{ .Title }}>
-        </div>
+        {{ end }}
+
     </a>
-</div>

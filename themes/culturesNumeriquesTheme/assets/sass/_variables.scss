@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 $custom-fg-1: #1E1E1E;
 $custom-fg-2: #515151;
+=======
+$custom-fg-1: #1f1f1f;
+$custom-fg-2: #515151;
+// $custom-fg-2: #2C2C2C;
+>>>>>>> 9ae2763d58c6e7f114632965e56b7d7608e865fe
 $custom-bg-1: #ffffff;
 $custom-bg-2: #F5F5F5;
 $custom-accent: #0039BF;
@@ -24,11 +30,14 @@ $navbar-light-color: $body-bg;
 $link-color: $custom-fg-1;
 $link-hover-color: $custom-fg-1; //shift-color
 $link-decoration: null; //mettre none sinon
+$link-hover-decoration: underline;
 
 $enable-rounded: false;
 
 $font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-weight-base: 300;
+$font-weight-bold: 500;
+$font-weight-bolder: 500;
 
 $font-size-base:              1.125rem; // le 1.125 pour le 18
 $h1-font-size:                $font-size-base * 3.556; //64 semibold
@@ -47,6 +56,20 @@ $breadcrumb-divider-color:          $custom-fg-2;
 $breadcrumb-divider:                quote("/");
 
 
+// Pagination
+$pagination-hover-color: $custom-bg-2;
+$pagination-hover-bg: $custom-accent;
+$pagination-hover-border-color: $custom-accent;
+
+$pagination-color:  $custom-fg-1;
+$pagination-bg:     $custom-bg-2;
+$pagination-border-color: $custom-bg-2;
+
+$pagination-focus-color: $custom-bg-2;
+$pagination-focus-bg: $custom-accent;
+$pagination-focus-outline: 0;
+
+$pagination-disabled-color: $custom-bg-2;
 
 // navbar
 $navbar-dark-color: $custom-fg-1;
@@ -68,3 +91,11 @@ $spacers: (
     6: $spacer * 6,
     7: $spacer * 12,
 );
+
+// Card
+$card-cap-bg: transparent;
+$card-border-color: $dark;
+$card-cap-padding-y: 25px;
+$card-cap-padding-x: 25px;
+$card-spacer-y: 25px;
+$card-spacer-x: 25px;

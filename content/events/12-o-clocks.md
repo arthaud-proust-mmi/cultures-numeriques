@@ -7,11 +7,8 @@ thematique: informatique-et-reseau
 year: 1996
 persons:
   - john-maeda
-abstract: >+
-  
-
-  Les 12 heures classiques de John Maeda ont été développées en 1996-97 pour Classic Mac OS. 
-
+abstract: "Les 12 heures classiques de John Maeda ont été développées en 1996-97
+  pour Classic Mac OS. "
 description: >-
   Les 12 heures classiques de John Maeda ont été développées en 1996-97 pour
   Classic Mac OS. 

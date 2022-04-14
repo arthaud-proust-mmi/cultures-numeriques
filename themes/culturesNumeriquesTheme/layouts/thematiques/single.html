@@ -1,21 +1,36 @@
 {{ define "main" }}
 	<main class="container">
         <div class="row">
+            {{ partial "components/heading.html" .Title }}
 
-            <div class="col-12 col-xl-3">
-                <h3>{{ .Title }}</h3>
-                {{ $thematiqueName := .File.BaseFileName }}
-                {{ $thematiqueName }}
-            </div>
+            <div class="col-4">
+                {{ $actualPage := .Title }}
 
-            <div class="col-12 col-xl-9 row d-flex flex-row align-items-stretch">
-                {{ range (where .Site.Pages "Section" "events") }}
-                    {{ range (where .Pages "Params.thematique" $thematiqueName ).ByParam "year" }}
-                       {{ partial "event-summary" . }} 
+                <p>Les autres thématiques</p>
+                <ul class="list-unstyled">
+                {{ range (where .Site.Pages "Section" "thematiques") }}
+                    {{ if and (ne .Title $actualPage) (ne "Thématiques" .Title) }}
+                            <li class="mb-4 fw-bold"> <a class="link-primary" href="{{ .Permalink }}">{{ .Title }}</a></li>
                     {{ end }}
                 {{ end }}
+                </ul>
+            </div>
+
+            <div class="col-8">
+                <div class="row grid-masonry">
+                {{ $thematiqueName := .File.BaseFileName }}
+                {{ range (where .Site.Pages "Section" "events") }}
+                    {{ range (where .Pages "Params.thematique" $thematiqueName).ByParam "year" }}
+                    <div class="col-6 mb-4">
+                         {{ partial "components/card-summary.html" . }}
+                    </div>
+                    {{ end }}
+                {{ end }}
+                </div>
+
             </div>
         </div>
-	</main>
+
+    </main>
 <!-- {{ partial "sidebar.html" . }} -->
 {{ end }}

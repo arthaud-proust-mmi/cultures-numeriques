@@ -2,14 +2,19 @@
 
 <main class="container">
     <div class="row">
-        <h3>Personnalités</h3>
+        {{ partial "components/heading" "Personnes" }}
     </div>
-    <div class="row d-flex flex-row align-items-stretch">
+
+    <div class="row grid-masonry">
         {{ range (.Paginate .Pages 12).Pages.ByTitle }}
+        <div class="col-4 mb-4">
             {{ partial "components/card-summary" . }}
+        </div>
         {{ end }}
     </div>
-    {{ partial "pagination.html" . }}
+    <div class="row justify-content-center mt-5 mb-3">
+        {{ partial "pagination.html" . }}
+    </div>
 </main>
 
 {{ end }}

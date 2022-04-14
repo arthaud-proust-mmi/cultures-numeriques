@@ -15,40 +15,36 @@
         </div>
         <div class="offset-1 col-6 py-5">
 
-            <p class="mb-4">Thématiques</p>
+            <p class="mb-4">Thématiques - <a href="/events/"><strong>Tout voir</strong></a></p>
 
-            {{ $index :=0 }}
             {{ range (where .Site.Pages "Section" "thematiques") }}
                 {{ range .Pages }}
-                    {{ $index = add $index 1 }}
                     <h4 class="mb-3">
-                        <span class="pe-5">{{ printf "%02d" $index }}</span>
-                        <a class="icon-link" href="{{ .Permalink }}">{{ .Title }}</a>
+                        <a class="" href="{{ .Permalink }}">{{ .Title }}</a>
                     </h4>
                 {{ end }}
             {{ end }}
-
         </div>
     </section>
 
 
-    <!-- Latest post -->
     <section class="row mt-6">
-        {{ partial "components/heading.html" "À la une" }}
-        {{ range where .Site.Pages ".Title" "Arduino" }} {{ partial "latest-event" . }} {{ end }}
+        {{ range $.Site.Data.home.presentations }}
+            {{ partial "components/card-presentation" .}}
+        {{ end }}
     </section>
 
-
-
-    <section>
-        <div class="row mt-6">
+    <section class="my-6">
+        <div class="row">
             {{ partial "components/heading.html" "Quelques propositions d'évènements" }}
         </div>
-        <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="row grid-masonry">
 
-            {{ $paginator := .Paginate (where .Site.Pages "Section" "events") }}
+            {{ $paginator := .Paginate (shuffle (where .Site.Pages "Section" "events")) }}
             {{ range $paginator.Pages }}
-                {{ partial "components/card-summary" . }}
+            <div class="col-4 mb-4">
+                 {{ partial "components/card-summary" . }}
+            </div>
             {{ end }}
             <!-- {{ template "_internal/pagination.html" . }} -->
         </div>
