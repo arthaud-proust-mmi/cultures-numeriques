@@ -20,23 +20,18 @@
         {{ .Params.description }}
       </div>
     </div>
+    <div>
+      {{ partial "components/heading.html" (printf "Organisation(s) en lien avec %s" .Title) }}
 
-      <div>
-        {{ partial "components/heading.html" (printf "Organisation(s) en lien avec %s" .Title) }}
-
-        {{ range $item := .Params.Organizations }}
-          {{ $path := printf "/%s" . }}
-          {{ with $.Site.GetPage $path }}
-            {{ partial "components/card-summary" . }}
-          {{ end }}
+      {{ range $item := .Params.Organizations }}
+        {{ $path := printf "/%s" . }}
+        {{ with $.Site.GetPage $path }}
+          {{ partial "components/card-summary" . }}
         {{ end }}
-
-      </div>
-
-      <div>
-        {{ partial "components/heading.html" (printf "Contribution(s) de %s" .Title)}}
-      </div>
-
+      {{ end }}
+    </div>
+    <div>
+      {{ partial "components/heading.html" (printf "Contribution(s) de %s" .Title)}}
     </div>
   </main>
 {{ end }}
