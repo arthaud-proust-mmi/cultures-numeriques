@@ -1,15 +1,14 @@
 {{ define "main" }}
-  <div class="d-flex justify-content-between align-items-center mt-5 mb-5">
-    <h1 class="mb-0 me-5">{{ .Title }}</h1>
-    <hr class="w-auto flex-grow-1 me-5">
-    {{ partial "components/read-time" .Params.description }}
-
-  </div>
+{{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description)}}
 
   <time datetime="{{ .Params.Birth }}">{{ .Params.Birth }}</time>
   <div class="row">
-    <img class="col-4" src="{{ .Params.image }}">
-    <p class="offset-1 col-7">{{ .Description }}</p>
+    <div class="col-4">
+      <img src="{{ .Params.image }}" class="img-fluid">
+    </div>
+    <div class="offset-lg-1 col-lg-7">
+      <p>{{ .Description }}</p>
+    </div>
   </div>
 
   {{if .Params.Events}}
@@ -18,7 +17,7 @@
       <hr class="w-auto flex-grow-1">
     </div>
 
-    <div class="d-flex">
+    <div class="row">
       {{ range $item := .Params.Events }}
         {{ $path := printf "/%s" . }}
         {{ with $.Site.GetPage $path }}
@@ -35,7 +34,7 @@
       <hr class="w-auto flex-grow-1">
     </div>
 
-    <div class="d-flex">
+    <div class="row">
       {{ range $item := .Params.Persons }}
         {{ $path := printf "/%s" . }}
         {{ with $.Site.GetPage $path }}
