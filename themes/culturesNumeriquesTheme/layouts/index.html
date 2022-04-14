@@ -43,7 +43,7 @@
         <div class="row grid-masonry">
             {{ range (first 6 (shuffle (where .Site.Pages "Section" "events"))) }}
             <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-                 {{ partial "components/card-summary" . }}
+                 {{ partial "components/cards/event" . }}
             </div>
             {{ end }}
         </div>

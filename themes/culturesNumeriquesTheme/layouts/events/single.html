@@ -1,5 +1,12 @@
 {{ define "main" }}
-    {{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description)}}
+	<div class="d-flex mt-5 mb-5 align-items-center">
+		<div>
+			<h3 class="mb-0 me-5">{{ .Title }}</h3>
+			<p class="fs-4 fw-bold">{{ .Params.Year }}</p>
+		</div>
+		<hr class="w-auto flex-grow-1 me-4">
+		{{ partial "components/read-time" .Params.description }}
+	</div>
 
     <div class="row mt-6">
         <div class="col-4">
@@ -12,8 +19,13 @@
     </div>
 
     <!-- Linked persons and organizations -->
-    <div class="row mt-6">
-        {{ partial "components/heading" "Personnalités et organisations en rapport avec l’événement" }}
+	{{ if and (.Params.Persons) (.Params.Organizations) }}
+	<div class="row mt-6">
+		<div class="d-flex mt-5 mb-5 align-items-center">
+			{{ $sectionTitle := printf "Organisations en lien avec %s" .Title}}
+			<h4 class="mb-0 me-5">{{ $sectionTitle }}</h4>
+			<hr class="w-auto flex-grow-1">
+		</div>
 
         {{ range $item := .Params.Persons }}
             {{ $path := printf "/%s" . }}
@@ -33,6 +45,7 @@
             </div>
         {{ end }}
     </div>
+    {{ end }}
 
     <!-- Others events this year -->
     <div class="row mt-6 mb-6">
