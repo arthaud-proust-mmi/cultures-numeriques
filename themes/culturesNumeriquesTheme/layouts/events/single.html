@@ -33,7 +33,7 @@
                 {{ $path := printf "/%s" . }}
                 <div class="col-4 mb-4">
                     {{ with $.Site.GetPage $path }}
-                        {{ partial "components/card-summary" . }}
+                        {{ partial "components/cards/organization" . }}
                     {{ end }}
                 </div>
             {{ end }}
