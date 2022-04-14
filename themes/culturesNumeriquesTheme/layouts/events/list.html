@@ -4,7 +4,7 @@
         <div class="row">
             {{ partial "components/heading.html" .Title }}
 
-            <div class="col-4">
+            <div class="d-none d-lg-block col-lg-4">
                 {{ $actualPage := .Title }}
 
                 <p>Découvrir toutes les thématiques</p>
@@ -17,17 +17,17 @@
                 </ul>
             </div>
 
-            <div class="col-8">
+            <div class="col-md-12 col-lg-8">
                 <div class="row grid-masonry">
 
                     {{ range .Paginator.Pages.ByParam "year" }}
-                        <div class="col-6 mb-4">
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
                             {{ partial "components/card-summary" . }}
                         </div>
                     {{ end }}
                 </div>
                 <div class="row justify-content-center mb-5 mt-5">
-                    <div class="col-10">
+                    <div class="col-md-12 col-lg-10">
                         {{ partial "pagination.html" . }}
                     </div>
                 </div>

@@ -3,7 +3,7 @@
         <div class="row">
             {{ partial "components/heading.html" .Title }}
 
-            <div class="col-4">
+            <div class="d-none d-lg-block col-lg-4">
                 {{ $actualPage := .Title }}
 
                 <p>Les autres thématiques</p>
@@ -16,13 +16,13 @@
                 </ul>
             </div>
 
-            <div class="col-8">
+            <div class="col-md-12 col-lg-8">
                 <div class="row grid-masonry">
                 {{ $thematiqueName := .File.BaseFileName }}
                 {{ range (where .Site.Pages "Section" "events") }}
                     {{ range (where .Pages "Params.thematique" $thematiqueName).ByParam "year" }}
 
-                    <div class="col-6 mb-4">
+                    <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
                          {{ partial "components/card-summary.html" . }}
                     </div>
                     {{ end }}
