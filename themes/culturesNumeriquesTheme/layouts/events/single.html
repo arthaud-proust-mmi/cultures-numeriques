@@ -48,7 +48,7 @@
             {{ $currentPageTitle := .Title }}
             {{ range $events }}
                 {{ if ne .Title $currentPageTitle }}
-                    {{ partial "components/card-summary" . }}
+                    {{ partial "components/cards/event" . }}
                 {{ end }}
             {{ end }}
         </div>
