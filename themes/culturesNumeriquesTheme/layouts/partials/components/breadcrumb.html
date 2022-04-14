@@ -1,21 +1,21 @@
-<nav style="--bs-breadcrumb-divider: '/';" aria-label="fil d'arianne" class="container pb-5">
+<nav style="--bs-breadcrumb-divider: '/';" aria-label="fil d'arianne" class="small py-5">
     <ul class="breadcrumb">
         {{ template "breadcrumbnav" (dict "p1" . "p2" . "siteTitle" .Site.Title) }}
     </ul>
 </nav>
 
 {{ define "breadcrumbnav" }}
-    {{ if .p1.Parent }}
-        {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 "siteTitle" .siteTitle)  }}
-    {{ else if not .p1.IsHome }}
-        {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 "siteTitle" .siteTitle)  }}
-    {{ end }}
-    <li class="pe-3 mt-3 breadcrumb-item">
-        {{ $title := cond (eq .p1.Title .siteTitle) "Accueil" .p1.Title }}
-        {{ if eq .p1 .p2 }}
-            <span class="breadcrumb-item active">{{ $title }}</span>
-        {{ else }}
-            <a class="breadcrumb-item text-secondary" href="{{ .p1.RelPermalink }}">{{ $title }}</a>
-        {{ end }}
-    </li>
+  {{ if .p1.Parent }}
+    {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 "siteTitle" .siteTitle)  }}
+  {{ else if not .p1.IsHome }}
+    {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 "siteTitle" .siteTitle)  }}
+  {{ end }}
+  <li class="breadcrumb-item">
+      {{ $title := cond (eq .p1.Title .siteTitle) "Accueil" .p1.Title }}
+      {{ if eq .p1 .p2 }}
+          <span class="breadcrumb-item active">{{ $title }}</span>
+      {{ else }}
+          <a class="breadcrumb-item text-secondary" href="{{ .p1.RelPermalink }}">{{ $title }}</a>
+      {{ end }}
+  </li>
 {{ end }}
