@@ -29,18 +29,16 @@
 
         {{ range $item := .Params.Persons }}
             {{ $path := printf "/%s" . }}
-            <div class="col-4 mb-4">
-                {{ with $.Site.GetPage $path }}
-                    {{ partial "components/cards/person" . }}
-                {{ end }}
-            </div>
+            {{ with $.Site.GetPage $path }}
+                {{ partial "components/cards/person" . }}
+            {{ end }}
         {{ end }}
 
         {{ range $item := .Params.Organizations }}
             {{ $path := printf "/%s" . }}
             <div class="col-4 mb-4">
                 {{ with $.Site.GetPage $path }}
-                    {{ partial "components/card-summary" . }}
+                    {{ partial "components/cards/organization" . }}
                 {{ end }}
             </div>
         {{ end }}
@@ -56,7 +54,7 @@
         {{ range $index, $item := (where .Site.Pages ".Params.Year" "==" .Params.Year) }}
             {{ if ne $item.Title $currentPageTitle }}
             <div class="col-4 mb-4">
-                {{ partial "components/card-summary" . }}
+                {{ partial "components/cards/event" . }}
             </div>
             {{ end }}
         {{ end }}
