@@ -15,19 +15,15 @@
         </div>
         <div class="offset-1 col-6 py-5">
 
-            <p class="mb-4">Thématiques</p>
+            <p class="mb-4">Thématiques - <a href="/events/"><strong>Tout voir</strong></a></p>
 
-            {{ $index :=0 }}
             {{ range (where .Site.Pages "Section" "thematiques") }}
                 {{ range .Pages }}
-                    {{ $index = add $index 1 }}
                     <h4 class="mb-3">
-                        <span class="pe-5">{{ printf "%02d" $index }}</span>
-                        <a class="icon-link" href="{{ .Permalink }}">{{ .Title }}</a>
+                        <a class="" href="{{ .Permalink }}">{{ .Title }}</a>
                     </h4>
                 {{ end }}
             {{ end }}
-
         </div>
     </section>
 
@@ -38,8 +34,8 @@
         {{ end }}
     </section>
 
-    <section>
-        <div class="row mt-6">
+    <section class="my-6">
+        <div class="row">
             {{ partial "components/heading.html" "Quelques propositions d'évènements" }}
         </div>
         <div class="row grid-masonry">
