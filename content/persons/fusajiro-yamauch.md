@@ -1,6 +1,6 @@
 ---
 visibleInCms: true
-title: Fusajirō Yamauch
+title: Fusajirō Yamauchi
 first_name: Fusajirō
 last_name: " Yamauch"
 image: /images/persons/fusajiro_yamauchi.webp
