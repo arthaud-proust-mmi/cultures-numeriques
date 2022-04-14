@@ -1,28 +1,46 @@
 {{ define "main" }}
 	<main class="container">
-        <div class="row">
+    <div class="row">
 
-            <div>
-                <h3 class="col-12 col-xl-3">{{ .Title }}</h3>
-                   {{ $thematiqueName := .File.BaseFileName }}
-                <h3 class="col-xl-2">
-                    {{ .Params.birth }} -
-                    {{ if .Params.death }}
-                    {{ .Params.death }}
-                    {{ end }}
-                </h3>
-            </div>
+      <div class="d-flex justify-content-between align-items-center">
+        {{ partial "components/heading.html" .Title }}
+        {{ partial "components/read-time" .Params.description }}
+      </div>
 
-            <div>
-                <div>
-                        <img src="{{.Params.image}}">
-                </div>   
 
-                <div >
-                    {{ .Params.description }}
-                </div>
 
-            </div>
+
+
+      <div class="row mt-5 mb-5 pb-5 justify-content-between">
+        <div class="pb-4 ms-0 col-4 d-flex row justify-content-center">
+          {{ $thematiqueName := .File.BaseFileName }}
+
+          <h4 class="pb-4">
+          {{ .Params.birth }} -
+            {{ if .Params.death }}
+            {{ .Params.death }}
+          {{ end }}
+          </h4>
+          <img src="{{.Params.image}}">
         </div>
+
+        <div class="col-7">
+          {{ .Params.description }}
+        </div>
+      </div>
+
+      <div>
+        {{ partial "components/heading.html" "Organisation en lien avec" .Title}}
+
+        {{ range $item := .Params.Organizations }}
+				{{ $path := printf "/%s" . }}
+				{{ with $.Site.GetPage $path }}
+					{{ partial "components/card-summary" . }}
+				{{ end }}
+			{{ end }}
+
+      </div>
+
+    </div>
 	</main>
 {{ end }}

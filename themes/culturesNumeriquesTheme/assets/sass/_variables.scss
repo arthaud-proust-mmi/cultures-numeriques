@@ -6,6 +6,7 @@ $custom-bg-2: #F5F5F5;
 $custom-accent: #0039BF;
 
 $primary: $custom-accent;
+$secondary: $custom-fg-2;
 $light: $custom-bg-2;
 $dark: $custom-fg-1;
 // $info: #0039BF;
@@ -43,9 +44,12 @@ $h6-font-size:                $font-size-base * 0.889; //16
 
 $headings-color: $custom-fg-1;
 
-$breadcrumb-active-color:           $custom-accent;
-$breadcrumb-divider-color:          $custom-fg-1;
-$breadcrumb-divider:                quote(">");
+//  breadcrumb
+
+$breadcrumb-active-color:           $custom-fg-1;
+$breadcrumb-divider-color:          $custom-fg-2;
+$breadcrumb-divider:                quote("/");
+
 
 // Pagination
 $pagination-hover-color: $custom-bg-2;
