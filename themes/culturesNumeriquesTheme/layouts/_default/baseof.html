@@ -3,7 +3,9 @@
     {{- partial "head.html" . -}}
     <body>
             {{- partial "header.html" . -}}
-                {{ partial "components/breadcrumb.html" . }}
+                {{ if ne .Title "Cultures Numériques"}}
+                    {{ partial "components/breadcrumb.html" . }}
+                {{ end }}
                 {{- block "main" . }}{{- end }}
         {{- partial "footer.html" . -}}
     </body>

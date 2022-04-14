@@ -1,4 +1,4 @@
-<header class="border-bottom sticky-top bg-white">
+<header class="border-bottom sticky-top bg-white {{ if eq .Title "Cultures Numériques" }} mb-5 {{ end }}">
     <div class="container">
         <nav class="navbar navbar-light">
             <div class="container-fluid">
@@ -15,4 +15,4 @@
     </div>  
 
     {{ partial "menu.html" .}}
-</header>   
+</header>
