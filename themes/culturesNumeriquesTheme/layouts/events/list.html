@@ -1,52 +1,34 @@
 {{ define "main" }}
 
-	<main class="container">
-        <div class="row">
-            {{ partial "components/heading.html" .Title }}
+    <div class="row">
+        {{ partial "components/heading.html" .Title }}
 
-            <div class="d-none d-lg-block col-lg-4">
-                {{ $actualPage := .Title }}
+        <div class="d-none d-lg-block col-lg-4">
+            {{ $actualPage := .Title }}
 
-                <p>Découvrir toutes les thématiques</p>
-                <ul class="list-unstyled">
-                    {{ range (where .Site.Pages "Section" "thematiques") }}
+            <p>Découvrir toutes les thématiques</p>
+            <ul class="list-unstyled">
+                {{ range (where .Site.Pages "Section" "thematiques") }}
                     {{ if and (ne .Title $actualPage) (ne "Thématiques" .Title) }}
                     <li class="mb-4 fw-bold"> <a class="link-primary" href="{{ .Permalink }}">{{ .Title }}</a></li>
                     {{ end }}
-                    {{ end }}
-                </ul>
-            </div>
-
-            <div class="col-md-12 col-lg-8">
-                <div class="row grid-masonry">
-
-                    {{ range .Paginator.Pages.ByParam "year" }}
-                        <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
-                            {{ partial "components/card-summary" . }}
-                        </div>
-                    {{ end }}
-                </div>
-                <div class="row justify-content-center mb-5 mt-5">
-                    <div class="col-md-12 col-lg-10">
-                        {{ partial "pagination.html" . }}
-                    </div>
-                </div>
-
-            </div>
-
-<!--            <div class="row d-flex flex-row flex-nowrap align-items-center">-->
-<!--                <h3 class="heading-3 d-inline w-auto me-2">{{ .Title }}</h3>-->
-<!--                <div class="divider flex-shrink-1"></div>-->
-<!--            </div>-->
-
-<!--            <div class="row g-3">-->
-<!--                {{ range .Paginator.Pages.ByParam "year" }}-->
-<!--                    <div class="col">-->
-<!--                        {{ partial "components/card-summary" . }}-->
-<!--                    </div>-->
-<!--                {{ end }}-->
-<!--                {{ partial "pagination.html" . }}-->
-<!--            </div>-->
+                {{ end }}
+            </ul>
         </div>
-	</main>
+
+        <div class="col-md-12 col-lg-8">
+            <div class="row grid-masonry">
+                {{ range .Paginator.Pages.ByParam "year" }}
+                    <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
+                        {{ partial "components/cards/event" . }}
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5 mt-5">
+            <div class="col-md-12 col-lg-10">
+                {{ partial "pagination.html" . }}
+            </div>
+        </div>
+    </div>
 {{ end }}

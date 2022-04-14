@@ -24,7 +24,7 @@ $navbar-light-color: $body-bg;
 
 $link-color: $custom-fg-1;
 $link-hover-color: $custom-fg-1; //shift-color
-$link-decoration: null; //mettre none sinon
+$link-decoration: none; //mettre none sinon
 $link-hover-decoration: underline;
 
 $enable-rounded: false;
@@ -94,3 +94,6 @@ $card-cap-padding-y: 25px;
 $card-cap-padding-x: 25px;
 $card-spacer-y: 25px;
 $card-spacer-x: 25px;
+
+
+$hr-opacity: 1;
