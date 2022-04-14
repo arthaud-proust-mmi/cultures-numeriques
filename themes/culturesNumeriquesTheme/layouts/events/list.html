@@ -1,34 +1,4 @@
 {{ define "main" }}
-
-    <div class="row">
-        {{ partial "components/heading.html" .Title }}
-
-        <div class="d-none d-lg-block col-lg-4">
-            {{ $actualPage := .Title }}
-
-            <p>Découvrir toutes les thématiques</p>
-            <ul class="list-unstyled">
-                {{ range (where .Site.Pages "Section" "thematiques") }}
-                    {{ if and (ne .Title $actualPage) (ne "Thématiques" .Title) }}
-                    <li class="mb-4 fw-bold"> <a class="link-primary" href="{{ .Permalink }}">{{ .Title }}</a></li>
-                    {{ end }}
-                {{ end }}
-            </ul>
-        </div>
-
-        <div class="col-md-12 col-lg-8">
-            <div class="row grid-masonry">
-                {{ range .Paginator.Pages.ByParam "year" }}
-                    <div class="col-sm-12 col-md-6 col-lg-6 mb-4">
-                        {{ partial "components/cards/event" . }}
-                    </div>
-                {{ end }}
-            </div>
-        </div>
-        <div class="row justify-content-center mb-5 mt-5">
-            <div class="col-md-12 col-lg-10">
-                {{ partial "pagination.html" . }}
-            </div>
-        </div>
-    </div>
+  {{ partial "components/heading.html" .Title }}
+  {{ partial "components/grids/events" . }}
 {{ end }}
