@@ -21,6 +21,7 @@
                 {{ $thematiqueName := .File.BaseFileName }}
                 {{ range (where .Site.Pages "Section" "events") }}
                     {{ range (where .Pages "Params.thematique" $thematiqueName).ByParam "year" }}
+
                     <div class="col-6 mb-4">
                          {{ partial "components/card-summary.html" . }}
                     </div>
