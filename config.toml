@@ -18,15 +18,10 @@ paginate = 60
 
 [related]
     includeNewer = true
-    threshold = 80
+    threshold = 100
     toLower = false
     [[related.indices]]
         name = 'persons'
-        weight = 100
 
-[taxonomies]
-    year = 'year'
-    thematiques = 'thematique'
-    types = 'types'
-    organizations = 'organization'
-    persons = 'person'
+    [[related.indices]]
+        name = 'years'
