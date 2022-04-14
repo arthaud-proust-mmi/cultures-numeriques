@@ -2,7 +2,7 @@
     <ul class="pagination justify-content-between">
         <!-- Si page > 1 -->
         {{ if .Paginator.HasPrev }}
-            <li class="page-item  align-middle"><a class="page-link fw-bold text-center" href="{{ .Paginator.Prev.URL }}">{{ partial "svg/left-arrow.html" (dict "strokeColor" "#0039BF" "self" .) }}
+            <li class="page-item"><a class="page-link fw-bold text-center" href="{{ .Paginator.Prev.URL }}">{{ partial "svg/left-arrow.html" (dict "strokeColor" "#0039BF" "self" .) }}
                 précedent</a></li>
         {{ else }}
             <!-- Si pas de page précédente -->

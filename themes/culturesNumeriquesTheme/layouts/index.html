@@ -32,6 +32,12 @@
     </section>
 
 
+    <section class="row mt-6">
+        {{ range $.Site.Data.home.presentations }}
+            {{ partial "components/card-presentation" .}}
+        {{ end }}
+    </section>
+
     <!-- Latest post -->
     <section class="row mt-6">
         {{ partial "components/heading.html" "À la une" }}
@@ -44,7 +50,7 @@
         <div class="row mt-6">
             {{ partial "components/heading.html" "Quelques propositions d'évènements" }}
         </div>
-        <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="row grid-masonry">
 
             {{ $paginator := .Paginate (shuffle (where .Site.Pages "Section" "events")) }}
             {{ range $paginator.Pages }}
