@@ -4,6 +4,7 @@
     <hr class="w-auto flex-grow-1 me-5">
     {{ partial "components/read-time" .Params.description }}
   </div>
+
   {{ $thematiqueName := .File.BaseFileName }}
   <h4 class="pb-4">
     {{ .Params.birth }} -
@@ -41,5 +42,13 @@
       <h4 class="mb-0 me-5">Contribution(s) de {{ .Title }}</h4>
       <hr class="w-auto flex-grow-1">
     </div>
+
+    {{ range $item := .Params.Events }}
+      {{ $path := printf "/%s" . }}
+      {{ with $.Site.GetPage $path }}
+        {{ partial "components/card-summary" . }}
+      {{ end }}
+    {{ end }}
+
   {{ end }}
 {{end}}
