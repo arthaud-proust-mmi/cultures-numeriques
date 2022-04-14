@@ -1,83 +1,35 @@
 {{ define "main" }}
-  <main class="container">
-    <div class="d-flex justify-content-between align-items-center mt-5 mb-5">
-      <h3 class="mb-0 me-5">{{ .Title }}</h3>
-      <hr class="w-auto flex-grow-1 me-5">
-      {{ partial "components/read-time" .Params.description }}
+  <div class="d-flex justify-content-between align-items-center mt-5 mb-5">
+    <h3 class="mb-0 me-5">{{ .Title }}</h3>
+    <hr class="w-auto flex-grow-1 me-5">
+    {{ partial "components/read-time" .Params.description }}
+  </div>
+  {{ $thematiqueName := .File.BaseFileName }}
+  <h4 class="pb-4">
+    {{ .Params.birth }} -
+    {{ if .Params.death }}
+    {{ .Params.death }}
+    {{ end }}
+  </h4>
+  <div class="row">
+    <div class="col-xl-4">
+      <img src="{{.Params.image}}" class="img-fluid mb-5">
     </div>
-    {{ $thematiqueName := .File.BaseFileName }}
-    <h4 class="pb-4">
-      {{ .Params.birth }} -
-      {{ if .Params.death }}
-      {{ .Params.death }}
+    <div class="offset-xl-1 col-xl-7">
+      {{ .Params.description }}
+    </div>
+  </div>
+  <div>
+    {{ partial "components/heading.html" (printf "Organisation(s) en lien avec %s" .Title) }}
+
+    {{ range $item := .Params.Organizations }}
+      {{ $path := printf "/%s" . }}
+      {{ with $.Site.GetPage $path }}
+        {{ partial "components/card-summary" . }}
       {{ end }}
-    </h4>
-    <div class="row">
-      <div class="col-xl-4">
-        <img src="{{.Params.image}}" class="img-fluid mb-5">
-      </div>
-<<<<<<< HEAD
-
-
-
-
-
-      <div class="row mt-5 mb-5 pb-5 justify-content-between">
-        <div class="pb-4 ms-0 col-xl-4 col-lg-3 d-flex row justify-content-center">
-          {{ $thematiqueName := .File.BaseFileName }}
-
-          <h4 class="pb-4">
-          {{ .Params.birth }} -
-            {{ if .Params.death }}
-            {{ .Params.death }}
-          {{ end }}
-          </h4>
-          <img class="p-0" src="{{.Params.image}}">
-        </div>
-
-        <div class="col-xl-7 col-lg-6 ">
-          {{ .Params.description }}
-        </div>
-      </div>
-
-      <div>
-        <div class="d-flex mt-5 mb-5 align-items-center">
-          <h5 class="mb-0 me-5">Organisation(s) en lien avec {{.Title}}</h5>
-          <hr class="w-auto flex-grow-1">
-        </div>
-
-      {{ range $item := .Params.Organizations }}
-				{{ $path := printf "/%s" . }}
-				{{ with $.Site.GetPage $path }}
-					{{ partial "components/card-summary" . }}
-				{{ end }}
-			{{ end }}
-
-      </div>
-
-      <div class="d-flex mt-5 mb-5 align-items-center">
-        <h5 class="mb-0 me-5">Contribution(s) de {{.Title}}</h5>
-        <hr class="w-auto flex-grow-1">
-      </div>
-
-=======
-      <div class="offset-xl-1 col-xl-7">
-        {{ .Params.description }}
-      </div>
-    </div>
-    <div>
-      {{ partial "components/heading.html" (printf "Organisation(s) en lien avec %s" .Title) }}
-
-      {{ range $item := .Params.Organizations }}
-        {{ $path := printf "/%s" . }}
-        {{ with $.Site.GetPage $path }}
-          {{ partial "components/card-summary" . }}
-        {{ end }}
-      {{ end }}
-    </div>
-    <div>
-      {{ partial "components/heading.html" (printf "Contribution(s) de %s" .Title)}}
->>>>>>> 2b31e42eceb671a9d2cc71a53cd9fbc339ca2e2a
-    </div>
-  </main>
+    {{ end }}
+  </div>
+  <div>
+    {{ partial "components/heading.html" (printf "Contribution(s) de %s" .Title)}}
+  </div>
 {{ end }}

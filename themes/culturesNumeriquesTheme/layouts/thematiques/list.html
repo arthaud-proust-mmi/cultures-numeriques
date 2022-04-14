@@ -1,7 +1,6 @@
 {{ define "main" }}
-	<main class="container">
     {{ partial "components/heading" "Toutes les thématiques" }}
-      <div class="row flex-wrap mt-5 mb-5 pt-5 pb-5">
+    <div class="row flex-wrap mt-5 mb-5 pt-5 pb-5">
         {{ range .Pages }}
         <div class="col-lg-4 col-md-5 col-sm-6 mb-5">
           <div class="border p-5 ">
@@ -11,7 +10,5 @@
           </div>
         </div>
         {{ end}}
-      </div>
-
-	</main>
+    </div>
 {{ end }}
