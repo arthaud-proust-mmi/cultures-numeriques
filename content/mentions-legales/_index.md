@@ -8,9 +8,9 @@ sections:
     - title: Identité
       lines:
         - "Nom du site web: Culture numérique"
-        - "Adresse: "
-        - "Propriétaire: "
-        - "Responsable de publication: "
+        - "Adresse: 46 AV PIERRE BROSSOLETTE 92240 MALAKOFF"
+        - "Propriétaire: Étienne Mineur"
+        - "Responsable de publication: Étienne Mineur"
     
     - title: Hébergeur
       lines:
