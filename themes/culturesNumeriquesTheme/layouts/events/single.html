@@ -1,8 +1,8 @@
 {{ define "main" }}
     {{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description)}}
 
-    <div class="mt-n5 row">
-        <h4>{{ .Params.year }}</h4>
+    <div class="mt-5 row">
+        <h2>{{ .Params.year }}</h2>
     </div>
 
     <div class="row mt-5 mt-md-5">
@@ -17,7 +17,10 @@
 
     <!-- Linked persons and organizations -->
     {{ if or .Params.persons .Params.organizations }}
-      {{ partial "components/heading" "Personnalités et organisations en lien" }}
+      <div class="d-flex mt-5 mb-5 align-items-center">
+        <h2 class="mb-0 me-5">Personnalité.e.s en lien avec l'évènement</h2>
+        <hr class="w-auto flex-grow-1">
+      </div>
       <div class="row mt-6">
           {{ range .Params.Persons }}
               {{ $path := printf "/%s" . }}
@@ -38,7 +41,10 @@
     {{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
     {{ if gt ($events) 0 }}
       {{ $title := printf "Aussi en %s" (string .Params.Year) }}
-      {{ partial "components/heading" $title }}
+      <div class="d-flex mt-5 mb-5 align-items-center">
+        <h2 class="mb-0 me-5">Aussi cette année</h2>
+        <hr class="w-auto flex-grow-1">
+      </div>
          <div class="row mt-6 mb-6 grid-masonry">
             {{ $currentPageTitle := .Title }}
             {{ range $events }}

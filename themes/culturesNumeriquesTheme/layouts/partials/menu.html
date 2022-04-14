@@ -18,7 +18,7 @@
         {{ range (where .Site.Pages "Section" "thematiques") }}
         {{ range .Pages }}
         <li class="my-4">
-          <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         </li>
         {{ end }}
         {{ end }}
@@ -31,7 +31,7 @@
       <ul class="list-unstyled px-5">
         {{ range . }}
         <li class="my-4">
-          <h4><a href="{{ .URL | relURL }}">{{ .Name }}</a></h4>
+          <h2><a href="{{ .URL | relURL }}">{{ .Name }}</a></h2>
         </li>
         {{ end }}
       </ul>
@@ -43,7 +43,7 @@
     <div class="my-4">
       <ul class="list-unstyled px-5">
         <li>
-          <h4><a href="/about">À propos</a></h4>
+          <h2><a href="/about">À propos</a></h2>
         </li>
       </ul>
     </div>
