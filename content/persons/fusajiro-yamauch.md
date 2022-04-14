@@ -2,7 +2,7 @@
 visibleInCms: true
 title: Fusajirō Yamauchi
 first_name: Fusajirō
-last_name: " Yamauch"
+last_name: Yamauchi
 image: /images/persons/fusajiro_yamauchi.webp
 description: >-
   Fusajirō Yamauchi (山内 房治郎, Yamauchi Fusajirō?, 22 novembre 1859 – 1er janvier
