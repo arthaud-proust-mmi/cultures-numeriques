@@ -1,0 +1,6 @@
+<div class="row">
+  {{ range (.Paginate .Pages 12).Pages.ByTitle }}
+    {{ partial "components/cards/person" . }}
+  {{ end }}
+</div>
+{{ partial "pagination.html" . }}
