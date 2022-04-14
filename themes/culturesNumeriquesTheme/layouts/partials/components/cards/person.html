@@ -43,7 +43,11 @@
         {{ $imgData := imageConfig $imgFileStatic }}
         {{ with $imgData }}
             <div class="{{ $cardImgClass }}">
-                <img src="{{ $imgFile }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $title }}" class="img-fluid w-100">
+              <img  src="{{ $imgFile }}"
+                    width="{{ .Width }}"
+                    height="{{ .Height }}"
+                    alt="{{ $title }}"
+                    class="img-fluid img-square">
             </div>
         {{ end }}
     {{ end }}
