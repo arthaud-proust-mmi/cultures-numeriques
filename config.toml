@@ -2,6 +2,8 @@ baseurl = "/"
 title = "Cultures Numériques"
 theme = "culturesNumeriquesTheme"
 
+paginate = 60
+
 [module]
     [[module.mounts]]
       source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
