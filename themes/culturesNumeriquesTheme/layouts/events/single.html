@@ -27,12 +27,17 @@
 			<hr class="w-auto flex-grow-1">
 		</div>
 
-        <!-- {{ range $item := .Params.Persons }}
+        {{ range $item := .Params.Persons }}
             {{ $path := printf "/%s" . }}
             {{ with $.Site.GetPage $path }}
                 {{ partial "components/cards/person" . }}
             {{ end }}
+<<<<<<< HEAD
+        {{ end }}
+
+=======
         {{ end }} -->
+>>>>>>> 3c868452d810811cec7d13c73cf83525453be030
         {{ range $item := .Params.Organizations }}
             {{ $path := printf "/%s" . }}
             <div class="col-4 mb-4">
