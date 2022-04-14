@@ -8,9 +8,11 @@
                 <div class="divider flex-shrink-1"></div>
             </div>
 
-            <div class="row g-3">
+            <div class="row grid-masonry">
                 {{ range .Paginator.Pages.ByParam "year" }}
-                    {{ partial "components/card-summary" . }}
+                    <div class="col-4 mb-4">
+                        {{ partial "components/card-summary" . }}
+                    </div>
                 {{ end }}
                 {{ partial "pagination.html" . }}
             </div>

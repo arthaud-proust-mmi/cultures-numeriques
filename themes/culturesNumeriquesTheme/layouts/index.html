@@ -38,14 +38,6 @@
         {{ end }}
     </section>
 
-    <!-- Latest post -->
-    <section class="row mt-6">
-        {{ partial "components/heading.html" "À la une" }}
-        {{ range where .Site.Pages ".Title" "Arduino" }} {{ partial "latest-event" . }} {{ end }}
-    </section>
-
-
-
     <section>
         <div class="row mt-6">
             {{ partial "components/heading.html" "Quelques propositions d'évènements" }}
