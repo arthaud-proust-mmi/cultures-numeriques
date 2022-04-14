@@ -16,9 +16,6 @@
 			</div>
 		</div>
 
-        <p class="fs-5">{{ .Params.Year }}</p>
-
-		
 		<!-- Image -->
 		<div class="row">
 			<div class="col col-md-10 offset-md-1">
@@ -48,12 +45,12 @@
 		<!-- Linked persons and organizations -->
 		<div class="row mt-6">
 			{{ partial "components/heading" "Personnalités et organisations en rapport avec l’événement" }}
-			
+
 			{{ range $item := .Params.Persons }}
 				{{ $path := printf "/%s" . }}
 				<div class="col-4 mb-4">
 					{{ with $.Site.GetPage $path }}
-						{{ partial "components/card-summary" . }}
+						{{ partial "components/cards/person" . }}
 					{{ end }}
 				</div>
 			{{ end }}
@@ -73,10 +70,13 @@
 			{{ $title := printf "Aussi en %s" (string .Params.Year) }}
 			{{ partial "components/heading" $title }}
 
+			{{ $currentPageTitle := .Title }}
 			{{ range $index, $item := (where .Site.Pages ".Params.Year" "==" .Params.Year) }}
+				{{ if ne $item.Title $currentPageTitle }}
 				<div class="col-4 mb-4">
 					{{ partial "components/card-summary" . }}
 				</div>
+				{{ end }}
 			{{ end }}
 		</div>
 

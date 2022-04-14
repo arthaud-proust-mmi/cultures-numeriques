@@ -8,11 +8,16 @@
     
         <div class="row">
             {{ range (.Paginate .Pages 12).Pages.ByTitle }}
-            <div class="col-4 mb-4">
+            <div class="col-3 mb-4">
               {{ partial "components/card-summary" . }}
             </div>
             {{ end }}
-            {{ partial "pagination.html" . }}
+        </div>
+
+        <div class="row mt-5 mb-3">
+            <div class="col col-md-6 offset-md-3 justify-content-center">
+                {{ partial "pagination.html" . }}
+            </div>
         </div>
     </main>
 </main>
