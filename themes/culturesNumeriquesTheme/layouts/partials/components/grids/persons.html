@@ -1,5 +1,5 @@
 <div class="row">
-  {{ range (.Paginate .Pages 12).Pages.ByTitle }}
+  {{ range .Paginator.Pages.ByTitle }}
     {{ partial "components/cards/person" . }}
   {{ end }}
 </div>

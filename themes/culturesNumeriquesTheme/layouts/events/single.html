@@ -1,62 +1,52 @@
 {{ define "main" }}
-	<div class="d-flex mt-5 mb-5 align-items-center">
-		<div>
-			<h3 class="mb-0 me-5">{{ .Title }}</h3>
-			<p class="fs-4 fw-bold">{{ .Params.Year }}</p>
-		</div>
-		<hr class="w-auto flex-grow-1 me-4">
-		{{ partial "components/read-time" .Params.description }}
-	</div>
+    {{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description)}}
 
-    <div class="row mt-6">
-        <div class="col-4">
+    <div class="mt-n5 row">
+        <h4>{{ .Params.year }}</h4>
+    </div>
+
+    <div class="row mt-5 mt-md-5">
+        <div class="col-lg-5 col-lg-4">
             <img class="w-100" src="{{ .Params.Image }}" alt="{{ .Title }}">
         </div>
 
-        <div class="col col-md-7 offset-md-1">
-            <p>{{ .Params.Description | markdownify }}</p>
+        <div class="mt-5 mt-lg-0 col-lg-6 offset-lg-1">
+            {{ .Params.Description | markdownify }}
         </div>
     </div>
 
     <!-- Linked persons and organizations -->
-	{{ if or (.Params.Persons) (.Params.Organizations) }}
-	<div class="row mt-6">
-		<div class="d-flex mt-5 mb-5 align-items-center">
-			{{ $sectionTitle := printf "Organisations en lien avec %s" .Title}}
-			<h4 class="mb-0 me-5">{{ $sectionTitle }}</h4>
-			<hr class="w-auto flex-grow-1">
-		</div>
-
-        {{ range $item := .Params.Persons }}
-            {{ $path := printf "/%s" . }}
-            {{ with $.Site.GetPage $path }}
-                {{ partial "components/cards/person" . }}
-            {{ end }}
-        {{ end }}
-
-        {{ range $item := .Params.Organizations }}
-            {{ $path := printf "/%s" . }}
-            <div class="col-4 mb-4">
-                {{ with $.Site.GetPage $path }}
-                    {{ partial "components/cards/organization" . }}
-                {{ end }}
-            </div>
-        {{ end }}
-    </div>
+    {{ if or .Params.persons .Params.organizations }}
+      {{ partial "components/heading" "Personnalités et organisations en lien" }}
+      <div class="row mt-6">
+          {{ range .Params.Persons }}
+              {{ $path := printf "/%s" . }}
+              {{ with $.Site.GetPage $path }}
+                  {{ partial "components/cards/person" . }}
+              {{ end }}
+          {{ end }}
+          {{ range .Params.Organizations }}
+              {{ $path := printf "/%s" . }}
+              {{ with $.Site.GetPage $path }}
+                  {{ partial "components/cards/organization" . }}
+              {{ end }}
+          {{ end }}
+      </div>
     {{ end }}
 
     <!-- Others events this year -->
-    <div class="row mt-6 mb-6">
-        {{ $title := printf "Aussi en %s" (string .Params.Year) }}
-        {{ partial "components/heading" $title }}
+    {{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
+    {{ if gt ($events) 0 }}
+        <div class="row mt-6 mb-6 grid-masonry">
+            {{ $title := printf "Aussi en %s" (string .Params.Year) }}
+            {{ partial "components/heading" $title }}
 
-        {{ $currentPageTitle := .Title }}
-        {{ range $index, $item := (where .Site.Pages ".Params.Year" "==" .Params.Year) }}
-            {{ if ne $item.Title $currentPageTitle }}
-            <div class="col-4 mb-4">
-                {{ partial "components/cards/event" . }}
-            </div>
+            {{ $currentPageTitle := .Title }}
+            {{ range $events }}
+                {{ if ne .Title $currentPageTitle }}
+                    {{ partial "components/cards/event" . }}
+                {{ end }}
             {{ end }}
-        {{ end }}
-    </div>
+        </div>
+    {{ end }}
 {{ end }}

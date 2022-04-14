@@ -15,19 +15,10 @@
         {{ $imgFileStatic := printf "/static%s" $imgFile }}
         {{ $imgData := imageConfig $imgFileStatic }}
         {{ with $imgData }}
-            <div class="mx-4">
+            <div class="mx-4 mb-4">
                 <img src="{{ $imgFile }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $title }}" class="img-fluid w-100">
             </div>
         {{ end }}
     {{ end }}
-    <div class="card-body">
-        {{ $btnTitle := "Découvrir" }}
-
-        {{ if .Params.Abstract }}
-            <p>{{ truncate 100 .Params.Abstract }}</p>
-            {{ $btnTitle = "Continuer à lire" }}
-        {{ end }}
-        <span class="btn btn-outline-primary d-block text-lowercase">{{ $btnTitle }}</span>
-    </div>
   </div>
 </div>

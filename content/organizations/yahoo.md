@@ -1,21 +1,17 @@
 ---
 visibleInCms: true
-title: Yahoo!
-kind: inventions
-year: 1993
-abstract: "Yahoo! est une société américaine de services web créée en 1994,
-  appartenant, entre 2017 et 2021 à Verizon Media et, désormais, à Apollo Global
-  Management. Son siège social est situé à Sunnyvale en Californie. "
-description: >-
+title: Yahoo
+image: /images/organizations/yahoo.png
+description: >+
   Yahoo! est une société américaine de services web créée en 1994, appartenant,
   entre 2017 et 2021 à Verizon Media et, désormais, à Apollo Global Management.
-  Son siège social est situé à Sunnyvale en Californie. 
+  Son siège social est situé à Sunnyvale en Californie.
 
+  Yahoo! est une société américaine de services web créée en 1994, appartenant, entre 2017 et 2021 à Verizon Media et, désormais, à Apollo Global Management. Son siège social est situé à Sunnyvale en Californie.
 
   À l'origine, Yahoo! était uniquement un annuaire Web, créé par David Filo et Jerry Yang à l'université Stanford en janvier 1994, puis l'entreprise a été fondée en mars 1995. Selon Alexa Internet, Yahoo! était le site web le plus visité en 2004. Le réseau des sites Yahoo! a servi plus de trois milliards de pages par jour en octobre 2004. Yahoo! propose de nombreux autres services gratuits et payants, dont un moteur de recherche, des boîtes à courrier électronique, de la messagerie instantanée, de l'hébergement web et des portails (actualités, finances, etc).
 
-
   Le rétroacronyme « Yet Another Hierarchical Officious Oracle » créé en avril 1994 est souvent cité comme signification, mais ses créateurs Jerry Yang et David Filo, qui devaient choisir un nom de projet commençant par un « Y » pour s'inscrire dans la nomenclature des projets informatiques de l'université Stanford, affirment avoir choisi le nom à cause des « Yahoos », nom donné aux humains dans le dernier des Voyages de Gulliver de Jonathan Swift.
-image: /images/events/yahoo-_-2019-.svg.png
-gallery: /images/events/image_2022-03-23_122914.png
+
+birth: 1993
 ---
