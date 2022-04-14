@@ -3,8 +3,17 @@
 
   <time datetime="{{ .Params.Birth }}">{{ .Params.Birth }}</time>
   <div class="row">
+<<<<<<< HEAD
     <img class="col-xl-4 col-md-5 col-sm-6" src="{{ .Params.image }}">
     <p class="offset-1 col-xl-7 col-md-8 col-sm-9">{{ .Description }}</p>
+=======
+    <div class="col-4">
+      <img src="{{ .Params.image }}" class="img-fluid">
+    </div>
+    <div class="offset-lg-1 col-lg-7">
+      <p>{{ .Description }}</p>
+    </div>
+>>>>>>> de6b2bccb65a620ddf0bcd7cb1cde45c01d95020
   </div>
 
   {{if .Params.Events}}
