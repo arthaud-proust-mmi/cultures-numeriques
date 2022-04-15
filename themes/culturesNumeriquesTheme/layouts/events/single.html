@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description "dateCreation" .Params.year)}}
 
-    <div class="row mt-5 mt-md-5">
+    <div class="row mt-5 mt-md-5 pb-5">
         <div class="col-lg-5 col-lg-4">
             <img class="w-100" src="{{ .Params.Image }}" alt="{{ .Title }}">
         </div>
