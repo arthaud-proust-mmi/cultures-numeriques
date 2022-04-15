@@ -8,13 +8,13 @@
     <h2 class="mb-1 d-block d-sm-none pb-5">{{ .Params.Owner.Title }}</h2>
 
     <div class="col-12 col-xl-4 col-lg-6 col-md-8 col-sm-10">
-    <img class="pb-5" src="{{ .Params.Owner.Image }}">
+      <img class="pb-5" src="{{ .Params.Owner.Image }}">
     </div>
 
     <div class="col-sm-8 col-md-7 col-xl-6 offset-xl-1 pb-5">
 
     <article class="pb-5">
-        <h2 class="mb-1 d-none d-sm-block pb-5">{{ .Params.Owner.Title }}</h2>
+        <h2 class="mb-1 d-none d-sm-block pb-5 ">{{ .Params.Owner.Title }}</h2>
         {{ range .Params.Owner.Lines }}
         <p>{{ . | markdownify }}</p>
         {{ end}}
