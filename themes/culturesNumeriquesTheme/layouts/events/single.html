@@ -41,14 +41,13 @@
     {{ end }}
 
     <!-- Others events this year -->
-    {{ $title := printf "Aussi en %s" (string .Params.Year) }}
+{{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
+    {{ if gt (len $events) 1 }}
     <div class="d-flex mt-5 mb-5 align-items-center">
-      <h2 class="mb-0 me-5">Aussi cette année</h2>
+      <h2 class="mb-0 me-5">Événements à la même date</h2>
       <hr class="w-auto flex-grow-1">
     </div>
 
-    {{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
-    {{ if gt (len $events) 0 }}
         <div class="row mb-6 grid-masonry">
 
             {{ $currentPageTitle := .Title }}
@@ -58,5 +57,7 @@
                 {{ end }}
             {{ end }}
          </div>
+    {{ else }}
+    <div class="mt-5"></div>
     {{ end }}
 {{ end }}
