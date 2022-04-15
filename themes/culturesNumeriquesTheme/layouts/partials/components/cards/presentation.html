@@ -1,0 +1,37 @@
+{{ $presentation := .presentation}}
+<div class="col-sm-12 col-md-12 col-lg-6">
+    <div class="d-flex mt-5 mb-5 align-items-center">
+        <h2 class="mb-0 me-5">{{ .presentation.title }}</h2>
+        <hr class="w-auto flex-grow-1">
+    </div>
+    <div class="row">
+        <div class="col-6">
+            {{ range first 1 (shuffle (where .site.Pages "Section" .presentation.type)) }}
+                <a href="/{{ $presentation.type }}/" class=" text-decoration-none card text-white bg-dark">
+                    <div class="card-header d-flex justify-content-between border-bottom-0">
+                        <h6 class="mb-0 text-light">{{ .Title }}</h6>
+                    </div>
+                    {{ $title := .Title }}
+                    {{ if .Params.image }}
+                        {{ $imgFile := .Params.image }}
+                        {{ $imgFileStatic := printf "/static%s" $imgFile }}
+                        {{ $imgData := imageConfig $imgFileStatic }}
+                        {{ with $imgData }}
+                            <div class="mx-4 mb-4">
+                                <img  src="{{ $imgFile }}"
+                                    width="{{ .Width }}"
+                                    height="{{ .Height }}"
+                                    alt="{{ $title }}"
+                                    class="img-fluid img-square">
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </a>
+            {{ end }}
+        </div>
+        <div class="col-6">
+            <p>{{ .presentation.abstract }}</p>
+            <a class="mt-3 btn btn-outline-primary w-100" href="/{{ .presentation.type }}/">Découvrir</a>
+        </div>
+    </div>
+</div>

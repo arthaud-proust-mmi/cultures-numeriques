@@ -11,49 +11,29 @@
         </div>
     </div>
 
-    <!-- Linked persons and organizations -->
-    {{if or .Params.Persons .Params.organizations}}
-      <div class="d-flex mt-5 mb-5 align-items-center">
-        <h2 class="mb-0 me-5">Personne(s) et organisation(s) en lien avec {{ .Title}}</h2>
-        <hr class="w-auto flex-grow-1">
-      </div>
 
-      {{ if or (and .Params.persons (gt (len .Params.persons) 0)) (and .Params.organizations (gt (len .Params.organizations) 0))  }}
-          <div class="row mb-6">
-              {{ range .Params.persons }}
-                  {{ $path := printf "/%s" . }}
-                  {{ with $.Site.GetPage $path }}
-                      {{ partial "components/cards/person" . }}
-                  {{ end }}
-              {{ end }}
-              {{ range .Params.organizations }}
-                  {{ $path := printf "/%s" . }}
-                  {{ with $.Site.GetPage $path }}
-                      {{ partial "components/cards/organization" . }}
-                  {{ end }}
-              {{ end }}
-          </div>
-      {{ end }}
+    
+    <!-- Linked persons and organizations -->
+    {{ if .GetTerms "persons" }}
+        {{ partial "components/heading-2" (printf "Personne(s) en lien avec %s" .Title)}}
+        <div class="row mb-6">
+            {{ range .GetTerms "persons" }}
+                {{ partial "components/cards/person" . }}
+            {{ end}}
+        </div>
     {{ end }}
 
     <!-- Others events this year -->
-{{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
+    {{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
     {{ if gt (len $events) 1 }}
-    <div class="d-flex mt-5 mb-5 align-items-center">
-      <h2 class="mb-0 me-5">Événements à la même date</h2>
-      <hr class="w-auto flex-grow-1">
-    </div>
-
+        {{ partial "components/heading-2" "Événements à la même date"}}
         <div class="row mb-6 grid-masonry">
-
             {{ $currentPageTitle := .Title }}
             {{ range $events }}
                 {{ if ne .Title $currentPageTitle }}
                     {{ partial "components/cards/event" . }}
                 {{ end }}
             {{ end }}
-         </div>
-    {{ else }}
-    <div class="mt-5"></div>
+        </div>
     {{ end }}
 {{ end }}

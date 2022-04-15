@@ -1,0 +1,20 @@
+baseurl: "/"
+title: "Cultures Numériques"
+theme: "culturesNumeriquesTheme"
+
+paginate: 60
+
+menu:
+  main:
+    - name: "Évènements"
+      pre: "events"
+      url: "/events/"
+      weight: 1
+    - name: "Personnes"
+      pre: "persons"
+      url: "/persons/"
+      weight: 1
+
+
+taxonomies:
+  person: "persons"

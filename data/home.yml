@@ -1,10 +1,11 @@
 presentations:
+  - title: Événements
+    type: events
+    abstract: Le numérique regorge d'événements marquants qui ont influencé notre quotidien jusqu'alors. Parcourez les événements qui façonnent les cultures numériques.
   - title: Personnalités
     type: persons
-    abstract: Il y a une ou plusieurs personnes derrière chaque évènement. Qui sont-elles? À quoi ont-elles contribué?
+    abstract: Venez à la rencontre des personnales morales et physiques qui sont derrière chaque événement. Qui sont-elles? À quoi ont-elles contribué?
 
 
-  - title: Organisations
-    type: organizations
-    abstract: Quelles sont ces entreprises, ces équipes qui ont fait de l'innovation et de la révolution technologique leur maître-mot?
+  
     

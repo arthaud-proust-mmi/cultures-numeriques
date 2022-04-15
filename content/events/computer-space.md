@@ -7,7 +7,6 @@ thematique: histoire-du-jeu-video
 year: 1971
 persons:
   - nolan-bushnell
-organizations: []
 abstract: ""
 description: Computer Space est un jeu vidéo d'arcade distribué en novembre 1971
   par Nutting Associates. Créé par Nolan Bushnell et Ted Dabney, il s'agit du
