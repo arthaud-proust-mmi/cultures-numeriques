@@ -37,6 +37,7 @@
 
   {{ end }}
 
+  {{ site.RegularPages.RelatedTo (keyVals "persons" "john-draper") }}
   {{if .Params.Events}}
     <div class="d-flex mt-5 mb-5 align-items-center">
       <h4 class="mb-0 me-5">Contribution(s) de {{ .Title }}</h4>
