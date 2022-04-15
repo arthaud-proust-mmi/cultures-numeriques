@@ -16,8 +16,9 @@
     </div>
 
     <!-- Linked persons and organizations -->
-    {{ partial "components/heading-2" (printf "Personne(s) et organisation(s) en lien avec %s" .Title) }}
-    {{ if or (and .Params.persons (gt (len .Params.persons) 0)) (and .Params.organizations (gt (len .Params.organizations) 0))  }}
+    {{ partial "components/heading-2"
+              (printf "Personne(s) et organisation(s) en lien avec %s" .Title) }}
+    {{ if or (.GetTerms "persons") (.GetTerms "organizations") }}
         <div class="row mb-6">
             {{ range .GetTerms "persons" }}
                 {{ partial "components/cards/person" . }}

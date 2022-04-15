@@ -22,12 +22,10 @@
     </div>
 
 
-
     {{ partial "components/heading-2" (printf "Organisation(s) en lien avec %s" .Title) }}
     {{ range .GetTerms "organizations" }}
         {{ partial "components/cards/organization" . }}
     {{ end}}
-
     {{ range .Site.Taxonomies.persons }}
         {{ range where .Pages "Params.persons" "in" "john-draper" }}
             {{.}}
@@ -35,7 +33,7 @@
     {{ end }}
 
     {{ partial "components/heading-2" (printf "Contribution(s) de %s" .Title) }}
-    {{ range .GetTerms "persons" }}
+    {{ range .Pages }}
         {{ partial "components/cards/person" . }}
-    {{ end}}    
+    {{ end}}
 {{end}}
