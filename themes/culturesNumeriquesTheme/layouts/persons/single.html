@@ -1,17 +1,17 @@
 {{ define "main" }}
   <div class="d-flex justify-content-between align-items-center mt-5 mb-5">
-    <h3 class="mb-0 me-5">{{ .Title }}</h3>
+    <h1 class="mb-0 me-5">{{ .Title }}</h1>
     <hr class="w-auto flex-grow-1 me-5">
     {{ partial "components/read-time" .Params.description }}
   </div>
 
   {{ $thematiqueName := .File.BaseFileName }}
-  <h4 class="pb-4">
+  <h2 class="pb-4">
     {{ .Params.birth }} -
     {{ if .Params.death }}
     {{ .Params.death }}
     {{ end }}
-  </h4>
+  </h2>
   <div class="row">
     <div class="col-xl-4">
       <img src="{{.Params.image}}" class="img-fluid mb-5">
@@ -24,7 +24,7 @@
   {{ if .Params.Organizations }}
 
     <div class="d-flex mt-5 mb-5 align-items-center">
-      <h4 class="mb-0 me-5">Organisation(s) en lien avec {{ .Title }}</h4>
+      <h2 class="mb-0 me-5">Organisation(s) en lien avec {{ .Title }}</h2>
       <hr class="w-auto flex-grow-1">
     </div>
 
@@ -40,7 +40,7 @@
   {{ site.RegularPages.RelatedTo (keyVals "persons" "john-draper") }}
   {{if .Params.Events}}
     <div class="d-flex mt-5 mb-5 align-items-center">
-      <h4 class="mb-0 me-5">Contribution(s) de {{ .Title }}</h4>
+      <h2 class="mb-0 me-5">Contribution(s) de {{ .Title }}</h2>
       <hr class="w-auto flex-grow-1">
     </div>
 
