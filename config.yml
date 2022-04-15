@@ -1,0 +1,25 @@
+baseurl: "/"
+title: "Cultures Numériques"
+theme: "culturesNumeriquesTheme"
+
+removePathAccents: true
+
+paginate: 60
+
+menu:
+  main:
+    - name: "Personnes"
+      pre: "persons"
+      url: "/persons/"
+      weight: 1
+    - name: "Organisations"
+      pre: "organizations"
+      url: "/organizations/"
+      weight: 1
+
+related:
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: 'persons'
+    - name: 'years'

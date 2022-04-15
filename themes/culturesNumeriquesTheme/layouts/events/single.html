@@ -20,6 +20,7 @@
       <h2 class="mb-0 me-5">Personne(s) et organisation(s) en lien avec {{ .Title}}</h2>
       <hr class="w-auto flex-grow-1">
     </div>
+    {{ site.RegularPages.RelatedTo (keyVals "persons" "john-draper") }}
 
     {{ if or (and .Params.persons (gt (len .Params.persons) 0)) (and .Params.organizations (gt (len .Params.organizations) 0))  }}
         <div class="row mb-6">
