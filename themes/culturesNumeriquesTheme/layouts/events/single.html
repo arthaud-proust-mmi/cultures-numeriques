@@ -16,7 +16,11 @@
     </div>
 
     <!-- Linked persons and organizations -->
-    {{ partial "components/heading" "Personnalités et organisations en lien" }}
+    <div class="d-flex mt-5 mb-5 align-items-center">
+      <h2 class="mb-0 me-5">Personne(s) et organisation(s) en lien avec {{ .Title}}</h2>
+      <hr class="w-auto flex-grow-1">
+    </div>
+
     {{ if or (and .Params.persons (gt (len .Params.persons) 0)) (and .Params.organizations (gt (len .Params.organizations) 0))  }}
         <div class="row mb-6">
             {{ range .Params.Persons }}
@@ -36,7 +40,10 @@
 
     <!-- Others events this year -->
     {{ $title := printf "Aussi en %s" (string .Params.Year) }}
-    {{ partial "components/heading" $title }}
+    <div class="d-flex mt-5 mb-5 align-items-center">
+      <h2 class="mb-0 me-5">Aussi cette année</h2>
+      <hr class="w-auto flex-grow-1">
+    </div>
 
     {{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
     {{ if gt (len $events) 0 }}
