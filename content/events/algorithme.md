@@ -12,5 +12,5 @@ description: La mathématicienne Ada Lovelace, collaboratrice de Charles Babbage
   définit le principes des itération successives dans l’exécution d’une
   opération. Elle nomme le processus logique d’exécution d’un programme, un
   algorithme, en hommage au mathématicien persan Al-Khuwarizmi (825).
-image: null
+image: /images/events/algorithme.gif
 ---
