@@ -1,5 +1,13 @@
-<div class="d-flex gap-4 gap-lg-2 flex-wrap-reverse mt-5 mb-5 align-items-center">
-    <h3 class="mb-0 me-4">{{ .title }}</h3>
+<div class="mt-5 mb-5">
+  <div class="d-flex gap-4 gap-lg-2 flex-wrap-reverse align-items-center">
+    <h1 class="mb-0 me-4">{{ .title }}</h1>
     <hr class="d-none d-lg-inline w-auto flex-grow-1 me-4">
     {{ partial "components/read-time" .toCount }}
+  </div>
+
+  <time datetime="{{ .dateCreation }}">{{ .dateCreation }}
+    {{ if .dateDeath }}
+      - {{ .dateDeath }}
+    {{ end }}
+  </time>
 </div>

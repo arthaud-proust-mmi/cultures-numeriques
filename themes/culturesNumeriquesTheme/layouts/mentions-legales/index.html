@@ -1,14 +1,14 @@
 {{ define "main" }}
     <div>
-      {{ partial "components/heading.html" .Title }}
+      {{ partial "components/heading" .Title }}
     </div>
 
-    <div class="row pt-5">
+    <div class="pt-5">
       {{ range .Params.Sections }}
-        <article class="mb-5 col-12 col-lg-7">
-          <h4 class="mb-3">{{ .title }}</h4>
+        <article class="mb-5">
+          <h2 class="mb-5">{{ .title }}</h2>
           {{ range .lines }}
-           <p class="text-p">{{ . | markdownify }}</p>
+           <p>{{ . | markdownify }}</p>
           {{ end}}
         </article>
       {{ end }}

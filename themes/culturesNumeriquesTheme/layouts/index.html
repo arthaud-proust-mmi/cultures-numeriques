@@ -2,7 +2,7 @@
   <section class="row position-relative overflow-hidden py-5">
       <img class="position-absolute top-0 ps-0   offset-4 col-8 offset-sm-5 col-sm-7 offset-lg-5 col-lg-7 " src="/images/landing-bg.png" alt="">
       <div class="col-md-11 col-lg-10 col-lg-8">
-          <h1 class="mt-5 mt-lg-3 mb-5">Explorons les<br/>cultures numériques.</h1>
+          <h1 class="display-1 mt-5 mt-lg-3 mb-5">Explorons les<br/>cultures numériques</h1>
       </div>
       <div class="col-md-9 col-lg-6 col-xl-6 pt-2 pt-sm-4 pt-md-5 pt-lg-3">
           <p class="mb-4 w-75">Vous y trouverez toutes les ressources et le savoir que j’ai pu accumuler tout au long de mon parcours. Mon but est de donner accès à cette culture à un grand nombre d’étudiants, de non-initiés et de spécialistes du numérique.</p>
@@ -12,17 +12,17 @@
 
   <section class="row">
       <div class="mb-3 col-md-12 col-lg-5 bg-light d-flex flex-column">
-          <h4 class="p-5 my-auto">Découvrez et approfondissez les sujets de votre choix.</h4>
+          <h2 class="p-5 my-auto">Découvrez et approfondissez les sujets de votre choix.</h2>
       </div>
       <div class="offset-lg-1 col-lg-6 pt-5 pb-lg-5">
 
-          <p class="mt-2 mb-4">Thématiques - <a href="/thematiques/"><strong>Tout voir</strong></a></p>
+          <p class="mt-2 mb-4">Thématiques - <a href="/events/"><strong>Tout voir</strong></a></p>
 
           {{ range (where .Site.Pages "Section" "thematiques") }}
               {{ range .Pages }}
-                  <h4 class="mb-3">
+                  <h2 class="mb-3">
                       <a class="" href="{{ .Permalink }}">{{ .Title }}</a>
-                  </h4>
+                  </h2>
               {{ end }}
           {{ end }}
       </div>
@@ -37,7 +37,10 @@
 
   <section class="my-6">
       <div class="row">
-          {{ partial "components/heading.html" "Quelques propositions d'événements" }}
+        <div class="d-flex mt-5 mb-5 align-items-center">
+          <h2 class="mb-0 me-5">Quelques propositions d'évènements</h2>
+          <hr class="w-auto flex-grow-1">
+      </div>
       </div>
       <div class="row grid-masonry">
           {{ range (first 6 (shuffle (where .Site.Pages "Section" "events"))) }}

@@ -1,21 +1,22 @@
 <nav>
+{{ if or .Paginator.HasNext .Paginator.HasPrev }}
     <ul class="pagination justify-content-center">
         <!-- Si page > 1 -->
         {{ if .Paginator.HasPrev }}
-            <li class="page-item pagination-svg mx-2"><a class="page-link fw-bold text-center" href="{{ .Paginator.Prev.URL }}">{{ partial "svg/left-arrow.html" (dict "strokeColor" "#0039BF" "self" .) }}
+            <li class="page-item pagination-svg mx-2"><a class="page-link fw-bold text-center d-none d-md-block" href="{{ .Paginator.Prev.URL }}">{{ partial "svg/left-arrow.html" (dict "strokeColor" "#0039BF" "self" .) }}
                 précedent</a></li>
         {{ else }}
             <!-- Si pas de page précédente -->
-            <li class="btn disabled mx-2"><a class="align-middle">{{ partial "svg/left-arrow.html" (dict "strokeColor" "#8A9095" "self" .) }} précédent</a></li>
+            <li class="btn disabled mx-2"><a class="align-middle d-none d-md-block">{{ partial "svg/left-arrow.html" (dict "strokeColor" "#8A9095" "self" .) }} précédent</a></li>
         {{ end }}
         <!-- Active -->
         <li class="page-item active w-10 mx-2"><a class="page-link text-center" href="#">{{ .Paginator.PageNumber }}</a></li>
 
-        {{ if .Paginator.HasNext }}
+    {{ if .Paginator.HasNext }}
         <li class="page-item  w-10 mx-2"><a class="page-link text-center" href="{{ .Paginator.Next.URL }}">
             {{ .Paginator.Next.PageNumber }}
         </a></li>
-        {{ end }}
+
 
         <!-- Last page -->
 
@@ -36,9 +37,11 @@
 
         <!-- Si page suivante -->
         {{ if .Paginator.HasNext }}
-            <li class="page-item pagination-svg mx-2"><a class="page-link fw-bold" href="{{ .Paginator.Next.URL }}">
+            <li class="page-item pagination-svg mx-2"><a class="page-link fw-bold d-none d-md-block" href="{{ .Paginator.Next.URL }}">
                 suivant {{ partial "svg/right-arrow.html" . }}
             </a></li>
         {{ end }}
+    {{ end }}
     </ul>
+{{ end }}
 </nav>

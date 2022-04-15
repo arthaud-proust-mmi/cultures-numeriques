@@ -1,25 +1,50 @@
 {{ define "main" }}
-    <article>
-        <img src="{{ .Params.image }}">
-        <h1>{{ .Title }}</h1>
-        <time datetime="{{ .Params.Birth }}">{{ .Params.Birth }}</time>
-        <p>
-            {{ .Description }}
-        </p>
-        {{ with .Params.persons }}
-        <div>
-            <h3>Personnalités liées</h3>
-            <ul id="persons">
-                {{ range . }}
-                <li><a href="{{ "/persons/" }}{{ . | urlize }}">{{ . }}</a></li>
-                {{ end }}
-            </ul>
-        </div>
+{{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description "dateCreation" .Params.Birth)}}
+
+  <!-- <time datetime="{{ .Params.Birth }}">{{ .Params.Birth }}</time> -->
+  <div class="row">
+    <div class="col-4">
+      <img src="{{ .Params.image }}" class="img-fluid">
+    </div>
+    <div class="offset-lg-1 col-lg-7">
+      <p>{{ .Description }}</p>
+    </div>
+  </div>
+
+  {{if .Params.Events}}
+    <div class="d-flex mt-5 mb-5 align-items-center">
+      <h2 class="mb-0 me-5">Contribution(s) de {{ .Title }}</h2>
+      <hr class="w-auto flex-grow-1">
+    </div>
+
+    <div class="row mb-5">
+      {{ range $item := .Params.Events }}
+        {{ $path := printf "/%s" . }}
+        {{ with $.Site.GetPage $path }}
+          {{ partial "components/cards/event" . }}
         {{ end }}
-        {{ with .Site.DisqusShortname }}
-        <div>
-            {{ template "_internal/disqus.html" . }}
-        </div>
+      {{ end }}
+    </div>
+
+  {{ end }}
+
+  {{if .Params.Persons}}
+    <div class="d-flex mt-5 mb-5 align-items-center">
+      <h2 class="mb-0 me-5">Personnalité(s) en lien avec {{ .Title }}</h2>
+      <hr class="w-auto flex-grow-1">
+    </div>
+
+    <div class="row">
+      {{ range $item := .Params.Persons }}
+        {{ $path := printf "/%s" . }}
+        {{ with $.Site.GetPage $path }}
+          {{ partial "components/cards/person" . }}
         {{ end }}
-    </article>
+      {{ end }}
+    </div>
+
+  {{ end }}
+
+
+
 {{ end }}

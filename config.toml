@@ -4,11 +4,6 @@ theme = "culturesNumeriquesTheme"
 
 paginate = 60
 
-[module]
-    [[module.mounts]]
-      source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-      target = "assets/js/bootstrap.bundle.min.js"
-
 [menu]
   [[menu.main]]
     name = "Personnes"
@@ -22,9 +17,11 @@ paginate = 60
     weight = 1
 
 [related]
-  includeNewer = true
-  threshold = 80
-  toLower = false
-[[related.indices]]
-  name = 'persons'
-    weight = 100
+    includeNewer = true
+    threshold = 100
+    toLower = false
+    [[related.indices]]
+        name = 'persons'
+
+    [[related.indices]]
+        name = 'years'
