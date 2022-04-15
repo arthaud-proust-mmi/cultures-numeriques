@@ -17,6 +17,12 @@ menu:
       url: "/organizations/"
       weight: 1
 
+
+taxonomies:
+  person: "persons"
+  organization: "organizations"
+
+
 related:
   includeNewer: true
   toLower: true

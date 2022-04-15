@@ -16,40 +16,24 @@
     </div>
 
     <!-- Linked persons and organizations -->
-    <div class="d-flex mt-5 mb-5 align-items-center">
-      <h2 class="mb-0 me-5">Personne(s) et organisation(s) en lien avec {{ .Title}}</h2>
-      <hr class="w-auto flex-grow-1">
-    </div>
-    {{ site.RegularPages.RelatedTo (keyVals "persons" "john-draper") }}
-
+    {{ partial "components/heading-2" (printf "Personne(s) et organisation(s) en lien avec %s" .Title) }}
     {{ if or (and .Params.persons (gt (len .Params.persons) 0)) (and .Params.organizations (gt (len .Params.organizations) 0))  }}
         <div class="row mb-6">
-            {{ range .Params.Persons }}
-                {{ $path := printf "/%s" . }}
-                {{ with $.Site.GetPage $path }}
-                    {{ partial "components/cards/person" . }}
-                {{ end }}
-            {{ end }}
-            {{ range .Params.Organizations }}
-                {{ $path := printf "/%s" . }}
-                {{ with $.Site.GetPage $path }}
-                    {{ partial "components/cards/organization" . }}
-                {{ end }}
-            {{ end }}
+            {{ range .GetTerms "persons" }}
+                {{ partial "components/cards/person" . }}
+            {{ end}}
+
+            {{ range .GetTerms "organizations" }}
+                {{ partial "components/cards/person" . }}
+            {{ end}}
         </div>
     {{ end }}
 
     <!-- Others events this year -->
-    {{ $title := printf "Aussi en %s" (string .Params.Year) }}
-    <div class="d-flex mt-5 mb-5 align-items-center">
-      <h2 class="mb-0 me-5">Aussi cette année</h2>
-      <hr class="w-auto flex-grow-1">
-    </div>
-
+    {{ partial "components/heading-2" (printf "Aussi en %s" (string .Params.Year)) }}
     {{ $events := where .Site.Pages ".Params.Year" "==" .Params.Year }}
     {{ if gt (len $events) 0 }}
         <div class="row mb-6 grid-masonry">
-
             {{ $currentPageTitle := .Title }}
             {{ range $events }}
                 {{ if ne .Title $currentPageTitle }}
