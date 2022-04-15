@@ -1,9 +1,5 @@
 {{ define "main" }}
-    {{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description)}}
-
-    <!-- <div class="mt-5 row">
-        <h2>{{ .Params.year }}</h2>
-    </div> -->
+    {{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description "dateCreation" .Params.year)}}
 
     <div class="row mt-5 mt-md-5">
         <div class="col-lg-5 col-lg-4">

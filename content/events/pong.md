@@ -1,7 +1,8 @@
 ---
 visibleInCms: true
 title: Pong
-kind: jeux-videos
+kind:
+  - jeux-videos
 thematique: histoire-du-jeu-video
 year: 1972
 persons:

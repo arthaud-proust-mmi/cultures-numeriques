@@ -1,7 +1,7 @@
 {{ define "main" }}
-{{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description)}}
+{{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description "dateCreation" .Params.Birth)}}
 
-  <time datetime="{{ .Params.Birth }}">{{ .Params.Birth }}</time>
+  <!-- <time datetime="{{ .Params.Birth }}">{{ .Params.Birth }}</time> -->
   <div class="row">
     <div class="col-4">
       <img src="{{ .Params.image }}" class="img-fluid">
@@ -17,7 +17,7 @@
       <hr class="w-auto flex-grow-1">
     </div>
 
-    <div class="row">
+    <div class="row mb-5">
       {{ range $item := .Params.Events }}
         {{ $path := printf "/%s" . }}
         {{ with $.Site.GetPage $path }}

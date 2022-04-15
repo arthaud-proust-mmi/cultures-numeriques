@@ -4,5 +4,10 @@
     <hr class="d-none d-lg-inline w-auto flex-grow-1 me-4">
     {{ partial "components/read-time" .toCount }}
   </div>
-  <h2 class="text-end small mb-0">{{ .Params.year }}</h2>
+
+  <time datetime="{{ .dateCreation }}">{{ .dateCreation }}
+    {{ if .dateDeath }}
+      - {{ .dateDeath }}
+    {{ end }}
+  </time>
 </div>
