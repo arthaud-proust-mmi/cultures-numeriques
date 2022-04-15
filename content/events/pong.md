@@ -2,6 +2,7 @@
 visibleInCms: true
 title: Pong
 kind: jeux-videos
+thematique: histoire-du-jeu-video
 year: 1972
 persons:
   - nolan-bushnell
