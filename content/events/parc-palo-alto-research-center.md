@@ -14,4 +14,5 @@ description: Création du centre de recherches PARC (Palo Alto Research Center)�
   l’écran et ce que vous allez imprimer. Les ingénieurs de PARC développèrent
   aussi les différents concepts annoncés par Douglas Engelbart (souris, multi
   fenêtrage...).
+image: /images/events/parc.jpg.jpeg
 ---
