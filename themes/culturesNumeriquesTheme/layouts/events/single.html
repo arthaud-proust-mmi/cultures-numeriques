@@ -1,9 +1,9 @@
 {{ define "main" }}
     {{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description)}}
 
-    <div class="mt-5 row">
+    <!-- <div class="mt-5 row">
         <h2>{{ .Params.year }}</h2>
-    </div>
+    </div> -->
 
     <div class="row mt-5 mt-md-5">
         <div class="col-lg-5 col-lg-4">
@@ -16,26 +16,28 @@
     </div>
 
     <!-- Linked persons and organizations -->
-    <div class="d-flex mt-5 mb-5 align-items-center">
-      <h2 class="mb-0 me-5">Personne(s) et organisation(s) en lien avec {{ .Title}}</h2>
-      <hr class="w-auto flex-grow-1">
-    </div>
+    {{if or .Params.Persons .Params.organizations}}
+      <div class="d-flex mt-5 mb-5 align-items-center">
+        <h2 class="mb-0 me-5">Personne(s) et organisation(s) en lien avec {{ .Title}}</h2>
+        <hr class="w-auto flex-grow-1">
+      </div>
 
-    {{ if or (and .Params.persons (gt (len .Params.persons) 0)) (and .Params.organizations (gt (len .Params.organizations) 0))  }}
-        <div class="row mb-6">
-            {{ range .Params.Persons }}
-                {{ $path := printf "/%s" . }}
-                {{ with $.Site.GetPage $path }}
-                    {{ partial "components/cards/person" . }}
-                {{ end }}
-            {{ end }}
-            {{ range .Params.Organizations }}
-                {{ $path := printf "/%s" . }}
-                {{ with $.Site.GetPage $path }}
-                    {{ partial "components/cards/organization" . }}
-                {{ end }}
-            {{ end }}
-        </div>
+      {{ if or (and .Params.persons (gt (len .Params.persons) 0)) (and .Params.organizations (gt (len .Params.organizations) 0))  }}
+          <div class="row mb-6">
+              {{ range .Params.persons }}
+                  {{ $path := printf "/%s" . }}
+                  {{ with $.Site.GetPage $path }}
+                      {{ partial "components/cards/person" . }}
+                  {{ end }}
+              {{ end }}
+              {{ range .Params.organizations }}
+                  {{ $path := printf "/%s" . }}
+                  {{ with $.Site.GetPage $path }}
+                      {{ partial "components/cards/organization" . }}
+                  {{ end }}
+              {{ end }}
+          </div>
+      {{ end }}
     {{ end }}
 
     <!-- Others events this year -->
