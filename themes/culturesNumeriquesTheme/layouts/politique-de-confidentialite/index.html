@@ -1,0 +1,26 @@
+{{ define "main" }}
+    <div>
+        {{ partial "components/heading.html" .Title }}
+    </div>
+
+    <div class="row pt-5">
+        {{ range .Params.Sections }}
+          <article class="mb-5 col-12 col-lg-7">
+            <h4 class="mb-3">{{ .title }}</h4>
+                    <H4 class="mb-3" >Données personnelles & cookies  :</H4>
+                    <p class="text-p mb-5">Nous ne collectons, ne stockons ni n’utilisons aucune donnée utilisateur sur notre site. Dans le cas où nous avons besoin de recueillir vos données, nous veillerons à vous fournir un préavis de ce recueil de données.
+                    </p>
+                    <H4 class="mb-3" >Modifications :</H4>
+                    <p class="text-p mb-5">Cette politique de confidentialité peut être modifiée à l’occasion afin de maintenir la conformité avec la loi et de tenir compte de tout changement à notre processus de collecte de données. Nous recommandons à nos utilisateurs de vérifier notre politique de temps à autre pour s’assurer qu’ils soient informés de toute mise à jour. Au besoin, nous pouvons informer les utilisateurs par courriel des changements apportés à cette politique.
+                    </p>
+                    <H4 class="mb-3" >Contact :</H4>
+                    <p class="text-p mb-5">Si vous avez des questions à nous poser, n’hésitez pas à communiquer avec nous en utilisant ce qui suit : contact@volumique.com ou 46 AV PIERRE BROSSOLETTE 92240 MALAKOFF
+                    </p>
+                    <p class="text-p">Date d’entrée en vigueur : le 15 avril 2022
+                    </p>
+          </article>
+        {{ end }}
+      </div>
+
+{{ end }}
+
