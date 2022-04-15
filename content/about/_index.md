@@ -9,7 +9,7 @@ owner:
     image: /media/etienne-mineur.jpg
 
 project:
-    title: Culture Numérique qu’est ce que c’est ?
+    title: Cultures Numériques qu’est ce que c’est ?
     lines:
         - C’est avant tout un corpus dédié à la culture du monde numérique. Vous y trouverez toutes les ressources et le savoir qu’Étienne a pu accumuler tout au long de son parcours en tant que créateur, designer, Directeur artistique, et maintenant enseignant. L’objectif étant de donner accès à cette culture à un grand nombre d’étudiants, de non-initiés et de spécialistes du numérique. C’est en collaboration avec Arnaud Levy, ainsi que les étudiants de la formation MMI de l’IUT Bordeaux Montaigne que ce site est imaginé, designé et développé. Approfondissez, apprenez et contribuez aux sujets de votre choix.
         - Étienne Mineur

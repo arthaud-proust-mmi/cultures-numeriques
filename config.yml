@@ -6,10 +6,6 @@ paginate: 60
 
 menu:
   main:
-    - name: "Évènements"
-      pre: "events"
-      url: "/events/"
-      weight: 1
     - name: "Personnes"
       pre: "persons"
       url: "/persons/"
