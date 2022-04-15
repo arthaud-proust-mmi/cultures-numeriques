@@ -1,17 +1,7 @@
 {{ define "main" }}
-  <div class="d-flex justify-content-between align-items-center mt-5 mb-5">
-    <h1 class="mb-0 me-5">{{ .Title }}</h1>
-    <hr class="w-auto flex-grow-1 me-5">
-    {{ partial "components/read-time" .Params.description }}
-  </div>
+{{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description "dateCreation" .Params.Birth "dateDeath" .Params.death )}}
 
   {{ $thematiqueName := .File.BaseFileName }}
-  <h2 class="pb-4">
-    {{ .Params.birth }} -
-    {{ if .Params.death }}
-    {{ .Params.death }}
-    {{ end }}
-  </h2>
   <div class="row">
     <div class="col-xl-4">
       <img src="{{.Params.image}}" class="img-fluid mb-5">

@@ -1,12 +1,15 @@
 ---
 visibleInCms: true
 title: Pong
-kind: jeux-videos
+kind:
+  - jeux-videos
+thematique: histoire-du-jeu-video
 year: 1972
-abstract: |-
-  PONG, le premier jeu de ping-pong de
-  Nolan Bushnell programmé par Al Alcorn
-  est mis sur le marché par Atari.
+persons:
+  - nolan-bushnell
+organizations:
+  - atari
+abstract: PONG, le premier jeu de ping-pong de Nolan Bushnell programmé par Al Alcorn.
 description: Pong est un des premiers jeux vidéo d'arcade et le premier jeu
   vidéo d'arcade de sport. Il a été imaginé par l'Américain Nolan Bushnell et
   développé par Allan Alcorn, et la société Atari le commercialise à partir de
