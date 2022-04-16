@@ -8,7 +8,6 @@ year: 1877
 persons:
   - thomas-alva-edison
   - charles-cros
-organizations: []
 abstract: ""
 description: Deux modèles ont été conçus simultanément par Charles CROS en
   France et par Thomas A. EDISON de l'autre côté de l'Atlantique. Faute

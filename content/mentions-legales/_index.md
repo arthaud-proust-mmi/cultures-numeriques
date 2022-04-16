@@ -7,7 +7,7 @@ layout: index
 sections:
     - title: Identité
       lines:
-        - "Nom du site web: Culture numérique"
+        - "Nom du site web: Cultures numériques"
         - "Propriétaire: Étienne Mineur"
         - "Responsable de publication: Étienne Mineur"
         - "Contact: contact@volumique.com"

@@ -1,0 +1,36 @@
+{{ define "main" }}
+    {{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description "dateCreation" .Params.Birth "dateDeath" .Params.death )}}
+
+    {{ $thematiqueName := .File.BaseFileName }}
+    <div class="row">
+        <div class="col-xl-4">
+            <img src="{{.Params.image}}" class="img-fluid mb-5">
+        </div>
+        <div class="offset-xl-1 col-xl-7">
+            {{ .Params.description }}
+        </div>
+    </div>
+
+
+    {{ $personsLinked := where .Pages "Section" "persons"}}
+    {{ if (gt (len $personsLinked) 0) }}
+        {{ partial "components/heading-2" "Personne(s) liés"}}
+        <div class="row mb-6">
+            {{ range $personsLinked}}
+                {{ partial "components/cards/person" . }}
+            {{ end }}
+        </div>
+    {{ end }}
+
+
+    {{ $eventsLinked := where .Pages "Section" "events"}}
+    {{ if (gt (len $eventsLinked) 0) }}
+        {{ partial "components/heading-2" (printf "Évènement(s) en lien avec %s" .Title)}}
+        <div class="row mb-6 masonry-grid">
+            {{ range $eventsLinked}}
+                {{ partial "components/cards/event" . }}
+            {{ end }}
+        </div>  
+    {{ end }}
+
+{{end}}

@@ -1,3 +1,11 @@
 @import "variables";
 @import "node_modules/bootstrap/scss/bootstrap";
 @import 'style';
+
+
+.card {
+    transition: box-shadow .2s;
+    &:hover {
+        box-shadow: var(--bs-primary) 10px 10px 0px !important;
+    }
+}

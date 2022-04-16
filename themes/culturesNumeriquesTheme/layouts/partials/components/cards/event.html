@@ -16,7 +16,13 @@
         {{ $imgData := imageConfig $imgFileStatic }}
         {{ with $imgData }}
             <div class="mx-4 mb-4">
-                <img src="{{ $imgFile }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $title }}" class="img-fluid w-100">
+                <img 
+                    src="{{ $imgFile }}" 
+                    width="{{ .Width }}" 
+                    height="{{ .Height }}" 
+                    alt="{{ $title }}" 
+                    class="img-fluid w-100"
+                    loading="lazy">
             </div>
         {{ end }}
     {{ end }}
