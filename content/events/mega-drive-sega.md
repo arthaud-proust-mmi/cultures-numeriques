@@ -27,5 +27,5 @@ description: >-
 
 
   À la fin de son cycle de vie, bien que finalement distancée par la Super Nintendo, et en particulier au Japon, la console compte environ 40 millions d'exemplaires vendus dans le monde. C'est le succès le plus important de Sega sur le marché des consoles. La Mega Drive et ses jeux restent populaires parmi les fans, les collectionneurs, les passionnés de musiques de jeux vidéo, et les amateurs d'émulation. Des rééditions de la console sous licence sont encore produites dans les années 2010, et plusieurs développeurs de jeux vidéo indépendants continuent à produire des jeux compatibles avec ce système. Sortie en 1994, la Saturn succède à la Mega Drive.
-image: /images/events/sega_mega_drive_pal.jpg
+image: /images/events/mega-drive-sega.jpg
 ---

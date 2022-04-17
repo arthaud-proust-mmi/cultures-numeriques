@@ -11,5 +11,5 @@ description: Cet instrument était utilisé par des peuples très largement sép
   comme les Étrusques, les Grecs, les Égyptiens, les Indiens, les Chinois et les
   Mexicains et l'on peut penser qu'il a été inventé indépendamment dans
   différents endroits.
-image: /images/events/image_2022-03-22_115723.png
+image: /images/events/boulier.png
 ---

@@ -20,5 +20,5 @@ description: >-
   \
 
   Cette compagnie devait, en 1924, prendre le nom d'I.B.M. Reprenant et améliorant les idées de Charles Babbage, il imagine le premier système de tabulation électrique destiné à l'analyse de données statistiques portées sur cartes perforées. Ce système est utilisé pour le recensement américain de 1890. Les informations relatives à chaque citoyen sont enregistrées au moyen de perforations pratiquées dans du carton fort. Chaque carte est placée dans la machine au-dessus d'un ensemble de petits réservoirs remplis de mercure ; la carte est alors explorée par une série d'aiguilles métalliques qui entrent en contact avec le mercure seulement en regard des positions perforées : le contact établi provoque la fermeture d'un circuit électrique et l'excitation d'un compteur. Grâce à ce système, le recensement de 1890 fut réalisé trois fois plus vite que le précédent (1880). En outre, des vérifications automatiques étaient possibles et une flexibilité plus grande était atteinte (plusieurs caractéristiques pouvaient être traitées en un seul passage).
-image: /images/events/hollerithmachine.chm.jpg
+image: /images/events/le-premier-systeme-de-tabulation-electrique.jpg
 ---

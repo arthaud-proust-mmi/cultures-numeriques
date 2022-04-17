@@ -10,5 +10,5 @@ abstract: Un circuit électronique bistable, composé de deux triodes.
 description: C'est un circuit électronique bistable, composé de deux triodes. Il
   faudra encore une quinzaine d'années avant que l'on s'aperçoive que ce circuit
   pouvait servir de base à l'utilisation électronique de l'algèbre de BOOLE.
-image: /images/events/screen_shot_2020-09-06_at_7.17.28_am_big.png
+image: /images/events/le-basculeur-flip-flop-de-w-h-eccles-et-f-w-jordan.png
 ---

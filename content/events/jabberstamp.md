@@ -16,5 +16,5 @@ abstract: >-
 
 
   Traduit avec www.DeepL.com/Translator (version gratuite)
-image: /images/events/img_1515.jpg
+image: /images/events/jabberstamp.jpg
 ---

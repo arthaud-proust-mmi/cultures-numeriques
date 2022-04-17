@@ -15,5 +15,5 @@ description: Docteur Jekyll et M. Hyde (Dr. Jekyll and Mr. Hyde) est un film
   son réalisateur de se livrer à des expérimentations formelles audacieuses et
   elle permet à son acteur principal de remporter le prix d'interprétation aux
   Oscars du cinéma de 1932.
-image: /images/events/108380-1-.jpg
+image: /images/events/jekyil-hyde-de-rouben-mamoulian.jpg
 ---

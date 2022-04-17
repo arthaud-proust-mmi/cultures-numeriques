@@ -14,5 +14,5 @@ description: Le principe de la bluebox est d'exploiter une faille des réseaux
   téléphoniques, où un utilisateur lambda peut prendre le contrôle, comme s'il
   était opérateur. Cela permettait par exemple de passer des appels sans être
   facturé, d'écouter des conversations en cours ...
-image: /images/events/index.jpg
+image: /images/events/blue-box.jpg
 ---

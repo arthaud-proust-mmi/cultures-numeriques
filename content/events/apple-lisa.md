@@ -18,5 +18,5 @@ description: >-
 
 
   Un an plus tard, l'annonce du premier Macintosh avec des fonctionnalités plus faibles (pas de multitâche) mais pour un quart du prix, ajoute au Lisa la fonction de machine de développement logiciel pour le Macintosh (ceci en particulier grâce à sa capacité en RAM de 1 Mo et son disque dur que n'avait pas le Macintosh).
-image: /images/events/apple_lisa.jpg
+image: /images/events/apple-lisa.jpg
 ---

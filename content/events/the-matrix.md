@@ -43,5 +43,5 @@ description: >-
 
 
   *Matrix* est le premier volet de la [série de films *Matrix*](https://fr.wikipedia.org/wiki/Matrix_(s%C3%A9rie_de_films) "Matrix (série de films)") qui se poursuivra avec *[Matrix Reloaded](https://fr.wikipedia.org/wiki/Matrix_Reloaded "Matrix Reloaded")*, *[Matrix Revolutions](https://fr.wikipedia.org/wiki/Matrix_Revolutions "Matrix Revolutions")* et dix-huit ans plus tard, *[Matrix Resurrections](https://fr.wikipedia.org/wiki/Matrix_Resurrections "Matrix Resurrections")*. Des produits dérivés apparaissent dans le domaine de la bande dessinée, du jeu vidéo et du court-métrage d'animation.
-image: /images/events/043449_af.jpg
+image: /images/events/the-matrix.jpg
 ---

@@ -10,5 +10,5 @@ abstract: Arduino est la marque d'une plateforme de prototypage open-source qui
   de cartes électroniques matériellement libres sur lesquelles se trouve un
   microcontrôleur (d'architecture Atmel AVR comme l'Atmega328p, et
   d'architecture ARM comme le Cortex-M3 pour l'Arduino Due).
-image: /images/events/arduino_uno_-_r3.jpg
+image: /images/events/arduino.jpg
 ---

@@ -12,5 +12,5 @@ description: Grâce à son fameux PageRank, Google bat rapidement tous ses
   création mondiale (aussi bien technique, artistique et dans la manière dont
   on structure le contenu) de site web va être influencée par la manière dont
   les algorithmes de Google référence le web.
-image: /images/events/capture-d-e-cran-2022-03-23-a-12.45.47.png
+image: /images/events/la-creation-de-google.png
 ---

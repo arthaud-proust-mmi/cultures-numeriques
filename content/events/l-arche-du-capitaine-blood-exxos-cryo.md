@@ -29,6 +29,6 @@ description: >-
 
 
   Depuis 2011, une nouvelle version appelée Captain Blood Legacy est en développement. L'équipe de développement comprend d'ailleurs une partie de l'équipe originale. Le développeur à l'initiative du projet est toutefois depuis 2013 sans nouvelle de Philippe Ulrich et Didier Bouchon.
-image: /images/events/captain_blood_logo.png
+image: /images/events/l-arche-du-capitaine-blood-exxos-cryo.png
 gallery: /images/events/captain_blood_logo.png
 ---

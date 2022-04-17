@@ -16,5 +16,5 @@ description: "A.I. Intelligence artificielle (Artificial Intelligence: A.I. ou
   Steven Spielberg et sorti en 2001, sur une idée de Stanley Kubrick. Il est
   adapté de la nouvelle de Brian Aldiss, Les Supertoys durent tout l'été
   (Supertoys Last All Summer Long)."
-image: /images/events/69216449_af.jpg
+image: /images/events/bande-annonce-de-a-i.jpg
 ---

@@ -19,5 +19,5 @@ description: >-
 
 
   Le nom « iPad » est formé de la lettre en minuscule « i » désignant de nombreux d'appareils commercialisés par Apple (iMac sorti en 1998, iPod en 2001, iPhone en 2007...) et faisant référence au designer d'Apple, Jonathan Ive6, suivie du mot anglais « pad » dans le sens de « bloc » en français.
-image: /images/events/1024px-apple_ipad_event02.jpg
+image: /images/events/ipad.jpg
 ---

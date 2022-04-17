@@ -16,6 +16,6 @@ description: >-
 
 
   Le Web n’est qu’une des applications d’Internet, distincte d’autres applications comme le courrier électronique, la visioconférence et le partage de fichiers en pair à pair. Inventé en 1989-1990 par Tim Berners-Lee suivi de Robert Cailliau, c'est le Web qui a rendu les médias grand public attentifs à Internet. Depuis, le Web est fréquemment confondu avec Internet ; en particulier, le mot Toile est souvent utilisé dans les textes non techniques sans qu'il soit clair si l'auteur désigne le Web ou Internet.
-image: /images/events/www_logo_by_robert_cailliau.svg.png
+image: /images/events/world-wide-web.png
 gallery: /images/events/www_logo_by_robert_cailliau.svg.png
 ---

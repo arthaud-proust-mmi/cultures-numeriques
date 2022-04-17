@@ -14,5 +14,5 @@ description: Cette création est une vidéo d'une minute programmée en C++ et
   réponse, il a prit son message et l'a animé dans un espace tridimensionnel, en
   utilisant une police de caractères personnalisée que Peter avait créée pour
   l'occasions .
-image: /images/events/stopthinking.png
+image: /images/events/stop-thinking-so-flat.png
 ---

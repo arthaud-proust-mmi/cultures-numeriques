@@ -13,5 +13,5 @@ description: Avec pour acteurs principaux Matthew Broderick, Dabney Coleman,
   de WOPR de lancer une simulation de guerre nucléaire, croyant initialement
   qu'il ne s'agit que d'un jeu informatique. La simulation cause une panique au
   niveau national et est près de déclencher la Troisième Guerre mondiale.
-image: /images/events/wargames_film_logo.jpg
+image: /images/events/wargames.jpg
 ---

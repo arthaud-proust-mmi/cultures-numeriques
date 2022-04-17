@@ -45,5 +45,5 @@ description: >-
 
 
   Abbott nous montre également, à travers le fait qu'un carré (convaincu que le monde n'a que deux dimensions) découvre une troisième dimension difficile à imaginer et à décrire, que nous-mêmes (qui sommes convaincus que le monde n'a que trois dimensions) pourrions nous trouver en réalité dans un monde à [quatre dimensions](https://fr.wikipedia.org/wiki/Espace_%C3%A0_quatre_dimensions "Espace à quatre dimensions") difficile à imaginer et à décrire dont nous ne parcourrions que la « surface » tridimensionnelle[](https://fr.wikipedia.org/wiki/Flatland#cite_note-2).
-image: /images/events/flatland_cover.jpg
+image: /images/events/flatland.jpg
 ---

@@ -17,6 +17,6 @@ description: >-
 
 
   On peut noter que le jeu est l'une des premières cartouches à inclure une mémoire interne destinée à sauvegarder la partie du joueur. À noter que la version japonaise du jeu sortie sur Sega Mark III pouvait se jouer avec la fonctionnalité FM (une fonctionnalité optionnelle de la console japonaise qui permet d'améliorer le son).
-image: /images/events/sega_ages__phantasy_star_screen_10.jpg
+image: /images/events/phantasy-star-sega.jpg
 gallery: /images/events/sega_ages__phantasy_star_screen_10.jpg
 ---

@@ -11,5 +11,5 @@ description: La diode à vide est un tube électronique faisant office de diode 
   principalement utilisé au cours du début du xxe siècle. Dans le cadre de
   recherches sur un système de détection des ondes hertziennes, John Fleming
   conçoit en 1903 la première valve détectrice.
-image: /images/events/5y3gt.jpg
+image: /images/events/le-premier-tube-a-vide.jpg
 ---

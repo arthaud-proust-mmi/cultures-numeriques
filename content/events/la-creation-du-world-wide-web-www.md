@@ -17,5 +17,5 @@ description: >-
 
 
   Tim Berners-Lee a proposé l'architecture de ce qui a été ensuite connu sous le nom de World Wide Web. Il a créé les premiers serveurs web, navigateurs web, et pages web sur son ordinateur au laboratoire de recherches scientifiques CERN en 1990. En 1991, il a annoncé sa création sur le newsgroup alt.hypertext, indiquant ainsi pour la première fois que le web était rendu public.
-image: /images/events/www-letshare.svg.png
+image: /images/events/la-creation-du-world-wide-web-www.png
 ---

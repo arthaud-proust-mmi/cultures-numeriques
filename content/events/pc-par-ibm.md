@@ -22,5 +22,5 @@ description: >-
 
 
   Son architecture ouverte en a fait l'ancêtre de tous les [compatibles PC](https://fr.wikipedia.org/wiki/Compatible_PC "Compatible PC"). L'IBM-PC est présenté à New York, lors d'une conférence de presse dans l'hôtel [Waldorf-Astoria](https://fr.wikipedia.org/wiki/Waldorf-Astoria "Waldorf-Astoria"), le [12](https://fr.wikipedia.org/wiki/12_ao%C3%BBt "12 août") [août](https://fr.wikipedia.org/wiki/Ao%C3%BBt_1981 "Août 1981") [1981](https://fr.wikipedia.org/wiki/1981 "1981").
-image: /images/events/ibm.jpg
+image: /images/events/pc-par-ibm.jpg
 ---

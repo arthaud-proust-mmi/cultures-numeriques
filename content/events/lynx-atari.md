@@ -23,5 +23,5 @@ description: >-
 
 
   Depuis, la console n'est pas tombée dans l'oubli puisque régulièrement, de nouvelles productions développées par des fans sortent sur cette plate-forme.
-image: /images/events/atari-lynx.png
+image: /images/events/lynx-atari.png
 ---

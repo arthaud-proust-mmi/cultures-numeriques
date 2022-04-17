@@ -16,5 +16,5 @@ description: >-
   \
 
   En 1960, Théodore Holm Nelson (Ted Nelson), alors âgé de 27 ans, étudiant en sociologie à l'université Harvard, réfléchit à un concept de système d'information « au bout des doigts ». Il imagine une machine permettant à chacun de stocker des données, de les mettre à disposition de tous, partout, en quelques instants. Théodore Nelson invente ainsi le concept d'hypertexte.
-image: /images/events/img-1-small580.jpg
+image: /images/events/projet-xanadu.jpg
 ---

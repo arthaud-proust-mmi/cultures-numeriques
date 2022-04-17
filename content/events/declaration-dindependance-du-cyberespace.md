@@ -11,5 +11,5 @@ abstract: La Déclaration d'indépendance du cyberespace est un document rédig�
   8 février 1996 à Davos en Suisse par John Perry Barlow, un des fondateurs de
   l'Electronic Frontier Foundation. Il soutient l'idée qu'aucun gouvernement ne
   peut s'imposer et s'approprier Internet, alors en pleine extension.
-image: /images/events/hqdefault.jpg
+image: /images/events/declaration-dindependance-du-cyberespace.jpg
 ---

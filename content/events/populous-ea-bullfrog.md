@@ -19,6 +19,6 @@ description: >-
 
 
   Le jeu implémente un mode deux joueurs en réseau local par connexion modem nul sur ordinateurs.
-image: /images/events/populous_logo.png
+image: /images/events/populous-ea-bullfrog.png
 gallery: /images/events/populous_logo.png
 ---

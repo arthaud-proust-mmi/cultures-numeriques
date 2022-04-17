@@ -12,5 +12,5 @@ description: >-
 
 
   RR est un ensemble de perruques utilisées pour simuler le headbanging tout en jouant de la musique. Le but est simplement de porter une perruque et de bouger violemment la tête de haut en bas pour augmenter le volume du son hard rock. Cette installation prend profondément sa référence dans la jeune culture du jeu musical mais place le joueur véritablement comme une rock star et pas seulement comme un joueur devant une télé.
-image: /images/events/headbanging.jpg
+image: /images/events/rr-the-head-banging-simulator.jpg
 ---

@@ -23,5 +23,5 @@ description: >-
 
 
   Ce code peut aussi être détourné de son sens et renvoyé à la suite d'une restriction d’accès à certaines ressources web comme, par exemple, la censure.
-image: /images/events/erreur-404-2.jpg
+image: /images/events/404-not-found.jpg
 ---

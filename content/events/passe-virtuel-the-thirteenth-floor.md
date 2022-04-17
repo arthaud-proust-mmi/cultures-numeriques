@@ -15,5 +15,5 @@ description: Passionné de logiciels et des années trente, Hannon Fuller est
   secret. Pour l'inspecteur McBrian, Douglas devient le suspect idéal. Pour
   prouver son innocence, Douglas décide de trouver l'assassin de son ami dans
   son passé virtuel.
-image: /images/events/19106189.jpg
+image: /images/events/passe-virtuel-the-thirteenth-floor.jpg
 ---

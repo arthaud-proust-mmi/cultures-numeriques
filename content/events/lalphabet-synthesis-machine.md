@@ -15,5 +15,5 @@ description: " L'Alphabet Synthesis Machine est une œuvre d'art interactive qui
   l'expliquent les créateurs du projet, leur objectif était \"de susciter le
   sentiment spécifique de demi-sens que l'on éprouve lorsqu'on reconnaît - mais
   que l'on ne peut pas lire - l'écriture inconnue d'une autre culture."
-image: /images/events/the_alphabet_synthesis_machine.jpg
+image: /images/events/lalphabet-synthesis-machine.jpg
 ---

@@ -15,5 +15,5 @@ description: >-
 
 
   Les fractales sont définies de manière paradoxale, un peu à l'image des [poupées russes](https://fr.wikipedia.org/wiki/Poup%C3%A9e_russe "Poupée russe") qui renferment une figurine plus ou moins identique à l'échelle près : les objets fractals peuvent être envisagés comme des structures gigognes en tout point – et pas seulement en un certain nombre de points. Cette conception *hologigogne* (gigogne en tout point) des fractales implique cette définition récursive : un objet fractal est un objet dont chaque élément est aussi un objet fractal (similaire).
-image: /images/events/mandel_zoom_04_seehorse_tail.jpg
+image: /images/events/une-figure-fractale.jpg
 ---

@@ -17,5 +17,5 @@ description: >-
 
 
   La manette était cependant très appréciée par les utilisateurs par son ergonomie et néanmoins très agréable à utiliser.
-image: /images/events/telechargement-1-.jpg
+image: /images/events/nintendo-virtual-boy.jpg
 ---

@@ -21,5 +21,5 @@ description: >-
   des bâtonnets plus aisés à dessiner, ce qui conduira plus tard à l’invention des chiffres écrits). Ce terme latin est
 
   d’ailleurs à l’origine du mot calcul (encore utilisé dans son sens originel en médecine).
-image: /images/events/image_2022-03-22_115200.png
+image: /images/events/compter-avec-des-cailloux.png
 ---

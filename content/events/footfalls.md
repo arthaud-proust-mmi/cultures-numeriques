@@ -21,5 +21,5 @@ description: Footfalls a été commandée en juillet 2006 par le NTT
   Plus les visiteurs piétinent fort, plus les objets tombent. Grâce à leur
   silhouette, les visiteurs peuvent ensuite "attraper" et "lancer" ces objets
   projetés.
-image: /images/events/footfalls_2.jpg
+image: /images/events/footfalls.jpg
 ---

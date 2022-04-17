@@ -17,5 +17,5 @@ description: Ce jeu est basé sur les trois premiers films d'Indiana Jones, mais
   cristal](https://fr.wikipedia.org/wiki/Indiana_Jones_et_le_Royaume_du_cr%C3%A2ne_de_cristal
   "Indiana Jones et le Royaume du crâne de cristal")*, quatrième volet des
   aventures du célèbre archéologue resté absent pendant 19 ans des écrans.
-image: /images/events/lego-indiana-johnes.png
+image: /images/events/lego-indiana-jones-la-trilogie-originale.png
 ---

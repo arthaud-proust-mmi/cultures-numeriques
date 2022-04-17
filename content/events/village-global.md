@@ -7,5 +7,5 @@ persons:
   - herbert-marshall-mcluhan
 abstract: Une expression de Marshall McLuhan, tirée de son ouvrage The Medium is
   the Massage
-image: /images/events/71tzftk2csl.jpg
+image: /images/events/village-global.jpg
 ---

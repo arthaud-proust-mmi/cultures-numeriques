@@ -17,5 +17,5 @@ description: C'est entre le XIe et le XIIIe siècle que l'on croit que remonte
   ses premières figurines de bois, peintes à la main, et représentant de petits
   soldats. On s'en servit alors pour simuler des jeux de guerre ou pour élaborer
   des stratégies de batailles.
-image: /images/events/jeu-de-dame.jpg
+image: /images/events/le-jeu-de-dame.jpg
 ---

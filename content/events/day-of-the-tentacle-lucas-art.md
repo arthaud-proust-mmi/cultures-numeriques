@@ -29,5 +29,5 @@ description: >-
 
 
   Par l’intermédiaire d’un ordinateur présent dans le jeu, le joueur peut accéder à une version complète de Maniac Mansion.
-image: /images/events/day_of_the_tentacle_logo.png
+image: /images/events/day-of-the-tentacle-lucas-art.png
 ---

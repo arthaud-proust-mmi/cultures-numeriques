@@ -17,5 +17,5 @@ description: >-
 
 
   Par le contact des pixels de lumière contre la matière physique et par la référence directe au Carré Noir sur Fond Blanc de Kasimir Malevitch, cette oeuvre articule ma recherche formelle autour de la programmation du mouvement avec une réflexion sur les rapports entre l’art programmé et l’Histoire de l’Art.
-image: /images/events/web_antoine-schmitt-pixel-galeriecharlot-493.jpg
+image: /images/events/pixel-noir.jpg
 ---

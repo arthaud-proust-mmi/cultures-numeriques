@@ -19,5 +19,5 @@ description: >-
 
 
   Ce boîtier sera utile pour ceux qui ont de grandes mains ou une coordination des doigts moins bonne, en particulier pour l'utilisation d'applications comme Google Maps, qui bénéficieraient d'une meilleure convivialité.
-image: /images/events/fuffr-touch-case-thumb.webp
+image: /images/events/fuffr.webp
 ---

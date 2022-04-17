@@ -14,5 +14,5 @@ description: Son programme est connecté au processeur mais il doit être modifi
   manuellement. Composé de 18 000 tubes à vide, il pèse environ 30 tonnes et
   occupe une surface de 72 m2. Il effectue environ 330 multiplications par
   minute.
-image: /images/events/eniac.jpeg
+image: /images/events/eniac-electronic-numerical-integrator-and-computer.jpeg
 ---

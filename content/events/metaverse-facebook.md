@@ -130,5 +130,5 @@ description: >-
 
 
   Mais qu’il s’agisse ou non d’une tactique pour détourner l’attention — même si le projet, on l’a dit, est en fait bien antérieur aux plus récents ennuis de la plateforme –, ce sont surtout les questions du gouvernance, de vie privée et de données personnelles qui se poseront. Mais également de la toxicité que l’on reproche à l’écosystème Facebook. Personne ne tient à la subir encore, environnement en 3D ou pas.
-image: /images/events/capture-d-ecran-2022-03-23-125557.jpg
+image: /images/events/metaverse-facebook.jpg
 ---

@@ -14,5 +14,5 @@ description: >-
 
 
   John Carmack, le concepteur de Quake, offrait une de ses Ferraris au vainqueur d’un tournoi de Quake. C’est le début des LAN avec de gros prix et des joueurs semi professionnels puis professionnels dans les jeux vidéos.
-image: /images/events/campus_party_mexico_2013.jpg
+image: /images/events/les-debut-de-lan.jpg
 ---

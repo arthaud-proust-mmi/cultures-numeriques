@@ -23,5 +23,5 @@ description: >-
 
 
   Chaque niveau se termine généralement par un boss, avec de temps à autre un miniboss quelque part dans le niveau. Les versions console du jeu permettent de régler la difficulté, mais les versions arcade ont une gradation de la difficulté selon le temps que le personnage tient sans perdre de vies.
-image: /images/events/langfr-260px-parodius_logo.svg.png
+image: /images/events/parodius-konami.png
 ---

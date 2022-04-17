@@ -15,5 +15,5 @@ description: "Le headbang, ou headbanging, est un type de danse impliquant de
   pratiquées depuis longtemps sur d’autres types de musique (induisant un état
   de transe). Les pratiquants sont unanimes : l'intensité de l'exercice est
   décuplée lorsqu'un individu a les cheveux longs."
-image: /images/events/headbang_dans_la_cuisine.jpeg
+image: /images/events/headbanging-antonin-fourneau.jpeg
 ---

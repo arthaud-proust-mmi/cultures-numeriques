@@ -7,5 +7,5 @@ persons:
   - firme-xerox
 description: Au PARC de Xerox est développé le Xerox Alto , premier ordinateur
   avec une interface graphique moderne.
-image: /images/events/th-4-.jpg
+image: /images/events/xerox-alto.jpg
 ---

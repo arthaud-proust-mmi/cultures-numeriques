@@ -15,5 +15,5 @@ description: "L'évolution de l'histoire du jeu vidéo est un parallèle entre l
   convoitise. Cette création est un hommage à l'œuvre « prière de toucher » de
   Marcel Duchamp. Vous ne pouvez pas interagir avec Moripad, vous ne pouvez
   qu'admirer."
-image: /images/events/moripad2.jpg
+image: /images/events/moripad-antonin-fourneau.jpg
 ---

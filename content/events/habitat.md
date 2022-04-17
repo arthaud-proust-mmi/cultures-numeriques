@@ -26,5 +26,5 @@ description: Habitat est un jeu de rôle en ligne massivement multijoueur
   référence reconnue pour la conception des communautés en ligne d'aujourd'hui
   qui intègrent des graphiques informatiques 3D accélérés et des éléments
   immersifs dans leurs environnements.
-image: /images/events/habitat-1985-jeu.webp
+image: /images/events/habitat.webp
 ---

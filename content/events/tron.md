@@ -19,5 +19,5 @@ description: >-
 
 
   Malgré un succès initial mitigé, *Tron* est devenu un [film culte](https://fr.wikipedia.org/wiki/Film_culte "Film culte") pour les amateurs de science-fiction et a fait l'objet d'une [suite](https://fr.wikipedia.org/wiki/Suite_d%27une_%C5%93uvre "Suite d'une œuvre"), *[Tron : L'Héritage](https://fr.wikipedia.org/wiki/Tron_:_L%27H%C3%A9ritage "Tron : L'Héritage")*, réalisée en [2010](https://fr.wikipedia.org/wiki/2010_au_cin%C3%A9ma "2010 au cinéma") par les [studios Disney](https://fr.wikipedia.org/wiki/Walt_Disney_Pictures "Walt Disney Pictures").
-image: /images/events/19028526.jpg
+image: /images/events/tron.jpg
 ---

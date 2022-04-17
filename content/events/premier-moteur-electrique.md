@@ -14,5 +14,5 @@ description: Il s'agit d'un dispositif permettant la mise en évidence des
   (ou, comme sur la figure ci-contre, d'une roue dentée) en cuivre qui peut
   tourner verticalement autour d'un axe horizontal dont l'un des pivots
   communique avec le pôle d'une pile électrique.
-image: /images/events/roue.png
+image: /images/events/premier-moteur-electrique.png
 ---

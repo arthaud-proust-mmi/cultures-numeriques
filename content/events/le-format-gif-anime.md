@@ -25,6 +25,6 @@ description: >-
 
 
   De nombreux logiciels de messagerie instantanée ou moteurs de sites, proposent de convertir automatiquement le format GIF animé en fichier mp4, cela permet de compresser davantage le fichier, mais fait perdre la transparence. C'est le cas du site Giphy par exemple.
-image: /images/events/nyan-cat-gif-1.gif
+image: /images/events/le-format-gif-anime.gif
 gallery: /images/events/nyan-cat-gif-1.gif
 ---

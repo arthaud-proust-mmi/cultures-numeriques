@@ -14,5 +14,5 @@ description: La machine analytique est une avancée fondamentale en matière
   et 1836. Cette machine a définit les principaux concepts sur lesquels reposent
   les machines informatiques. La machine analytique de Charles Babbage utilisait
   des cartes perforées pour ses données et ses instructions.
-image: /images/events/analyticalmachine_babbage_london.jpg
+image: /images/events/la-machine-analytique.jpg
 ---

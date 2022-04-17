@@ -10,5 +10,5 @@ description: L'EyeToy est une caméra commercialisée par Sony en 2003 et utilis
   dans le jeu vidéo comme mode de contrôle via la reconnaissance de mouvement.
   Elle est principalement fabriquée par Logitech, même si de nouvelles versions
   sont développées par Nam Tai.
-image: /images/events/1200px-eyetoy.png
+image: /images/events/eye-toy-de-sony.png
 ---

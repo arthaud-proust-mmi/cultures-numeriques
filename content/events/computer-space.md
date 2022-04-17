@@ -12,5 +12,5 @@ description: Computer Space est un jeu vidéo d'arcade distribué en novembre 19
   par Nutting Associates. Créé par Nolan Bushnell et Ted Dabney, il s'agit du
   premier jeu vidéo à être distribué en série sur le circuit commercial et ainsi
   le premier jeu vidéo qui ait été vendu.
-image: /images/events/computerspace-05-g-1-.jpg
+image: /images/events/computer-space.jpg
 ---

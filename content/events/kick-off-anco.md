@@ -16,7 +16,7 @@ description: >-
 
 
   Kick Off a eu une extension Extra Time et a été décliné en jeu de management avec Player Manager. Il a donné lieu a de nombreuses itérations (cf. Chronologie).
-image: /images/events/kick_off.jpg
+image: /images/events/kick-off-anco.jpg
 gallery: /images/events/kick_off.jpg
 thematique: histoire-du-jeu-video
 ---

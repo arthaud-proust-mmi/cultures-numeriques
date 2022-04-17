@@ -14,5 +14,5 @@ description: Ces expériences de typographie computationnelle sont basées sur m
   not](https://www.typotopo.com/typemenot/index.html) a reçu un prix d'or de la
   revue ID Magazine Interactive Media Design Review de 1998. Le projet original
   était une applet Java, et je l'ai porté sur P5.js en 2016.
-image: /images/events/typeme-full-square.png
+image: /images/events/interactive-typography.png
 ---

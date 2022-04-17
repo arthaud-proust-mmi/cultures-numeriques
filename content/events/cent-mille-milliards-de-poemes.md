@@ -17,5 +17,5 @@ description: >-
 
 
   C'est somme toute une sorte de machine à fabriquer des poèmes, mais en nombre limité ; il est vrai que ce nombre, quoique limité, fournit de la lecture pour près de deux cent millions d'années (en lisant vingt-quatre heures sur vingt-quatre)....
-image: /images/events/cmmp.jpg
+image: /images/events/cent-mille-milliards-de-poemes.jpg
 ---

@@ -9,5 +9,5 @@ persons: []
 abstract: ""
 description: Little Computer People de David Crane, est un jeu vidéo de
   simulation de vie, ancêtre des Sims.
-image: /images/events/little-computer-people-.png
+image: /images/events/little-computer-people.png
 ---

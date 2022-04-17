@@ -13,5 +13,5 @@ description: >-
 
 
   En 2002, il obtient le Hall of Fame de l'Academy of Interactive Arts and Sciences qui récompense les meilleurs créateurs de jeu vidéo. En 2000, il crée la suite des Sims, devenu un important succès commercial. Ce sont Les Sims 2, qui sortent en septembre 2004, ainsi que des extensions un peu plus tard (Nuit de folie, Joyeux Noël, Academy, etc.).
-image: /images/events/telechargement-14-.jpg
+image: /images/events/les-sims-de-will-wright.jpg
 ---

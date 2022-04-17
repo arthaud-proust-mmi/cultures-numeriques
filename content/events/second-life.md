@@ -37,5 +37,5 @@ description: "***Second Life*** (SL) est
   de l'ordre de 60 000
   en [2012](https://fr.wikipedia.org/wiki/2012_en_jeu_vid%C3%A9o \"2012 en jeu
   vidéo\")[](https://fr.wikipedia.org/wiki/Second_Life#cite_note-inrocks-1)."
-image: /images/events/second_life_logo.svg.png
+image: /images/events/second-life.png
 ---

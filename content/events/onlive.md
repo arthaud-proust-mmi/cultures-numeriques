@@ -13,5 +13,5 @@ description: >-
 
 
   Un ordinateur peu puissant, tant qu'il peut jouer des vidéos, peut être utilisé pour jouer à n'importe quel jeu, puisque les jeux sont calculés sur les serveurs OnLive. Pour cette raison, ce service est considéré comme un concurrent sur le marché des consoles de jeux vidéo. Tous les jeux sont disponibles dans un format d'image 720p. OnLive recommande une connexion de 5 Mbit/s ou plus, et de 3 Mbit/s au minimum.
-image: /images/events/image_2022-03-23_111339.png
+image: /images/events/onlive.png
 ---

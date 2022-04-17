@@ -15,5 +15,5 @@ description: Le Choosatron est une machine à raconter des histoires de fiction
   prenez des décisions qui affectent le résultat de l'histoire, et votre voyage
   est imprimé sur un rouleau de papier souvenir. Il vous permet également
   d'écrire vos propres histoires et de les partager avec d'autres !
-image: /images/events/choosatron-wood-01.jpg
+image: /images/events/the-choosatron.jpg
 ---

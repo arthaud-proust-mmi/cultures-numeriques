@@ -30,5 +30,5 @@ description: "De la même façon, la bande enregistrée permet à une tierce
   le congédie. Avec l’aide de Karen, il monte un stratagème pour visionner à
   distance le précieux enregistrement en détraquant les systèmes de sécurité du
   centre de recherches…"
-image: /images/events/18473859.jpg
+image: /images/events/brainstorm.jpg
 ---

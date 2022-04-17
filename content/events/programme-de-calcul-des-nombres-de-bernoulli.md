@@ -10,5 +10,5 @@ abstract: Le programme de calcul des nombres de Bernoulli dans la note G d'Ada
 description: L'algorithme Ada Lovelace permet le calcul de nombres de Bernoulli.
   Cet algorithme est surtout connu pour être le premier programme de histoire de
   la science informatique.
-image: /images/events/jakobbernoullisummaepotestatum.png
+image: /images/events/programme-de-calcul-des-nombres-de-bernoulli.png
 ---

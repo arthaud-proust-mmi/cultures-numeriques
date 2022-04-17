@@ -10,5 +10,5 @@ description: L'Affaire Thomas Crown (The Thomas Crown Affair) est un film
   principaux sont tenus par Steve McQueen et Faye Dunaway. Le film reçut deux
   nominations aux Oscars et gagne celui de la meilleure bande originale avec la
   chanson de Michel Legrand The Windmills of Your Mind.
-image: /images/events/thomas-crown-1968.jpg
+image: /images/events/laffaire-thomas-crown.jpg
 ---

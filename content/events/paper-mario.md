@@ -15,5 +15,5 @@ description: |-
   «GamePlay».
   Ce jeu fait partie d’une série commencée
   en 2001 sur Nintendo 64.
-image: /images/events/956959202.webp
+image: /images/events/paper-mario.webp
 ---

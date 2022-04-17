@@ -19,5 +19,5 @@ description: >-
 
 
   Linus Torvalds choisit rapidement de publier son noyau sous licence GNU GPL. Cette décision rend compatibles juridiquement les systèmes GNU et Linux. Dès lors, pour combler le vide causé par le développement inachevé de Hurd, GNU et le noyau Linux sont associés pour former un nouveau système d'exploitation (parfois considéré comme variante de GNU) : GNU/Linux ou Linux.
-image: /images/events/virtualbox_ubuntu_21.10_15_10_2021_13_19_12_eng.png
+image: /images/events/linux.png
 ---

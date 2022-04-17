@@ -18,5 +18,5 @@ description: >-
 
 
   Le morse est principalement utilisé par les militaires comme moyen de [transmission](https://fr.wikipedia.org/wiki/Transmission_(militaire) "Transmission (militaire)"), souvent [chiffrée](https://fr.wikipedia.org/wiki/Chiffrement "Chiffrement"), ainsi que dans le civil pour certaines émissions à caractère automatique : [radiobalises](https://fr.wikipedia.org/wiki/Balise_non_directionnelle "Balise non directionnelle") en aviation, [indicatif d’appel](https://fr.wikipedia.org/wiki/Indicatif_(radio) "Indicatif (radio)") des stations maritimes, des émetteurs internationaux ([horloges atomiques](https://fr.wikipedia.org/wiki/Horloge_atomique "Horloge atomique")).
-image: /images/events/translator.jpg
+image: /images/events/morse.jpg
 ---

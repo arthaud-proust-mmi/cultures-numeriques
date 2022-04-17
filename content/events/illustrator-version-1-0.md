@@ -14,6 +14,6 @@ description: >-
   Cependant, Illustrator était un produit fiable et puissant et les utilisateurs apprécièrent rapidement la supériorité des courbes de Bézier sur les solutions existantes telles que MacDraw, qui n’offraient qu’une précision limitée. Il attira ainsi de nombreux utilisateurs qui n’avaient pas assez d’argent ou de temps à investir pour des programmes haut de gamme comme AutoCAD. Illustrator avait trouvé une niche entre le dessin bitmap et les programmes de CAO.
 
   La puissance et la simplicité d’Illustrator provient du choix de la courbe de Bézier comme élément de base. Une courbe modifiée permet de décrire une ligne, un cercle ou un arc de cercle. En outre, Adobe choisit le format PostScript comme format natif de document, ce qui permit d’imprimer un fichier en l’envoyant directement vers l’imprimante, sans avoir à passer par l’interface d’Illustrator. Postscript étant un format ouvert et documenté, les éditeurs tiers pouvaient aisément développer des applications capables de lire et de créer des documents au format d’Illustrator.
-image: /images/events/illustrator-1987.png
+image: /images/events/illustrator-version-1-0.png
 gallery: /images/events/illustrator-1987.png
 ---

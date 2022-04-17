@@ -18,5 +18,5 @@ description: >-
 
 
   La télévision est tributaire d'un réseau économique, politique et culturel (langues nationales ou régionales, genres et formats, réglementation et autorisation de diffusion).
-image: /images/events/tv.jpeg
+image: /images/events/invention-de-la-television.jpeg
 ---

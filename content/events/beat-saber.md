@@ -48,5 +48,5 @@ description: >-
 
 
   La valeur maximale à chaque découpe de cube est de 115 points. Cette valeur peut ensuite encore être augmenté selon le multiplicateur de points du joueur (x1, x2, x4 ou x8), allant jusqu'à une valeur maximale de 920 points ajoutés au score total du joueur en une découpe.
-image: /images/events/beat_saber_logo.png
+image: /images/events/beat-saber.png
 ---

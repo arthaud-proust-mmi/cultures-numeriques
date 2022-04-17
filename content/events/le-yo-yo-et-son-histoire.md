@@ -15,5 +15,5 @@ description: >-
   manœuvre. Récupéré par les Grecs, le concept a donné, au final, deux disques de terre cuite, réunis par un axe sur lequel une fine corde était enroulée. De nos jours, seuls les matériaux de confection du yoyo ont changé, le principe, lui, est resté le même. Dès le IIIe millénaire av. J.-C., on retrouve les traces archéologiques d'éléments de jeu. C'est d'ailleurs de cette époque lointaine que seraient apparus les dés, au cœur de
 
   l'Indus.
-image: /images/events/yo-yo.jpg
+image: /images/events/le-yo-yo-et-son-histoire.jpg
 ---

@@ -16,5 +16,5 @@ description: Dans cette ère, l'utilisateur dispose d'une gamme de petits
   des données facilement, rapidement et sans effort, quelle que soit leur
   position géographique. Cette omniprésence de l'accès à l'information a un fort
   impact sur la société et modifie les habitudes de travail et de vie privée.
-image: /images/events/330px-evolution_computer_1960-2010-fr.jpg
+image: /images/events/informatique-ubiquitaire.jpg
 ---

@@ -26,6 +26,6 @@ description: >-
 
 
   Le joueur incarne Solid Snake qui doit progresser dans la base en évitant de se faire repérer par les ennemis qui patrouillent. L'environnement est visualisé de dessus, en vue de trois quarts, et se déploie par plans fixes successifs (sans scrolling). Les déplacements du personnage sont limités à quatre directions. L'aire de jeu est importante[](https://fr.wikipedia.org/wiki/Metal_Gear_(jeu_vid%C3%A9o)#cite_note-3), comprenant trois bâtiments divisés en deux ou trois étages (accessibles via des ascenseurs) et séparés par deux étendues désertiques. La progression est relativement ouverte et non-linéaire, obligeant à quelques allées et venues (le personnage peut revenir sur ses pas et des raccourcis secrets ont été aménagés).
-image: /images/events/metal_gear_-1987-_logo.png
+image: /images/events/metal-gear-konami.png
 gallery: /images/events/metal_gear_-1987-_logo.png
 ---

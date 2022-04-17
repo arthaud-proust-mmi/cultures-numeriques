@@ -46,5 +46,5 @@ description: >-
   * 20 Ko de [mémoire conventionnelle](https://stringfixer.com/fr/Conventional_memory "Mémoire conventionnelle") pour les pilotes
 
   * En option : carte son stéréo
-image: /images/events/forte_vfx1_headgear.jpg
+image: /images/events/vfx1-headgear.jpg
 ---

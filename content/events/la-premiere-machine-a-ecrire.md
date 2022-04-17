@@ -19,5 +19,5 @@ description: >-
 
 
   En 1872, Mark Twain est le premier écrivain à soumettre à son éditeur une œuvre, Les Aventures de Tom Sawyer, écrite avec une machine à écrire.
-image: /images/events/machine-a-e-crire.jpeg
+image: /images/events/la-premiere-machine-a-ecrire.jpeg
 ---

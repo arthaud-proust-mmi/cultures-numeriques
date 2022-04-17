@@ -14,5 +14,5 @@ description: "***Popular Mechanics Magazine*** (jusqu'au n° **667** de juil
   version latino-américaine qui a été publiée pendant des décennies, une version
   française et récemment une version
   sud-africaine[](https://fr.wikipedia.org/wiki/Popular_Mechanics#cite_note-1)."
-image: /images/events/popularmechanics.png
+image: /images/events/popular-mechanics.png
 ---

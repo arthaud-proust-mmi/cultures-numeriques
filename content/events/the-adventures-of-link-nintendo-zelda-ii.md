@@ -25,6 +25,6 @@ description: >-
 
 
   Miyamoto déclare en 2013 que ces changements sont principalement dus au renouvellement quasi complet de l'équipe de développement, à la limitation des capacités de la NES et au développement du jeu en lui-même, qui n'a pas su dépasser le stade des idées proposées au départ. Il exprime également ses regrets concernant ce jeu pour lui non abouti et estime que l'équipe aurait pu faire plus.
-image: /images/events/langfr-260px-zelda_ii_-_the_adventure_of_link.svg.png
+image: /images/events/the-adventures-of-link-nintendo-zelda-ii.png
 gallery: /images/events/langfr-260px-zelda_ii_-_the_adventure_of_link.svg.png
 ---

@@ -9,5 +9,5 @@ abstract: Starlink est une constellation de satellites permettant l'accès à
   Internet par satellite, déployée et gérée par le constructeur aérospatial
   américain SpaceX, reposant sur plusieurs milliers de satellites de
   télécommunications placés sur une orbite terrestre basse.
-image: /images/events/starlink_logo.svg.png
+image: /images/events/reseau-de-satellite-starlink.png
 ---

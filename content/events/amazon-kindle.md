@@ -17,5 +17,5 @@ description: >-
 
 
   Le premier modèle a été lancé le 19 novembre 2007 par Jeff Bezos. Aujourd'hui, la marque est devenue la référence du marché, possède une vaste gamme de produits et est déclinée en applications pour système Android et IOS. En mars 2018, le Kindle Store proposait plus de six millions de livres électroniques.
-image: /images/events/amazon_kindle_logo.svg.png
+image: /images/events/amazon-kindle.png
 ---

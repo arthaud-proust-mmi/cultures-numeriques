@@ -22,5 +22,5 @@ description: >-
 
 
   La machine a connu un succès avec près de 100 000 parties de Nim jouées. Néanmoins, Edward Condon le considère comme l’un des plus gros échecs de sa carrière car il n’avait pas réalisé le potentiel de la machine et son impact sur les jeux informatiques est négligeable.
-image: /images/events/nimatron.png
+image: /images/events/le-nimatron.png
 ---

@@ -11,5 +11,5 @@ abstract: flOw est un jeu vidéo de type simulation de vie conçu par Genova Che
 description: flOw est un jeu vidéo de type simulation de vie conçu par Genova
   Chen et Nicholas Clark et développé en Flash. Publié en 2007 sur le Web, le
   jeu a connu un succès d'audience immédiat
-image: /images/events/flow-genova-chen.png
+image: /images/events/flow.png
 ---

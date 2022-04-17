@@ -18,5 +18,5 @@ description: >-
 
 
   «Un tribunal condamna un célèbre astronome pour avoir soutenu le mouvement de la Terre, et le déclara hérétique. C’est ainsi que l’abus de l’autorité spirituelle réunie à la temporelle forçait la raison au silence; et peu s’en fallut qu’on ne défendit au genre humain de penser.»
-image: /images/events/encyclopedie_de_d-alembert_et_diderot_-_premiere_page_-_enc_1-na5.jpg
+image: /images/events/encyclopedie-raisonne-des-sciences-des-arts-et-des-metiers.jpg
 ---

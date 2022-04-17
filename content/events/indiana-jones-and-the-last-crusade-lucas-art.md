@@ -25,6 +25,6 @@ description: >-
 
 
   Lorsque le joueur commence une nouvelle partie, celui-ci n'est pas remis à zéro et le seul moyen de l'augmenter, et d'atteindre le score maximal de 800 points, est alors de trouver des solutions alternatives aux différents puzzles du jeu. Il est en effet possible de finir le jeu de différentes façon. Enfin, le jeu inclus également des séquences basées sur une interface différente, incluant des séquences de combats et une séquence de vol en biplan.
-image: /images/events/260px-indiana_jones_et_la_derniere_croisade_logo.png
+image: /images/events/indiana-jones-and-the-last-crusade-lucas-art.png
 gallery: /images/events/260px-indiana_jones_et_la_derniere_croisade_logo.png
 ---

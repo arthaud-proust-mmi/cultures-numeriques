@@ -38,5 +38,5 @@ description: >-
 
 
   Le Porfolio connait encore aujourd'hui une certaine popularité. Beaucoup de gens l'affectionnent pour sa simplicité et son dépouillement. De plus, beaucoup de modifications ont été proposées pour le Portfolio, et notamment un accessoire permettant d'ajouter un rétro-éclairage à l'écran ou bien un convertisseur de cartes Porfolio - CompactFlash.
-image: /images/events/atari-portfolio-computer.png
+image: /images/events/atari-dip.png
 ---

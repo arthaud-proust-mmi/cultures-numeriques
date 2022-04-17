@@ -14,5 +14,5 @@ description: >-
 
 
   Le concept de commutation de paquets (packet switching), qui deviendra la base du transfert de données sur Internet, était alors balbutiant dans la communication des réseaux informatiques. Les communications étaient jusqu'alors basées sur la communication par circuits électroniques, telle que celle utilisée par le réseau de téléphone, où un circuit propre est activé lors de la communication avec un poste du réseau.
-image: /images/events/arpanet_logical_map-_march_1977.png
+image: /images/events/arpanet.png
 ---

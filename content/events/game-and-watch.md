@@ -21,5 +21,5 @@ description: >-
 
 
   En 2020, Game And Watch fait son retour avec une console spéciale pour les 35 ans de la série Super Mario Bros. En 2021, Nintendo réitère l'opération pour les 35 ans de la série The Legend of Zelda.
-image: /images/events/h2x1_gameandwatch_supermariobros.jpg
+image: /images/events/game-and-watch.jpg
 ---

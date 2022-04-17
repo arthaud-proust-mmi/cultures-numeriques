@@ -13,5 +13,5 @@ description: Un cafard (bug en anglais) en quête de chaleur blogue le
   fonctionnement du calculateur Mark I. La mathématicienne Grace Murray Hopper
   dénomme "Bug" ce qui est désormais susceptible d'arrêter le bon fonctionnement
   d'un programme.
-image: /images/events/bug.png
+image: /images/events/bug-ou-bogue.png
 ---

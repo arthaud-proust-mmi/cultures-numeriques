@@ -6,7 +6,6 @@ kind:
 thematique: informatique-et-reseau
 year: 1976
 abstract: ""
-gallery: /images/events/copyright_popular_electronics_1975.jpg
 persons:
   - bill-gates
 description: >-
@@ -33,5 +32,5 @@ description: >-
   « Il existe une alternative viable au problème soulevé par Bill Gates dans sa lettre vindicative contre les « computer hobbyists » : si un logiciel est gratuit ou si bon marché que l’acheter est bien plus facile que de le dupliquer, alors ce n’est pas du vol. »— Jim Warren, juillet 197629
 
   Et nous pourrions même dire que cela à contribué à développer et à structurer le mouvement Open Source avec Richard Stallman et son projet GNU du début des années 1980.
-image: /images/events/bill_gates_letter_to_hobbyists.jpg
+image: /images/events/an-open-letter-to-hobbyists.jpg
 ---

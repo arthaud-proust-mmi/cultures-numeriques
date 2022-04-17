@@ -7,5 +7,5 @@ abstract: "Soli is a miniature radar that understands human motions at various
   scales: from your heartbeat to the movements of your body."
 description: "Soli is a miniature radar that understands human motions at
   various scales: from your heartbeat to the movements of your body."
-image: /images/events/soli.png
+image: /images/events/soli-google.png
 ---

@@ -14,5 +14,5 @@ description: >-
 
 
   Le service est disponible gratuitement avec des coupures publicitaires entre les morceaux, la version Premium permet d'écouter les morceaux hors-ligne et enlève les publicités.
-image: /images/events/spotify_logo_with_text.svg.png
+image: /images/events/spotify.png
 ---

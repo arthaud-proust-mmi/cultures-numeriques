@@ -14,5 +14,5 @@ description: >-
 
 
   La série Star Trek, passionne toujours le public. Les scientifiques s'y intéressent tout autant, c'est parce que cette œuvre s'est, à sa manière, voulue réaliste en exploitant des connaissances récentes (comme le concept de trou noir) et en tentant aussi de fournir des explications à des innovations étonnantes, notamment le « warp », consistant à déformer l'espace-temps pour aller plus vite.
-image: /images/events/star_trek_tos_logo.svg.png
+image: /images/events/star-trek.png
 ---

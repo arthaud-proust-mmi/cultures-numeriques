@@ -15,6 +15,6 @@ description: "***Moss*** est un [jeu
   Windows\"). Il se joue exclusivement en [réalité
   virtuelle](https://fr.wikipedia.org/wiki/R%C3%A9alit%C3%A9_virtuelle \"Réalité
   virtuelle\")."
-image: /images/events/telechargement-2-.jpg
+image: /images/events/google-cardboard.jpg
 gallery: ""
 ---

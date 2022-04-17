@@ -20,5 +20,5 @@ description: >-
 
 
   Le premier téléphone à exister est inventé par Antonio Meucci en 1870. Il est né d'expériences basées sur le télégraphe.
-image: /images/events/telephon.png
+image: /images/events/le-telephone.png
 ---

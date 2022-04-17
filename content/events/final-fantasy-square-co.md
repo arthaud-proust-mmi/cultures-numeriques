@@ -20,5 +20,5 @@ description: "Final Fantasy a été plus tard réédité sur plusieurs consoles 
   II. Pour de plus amples informations à propos des compilations PlayStation et
   Game Boy Advance, voir respectivement Final Fantasy Origins et Final Fantasy I
   and II: Dawn of Souls."
-image: /images/events/final_fantasy_-us-_logo.jpg
+image: /images/events/final-fantasy-square-co.jpg
 ---
