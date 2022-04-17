@@ -19,36 +19,57 @@ team:
     - name: Auréliane Dor
       role: UI Design / DA
       img: /media/aureliane.jpg
+      about_url: https://www.behance.net/aurelianedor
+
     - name: Leïly Coquard
       role: UI Design / DA
       img: /media/leily.jpg
+      about_url: https://www.behance.net/leilo
+
     - name: Florentin Sendra
       role: UI Design / DA
       img: /media/florentin.jpg
+      about_url: https://www.behance.net/FlowwSND
+
     - name: Régis Cosaque
       role: UI / UX Design
       img: /media/regis.jpg
+      about_url: https://www.behance.net/regiscosaque
+
     - name: Kayo Monteiro
       role: UI Design
       img: /media/kayo.jpg
+      about_url: https://github.com/k4y0oyak
+
     - name: Gabriel Rouleau
-      role: Back end
+      role: Front & back end
       img: /media/gabriel.jpg
+      about_url: https://gabrielrouleau.fr/
+
     - name: Arthaud Proust
-      role: Back end
+      role: Front & back end
       img: /media/arthaud.jpg
+      about_url: https://arthaudproust.fr
+
     - name: Adel Sanaa
-      role: Back end
+      role: Front & back end
       img: /media/adel.jpg
+      about_url: https://portfolio-kody.herokuapp.com/en/home
+
     - name: Lyam Roux
       role: Front end
       img: /media/lyam.jpg
+      about_url: https://www.linkedin.com/in/lyam-roux-933b47230/
+
     - name: Arthur Blanc
       role: Chef de projet
       img: /media/arthur.jpg
+      about_url: https://www.linkedin.com/in/arthur-blanc33/
+
     - name: Jason Nago
       role: Chef de projet / UX
       img: /media/jason.jpg
+      about_url: https://jasonnago.com/work
 
 
 ---

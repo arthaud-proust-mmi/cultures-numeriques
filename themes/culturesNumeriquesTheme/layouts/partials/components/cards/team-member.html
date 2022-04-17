@@ -1,5 +1,9 @@
-<div class="pb-5 pt-lg-5 col-6 col-sm-4 col-md-3 col-xl-2">
+<div class="position-relative mb-5 mt-lg-5 col-6 col-sm-4 col-md-3 col-xl-2">
     <img class="w-100" src="{{.img }}">
-    <h6 class="mt-2 mb-1"><strong>{{ .name }}</strong></h6>
+    <h6 class="mt-2 mb-1">
+        <a class="stretched-link" href="{{ .about_url }}">
+            <strong>{{ .name }}</strong>
+        </a>
+    </h6>
     <p>{{ .role }}</p>
 </div>
