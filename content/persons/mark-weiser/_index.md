@@ -3,7 +3,7 @@ visibleInCms: true
 title: Mark Weiser
 first_name: Mark
 last_name: Weiser
-image: /images/persons/mark_weiser.jpg
+image: /images/persons/mark-weiser.jpg
 description: Mark D. Weiser était un ingénieur en informatique et un directeur
   de la technologie à Xerox PARC. Weiser est majoritairement considéré comme le
   père fondateur de l'informatique ubiquitaire, un terme qu'il a inventé en

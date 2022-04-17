@@ -3,7 +3,7 @@ visibleInCms: true
 title: Blaise Pascal
 first_name: Blaise
 last_name: Pascal
-image: /images/persons/blaise_pascal.jpg
+image: /images/persons/blaise-pascal.jpg
 description: >-
   Blaise Pascal, né le 19 juin 1623 à Clermont (aujourd'hui Clermont-Ferrand) en
   Auvergne et mort le 19 août 1662 à Paris, est un mathématicien, physicien,

@@ -3,7 +3,7 @@ visibleInCms: true
 title: Alexander Graham Bell
 first_name: Alexander
 last_name: Bell
-image: /images/persons/th.jpg
+image: /images/persons/alexander-graham-bell.jpg
 description: |-
   Alexander Graham Bell, né
   le 3 mars 1847 à Édimbourg en Écoss

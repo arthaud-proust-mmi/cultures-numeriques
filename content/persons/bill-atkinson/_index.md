@@ -3,7 +3,7 @@ visibleInCms: true
 title: Bill Atkinson
 first_name: Bill
 last_name: Atkinson
-image: /images/persons/bill_atkinson.jpg
+image: /images/persons/bill-atkinson.jpg
 description: >-
   Bill Atkinson est un concepteur de logiciels destinés à Mac OS,
   essentiellement connu comme l'auteur de deux programmes exceptionnels :

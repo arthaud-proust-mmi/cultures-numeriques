@@ -3,7 +3,7 @@ visibleInCms: true
 title: Cati Vaucelle
 first_name: Cati
 last_name: Vaucelle
-image: /images/persons/cati-square.jpg
+image: /images/persons/cati-vaucelle.jpg
 description: Cati Vaucelle est actuellement assistante de recherche et candidate
   au doctorat au sein du Tangible Media Group du MIT Media Lab, sous la
   direction du Dr Hiroshi Ishii. Elle se spécialise dans la conception d'objets

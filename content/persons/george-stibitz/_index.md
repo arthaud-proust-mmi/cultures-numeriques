@@ -3,7 +3,7 @@ visibleInCms: true
 title: George Stibitz
 first_name: George
 last_name: Stibitz
-image: /images/persons/stibitz.jpg
+image: /images/persons/george-stibitz.jpg
 description: Ingénieur électricien aux Laboratoires Bell, il réalisa, en 1937,
   le premier dispositif expérimental à relais capable d'exécuter des calculs
   binaires. Il dirigera, en 1938 et 1946, la réalisation d'une famille de

@@ -3,7 +3,7 @@ visibleInCms: true
 title: Bill Gates
 first_name: Bill
 last_name: Gates
-image: /images/persons/billgates.jpg
+image: /images/persons/bill-gates.jpg
 description: >-
   William Henry Gates III, dit Bill Gates, né le 28 octobre 1955 à Seattle (État
   de Washington) est un informaticien, entrepreneur et milliardaire américain.

@@ -3,7 +3,7 @@ visibleInCms: true
 title: Richard Garfield
 first_name: "Richard "
 last_name: "Garfield "
-image: /images/persons/richard_garfield.jpg
+image: /images/persons/richard-garfield.jpg
 description: "Richard Garfield, né le 26 juin 1963 à Philadelphie, est un
   professeur de mathématiques et concepteur de jeu. Il est le créateur du jeu de
   cartes à jouer et à collectionner Magic the Gathering (ou Magic :

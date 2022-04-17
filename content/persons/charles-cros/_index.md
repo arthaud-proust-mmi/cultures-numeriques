@@ -3,7 +3,7 @@ visibleInCms: true
 title: Charles Cros
 first_name: Charles
 last_name: Cros
-image: /images/persons/charles_cros.jpg
+image: /images/persons/charles-cros.jpg
 description: Charles Cros, né le 1er octobre 1842 à Fabrezan (Aude)2 et mort le
   9 août 1888 dans le 6e arrondissement de Paris3, est un poète et inventeur
   français.

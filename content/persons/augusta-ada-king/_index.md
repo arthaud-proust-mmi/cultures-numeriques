@@ -3,7 +3,7 @@ visibleInCms: true
 title: Augusta Ada King
 first_name: Ada
 last_name: Lovelace
-image: /images/persons/220px-ada_lovelace.jpg
+image: /images/persons/augusta-ada-king.jpg
 description: "Programmeuse, on trouve dans ses notes le premier programme
   publié, destiné à être exécuté par une machine, ce qui fait considérer Ada
   Lovelace comme \"la première programmeuse du monde\". Elle est principalement

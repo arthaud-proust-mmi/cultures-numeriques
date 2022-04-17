@@ -3,7 +3,7 @@ visibleInCms: true
 title: Athanasius Kircher
 first_name: Athanasius
 last_name: Kircher
-image: /images/persons/athanasius_kircher.jpg
+image: /images/persons/athanasius-kircher.jpg
 description: >-
   Athanasius Kircher (1640) invente un système destiné à engendrer des
   partitions musicales, ce qui fait de lui le père de la musique algorithmique

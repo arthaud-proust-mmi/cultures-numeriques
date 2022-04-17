@@ -1,7 +1,7 @@
 ---
 visibleInCms: true
 title: Firme XEROX
-image: /images/organizations/xerox.jpeg
+image: /images/persons/firme-xerox.jpeg
 description: Xerox est une entreprise américaine, basée dans le Connecticut,
   principalement reconnue comme étant l’inventeur du photocopieur xérographique
   (sur papier ordinaire) et le premier fabricant d'imprimantes. Son laboratoire,

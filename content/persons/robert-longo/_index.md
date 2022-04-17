@@ -3,7 +3,7 @@ visibleInCms: true
 title: Robert Longo
 first_name: Robert
 last_name: Longo
-image: /images/persons/260px-_n-.jpg
+image: /images/persons/robert-longo.jpg
 description: >-
   Robert Longo est né à New York, dans le quartier de Brooklyn en 1953. Dès le
   plus jeune âge, il est fasciné par l'univers médiatique : la télévision, le

@@ -3,7 +3,7 @@ visibleInCms: true
 title: Olivier Mével
 first_name: Olivier
 last_name: Mével
-image: /images/persons/330px-olivier_mevel.png
+image: /images/persons/olivier-mevel.png
 description: Olivier Mével, né le 27 avril 1967, est un ingénieur et un
   entrepreneur du web français, spécialiste des objets connectés, connu pour
   être le co-inventeur, avec Rafi Haladjian, du Nabaztag. En 2013, il est cité

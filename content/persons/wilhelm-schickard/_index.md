@@ -3,7 +3,7 @@ visibleInCms: true
 title: Wilhelm Schickard
 first_name: Wilhelm
 last_name: Schickard
-image: /images/persons/800px-c_melperger_-_wilhelm_schickard_1632.jpg
+image: /images/persons/wilhelm-schickard.jpg
 description: >-
   Il devint renommé en 1957 quand Dr Franz Hammer, un écrivain biographe de
   Johannes Kepler, annonça la découverte de deux lettres perdues et oubliées

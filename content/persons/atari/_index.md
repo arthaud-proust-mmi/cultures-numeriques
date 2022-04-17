@@ -1,7 +1,7 @@
 ---
 visibleInCms: true
 title: Atari
-image: /images/organizations/atariinteractive.svg.png
+image: /images/persons/atari.png
 description: >-
   Atari est une entreprise française de jeu vidéo, dont le siège est situé à
   Paris, en France.

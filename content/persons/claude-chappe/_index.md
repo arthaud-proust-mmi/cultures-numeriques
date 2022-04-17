@@ -3,7 +3,7 @@ visibleInCms: true
 title: Claude Chappe
 first_name: Claude
 last_name: Chappe
-image: /images/persons/photochappe.jpg
+image: /images/persons/claude-chappe.jpg
 description: Il fut le premier entrepreneur des télécommunications dans
   l'histoire de l'humanité et à l'origine du télégraphe de Chappe.
 birth: 1763

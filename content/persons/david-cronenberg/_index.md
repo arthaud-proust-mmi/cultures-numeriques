@@ -3,7 +3,7 @@ visibleInCms: true
 title: David Cronenberg
 first_name: David
 last_name: Cronenberg
-image: /images/persons/220px-david_cronenberg_2012-03-08.jpg
+image: /images/persons/david-cronenberg.jpg
 description: >-
   Jeunesse
 

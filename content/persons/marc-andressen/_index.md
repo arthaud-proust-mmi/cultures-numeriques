@@ -3,7 +3,7 @@ visibleInCms: true
 title: Marc Andressen
 first_name: Marc
 last_name: Andressen
-image: /images/persons/marc_andreessen.jpeg
+image: /images/persons/marc-andressen.jpeg
 description: Marc Andreessen est un des membres de l'équipe d'étudiants de
   l'Université de l'Illinois qui a développé, en 1993, Mosaic, le premier
   navigateur web complet disponible pour les systèmes d'exploitation Mac OS,

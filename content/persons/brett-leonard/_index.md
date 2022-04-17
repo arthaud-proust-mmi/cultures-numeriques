@@ -3,7 +3,7 @@ visibleInCms: true
 title: Brett Leonard
 first_name: "Brett "
 last_name: Leonard
-image: /images/persons/brett.jpg
+image: /images/persons/brett-leonard.jpg
 description: >+
   Brett Leonard est un réalisateur américain né le 14 mai 1959 à Toledo dans
   l'Ohio.

@@ -3,7 +3,7 @@ visibleInCms: true
 title: John Draper
 first_name: John
 last_name: Draper
-image: /images/persons/johndraprbnk.jpg
+image: /images/persons/john-draper.jpg
 description: "John Draper avait réussi à communiquer gratuitement par téléphone
   grâce à un sifflet aigu trouvé dans les Cap'n Crunch, d'où son surnom :
   Capitaine Crunch."

@@ -3,7 +3,7 @@ visibleInCms: true
 title: Neal Stephenson
 first_name: Neal
 last_name: Stephenson
-image: /images/persons/neal_stephenson_2008.jpg
+image: /images/persons/neal-stephenson.jpg
 description: >
   Neal Town Stephenson, né le 31 octobre 1959 à Fort Meade dans le Maryland, est
   un auteur de science-fiction américain, plusieurs fois lauréat du prix Locus1.

@@ -3,7 +3,7 @@ visibleInCms: true
 title: Alan Kay
 first_name: Alan
 last_name: Kay
-image: /images/persons/image_2022-03-22_175613.png
+image: /images/persons/alan-kay.png
 description: >+
   Alan C. Kay est un informaticien américain. Après des études à l'université du
   Colorado à Boulder, il fait un PhD d'informatique à l'université d'Utah de

@@ -1,7 +1,7 @@
 ---
 visibleInCms: true
 title: Yahoo
-image: /images/organizations/yahoo_default_logo.png
+image: /images/persons/yahoo.png
 description: >+
   Yahoo! est une société américaine de services web créée en 1994, appartenant,
   entre 2017 et 2021 à Verizon Media et, désormais, à Apollo Global Management.

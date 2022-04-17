@@ -3,7 +3,7 @@ visibleInCms: true
 title: Stewart Brand
 first_name: Stewart
 last_name: " Brand"
-image: /images/persons/stewartbrand.jpg
+image: /images/persons/stewart-brand.jpg
 description: "Stewart Brand, né le 14 décembre 1938 à Rockford , est l'un des
   auteurs, éditeurs et créateurs du Whole Earth Catalog (qui a inspiré une
   version française, le Catalogue des Ressources) et CoEvolution Quarterly.

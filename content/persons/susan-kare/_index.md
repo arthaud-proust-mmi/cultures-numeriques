@@ -3,7 +3,7 @@ visibleInCms: true
 title: Susan Kare
 first_name: Susan
 last_name: Kare
-image: /images/persons/profile_susan_kare.jpg
+image: /images/persons/susan-kare.jpg
 description: "Susan Kare (née le 6 avril 1954) est une artiste et graphiste qui
   a créé de nombreux éléments d'interface et des polices de caractères pour la
   série d'ordinateurs Apple Macintosh dans les années 1980. Elle fut également

@@ -3,7 +3,7 @@ visibleInCms: true
 title: Herbert Marshall McLuhan
 first_name: Marshall
 last_name: McLuhan
-image: /images/persons/390px-marshall_mcluhan.jpg
+image: /images/persons/herbert-marshall-mcluhan.jpg
 description: >-
   Herbert Marshall McLuhan, né le 21 juillet 1911 à Edmonton et mort le 31
   décembre 1980 à Toronto, est un intellectuel canadien. Professeur de

@@ -3,7 +3,7 @@ visibleInCms: true
 title: Elon Musk
 first_name: Elon
 last_name: Musk
-image: /images/persons/elon_musk_royal_society.jpg
+image: /images/persons/elon-musk.jpg
 description: Elon Musk (prononcé en anglais /ˈiː.lɒn ˈmʌsk/), né le 28 juin 1971
   à Pretoria (Afrique du Sud), est un ingénieur, entrepreneur, chef d'entreprise
   et milliardaire sud-africain, naturalisé canadien en 1988 puis américain en

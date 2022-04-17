@@ -3,7 +3,7 @@ visibleInCms: true
 title: Konrad Zuse
 first_name: Konrad
 last_name: Zuse
-image: /images/persons/konrad_zuse.jpeg
+image: /images/persons/konrad-zuse.jpeg
 description: >-
   Konrad Zuse est un ingénieur allemand qui fut l'un des pionniers du calcul
   programmable qui préfigure l'informatique. Considéré comme le créateur du

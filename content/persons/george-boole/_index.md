@@ -3,7 +3,7 @@ visibleInCms: true
 title: George Boole
 first_name: "George "
 last_name: Boole
-image: /images/persons/george_boole_color.jpg
+image: /images/persons/george-boole.jpg
 description: >-
   George Boole, né le 2 novembre 1815 à Lincoln et mort le 8 décembre 1864 à
   Ballintemple, est un logicien, mathématicien et philosophe britannique. Il est

@@ -3,7 +3,7 @@ visibleInCms: true
 title: John Napier
 first_name: "John "
 last_name: Napier
-image: /images/persons/john_napier.jpg
+image: /images/persons/john-napier.jpg
 description: >-
   John Napier, parfois francisé en Jean Neper, est un théologien, physicien,
   astronome et mathématicien écossais. En 1614, il publie son traité Mirifici

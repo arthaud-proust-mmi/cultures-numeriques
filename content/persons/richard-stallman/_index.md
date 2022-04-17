@@ -3,7 +3,7 @@ visibleInCms: true
 title: Richard Stallman
 first_name: Richard
 last_name: Stallman
-image: /images/persons/richard_stallman_at_libreplanet_2019.jpg
+image: /images/persons/richard-stallman.jpg
 description: >-
   Richard Matthew Stallman, est un programmeur et militant du logiciel libre.
   Initiateur du mouvement du logiciel libre, il lance, en 1983, le projet GNU et

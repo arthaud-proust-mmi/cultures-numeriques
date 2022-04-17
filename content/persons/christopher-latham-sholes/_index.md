@@ -3,7 +3,7 @@ visibleInCms: true
 title: Christopher Latham Sholes
 first_name: Christopher
 last_name: Latham Sholes
-image: /images/persons/sholes.jpeg
+image: /images/persons/christopher-latham-sholes.jpeg
 description: >-
   Christopher Latham Sholes est l'inventeur du clavier QWERTY.
 

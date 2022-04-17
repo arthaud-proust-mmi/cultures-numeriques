@@ -3,7 +3,7 @@ visibleInCms: true
 title: Thomas Alva Edison
 first_name: Thomas
 last_name: Edison
-image: /images/persons/2705571.webp
+image: /images/persons/thomas-alva-edison.webp
 description: >-
   Thomas Alva Edison, né le 11 février 1847 à Milan dans l'Ohio et mort le 18
   octobre 1931 à West Orange dans le New Jersey3, est un inventeur, un

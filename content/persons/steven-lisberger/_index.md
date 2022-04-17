@@ -3,7 +3,7 @@ visibleInCms: true
 title: Steven Lisberger
 first_name: Steven
 last_name: Lisberger
-image: /images/persons/19581390.jpg
+image: /images/persons/steven-lisberger.jpg
 description: >-
   Il débute en réalisant et produisant un film d'animation en 1980,
   Animalympics. C'est un échec cuisant en raison du boycott des Jeux olympiques

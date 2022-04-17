@@ -3,7 +3,7 @@ visibleInCms: true
 title: John Von Neumann
 first_name: "John "
 last_name: Von Neumann
-image: /images/persons/johnvonneumann.jpeg
+image: /images/persons/john-von-neumann.jpeg
 description: >-
   Von Neumann a donné son nom à l'architecture de Von Neumann utilisée dans la
   quasi totalité des ordinateurs modernes. L'architecture de Von Neumann

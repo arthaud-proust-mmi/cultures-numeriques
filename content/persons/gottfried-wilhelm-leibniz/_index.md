@@ -3,7 +3,7 @@ visibleInCms: true
 title: Gottfried Wilhelm Leibniz
 first_name: "Gottfried Wilhelm "
 last_name: Leibniz
-image: /images/persons/gottfried_wilhelm_von_leibniz.jpg
+image: /images/persons/gottfried-wilhelm-leibniz.jpg
 description: >-
   C'est un philosophe, scientifique, mathématicien, logicien, diplomate,
   juriste, bibliothécaire et philologue allemand.

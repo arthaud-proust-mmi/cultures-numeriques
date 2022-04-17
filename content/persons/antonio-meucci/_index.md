@@ -3,7 +3,7 @@ visibleInCms: true
 title: Antonio Meucci
 first_name: "Antonio "
 last_name: Meucci
-image: /images/persons/th-1-.jpg
+image: /images/persons/antonio-meucci.jpg
 description: |-
   Antonio Meucci étudia la mécanique
   avant de travailler comme technicien

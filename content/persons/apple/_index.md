@@ -1,7 +1,7 @@
 ---
 visibleInCms: true
 title: Apple
-image: /images/organizations/apple-logo.png
+image: /images/persons/apple.png
 description: "Apple est une entreprise multinationale américaine qui crée et
   commercialise des produits électroniques grand public, des ordinateurs
   personnels et des logiciels. Parmi les produits les plus connus de

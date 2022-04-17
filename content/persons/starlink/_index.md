@@ -1,7 +1,7 @@
 ---
 visibleInCms: true
 title: "Starlink "
-image: /images/organizations/starlink_logo.svg.png
+image: /images/persons/starlink.png
 description: >-
   Starlink est une constellation de satellites permettant l'accès à Internet par
   satellite, déployée et gérée par le constructeur aérospatial américain SpaceX,

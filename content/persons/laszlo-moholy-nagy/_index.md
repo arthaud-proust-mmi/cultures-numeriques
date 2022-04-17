@@ -3,7 +3,7 @@ visibleInCms: true
 title: László Moholy-Nagy
 first_name: László
 last_name: Moholy-Nagy
-image: /images/persons/la-szlo-_moholy-nagy_by_hugo_erfurth-_c._1930_.jpg
+image: /images/persons/laszlo-moholy-nagy.jpg
 description: László Moholy-Nagy est connu pour sa participation à divers
   mouvements d’avant-garde dans l’entre-deux guerres, dans lesquels il côtoie
   notamment les membres du dadaisme, du constructivisme et du De Stijl. Il

@@ -3,7 +3,7 @@ visibleInCms: true
 title: Elisha Gray
 first_name: Elisha
 last_name: Gray
-image: /images/persons/th-2-.jpg
+image: /images/persons/elisha-gray.jpg
 description: |-
   Gray est l'inventeur en 1876 du télégraphe musical,
   ancêtre du synthétiseur, basé sur l'oscillateur

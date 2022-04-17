@@ -3,7 +3,7 @@ visibleInCms: true
 title: Lana et Lilly Wachowski
 first_name: Lana et Lilly
 last_name: Wachowski
-image: /images/persons/transgender_wachowskis.webp
+image: /images/persons/lana-et-lilly-wachowski.webp
 description: >-
   Lana Wachowski (née le 21 juin 1965 à Chicago1) et Lilly Wachowski (née le 29
   décembre 1967 à Chicago2) sont deux sœurs réalisatrices américaines. Toutes
