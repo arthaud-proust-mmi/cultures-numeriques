@@ -1,5 +1,3 @@
-<link rel="icon" href="/images/MOBILE.png">
-
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
 <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
@@ -57,8 +55,10 @@
 <meta name="twitter:card" content="summary_large_image" />
 
 {{ with .Site.Params.hero }}
-    <meta property="og:image" content="{{ . }}" />
-    <meta name="twitter:image" content="{{ . }}" />
+    {{ with resources.Get .}}
+        <meta property="og:image" content="{{ .Permalink }}" />
+        <meta name="twitter:image" content="{{ .Permalink }}" />
+    {{ end }}
 {{ end }}
 
 <meta name="apple-mobile-web-app-capable" content="yes" />

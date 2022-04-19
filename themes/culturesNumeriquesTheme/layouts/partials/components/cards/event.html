@@ -11,13 +11,15 @@
     </div>
     {{ if .Params.image }}
         <div class="mx-4 mb-4">
-            {{ $imgData := partial "get-img-data" .Params.image }}
-            <img  src="{{ .Params.image }}"
-                width="{{ $imgData.Width }}"
-                height="{{ $imgData.Height }}"
-                alt="{{ .Title }}"
+            {{ $title := .Title }}
+            {{ with partial "get-img-data" .Params.image }}
+            <img src="{{ .Permalink }}"
+                width="{{ .Width }}"
+                height="{{ .Height }}"
+                alt="{{ $title }}"
                 class="img-fluid w-100"
                 loading="lazy">
+            {{end}}
         </div>
     {{ end }}
   </div>

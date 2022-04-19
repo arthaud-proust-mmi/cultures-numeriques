@@ -1,4 +1,3 @@
 {{ $imgFile := . }}
-{{ $imgFileStatic := printf "/static%s" $imgFile }}
-{{ $imgData := imageConfig $imgFileStatic }}
+{{ $imgData := resources.Get $imgFile }}
 {{ return $imgData }}

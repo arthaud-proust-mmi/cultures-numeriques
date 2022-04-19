@@ -1,13 +1,15 @@
 {{ define "main" }}
+
+
   <section class="row position-relative overflow-hidden py-5">
-        {{ $heroImg := "/images/landing-bg.png" }}
-        {{ $imgData := partial "get-img-data" $heroImg }}
+        {{ with partial "get-img-data" "/images/landing-bg.png" }}
         <img style="z-index:-1" 
             class="position-absolute top-0 ps-0 h-auto  offset-4 col-8 offset-sm-5 col-sm-7 offset-lg-5 col-lg-7 " 
-            src="{{ $heroImg }}" 
-            width="{{ $imgData.Width }}"
-            height="{{ $imgData.Height }}"
+            src="{{ .Permalink }}" 
+            width="{{ .Width }}"
+            height="{{ .Height }}"
             alt="">
+        {{ end }}
         <div class="col-md-11 col-lg-10 col-lg-8">
             <h1 class="display-1 mt-5 mt-lg-3 mb-5">Explorons les<br/>cultures numériques</h1>
         </div>
@@ -15,6 +17,7 @@
             <p class="mb-4 w-75">Vous y trouverez toutes les ressources et le savoir que j’ai pu accumuler tout au long de mon parcours. Mon but est de donner accès à cette culture à un grand nombre d’étudiants, de non-initiés et de spécialistes du numérique.</p>
         </div>
   </section>
+
 
 
   <section class="row">
