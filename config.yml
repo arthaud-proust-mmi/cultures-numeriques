@@ -1,14 +1,22 @@
-baseurl: "/"
-title: "Cultures Numériques"
-theme: "culturesNumeriquesTheme"
+baseurl: /
+title: Cultures Numériques
+theme: culturesNumeriquesTheme
 
 paginate: 60
 
+params:
+  name: Cultures Numériques
+  lang: fr
+  theme: "#ffffff"
+  hero: /images/hero.jpg
+  subject: cultures numériques
+  description: "Vous y trouverez toutes les ressources et le savoir que j’ai pu accumuler tout au long de mon parcours. Mon but est de donner accès à cette culture à un grand nombre d’étudiants, de non-initiés et de spécialistes du numérique."
+
 menu:
   main:
-    - name: "Personnes"
-      pre: "persons"
-      url: "/persons/"
+    - name: Personnes
+      pre: persons
+      url: /persons/
       weight: 1
 
 

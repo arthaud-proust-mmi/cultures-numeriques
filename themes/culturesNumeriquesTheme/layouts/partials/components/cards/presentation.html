@@ -10,21 +10,16 @@
                     <div class="card-header d-flex justify-content-between border-bottom-0">
                         <h6 class="mb-0 text-light">{{ .Title }}</h6>
                     </div>
-                    {{ $title := .Title }}
                     {{ if .Params.image }}
-                        {{ $imgFile := .Params.image }}
-                        {{ $imgFileStatic := printf "/static%s" $imgFile }}
-                        {{ $imgData := imageConfig $imgFileStatic }}
-                        {{ with $imgData }}
-                            <div class="mx-4 mb-4">
-                                <img  src="{{ $imgFile }}"
-                                    width="{{ .Width }}"
-                                    height="{{ .Height }}"
-                                    alt="{{ $title }}"
-                                    class="img-fluid img-square"
-                                    loading="lazy">
-                            </div>
-                        {{ end }}
+                        <div class="mx-4 mb-4">
+                            {{ $imgData := partial "get-img-data" .Params.image }}
+                            <img  src="{{ .Params.image }}"
+                                width="{{ $imgData.Width }}"
+                                height="{{ $imgData.Height }}"
+                                alt="{{ .Title }}"
+                                class="img-fluid img-square"
+                                loading="lazy">
+                        </div>
                     {{ end }}
                 </a>
             {{ end }}

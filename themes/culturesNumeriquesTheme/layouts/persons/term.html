@@ -4,7 +4,12 @@
     {{ $thematiqueName := .File.BaseFileName }}
     <div class="row">
         <div class="col-xl-4">
-            <img src="{{.Params.image}}" class="img-fluid mb-5">
+            {{ $imgData := partial "get-img-data" .Params.image }}
+            <img src="{{.Params.image}}"
+                width="{{ $imgData.Width }}"
+                height="{{ $imgData.Height }}"
+                alt="{{ .Title }}"
+                class="img-fluid mb-5">
         </div>
         <div class="offset-xl-1 col-xl-7">
             {{ .Params.description }}

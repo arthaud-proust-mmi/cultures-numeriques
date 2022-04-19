@@ -1,0 +1,4 @@
+{{ $imgFile := . }}
+{{ $imgFileStatic := printf "/static%s" $imgFile }}
+{{ $imgData := imageConfig $imgFileStatic }}
+{{ return $imgData }}

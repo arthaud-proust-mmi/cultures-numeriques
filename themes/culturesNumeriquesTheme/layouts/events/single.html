@@ -2,8 +2,13 @@
     {{ partial "components/heading-with-read-time" (dict "title" .Title "toCount" .Params.description "dateCreation" .Params.year)}}
 
     <div class="row mt-5 mt-md-5 pb-5">
-        <div class="col-lg-5 col-lg-4">
-            <img class="w-100" src="{{ .Params.Image }}" alt="{{ .Title }}">
+        <div class="col-lg-5 col-lg-4 ">
+            {{ $imgData := partial "get-img-data" .Params.image }}
+            <img src="{{.Params.image}}"
+                width="{{ $imgData.Width }}"
+                height="{{ $imgData.Height }}"
+                alt="{{ .Title }}"
+                class="w-100 h-auto">
         </div>
 
         <div class="mt-5 mt-lg-0 col-lg-6 offset-lg-1">

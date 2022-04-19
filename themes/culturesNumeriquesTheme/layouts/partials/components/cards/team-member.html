@@ -1,5 +1,12 @@
 <div class="position-relative mb-5 mt-lg-5 col-6 col-sm-4 col-md-3 col-xl-2">
-    <img class="w-100" src="{{.img }}">
+    {{ $imgData := partial "get-img-data" .img }}
+    <img 
+        class="w-100 h-auto" 
+        src="{{ .img }}" 
+        width="{{ $imgData.Width }}"
+        height="{{ $imgData.Height }}"
+        alt="{{ .name }}"
+    >
     <h6 class="mt-2 mb-1">
         <a class="stretched-link" href="{{ .about_url }}">
             <strong>{{ .name }}</strong>

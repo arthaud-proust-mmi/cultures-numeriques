@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html {{ with .Site.Params.lang }} lang="{{ . }}" {{ end }}>
   {{- partial "head.html" . -}}
   <body>
     {{- partial "header.html" . -}}

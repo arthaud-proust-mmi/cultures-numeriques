@@ -15,22 +15,16 @@
           {{end}}
         </p>
     </div>
-    {{ $title := .Title }}
     {{ if .Params.image }}
-      {{ $imgFile := .Params.image }}
-      {{ $imgFileStatic := printf "/static%s" $imgFile }}
-      {{ $imgData := imageConfig $imgFileStatic }}
-      {{ with $imgData }}
         <div class="mx-4 mb-4">
-          <img  src="{{ $imgFile }}"
-                width="{{ .Width }}"
-                height="{{ .Height }}"
-                alt="{{ $title }}"
+            {{ $imgData := partial "get-img-data" .Params.image }}
+            <img  src="{{ .Params.image }}"
+                width="{{ $imgData.Width }}"
+                height="{{ $imgData.Height }}"
+                alt="{{ .Title }}"
                 class="img-fluid img-square"
-                loading="lazy"
-                >
+                loading="lazy">
         </div>
-      {{ end }}
     {{ end }}
   </div>
 </div>

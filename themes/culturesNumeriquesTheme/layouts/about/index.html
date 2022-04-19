@@ -8,7 +8,12 @@
     <h2 class="mb-1 d-block d-sm-none pb-5">{{ .Params.Owner.Title }}</h2>
 
     <div class="col-12 col-xl-4 col-lg-6 col-md-8 col-sm-10">
-        <img class="pb-5 w-100" src="{{ .Params.Owner.Image }}">
+        {{ $imgData := partial "get-img-data" .Params.Owner.Image }}
+        <img src="{{ .Params.Owner.Image }}"
+            width="{{ $imgData.Width }}"
+            height="{{ $imgData.Height }}"
+            alt="{{ .Params.Owner.Title }}"
+            class="pb-5 w-100 h-auto">
     </div>
 
     <div class="col-sm-8 col-md-7 col-xl-6 offset-xl-1 pb-5">
