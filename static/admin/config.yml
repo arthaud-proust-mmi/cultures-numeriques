@@ -37,8 +37,7 @@ collections:
     label: Personnes
     label_singular: Personne
     folder: content/persons/
-    extension: "md" # pour les taxonomies
-    path: "{{slug}}"
+    path: "/{{slug}}/_index.md" # pour les taxonomies
     create: true
     editor: { preview: false }
     filter: {field: "visibleInCms", value: true}
