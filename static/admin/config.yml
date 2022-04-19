@@ -36,7 +36,8 @@ collections:
   - name: persons
     label: Personnes
     label_singular: Personne
-    folder: content/persons
+    folder: content/persons/
+    extension: "md" # pour les taxonomies
     create: true
     editor: { preview: false }
     filter: {field: "visibleInCms", value: true}
