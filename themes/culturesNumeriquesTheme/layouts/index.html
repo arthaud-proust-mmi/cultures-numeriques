@@ -1,4 +1,9 @@
 {{ define "main" }}
+
+  {{ $img := resources.Get "images/events/12-o-clocks.jpg" }}
+  {{ $img.Permalink }}
+
+
   <section class="row position-relative overflow-hidden py-5">
         {{ $heroImg := "/images/landing-bg.png" }}
         {{ $imgData := partial "get-img-data" $heroImg }}
@@ -15,6 +20,7 @@
             <p class="mb-4 w-75">Vous y trouverez toutes les ressources et le savoir que j’ai pu accumuler tout au long de mon parcours. Mon but est de donner accès à cette culture à un grand nombre d’étudiants, de non-initiés et de spécialistes du numérique.</p>
         </div>
   </section>
+
 
 
   <section class="row">
