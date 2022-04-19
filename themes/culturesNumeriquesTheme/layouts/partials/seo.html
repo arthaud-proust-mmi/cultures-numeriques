@@ -55,8 +55,10 @@
 <meta name="twitter:card" content="summary_large_image" />
 
 {{ with .Site.Params.hero }}
-    <meta property="og:image" content="{{ . }}" />
-    <meta name="twitter:image" content="{{ . }}" />
+    {{ with resources.Get .}}
+        <meta property="og:image" content="{{ .Permalink }}" />
+        <meta name="twitter:image" content="{{ .Permalink }}" />
+    {{ end }}
 {{ end }}
 
 <meta name="apple-mobile-web-app-capable" content="yes" />
