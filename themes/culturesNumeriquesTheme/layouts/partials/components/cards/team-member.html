@@ -1,13 +1,10 @@
 <div class="position-relative mb-5 mt-lg-5 col-6 col-sm-4 col-md-3 col-xl-2">
-    {{ $name := .name }}
-    {{ with partial "get-img-data" .img }}
-    <img src="{{ .Permalink }}"
-        width="{{ .Width }}"
-        height="{{ .Height }}"
-        alt="{{ $name }}"
-        class="w-100 h-auto" 
-        loading="lazy">
-    {{end}}
+    {{partial "image/resize" (dict 
+        "size" "x480 webp"
+        "img" .img
+        "alt" .name
+        "class" "w-100 h-auto"
+    )}}
 
     <h6 class="mt-2 mb-1">
         <a class="stretched-link" href="{{ .about_url }}">

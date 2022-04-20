@@ -1,0 +1,27 @@
+{{ $img := partial "image/get-data" .img }}
+
+{{ $img480 := $img.Resize "x480 webp" }}
+{{ $img800 := $img.Resize "x800 webp" }}
+{{ $img2000 := $img.Resize "x2000 webp" }}
+
+<img srcset="{{ $img480.Permalink }} 480w,
+            {{ $img800.Permalink }} 800w,
+            {{ $img2000.Permalink }} 2000w"
+    sizes="(max-width: 600px) 480px,
+            (max-width: 1000px) 800px,
+            1000px"
+    src="{{ $img2000.Permalink }}"
+    {{ with .class }}
+        class="{{ . }}"
+    {{ end }}
+    {{ with .alt }}
+        alt="{{ . }}"
+    {{ end }}
+    {{ with .inlineStyle }}
+        style="{{ . }}"
+    {{ end }}
+
+    {{ if not (isset . "noLazy") }}
+        loading="lazy"
+    {{ end }}
+>

@@ -11,15 +11,18 @@
     </div>
     {{ if .Params.image }}
         <div class="mx-4 mb-4">
-            {{ $title := .Title }}
-            {{ with partial "get-img-data" .Params.image }}
-            <img src="{{ .Permalink }}"
-                width="{{ .Width }}"
-                height="{{ .Height }}"
-                alt="{{ $title }}"
-                class="img-fluid w-100"
-                loading="lazy">
-            {{end}}
+            {{ $alt := ""}}
+            {{ if .Params.description }}
+                {{ $alt = .Params.description | truncate  100 | markdownify }}
+            {{ else }}
+                {{ $alt = .Title }}
+            {{ end }}
+            {{partial "image/resize" (dict 
+                "size" "x480 webp"
+                "img" .Params.image
+                "alt" $alt
+                "class" "img-fluid w-100"
+            )}}
         </div>
     {{ end }}
   </div>

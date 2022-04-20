@@ -1,15 +1,12 @@
 {{ define "main" }}
 
-
-  <section class="row position-relative overflow-hidden py-5">
-        {{ with partial "get-img-data" "/images/landing-bg.png" }}
-        <img style="z-index:-1" 
-            class="position-absolute top-0 ps-0 h-auto  offset-4 col-8 offset-sm-5 col-sm-7 offset-lg-5 col-lg-7 " 
-            src="{{ .Permalink }}" 
-            width="{{ .Width }}"
-            height="{{ .Height }}"
-            alt="">
-        {{ end }}
+<section class="row position-relative overflow-hidden py-5">
+        {{partial "image/responsive" (dict 
+            "img" "/images/landing-bg.png"
+            "inlineStyle" "z-index: -1"
+            "noLazy" true
+            "class" "position-absolute top-0 ps-0 h-auto  offset-4 col-8 offset-sm-5 col-sm-7 offset-lg-5 col-lg-7"
+        )}}
         <div class="col-md-11 col-lg-10 col-lg-8">
             <h1 class="display-1 mt-5 mt-lg-3 mb-5">Explorons les<br/>cultures numériques</h1>
         </div>

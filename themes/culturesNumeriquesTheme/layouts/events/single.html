@@ -3,7 +3,7 @@
 
     <div class="row mt-5 mt-md-5 pb-5">
         <div class="col-lg-5 col-lg-4 ">
-            {{ $imgData := partial "get-img-data" .Params.image }}
+            {{ $imgData := partial "image/get-data" .Params.image }}
             <img src="{{.Params.image}}"
                 width="{{ $imgData.Width }}"
                 height="{{ $imgData.Height }}"

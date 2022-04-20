@@ -8,8 +8,8 @@
     <h2 class="mb-1 d-block d-sm-none pb-5">{{ .Params.Owner.Title }}</h2>
 
     <div class="col-12 col-xl-4 col-lg-6 col-md-8 col-sm-10">
-        {{ $imgData := partial "get-img-data" .Params.Owner.Image }}
-        <img src="{{ .Params.Owner.Image }}"
+        {{ $imgData := partial "image/get-data" .Params.Owner.Image }}
+        <img src="{{ $imgData.Permalink }}"
             width="{{ $imgData.Width }}"
             height="{{ $imgData.Height }}"
             alt="{{ .Params.Owner.Title }}"

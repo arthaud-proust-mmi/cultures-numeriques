@@ -1,0 +1,23 @@
+{{ $img := partial "image/get-data" .img }}
+
+{{ $resized := $img.Resize .size }}
+
+<img 
+    src="{{ $resized.Permalink }}"
+    height="{{ $resized.Height }}"
+    width="{{ $resized.Width }}"
+
+    {{ with .class }}
+        class="{{ . }}"
+    {{ end }}
+    {{ with .alt }}
+        alt="{{ . }}"
+    {{ end }}
+    {{ with .inlineStyle }}
+        style="{{ . }}"
+    {{ end }}
+
+    {{ if not (isset . "noLazy") }}
+        loading="lazy"
+    {{ end }}
+>
