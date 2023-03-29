@@ -18,7 +18,7 @@
                 {{ $alt = .Title }}
             {{ end }}
             {{partial "image/resize" (dict 
-                "size" "x480 webp"
+                "size" "x480 jpg"
                 "img" .Params.image
                 "alt" $alt
                 "class" "img-fluid w-100"

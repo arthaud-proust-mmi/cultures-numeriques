@@ -1,8 +1,8 @@
 {{ $img := partial "image/get-data" .img }}
 
-{{ $img480 := $img.Resize "x480 webp" }}
-{{ $img800 := $img.Resize "x800 webp" }}
-{{ $img2000 := $img.Resize "x2000 webp" }}
+{{ $img480 := $img.Resize "x480 jpg" }}
+{{ $img800 := $img.Resize "x800 jpg" }}
+{{ $img2000 := $img.Resize "x2000 jpg" }}
 
 <img srcset="{{ $img480.Permalink }} 480w,
             {{ $img800.Permalink }} 800w,
